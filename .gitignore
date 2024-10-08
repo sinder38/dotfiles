@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Include specific files or directories
+!.gitignore
+!README.md
+!nvim/
+!nvim/**
+!wezterm/
+!wezterm/**
+
