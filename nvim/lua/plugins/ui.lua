@@ -2,63 +2,30 @@ return {
 	-- messages, cmdline and the popupmenu
 	{
 		"folke/noice.nvim",
-		opts = function(_, opts)
-			table.insert(opts.routes, {
-				filter = {
-					event = "notify",
-					find = "No information available",
-				},
-				opts = { skip = true },
-			})
-			local focused = true
-			vim.api.nvim_create_autocmd("FocusGained", {
-				callback = function()
-					focused = true
-				end,
-			})
-			vim.api.nvim_create_autocmd("FocusLost", {
-				callback = function()
-					focused = false
-				end,
-			})
-			table.insert(opts.routes, 1, {
-				filter = {
-					cond = function()
-						return not focused
-					end,
-				},
-				view = "notify_send",
-				opts = { stop = false },
-			})
-
-			opts.commands = {
-				all = {
-					-- options for the message history that you get with `:Noice`
-					view = "split",
-					opts = { enter = true, format = "details" },
-					filter = {},
-				},
-			}
-
-			vim.api.nvim_create_autocmd("FileType", {
-				pattern = "markdown",
-				callback = function(event)
-					vim.schedule(function()
-						require("noice.text.markdown").keys(event.buf)
-					end)
-				end,
-			})
-
-			opts.presets.lsp_doc_border = true
-		end,
+		lsp = {
+			-- override markdown rendering so that **cmp** and other plugins use **Treesitter**
+			override = {
+				["vim.lsp.util.convert_input_to_markdown_lines"] = true,
+				["vim.lsp.util.stylize_markdown"] = true,
+				["cmp.entry.get_documentation"] = true, -- requires hrsh7th/nvim-cmp
+			},
+		},
+		-- you can enable a preset for easier configuration
+		presets = {
+			bottom_search = true, -- use a classic bottom cmdline for search
+			command_palette = true, -- position the cmdline and popupmenu together
+			long_message_to_split = true, -- long messages will be sent to a split
+			inc_rename = false, -- enables an input dialog for inc-rename.nvim
+			lsp_doc_border = false, -- add a border to hover docs and signature help
+		},
 	},
 
-	-- {
-	-- "rcarriga/nvim-notify",
-	-- 	opts = {
-	-- 		timeout = 5000,
-	-- 	},
-	-- },
+	{
+		"rcarriga/nvim-notify",
+		opts = {
+			timeout = 5000,
+		},
+	},
 
 	-- animations
 	{
@@ -75,10 +42,10 @@ return {
 	{
 		"akinsho/bufferline.nvim",
 		event = "VeryLazy",
-		keys = {
-			{ "<Tab>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next tab" },
-			{ "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev tab" },
-		},
+		-- keys = {
+		-- 	{ "<Tab>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next tab" },
+		-- 	{ "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev tab" },
+		-- },
 		opts = {
 			options = {
 				mode = "tabs",
@@ -89,55 +56,39 @@ return {
 		},
 	},
 
-	-- filename
-	{
-		"b0o/incline.nvim",
-		dependencies = { "craftzdog/solarized-osaka.nvim" },
-		event = "BufReadPre",
-		priority = 1200,
-		config = function()
-			local colors = require("solarized-osaka.colors").setup()
-			require("incline").setup({
-				highlight = {
-					groups = {
-						InclineNormal = { guibg = colors.magenta500, guifg = colors.base04 },
-						InclineNormalNC = { guifg = colors.violet500, guibg = colors.base03 },
-					},
-				},
-				window = { margin = { vertical = 0, horizontal = 1 } },
-				hide = {
-					cursorline = true,
-				},
-				render = function(props)
-					local filename = vim.fn.fnamemodify(vim.api.nvim_buf_get_name(props.buf), ":t")
-					if vim.bo[props.buf].modified then
-						filename = "[+] " .. filename
-					end
-
-					local icon, color = require("nvim-web-devicons").get_icon_color(filename)
-					return { { icon, guifg = color }, { " " }, { filename } }
-				end,
-			})
-		end,
-	},
+	-- -- filename
+	-- {
+	-- 	"b0o/incline.nvim",
+	-- 	dependencies = { "craftzdog/solarized-osaka.nvim" },
+	-- 	event = "BufReadPre",
+	-- 	priority = 1200,
+	-- 	config = function()
+	-- 		local colors = require("solarized-osaka.colors").setup()
+	-- 		require("incline").setup({
+	-- 			highlight = {
+	-- 				groups = {
+	-- 					InclineNormal = { guibg = colors.magenta500, guifg = colors.base04 },
+	-- 					InclineNormalNC = { guifg = colors.violet500, guibg = colors.base03 },
+	-- 				},
+	-- 			},
+	-- 			window = { margin = { vertical = 0, horizontal = 1 } },
+	-- 			render = function(props)
+	-- 				local filename = vim.fn.fnamemodify(vim.api.nvim_buf_get_name(props.buf), ":t")
+	-- 				if vim.bo[props.buf].modified then
+	-- 					filename = "[+] " .. filename
+	-- 				end
+	--
+	-- 				local icon, color = require("nvim-web-devicons").get_icon_color(filename)
+	-- 				return { { icon, guifg = color }, { " " }, { filename } }
+	-- 			end,
+	-- 		})
+	-- 	end,
+	-- },
 
 	-- statusline
 	{
 		"nvim-lualine/lualine.nvim",
-		opts = function(_, opts)
-			local LazyVim = require("lazyvim.util")
-			opts.sections.lualine_c[4] = {
-				LazyVim.lualine.pretty_path({
-					length = 0,
-					relative = "cwd",
-					modified_hl = "MatchParen",
-					directory_hl = "",
-					filename_hl = "Bold",
-					modified_sign = "",
-					readonly_icon = " 󰌾 ",
-				}),
-			}
-		end,
+		dependencies = { "nvim-tree/nvim-web-devicons" },
 	},
 	{
 		"nvimdev/dashboard-nvim",

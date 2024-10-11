@@ -20,78 +20,8 @@ return {
 	{
 		"neovim/nvim-lspconfig",
 		opts = {
-			inlay_hints = { enabled = true },
-			---@type lspconfig.options
+			inlay_hints = { enabled = false },
 			servers = {
-				rust_analyzer = {
-					settings = {
-						["rust-analyzer"] = {
-							assist = {
-								importGroup = true,
-								importGranularity = "crate",
-								importPrefix = "crate",
-							},
-
-							callInfo = {
-								full = true,
-							},
-
-							cargo = {
-								allFeatures = true,
-								autoreload = true,
-								loadOutDirsFromCheck = true,
-							},
-
-							checkOnSave = {
-								enable = true,
-								allFeatures = true,
-							},
-
-							completion = {
-								addCallArgumentSnippets = true,
-								addCallParenthesis = true,
-								postfix = {
-									enable = true,
-								},
-								autoimport = {
-									enable = true,
-								},
-							},
-
-							diagnostics = {
-								enable = true,
-								enableExperimental = true,
-							},
-
-							hoverActions = {
-								enable = true,
-								debug = true,
-								gotoTypeDef = true,
-								implementations = true,
-								run = true,
-								linksInHover = true,
-							},
-
-							lens = {
-								enable = true,
-								debug = true,
-								implementations = true,
-								run = true,
-								methodReferences = true,
-								references = true,
-							},
-
-							notifications = {
-								cargoTomlNotFound = true,
-							},
-
-							procMacro = {
-								enable = true,
-							},
-						},
-					},
-				},
-
 				cssls = {},
 				tailwindcss = {
 					root_dir = function(...)

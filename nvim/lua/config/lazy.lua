@@ -5,7 +5,7 @@ if not vim.loop.fs_stat(lazypath) then
 		"clone",
 		"--filter=blob:none",
 		"https://github.com/folke/lazy.nvim.git",
-		"--branch=stable",
+		"--branch=stable", -- latest stable release
 		lazypath,
 	})
 end
@@ -29,16 +29,19 @@ require("lazy").setup({
 		{ import = "lazyvim.plugins.extras.lang.typescript" },
 		{ import = "lazyvim.plugins.extras.lang.json" },
 		{ import = "lazyvim.plugins.extras.lang.markdown" },
-		{ import = "lazyvim.plugins.extras.lang.rust" },
 		{ import = "lazyvim.plugins.extras.lang.tailwind" },
 		{ import = "lazyvim.plugins.extras.util.mini-hipatterns" },
+		{ import = "lazyvim.plugins.extras.lang.rust" },
+		{ import = "lazyvim.plugins.extras.lang.toml" },
+		-- { import = "lazyvim.plugins.extras.coding.copilot" },
+
 		{ import = "plugins" },
 	},
 	defaults = {
 		lazy = false,
-		version = "*",
+		version = false,
 	},
-	checker = { enabled = false },
+	checker = { enabled = true },
 	performance = {
 		cache = {
 			enabled = true,

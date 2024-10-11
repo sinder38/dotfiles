@@ -8,17 +8,15 @@ return {
 				"cmake",
 				"cpp",
 				"css",
-				"rust",
 				"lua",
 				"python",
 				"gitignore",
 				"go",
 				"http",
 				"java",
-				"rust",
+				-- "rust", --WARN:: rustecianvim is in lsp
 				"scss",
 				"sql",
-				"svelte",
 			},
 
 			-- matchup = {
