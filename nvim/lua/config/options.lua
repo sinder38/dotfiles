@@ -16,7 +16,7 @@ vim.opt.backup = false
 vim.opt.showcmd = true
 vim.opt.cmdheight = 1
 vim.opt.laststatus = 3
-vim.opt.expandtab = true
+
 vim.opt.scrolloff = 10
 vim.opt.shell = "fish"
 vim.opt.backupskip = { "/tmp/*", "/private/tmp/*" }
@@ -25,9 +25,12 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.smarttab = true
 vim.opt.breakindent = true
--- vim.opt.shiftwidth = 2
--- vim.opt.tabstop = 2
-vim.opt.wrap = false
+
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+
+vim.opt.wrap = true
 vim.opt.backspace = { "start", "eol", "indent" }
 vim.opt.path:append({ "**" })
 vim.opt.wildignore:append({ "*/node_modules/*" })
