@@ -15,8 +15,9 @@ local opts = { noremap = true, silent = true }
 -- keymap.set("v", "<Leader>d", '"_d')
 -- keymap.set("v", "<Leader>D", '"_D')
 
--- Custom Dworak remap
+-- startregion Dworak remap
 local remap_opts = { noremap = true, silent = true }
+
 keymap.set("", "t", "j", remap_opts)
 keymap.set("", "n", "k", remap_opts)
 keymap.set("", "s", "l", remap_opts)
@@ -25,6 +26,12 @@ keymap.set("n", "i", "a", remap_opts)
 keymap.set("n", "I", "A", remap_opts)
 keymap.set("n", "A", "I", remap_opts)
 
+-- windows
+keymap.set("n", "<C-w>t", "<C-w>j")
+keymap.set("n", "<C-w>n", "<C-w>k")
+keymap.set("n", "<C-w>s", "<C-w>l")
+
+-- endregion: Dworak remap
 -- Delete a word backwards
 keymap.set("n", "dw", 'vb"_d')
 
