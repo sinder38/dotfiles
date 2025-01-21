@@ -1,0 +1,105 @@
+<application>
+  <component name="ActionHistoryManager">
+    <ids>
+      <option value="XPathView.Actions.FindByExpression" />
+      <option value="ShowMembersInNavigationBar" />
+      <option value="VimPluginToggle" />
+      <option value="VimActions" />
+      <option value="StructuralSearchPlugin.StructuralSearchAction" />
+      <option value="VimFindActionIdAction" />
+    </ids>
+  </component>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="20.0" />
+    <option name="ideScale" value="1.25" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "BuildView.Splitter.Proportion": "0.17834395",
+    "CRATES_IO_INDEX_LAST_UPDATE": "1737356382946",
+    "Cargo Test.Splitter.Proportion": "0.28369322",
+    "Cargo TestSupport.hidePassedTests": "false",
+    "ColorChooser.RecentColors": "179-61-73-255",
+    "DBE.Default.Dialect": "PostgreSQL",
+    "FileTemplates.SelectedTemplate": "HTML File",
+    "FindSplitterProportion": "0.53125",
+    "Grazie.Professional.Advertisement.Invoked": "2",
+    "IdeErrorsDialog.LAST_OK_ACTION": "REPORT_AND_CLEAR_ALL",
+    "InstalledPluginsSearchHistory": "structure\ngit\nwhic\nideav",
+    "JSHintOptionsTreeView.TREE_SCROLL_BAR_HORIZONTAL": "51",
+    "JSHintOptionsTreeView.TREE_SCROLL_BAR_VERTICAL": "6",
+    "JSHintOptionsTreeView.TREE_SELECTED_NODE_ID": "1",
+    "KEYMAP": "structu\nstructure\nfind usages\nfind us\ntermi",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators": "RR-243.21565.245",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/extractors": "RR-243.21565.245",
+    "LayoutCode.codeCleanup": "true",
+    "LayoutCode.doNotKeepLineBreaks": "true",
+    "LayoutCode.optimizeImports": "false",
+    "LayoutCode.processChangedText": "false",
+    "LayoutCode.rearrangeEntriesECMAScript 6": "true",
+    "Markdown Split EditorLayout": "Editor only",
+    "MarketplacePluginsSearchHistory": "comment /sortBy:downloads\ncomment\ncomme\n/sortBy:downloads\ntodo",
+    "NextRunPlatformUpdateBuild": "RR-243.23654.116",
+    "NextRunPlatformUpdateSelfBuild": "RR-243.21565.245",
+    "NextRunPlatformUpdateVersion": "2024.3.3",
+    "PluginConfigurable.selectionTab": "1",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.rust.enable.attach.dialog": "true",
+    "RunOnceActivity.rust.find.settings.fix": "true",
+    "RunOnceActivity.rust.first.ide.run": "true",
+    "SHELLCHECK.PATH": "/home/sinder/.local/share/JetBrains/RustRover2024.3/Shell Script/shellcheck",
+    "SettingsSearchHistory": "java\nstructure\nfold\ngit\nSoft Wraps",
+    "SqlStructureView.filterD.file.structure.state": "true",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "combined.diff.badge.shown": "true",
+    "enter_selection_count": "4",
+    "evlsprt.243": "19373802c00",
+    "evlsprt3.243": "7",
+    "exception.accepted.notices": ":d4a3ab85",
+    "experimental.ui.used.version": "243.21565.245",
+    "fileTypeChangedCounter": "10",
+    "fontSizeToResetConsole": "19.5",
+    "fontSizeToResetEditor": "19.5",
+    "got.it.tooltip.database.schema.control.got.it": "1",
+    "got.it.tooltip.org.rust.external.linter.promoter": "1",
+    "got.it.tooltip.resolve.context.promoter": "1",
+    "ideavim.statistics.timestamp": "1737282098937",
+    "input.method.disabler.muted": "true",
+    "js.extract.function.top.level.scope.was.selected": "true",
+    "js.rename.search.for.text.occurrences": "false",
+    "js.rename.search.in.comments": "false",
+    "last_opened_file_path": "/home/sinder/Downloads",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "org.rust.ide.formatter.rustfmt.enabled.rustfmt.by.default.notified": "true",
+    "previousColorScheme": "_@user_Dark",
+    "registry.to.advanced.settings.migration.build": "RR-243.21565.245",
+    "rs.new.file.attach.selected": "false",
+    "second.reformat.confirmed.2": "true",
+    "tab_selection_count": "1",
+    "ts.lib.d.ts.version": "5.4.3"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/sinder/Downloads",
+      "/home/sinder/Projects/office_automation_system"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="PyCodeInsightSettings">
+    <option name="SHOW_IMPORT_POPUP" value="true" />
+  </component>
+</application>

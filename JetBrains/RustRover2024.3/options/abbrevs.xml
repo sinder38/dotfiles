@@ -1,0 +1,15 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="EditorChooseLookupItemReplace">
+        <abbreviation name="enter completion test" />
+      </action>
+      <action id="EditorDown" />
+      <action id="EditorUp" />
+      <action id="List-selectNextRow" />
+      <action id="HippieCompletion">
+        <abbreviation name="VIM" />
+      </action>
+    </abbreviations>
+  </component>
+</application>

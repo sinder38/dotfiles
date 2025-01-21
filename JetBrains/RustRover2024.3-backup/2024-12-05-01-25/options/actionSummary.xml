@@ -1,0 +1,346 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Cut">
+      <i c="1" l="1732880373771" />
+    </e>
+    <e n="$Paste">
+      <i c="3" l="1732879139703" />
+    </e>
+    <e n="$SelectAll">
+      <i c="2" l="1732884143877" />
+    </e>
+    <e n="$Undo">
+      <i c="2" l="1732885674578" />
+    </e>
+    <e n="ActivateProjectToolWindow">
+      <i c="1" l="1733332448167" />
+    </e>
+    <e n="Annotate">
+      <i c="1" l="1733332598343" />
+    </e>
+    <e n="AutoIndentLines">
+      <i c="66" l="1732886712444" />
+    </e>
+    <e n="BraceOrQuoteOut">
+      <i c="1" l="1732877110950" />
+    </e>
+    <e n="CallSaul">
+      <i c="1" l="1733332357894" />
+    </e>
+    <e n="ChangeIdeScale">
+      <i c="2" l="1733332255191" />
+    </e>
+    <e n="CollapseSelection">
+      <i c="1" l="1732871473845" />
+    </e>
+    <e n="CommentByLineComment">
+      <i c="1" l="1732877327857" />
+    </e>
+    <e n="ConfigureEditorTabs">
+      <i c="1" l="1733331892410" />
+    </e>
+    <e n="CreateDesktopEntry">
+      <i c="1" l="1732867945076" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="2927" l="1733333098304" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="41" l="1732879889034" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="7" l="1732878723377" />
+    </e>
+    <e n="EditorCopy">
+      <i c="2" l="1732879759346" />
+    </e>
+    <e n="EditorDown">
+      <i c="56" l="1732879381860" />
+    </e>
+    <e n="EditorEnter">
+      <i c="281" l="1733332302378" />
+    </e>
+    <e n="EditorEscape">
+      <i c="916" l="1733332408190" />
+    </e>
+    <e n="EditorLeft">
+      <i c="1" l="1732876727455" />
+    </e>
+    <e n="EditorLookupUp">
+      <i c="1" l="1732869895326" />
+    </e>
+    <e n="EditorPaste">
+      <i c="4" l="1732886690576" />
+    </e>
+    <e n="EditorTab">
+      <i c="35" l="1732886207808" />
+    </e>
+    <e n="EditorTabsEntryPoint">
+      <i c="7" l="1733332179471" />
+    </e>
+    <e n="EditorUnindentSelection">
+      <i c="3" l="1732873817469" />
+    </e>
+    <e n="EditorUp">
+      <i c="31" l="1732879379332" />
+    </e>
+    <e n="Exit">
+      <i c="3" l="1732867965828" />
+    </e>
+    <e n="FindPrevious">
+      <i c="1" l="1732868978791" />
+    </e>
+    <e n="Generate">
+      <i c="1" l="1732876091024" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="23" l="1732879871397" />
+    </e>
+    <e n="HideAllWindows">
+      <i c="1" l="1733332531337" />
+    </e>
+    <e n="IdeaVim.ReloadVimRc.reload">
+      <i c="7" l="1732868882733" />
+    </e>
+    <e n="InsertInlineCompletionAction">
+      <i c="71" l="1732885521888" />
+    </e>
+    <e n="NewDir">
+      <i c="1" l="1732868167785" />
+    </e>
+    <e n="NewPythonFile">
+      <i c="1" l="1732868181789" />
+    </e>
+    <e n="NewScratchFile">
+      <i c="1" l="1732870400626" />
+    </e>
+    <e n="OpenFile">
+      <i c="2" l="1732868131223" />
+    </e>
+    <e n="PasteMultiple">
+      <i c="2" l="1732868205571" />
+    </e>
+    <e n="PinToolwindowTab">
+      <i c="1" l="1733331112637" />
+    </e>
+    <e n="QuickJavaDoc">
+      <i c="7" l="1732879864256" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="1" l="1733330840348" />
+    </e>
+    <e n="ReformatCode">
+      <i c="14" l="1732884638877" />
+    </e>
+    <e n="RenameElement">
+      <i c="1" l="1732886688324" />
+    </e>
+    <e n="Rerun">
+      <i c="9" l="1732880227426" />
+    </e>
+    <e n="RestoreDefaultSettings">
+      <i c="1" l="1733333125114" />
+    </e>
+    <e n="RestoreFactoryDefaultLayout">
+      <i c="1" l="1733332518044" />
+    </e>
+    <e n="Run">
+      <i c="15" l="1733332434313" />
+    </e>
+    <e n="RunClass">
+      <i c="1" l="1732868355480" />
+    </e>
+    <e n="Rust.Build">
+      <i c="4" l="1733331196001" />
+    </e>
+    <e n="SaveAll">
+      <i c="63" l="1732886749090" />
+    </e>
+    <e n="SearchEverywhere">
+      <i c="1" l="1732871763508" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="4" l="1733332219852" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="4" l="1732876076357" />
+    </e>
+    <e n="ShowSettings">
+      <i c="10" l="1733333073552" />
+    </e>
+    <e n="SpeedSearch">
+      <i c="1" l="1733331199109" />
+    </e>
+    <e n="Stop">
+      <i c="1" l="1732886955163" />
+    </e>
+    <e n="SwitchIdeScaleAction">
+      <i c="2" l="1733332255191" />
+    </e>
+    <e n="Switcher">
+      <i c="2" l="1732873824152" />
+    </e>
+    <e n="Terminal.MoveToEditor">
+      <i c="1" l="1733330905884" />
+    </e>
+    <e n="TerminalNewPredefinedSession">
+      <i c="3" l="1733331141264" />
+    </e>
+    <e n="ToggleCompactMode">
+      <i c="2" l="1733332345235" />
+    </e>
+    <e n="ToggleFullScreen">
+      <i c="1" l="1733332158575" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="7" l="1733332813391" />
+    </e>
+    <e n="ToggleZenMode">
+      <i c="2" l="1733332386692" />
+    </e>
+    <e n="ToolWindowShowNamesAction">
+      <i c="2" l="1733331034082" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="11" l="1733332740299" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="4" l="1733332740960" />
+    </e>
+    <e n="VimPluginToggle">
+      <i c="2" l="1732853588102" />
+    </e>
+    <e n="WelcomeScreen.OpenDirectoryProject">
+      <i c="1" l="1732852706285" />
+    </e>
+    <e n="com.intellij.build.AbstractViewManager$PinBuildViewAction">
+      <i c="1" l="1733331114828" />
+    </e>
+    <e n="com.intellij.codeInsight.inline.completion.tooltip.InlineCompletionPopupActionGroup">
+      <i c="1" l="1732869265697" />
+    </e>
+    <e n="com.intellij.codeInsight.inline.completion.tooltip.InlineCompletionTooltipActionsKt$shortcutActions$shortcutActions$1$1">
+      <i c="1" l="1732869269048" />
+    </e>
+    <e n="com.intellij.diagnostic.hprof.action.AnalysisRunnable$ReviewReportAction">
+      <i c="1" l="1733331770167" />
+    </e>
+    <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
+      <i c="8" l="1733332169720" />
+    </e>
+    <e n="com.intellij.find.SearchReplaceComponent$CloseAction">
+      <i c="1" l="1732868980310" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="1" l="1733330761234" />
+    </e>
+    <e n="com.intellij.ide.actions.QuickChangeIdeScaleAction$ChangeScaleAction">
+      <i c="2" l="1733332261126" />
+    </e>
+    <e n="com.intellij.ide.actions.RenameLayoutAction">
+      <i c="1" l="1733332130260" />
+    </e>
+    <e n="com.intellij.ide.actions.ToolWindowMoveAction">
+      <i c="1" l="1733330895966" />
+    </e>
+    <e n="com.intellij.ide.actions.ToolWindowViewModeAction">
+      <i c="5" l="1733332704818" />
+    </e>
+    <e n="com.intellij.ide.l.K.l.j">
+      <i c="1" l="1732852475481" />
+    </e>
+    <e n="com.intellij.ide.ui.customization.CustomizationUtil$MyDumbAction">
+      <i c="1" l="1733331183132" />
+    </e>
+    <e n="com.intellij.ml.inline.completion.impl.MLCompletionNotifications$action$1">
+      <i c="1" l="1732868252505" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="2" l="1733331699417" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="3472" l="1733332660896" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.DefaultActionGroup">
+      <i c="2" l="1732852473614" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.EmptyAction">
+      <i c="2" l="1732873824673" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.impl.MoreActionGroup">
+      <i c="2" l="1733332468417" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$7">
+      <i c="2" l="1733332298038" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="9" l="1732885400135" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
+      <i c="1" l="1732869988124" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$RemoveShortcutAction">
+      <i c="1" l="1732869985275" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="5" l="1733332478941" />
+    </e>
+    <e n="com.intellij.openapi.project.LightEditActionFactory$SimpleLightEditCompatibleAction">
+      <i c="1" l="1732868979829" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.DockToolWindowAction">
+      <i c="3" l="1733332683440" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.HideAction">
+      <i c="3" l="1733331050546" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="24" l="1733332771581" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowImpl$RemoveStripeButtonAction">
+      <i c="4" l="1733331174018" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowImpl$ToggleContentUiTypeAction">
+      <i c="2" l="1733331098681" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="40" l="1733333115858" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="5" l="1733331822752" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
+      <i c="15" l="1733332762910" />
+    </e>
+    <e n="com.intellij.ui.content.tabs.TabbedContentAction$CloseAllAction">
+      <i c="1" l="1733331118786" />
+    </e>
+    <e n="com.intellij.util.config.DumbAwareToggleInvertedBooleanProperty">
+      <i c="1" l="1733332474214" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="1" l="1732868634533" />
+    </e>
+    <e n="com.jetbrains.python.sdk.AddLocalInterpreterAction">
+      <i c="1" l="1732868216904" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$OpenIdeaVimRcAction">
+      <i c="3" l="1732868710494" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$notifyAboutShortcutConflict$2">
+      <i c="5" l="1732870414852" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.ShortcutConflictsSettings">
+      <i c="1" l="1732868840045" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.ex.ExShortcutKeyAction">
+      <i c="66" l="1732886749086" />
+    </e>
+    <e n="org.jetbrains.plugins.terminal.action.EnableBlockTerminalUiAction">
+      <i c="1" l="1733330857541" />
+    </e>
+    <e n="org.jetbrains.plugins.terminal.action.TerminalNewPredefinedSessionAction$TerminalSettingsAction">
+      <i c="1" l="1733330970283" />
+    </e>
+  </component>
+</application>

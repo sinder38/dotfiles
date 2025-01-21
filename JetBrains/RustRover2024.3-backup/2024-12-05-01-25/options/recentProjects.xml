@@ -1,0 +1,41 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Projects/LeetCode">
+          <value>
+            <RecentProjectMetaInfo frameTitle="LeetCode – bmi_files.py" projectWorkspaceId="2pW3jHJcE99lT5HrTopoT2twV8h">
+              <option name="activationTimestamp" value="1733330769208" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RR-243.21565.245" />
+              <option name="buildTimestamp" value="1732165200000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="0" y="39" width="2560" height="1561" extendedState="6" />
+              <option name="productionCode" value="RR" />
+              <option name="projectOpenTimestamp" value="1732868137832" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/office_automation_system">
+          <value>
+            <RecentProjectMetaInfo frameTitle="office_automation_system – lib-template/src/error.rs" opened="true" projectWorkspaceId="2pVYfgCCi3Tgow9ebjJFiAE0vlc">
+              <option name="activationTimestamp" value="1733333126374" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RR-243.21565.245" />
+              <option name="buildTimestamp" value="1732165200000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="212" y="147" width="1706" height="1016" extendedState="6" />
+              <option name="productionCode" value="RR" />
+              <option name="projectOpenTimestamp" value="1733332493360" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/Projects/office_automation_system" />
+  </component>
+</application>

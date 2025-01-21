@@ -1,0 +1,18 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Projects" value="true" />
+        <entry key="$USER_HOME$/Projects/LeetCode" value="true" />
+        <entry key="$USER_HOME$/Projects/office_automation_system" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$" />
+      </list>
+    </option>
+  </component>
+</application>

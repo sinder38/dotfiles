@@ -1,0 +1,235 @@
+<application>
+  <component name="ToolWindowLayout"><![CDATA[{
+  "activeLayoutName": "sinder's layout",
+  "layouts": {
+    "sinder's layout": {
+      "v2": [
+        {
+          "id": "Merge Requests",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Project",
+          "order": 0,
+          "contentUiType": "COMBO",
+          "weight": 0.22910157
+        },
+        {
+          "id": "Commit",
+          "order": 1,
+          "weight": 0.33027345
+        },
+        {
+          "id": "Bookmarks",
+          "order": 2,
+          "weight": 0.19550781,
+          "isSplit": true
+        },
+        {
+          "id": "Structure",
+          "order": 3,
+          "floatingBounds": [
+            -118,
+            167,
+            2550,
+            1556
+          ],
+          "weight": 0.33027345,
+          "isSplit": true
+        },
+        {
+          "id": "TODO",
+          "order": 4,
+          "weight": 0.33027345,
+          "isSplit": true
+        },
+        {
+          "id": "Activity",
+          "order": 5,
+          "weight": 0.33027345
+        },
+        {
+          "id": "Pull Requests",
+          "order": 5,
+          "weight": 0.33027345
+        },
+        {
+          "id": "TypeScript",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "File Transfer",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Problems",
+          "order": 0,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Messages",
+          "order": 1,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "ExcelReader",
+          "order": 2,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Python Packages",
+          "order": 3,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Debug",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "weight": 0.33023703
+        },
+        {
+          "id": "Database Changes",
+          "order": 5,
+          "anchor": "BOTTOM",
+          "weight": 0.33023703
+        },
+        {
+          "id": "Find",
+          "order": 6,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false,
+          "weight": 0.33023703
+        },
+        {
+          "id": "documentation.v2",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Notifications",
+          "order": 0,
+          "anchor": "RIGHT",
+          "weight": 0.25019532
+        },
+        {
+          "id": "AIAssistant",
+          "order": 1,
+          "anchor": "RIGHT",
+          "weight": 0.25019532
+        },
+        {
+          "id": "Database",
+          "order": 2,
+          "anchor": "RIGHT",
+          "weight": 0.42636716,
+          "sideWeight": 0.5003439
+        },
+        {
+          "id": "Gradle",
+          "order": 3,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Maven",
+          "order": 4,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Cargo",
+          "order": 5,
+          "anchor": "RIGHT",
+          "weight": 0.2
+        },
+        {
+          "id": "RustCargo",
+          "order": 6,
+          "anchor": "RIGHT",
+          "weight": 0.2
+        },
+        {
+          "id": "Build",
+          "order": 7,
+          "anchor": "RIGHT",
+          "weight": 0.44980466,
+          "isSplit": true
+        },
+        {
+          "id": "Terminal",
+          "order": 8,
+          "anchor": "RIGHT",
+          "weight": 0.44980466,
+          "sideWeight": 0.49965614,
+          "isSplit": true
+        },
+        {
+          "id": "Problems View",
+          "order": 9,
+          "anchor": "RIGHT",
+          "weight": 0.44980466
+        },
+        {
+          "id": "Developer Tools",
+          "order": 10,
+          "anchor": "RIGHT",
+          "isSplit": true
+        },
+        {
+          "id": "Run",
+          "order": 11,
+          "anchor": "RIGHT",
+          "weight": 0.44980466,
+          "isSplit": true
+        },
+        {
+          "id": "Services",
+          "order": 12,
+          "anchor": "RIGHT",
+          "isSplit": true
+        },
+        {
+          "id": "Key Promoter X",
+          "order": 13,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "Version Control",
+          "order": 14,
+          "anchor": "RIGHT",
+          "weight": 0.26308596,
+          "isSplit": true
+        },
+        {
+          "id": "Hierarchy",
+          "order": 15,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "weight": 0.3298828
+        },
+        {
+          "id": "Coverage",
+          "order": 16,
+          "anchor": "RIGHT",
+          "weight": 0.3298828,
+          "isSplit": true
+        },
+        {
+          "id": "Python Console",
+          "order": 17,
+          "anchor": "RIGHT"
+        }
+      ],
+      "unifiedWeights": {
+        "top": 0.33,
+        "left": 0.33027345,
+        "bottom": 0.33023703,
+        "right": 0.3298828
+      }
+    }
+  }
+}]]></component>
+</application>

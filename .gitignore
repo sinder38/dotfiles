@@ -4,10 +4,21 @@
 # Include specific files or directories
 !.gitignore
 !README.md
+
+# Nvim
 !nvim/
 !nvim/**
 nvim/lazy-lock.json
 nvim/lazyvim.json
+
+# Wezterm
 !wezterm/
 !wezterm/**
 
+# Zed
+!zed/
+!zed/**
+
+# RustRover (maybe saving this using GitHub is a bad idea)
+!JetBrains/
+!JetBrains/**

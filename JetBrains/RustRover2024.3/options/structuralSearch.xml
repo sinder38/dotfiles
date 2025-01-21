@@ -1,0 +1,48 @@
+<application>
+  <component name="ui-state">
+    <option name="migrated" value="true" />
+    <option name="templatesTreeState">
+      <TreeState>
+        <myExpandedPaths>
+          <array>
+            <item name="" type="" />
+            <item name="JavaScript" type="cbb8eebc:String" />
+          </array>
+          <array>
+            <item name="" type="" />
+            <item name="JavaScript" type="cbb8eebc:String" />
+            <item name="Suspicious" type="cbb8eebc:String" />
+          </array>
+          <array>
+            <item name="" type="" />
+            <item name="SQL" type="cbb8eebc:String" />
+          </array>
+          <array>
+            <item name="" type="" />
+            <item name="SQL" type="cbb8eebc:String" />
+            <item name="Common" type="cbb8eebc:String" />
+          </array>
+          <array>
+            <item name="" type="" />
+            <item name="SQL" type="cbb8eebc:String" />
+            <item name="Common" type="cbb8eebc:String" />
+            <item name="Contexts" type="cbb8eebc:String" />
+          </array>
+          <array>
+            <item name="" type="" />
+            <item name="XML/HTML" type="cbb8eebc:String" />
+          </array>
+        </myExpandedPaths>
+        <mySelectedPaths>
+          <array>
+            <item name="" type="" />
+            <item name="XML/HTML" type="cbb8eebc:String" />
+            <item name="com.intellij.structuralsearch.plugin.ui.SearchConfiguration@e8c2f9c5" type="3c4764e4:SearchConfiguration" />
+          </array>
+        </mySelectedPaths>
+      </TreeState>
+    </option>
+    <option name="scopeType" value="PROJECT" />
+    <option name="scopeDescriptor" value="" />
+  </component>
+</application>

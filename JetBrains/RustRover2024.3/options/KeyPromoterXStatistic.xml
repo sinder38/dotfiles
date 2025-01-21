@@ -1,0 +1,363 @@
+<application>
+  <component name="KeyPromoterXStatistic">
+    <option name="statistics">
+      <Statistic Action="   Flatten View">
+        <Item>
+          <IdeaActionID>TodoViewGroupByFlattenPackage</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+C'</ShortCut>
+          <Description>Flatten View</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Back">
+        <Item>
+          <IdeaActionID>Back</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Left'</ShortCut>
+          <Description>Back</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Build">
+        <Item>
+          <IdeaActionID>Rust.Build</IdeaActionID>
+          <ShortCut>'Ctrl+9'</ShortCut>
+          <Description>Build</Description>
+          <Count>54</Count>
+          <Hit>1</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Commit">
+        <Item>
+          <IdeaActionID>ActivateCommitToolWindow</IdeaActionID>
+          <ShortCut>'Alt+0'</ShortCut>
+          <Description>Commit</Description>
+          <Count>8</Count>
+          <Hit>11</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Copy">
+        <Item>
+          <IdeaActionID>$Copy</IdeaActionID>
+          <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
+          <Description>Copy</Description>
+          <Count>9</Count>
+          <Hit>1</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Cut">
+        <Item>
+          <IdeaActionID>$Cut</IdeaActionID>
+          <ShortCut>'Ctrl+X' or 'Shift+Delete'</ShortCut>
+          <Description>Cut</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Delete…">
+        <Item>
+          <IdeaActionID>$Delete</IdeaActionID>
+          <ShortCut>'Delete'</ShortCut>
+          <Description>Delete…</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="File Structure">
+        <Item>
+          <IdeaActionID>UsageGrouping.FileStructure</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+F'</ShortCut>
+          <Description>File Structure</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Find…">
+        <Item>
+          <IdeaActionID>Find</IdeaActionID>
+          <ShortCut>'Ctrl+F' or 'Alt+Shift+3'</ShortCut>
+          <Description>Find…</Description>
+          <Count>1</Count>
+          <Hit>1</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Generate…">
+        <Item>
+          <IdeaActionID>Generate</IdeaActionID>
+          <ShortCut>'Alt+Insert'</ShortCut>
+          <Description>Generate…</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Group by Directory">
+        <Item>
+          <IdeaActionID>UsageGrouping.Directory</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+P'</ShortCut>
+          <Description>Group by Directory</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Jump to Source">
+        <Item>
+          <IdeaActionID>EditSource</IdeaActionID>
+          <ShortCut>'F4'</ShortCut>
+          <Description>Jump to Source</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Maximize Tool Window">
+        <Item>
+          <IdeaActionID>MaximizeToolWindow</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+Quote'</ShortCut>
+          <Description>Maximize Tool Window</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Module">
+        <Item>
+          <IdeaActionID>UsageGrouping.Module</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+M'</ShortCut>
+          <Description>Module</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Modules">
+        <Item>
+          <IdeaActionID>TodoViewGroupByShowModules</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+M'</ShortCut>
+          <Description>Modules</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="New Tab">
+        <Item>
+          <IdeaActionID>Terminal.NewTab</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+T'</ShortCut>
+          <Description>New Tab</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Packages">
+        <Item>
+          <IdeaActionID>TodoViewGroupByShowPackages</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+P'</ShortCut>
+          <Description>Packages</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Project">
+        <Item>
+          <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
+          <ShortCut>'Alt+1'</ShortCut>
+          <Description>Project</Description>
+          <Count>35</Count>
+          <Hit>10</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Recent Changes">
+        <Item>
+          <IdeaActionID>RecentChanges</IdeaActionID>
+          <ShortCut>'Alt+Shift+C'</ShortCut>
+          <Description>Recent Changes</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Reformat Code">
+        <Item>
+          <IdeaActionID>ReformatCode</IdeaActionID>
+          <ShortCut>'Alt+Shift+L'</ShortCut>
+          <Description>Reformat Code</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Reload">
+        <Item>
+          <IdeaActionID>IdeaVim.ReloadVimRc.reload</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+O'</ShortCut>
+          <Description>Reload</Description>
+          <Count>11</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rename…">
+        <Item>
+          <IdeaActionID>RenameElement</IdeaActionID>
+          <ShortCut>'Shift+F6'</ShortCut>
+          <Description>Rename…</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun">
+        <Item>
+          <IdeaActionID>UsageView.Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'Cargo: Run web-server'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Rerun 'Cargo: Run web-server'</Description>
+          <Count>9</Count>
+          <Hit>8</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'Cargo: run'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Rerun 'Cargo: run'</Description>
+          <Count>15</Count>
+          <Hit>2</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'Rerun Failed Tests'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'Rerun Failed Tests'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'Test office_automation_system'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'Test office_automation_system'</Description>
+          <Count>5</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'run'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'run'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Restore Windows">
+        <Item>
+          <IdeaActionID>HideAllWindows</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F12'</ShortCut>
+          <Description>Restore Windows</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run</Description>
+          <Count>37</Count>
+          <Hit>41</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Select In…">
+        <Item>
+          <IdeaActionID>SelectIn</IdeaActionID>
+          <ShortCut>'Alt+Shift+1'</ShortCut>
+          <Description>Select In…</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Settings…">
+        <Item>
+          <IdeaActionID>ShowSettings</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+S'</ShortCut>
+          <Description>Settings…</Description>
+          <Count>1</Count>
+          <Hit>11</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Speed Search">
+        <Item>
+          <IdeaActionID>SpeedSearch</IdeaActionID>
+          <ShortCut>'Ctrl+F' or 'Alt+Shift+3'</ShortCut>
+          <Description>Speed Search</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'Run web-server'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+2'</ShortCut>
+          <Description>Stop 'Run web-server'</Description>
+          <Count>7</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'run'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+2'</ShortCut>
+          <Description>Stop 'run'</Description>
+          <Count>5</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Structure">
+        <Item>
+          <IdeaActionID>ActivateStructureToolWindow</IdeaActionID>
+          <ShortCut>'Alt+7'</ShortCut>
+          <Description>Structure</Description>
+          <Count>5</Count>
+          <Hit>14</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Super Method">
+        <Item>
+          <IdeaActionID>GotoSuperMethod</IdeaActionID>
+          <ShortCut>'Ctrl+U'</ShortCut>
+          <Description>Super Method</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Sync Cargo Changes">
+        <Item>
+          <IdeaActionID>ExternalSystem.ProjectRefreshAction</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+O'</ShortCut>
+          <Description>Sync Cargo Changes</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Terminal">
+        <Item>
+          <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
+          <ShortCut>'Alt+F12'</ShortCut>
+          <Description>Terminal</Description>
+          <Count>30</Count>
+          <Hit>10</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Text…">
+        <Item>
+          <IdeaActionID>TextSearchAction</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+E'</ShortCut>
+          <Description>Text…</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Type...">
+        <Item>
+          <IdeaActionID>GotoClass</IdeaActionID>
+          <ShortCut>'Ctrl+N'</ShortCut>
+          <Description>Type...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Usage Type">
+        <Item>
+          <IdeaActionID>UsageGrouping.UsageType</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+T'</ShortCut>
+          <Description>Usage Type</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+    </option>
+    <option name="suppressed">
+      <Statistic Action="Toggle Line Breakpoint">
+        <Item>
+          <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
+          <ShortCut>'Ctrl+8'</ShortCut>
+          <Description>Toggle Line Breakpoint</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+    </option>
+  </component>
+</application>

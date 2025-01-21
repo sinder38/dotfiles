@@ -1,0 +1,10 @@
+AceJump
+AutoSwitchIm
+IdeaVimExtension
+com.intellij.ja
+com.intellij.ko
+com.intellij.zh
+com.mallowigi
+dev.turingcomplete.intellijdevelopertoolsplugins
+eu.theblob42.idea.whichkey
+org.jetbrains.IdeaVim-EasyMotion
