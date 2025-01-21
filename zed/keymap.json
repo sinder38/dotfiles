@@ -1,0 +1,42 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      // "j k": ["workspace::SendKeystrokes", "escape"]
+    }
+  },
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      // Dworak remap
+      "t": "vim::Down",
+      "n": "vim::Up",
+      "s": "vim::Right"
+      // Swap "a" and "i" TODO: figure out what this does
+      // "a": ["vim::PushOperator", { "Object": { "around": false } }],
+      // "i": ["vim::PushOperator", { "Object": { "around": true } }],
+    }
+  },
+  {
+    "context": "vim_mode == normal",
+    "bindings": {
+      // Swap "a" and "i"
+      "a": "vim::InsertBefore",
+      "shift-a": "vim::InsertFirstNonWhitespace",
+      "i": "vim::InsertAfter",
+      "shift-i": "vim::InsertEndOfLine"
+    }
+  }
+]
