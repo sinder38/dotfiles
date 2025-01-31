@@ -2,6 +2,7 @@
   <component name="Trusted.Paths">
     <option name="TRUSTED_PROJECT_PATHS">
       <map>
+        <entry key="$USER_HOME$/Projects/LeetCode" value="true" />
         <entry key="$USER_HOME$/Projects/office_automation_system" value="true" />
       </map>
     </option>

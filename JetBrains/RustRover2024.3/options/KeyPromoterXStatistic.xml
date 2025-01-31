@@ -14,7 +14,7 @@
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Left'</ShortCut>
           <Description>Back</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build">
@@ -22,7 +22,7 @@
           <IdeaActionID>Rust.Build</IdeaActionID>
           <ShortCut>'Ctrl+9'</ShortCut>
           <Description>Build</Description>
-          <Count>54</Count>
+          <Count>61</Count>
           <Hit>1</Hit>
         </Item>
       </Statistic>
@@ -31,8 +31,8 @@
           <IdeaActionID>ActivateCommitToolWindow</IdeaActionID>
           <ShortCut>'Alt+0'</ShortCut>
           <Description>Commit</Description>
-          <Count>8</Count>
-          <Hit>11</Hit>
+          <Count>12</Count>
+          <Hit>12</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Copy">
@@ -40,7 +40,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>9</Count>
+          <Count>11</Count>
           <Hit>1</Hit>
         </Item>
       </Statistic>
@@ -74,7 +74,7 @@
           <ShortCut>'Ctrl+F' or 'Alt+Shift+3'</ShortCut>
           <Description>Find…</Description>
           <Count>1</Count>
-          <Hit>1</Hit>
+          <Hit>2</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Generate…">
@@ -146,8 +146,8 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'Alt+1'</ShortCut>
           <Description>Project</Description>
-          <Count>35</Count>
-          <Hit>10</Hit>
+          <Count>37</Count>
+          <Hit>18</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Recent Changes">
@@ -171,7 +171,7 @@
           <IdeaActionID>IdeaVim.ReloadVimRc.reload</IdeaActionID>
           <ShortCut>'Ctrl+Shift+O'</ShortCut>
           <Description>Reload</Description>
-          <Count>11</Count>
+          <Count>12</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rename…">
@@ -179,7 +179,7 @@
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'Shift+F6'</ShortCut>
           <Description>Rename…</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun">
@@ -204,8 +204,8 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Rerun 'Cargo: run'</Description>
-          <Count>15</Count>
-          <Hit>2</Hit>
+          <Count>17</Count>
+          <Hit>9</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'Rerun Failed Tests'">
@@ -245,8 +245,8 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run</Description>
-          <Count>37</Count>
-          <Hit>41</Hit>
+          <Count>40</Count>
+          <Hit>62</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Select In…">
@@ -263,7 +263,7 @@
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings…</Description>
           <Count>1</Count>
-          <Hit>11</Hit>
+          <Hit>12</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Speed Search">
@@ -287,7 +287,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+2'</ShortCut>
           <Description>Stop 'run'</Description>
-          <Count>5</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Structure">
@@ -320,8 +320,8 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'Alt+F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>30</Count>
-          <Hit>10</Hit>
+          <Count>33</Count>
+          <Hit>23</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Text…">

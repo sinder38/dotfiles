@@ -9,10 +9,6 @@
   <action id="CollapseRegion" />
   <action id="CollapseSelection" />
   <action id="EditorChooseLookupItemReplace" />
-  <action id="EditorDown">
-    <keyboard-shortcut first-keystroke="down" />
-    <keyboard-shortcut first-keystroke="tab" />
-  </action>
   <action id="EditorIndentSelection" />
   <action id="EditorLookupSelectionDown">
     <keyboard-shortcut first-keystroke="tab" />
@@ -21,10 +17,6 @@
     <keyboard-shortcut first-keystroke="shift tab" />
   </action>
   <action id="EditorUnindentSelection" />
-  <action id="EditorUp">
-    <keyboard-shortcut first-keystroke="up" />
-    <keyboard-shortcut first-keystroke="shift tab" />
-  </action>
   <action id="ExpandAllRegions" />
   <action id="ExpandLiveTemplateByTab" />
   <action id="ExpandRegion" />

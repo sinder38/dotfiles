@@ -4,9 +4,9 @@
       <option value="XPathView.Actions.FindByExpression" />
       <option value="ShowMembersInNavigationBar" />
       <option value="VimPluginToggle" />
-      <option value="VimActions" />
       <option value="StructuralSearchPlugin.StructuralSearchAction" />
       <option value="VimFindActionIdAction" />
+      <option value="VimActions" />
     </ids>
   </component>
   <component name="FileEditorProviderManager">{}</component>
@@ -18,7 +18,7 @@
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
     "BuildView.Splitter.Proportion": "0.17834395",
-    "CRATES_IO_INDEX_LAST_UPDATE": "1737356382946",
+    "CRATES_IO_INDEX_LAST_UPDATE": "1738312335829",
     "Cargo Test.Splitter.Proportion": "0.28369322",
     "Cargo TestSupport.hidePassedTests": "false",
     "ColorChooser.RecentColors": "179-61-73-255",
@@ -41,16 +41,16 @@
     "LayoutCode.rearrangeEntriesECMAScript 6": "true",
     "Markdown Split EditorLayout": "Editor only",
     "MarketplacePluginsSearchHistory": "comment /sortBy:downloads\ncomment\ncomme\n/sortBy:downloads\ntodo",
-    "NextRunPlatformUpdateBuild": "RR-243.23654.116",
+    "NextRunPlatformUpdateBuild": "RR-243.23654.180",
     "NextRunPlatformUpdateSelfBuild": "RR-243.21565.245",
-    "NextRunPlatformUpdateVersion": "2024.3.3",
+    "NextRunPlatformUpdateVersion": "2024.3.4",
     "PluginConfigurable.selectionTab": "1",
     "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
     "RunOnceActivity.rust.enable.attach.dialog": "true",
     "RunOnceActivity.rust.find.settings.fix": "true",
     "RunOnceActivity.rust.first.ide.run": "true",
     "SHELLCHECK.PATH": "/home/sinder/.local/share/JetBrains/RustRover2024.3/Shell Script/shellcheck",
-    "SettingsSearchHistory": "java\nstructure\nfold\ngit\nSoft Wraps",
+    "SettingsSearchHistory": "key\njava\nstructure\nfold\ngit",
     "SqlStructureView.filterD.file.structure.state": "true",
     "ask.about.ctrl.y.shortcut.v2": "true",
     "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
@@ -67,7 +67,7 @@
     "got.it.tooltip.database.schema.control.got.it": "1",
     "got.it.tooltip.org.rust.external.linter.promoter": "1",
     "got.it.tooltip.resolve.context.promoter": "1",
-    "ideavim.statistics.timestamp": "1737282098937",
+    "ideavim.statistics.timestamp": "1738250676115",
     "input.method.disabler.muted": "true",
     "js.extract.function.top.level.scope.was.selected": "true",
     "js.rename.search.for.text.occurrences": "false",
@@ -85,6 +85,7 @@
   },
   "keyToStringList": {
     "file.chooser.recent.files": [
+      "/home/sinder/Projects/LeetCode",
       "/home/sinder/Downloads",
       "/home/sinder/Projects/office_automation_system"
     ],
