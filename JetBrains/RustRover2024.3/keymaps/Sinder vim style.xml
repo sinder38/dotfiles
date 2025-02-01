@@ -16,6 +16,7 @@
   <action id="EditorLookupSelectionUp">
     <keyboard-shortcut first-keystroke="shift tab" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="EditorUnindentSelection" />
   <action id="ExpandAllRegions" />
   <action id="ExpandLiveTemplateByTab" />
@@ -24,7 +25,7 @@
   <action id="FindUsagesInFile" />
   <action id="HippieCompletion" />
   <action id="InsertInlineCompletionAction">
-    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="List-selectNextRow">
     <keyboard-shortcut first-keystroke="down" />

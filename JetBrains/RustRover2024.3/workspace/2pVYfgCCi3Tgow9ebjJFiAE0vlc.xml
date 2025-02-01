@@ -63,158 +63,249 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="1zfy5c1ak3ebc" SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file>
-        <entry file="file://$PROJECT_DIR$/static/modules/dynamicTableForm.js">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="669">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="n#DynamicTable#0" />
-                <element signature="e#607#637#0" />
-                <element signature="n#!!block;n#applyInputChangeEvents#0;n#DynamicTableForm#0" expanded="true" />
-                <element signature="n#!!block;n#_addRowFunctional#0;n#DynamicTableForm#0" expanded="true" />
-                <element signature="n#!!block;n#addNewRow#0;n#DynamicTableForm#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"dynamicTableForm.js","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/static/modules/popups_v2.js">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="360">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <element signature="n#!!doc;n#constructor#0;n#PopupRowEdit#0" expanded="true" />
-                <element signature="n#!!block;n#_apply_after_htx_swap#0;n#PopupRowEdit#0" expanded="true" />
-                <element signature="n#!!block;n#displayButtons#0;n#PopupRowEdit#0" expanded="true" />
-                <element signature="n#!!block;n#submitForm#0;n#PopupRowEdit#0" expanded="true" />
-                <element signature="e#10583#10661#0" expanded="true" />
-                <element signature="n#RowEdit#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"popups_v2.js","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/static/modules/popup_base.js">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="120">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-              <folding>
-                <element signature="n#!!block;n#constructor#0;n#Popup#0" expanded="true" />
-                <element signature="n#!!block;n#init#0;n#Popup#0" expanded="true" />
-                <element signature="n#!!block;n#handleOutsideClick#0;n#Popup#0" expanded="true" />
-                <element signature="n#!!block;n#close#0;n#Popup#0" expanded="true" />
-                <element signature="n#!!block;n#open#0;n#Popup#0" expanded="true" />
-                <element signature="n#!!block;n#open1#0;n#Popup#0" expanded="true" />
-                <element signature="n#!!block;n#focusAutofocusElement#0;n#Popup#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"popup_base.js","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/static/modules/utils.js">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="560">
-              <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-              <folding>
-                <element signature="n#!!block;n#processFormInputs#0" expanded="true" />
-                <element signature="e#727#1246#0" expanded="true" />
-                <element signature="e#1181#1240#0" />
-                <element signature="n#!!doc;n#constructor#0;n#UIElement#0" expanded="true" />
-                <element signature="n#!!doc;n#processInnerConfigs#0;n#UIElement#0" expanded="true" />
-                <element signature="n#!!block;n#processInnerConfigs#0;n#UIElement#0" expanded="true" />
-                <element signature="e#2330#2809#0" expanded="true" />
-                <element signature="n#!!doc;n#_initObjectClass#0;n#UIElement#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"utils.js","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/interfaces/js/ingredient_scripts.js">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="440">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-              <folding>
-                <element signature="e#0#65#0" expanded="true" />
-                <element signature="n#!!block;n#displayIngredientStatus#0" expanded="true" />
-                <element signature="n#!!block;n#apply_explanation_button_func#0" expanded="true" />
-                <element signature="n#!!doc;n#addFixCompositionButton#0" expanded="true" />
-                <element signature="e#4886#6491#0" expanded="true" />
-                <element signature="e#6655#6759#0" expanded="true" />
-                <element signature="n#!!block;n#apply_ingredient_functional#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"ingredient_scripts.js","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/crates/libs/lib-web/src/rest/ingredients.rs">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="629">
-              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <element signature="n#!!block;n#create_ingredient_file#0" expanded="true" />
-                <element signature="n#!!block;n#list_ingredient_files#0" expanded="true" />
-                <element signature="n#!!block;n#get_ingredient_file_data#0" expanded="true" />
-                <element signature="n#!!block;n#_get_ingredient_file_contents#0" expanded="true" />
-                <element signature="n#!!block;n#delete_ingredient_file#0" expanded="true" />
-                <element signature="n#!!block;n#fix_mix_composition#0" expanded="true" />
-                <element signature="n#!!block;n#get_mix_composition#0" expanded="true" />
-                <element signature="n#!!block;n#list_mix_composition#0" expanded="true" />
-                <element signature="n#!!block;n#get_ingredient_aliases#0" expanded="true" />
-                <element signature="n#!!block;n#list_aliases#0" expanded="true" />
-                <element signature="n#!!block;n#get_ingredient_versions#0" expanded="true" />
-                <element signature="n#!!block;n#get_ingredient_cluster_update#0" expanded="true" />
-                <element signature="n#!!block;n#get_ingredient_amount_changes#0" expanded="true" />
-                <element signature="n#!!block;n#create_ingredient#0" expanded="true" />
-                <element signature="n#!!block;n#update_ingredient#0" expanded="true" />
-                <element signature="n#!!block;n#delete_ingredient#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"rest/ingredients.rs","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,116,10,114,106,97,114,58,102,105,108,101,58,47,111,112,116,47,82,117,115,116,82,111,118,101,114,45,50,48,50,52,46,51,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,45,50,52,51,46,50,49,53,54,53,46,50,52,53,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/static/modules/searchSelector.js">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="160">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding>
-                <element signature="e#147#2619#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"searchSelector.js","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf ideFingerprint="1zfy5c1ak3ebc" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+          <file>
+            <entry file="file://$PROJECT_DIR$/static/modules/dynamicTableForm.js">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="934">
+                  <caret line="133" column="10" selection-start-line="133" selection-start-column="10" selection-end-line="133" selection-end-column="10" />
+                  <folding>
+                    <element signature="n#!!block;n#constructor#0;n#DynamicTable#0" expanded="true" />
+                    <element signature="e#607#637#0" />
+                    <element signature="n#!!block;n#constructor#0;n#DynamicTableForm#0" expanded="true" />
+                    <element signature="n#!!block;n#applyInputChangeEvents#0;n#DynamicTableForm#0" expanded="true" />
+                    <element signature="n#!!block;n#_addRowFunctional#0;n#DynamicTableForm#0" expanded="true" />
+                    <element signature="n#!!block;n#addNewRow#0;n#DynamicTableForm#0" expanded="true" />
+                    <element signature="e#4526#4632#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"dynamicTableForm.js","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+          </file>
+          <file>
+            <entry file="file://$PROJECT_DIR$/static/modules/popups_v2.js">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="320">
+                  <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+                  <folding>
+                    <element signature="e#0#38#0" expanded="true" />
+                    <element signature="n#!!doc;n#constructor#0;n#PopupRowEdit#0" expanded="true" />
+                    <element signature="n#!!block;n#constructor#0;n#PopupRowEdit#0" expanded="true" />
+                    <element signature="n#!!block;n#_apply_after_htx_swap#0;n#PopupRowEdit#0" expanded="true" />
+                    <element signature="n#!!block;n#displayButtons#0;n#PopupRowEdit#0" expanded="true" />
+                    <element signature="n#!!block;n#submitForm#0;n#PopupRowEdit#0" expanded="true" />
+                    <element signature="e#10595#10673#0" expanded="true" />
+                    <element signature="n#RowEdit#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"popups_v2.js","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+          </file>
+          <file>
+            <entry file="file://$PROJECT_DIR$/static/modules/popup_base.js">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="280">
+                  <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+                  <folding>
+                    <element signature="n#!!block;n#constructor#0;n#Popup#0" expanded="true" />
+                    <element signature="n#!!block;n#init#0;n#Popup#0" expanded="true" />
+                    <element signature="n#!!block;n#handleOutsideClick#0;n#Popup#0" expanded="true" />
+                    <element signature="n#!!block;n#close#0;n#Popup#0" expanded="true" />
+                    <element signature="n#!!block;n#open#0;n#Popup#0" expanded="true" />
+                    <element signature="n#!!block;n#open1#0;n#Popup#0" expanded="true" />
+                    <element signature="n#!!block;n#focusAutofocusElement#0;n#Popup#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"popup_base.js","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+          </file>
+          <file>
+            <entry file="file://$PROJECT_DIR$/static/modules/utils.js">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="511">
+                  <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+                  <folding>
+                    <element signature="n#!!block;n#processFormInputs#0" expanded="true" />
+                    <element signature="e#1197#1716#0" expanded="true" />
+                    <element signature="e#1651#1710#0" />
+                    <element signature="n#!!doc;n#constructor#0;n#UIElement#0" expanded="true" />
+                    <element signature="n#!!block;n#constructor#0;n#UIElement#0" expanded="true" />
+                    <element signature="n#!!doc;n#processInnerConfigs#0;n#UIElement#0" expanded="true" />
+                    <element signature="n#!!block;n#processInnerConfigs#0;n#UIElement#0" expanded="true" />
+                    <element signature="e#2800#3279#0" expanded="true" />
+                    <element signature="n#!!doc;n#_initObjectClass#0;n#UIElement#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"utils.js","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+          </file>
+          <file>
+            <entry file="file://$PROJECT_DIR$/static/interfaces/js/ingredient_scripts.js">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="680">
+                  <caret line="112" column="45" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
+                  <folding>
+                    <element signature="e#0#65#0" expanded="true" />
+                    <element signature="n#!!block;n#displayIngredientStatus#0" expanded="true" />
+                    <element signature="n#!!block;n#apply_explanation_button_func#0" expanded="true" />
+                    <element signature="n#!!doc;n#addFixCompositionButton#0" expanded="true" />
+                    <element signature="n#!!block;n#apply_ingredient_functional#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"ingredient_scripts.js","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+          </file>
+          <file>
+            <entry file="file://$PROJECT_DIR$/crates/libs/lib-web/src/rest/ingredients.rs">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="1680">
+                  <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#0#19#0" expanded="true" />
+                    <element signature="n#!!block;n#create_ingredient_file#0" expanded="true" />
+                    <element signature="n#!!block;n#list_ingredient_files#0" expanded="true" />
+                    <element signature="n#!!block;n#get_ingredient_file_data#0" expanded="true" />
+                    <element signature="n#!!block;n#_get_ingredient_file_contents#0" expanded="true" />
+                    <element signature="n#!!block;n#delete_ingredient_file#0" expanded="true" />
+                    <element signature="n#!!block;n#fix_mix_composition#0" expanded="true" />
+                    <element signature="n#!!block;n#get_mix_composition#0" expanded="true" />
+                    <element signature="n#!!block;n#list_mix_composition#0" expanded="true" />
+                    <element signature="n#!!block;n#get_ingredient_aliases#0" expanded="true" />
+                    <element signature="n#!!block;n#list_aliases#0" expanded="true" />
+                    <element signature="n#!!block;n#get_ingredient_versions#0" expanded="true" />
+                    <element signature="n#!!block;n#get_ingredient_cluster_update#0" expanded="true" />
+                    <element signature="n#!!block;n#get_ingredient_amount_changes#0" expanded="true" />
+                    <element signature="n#!!block;n#create_ingredient#0" expanded="true" />
+                    <element signature="n#!!block;n#update_ingredient#0" expanded="true" />
+                    <element signature="n#!!block;n#delete_ingredient#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"rest/ingredients.rs","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,116,10,114,106,97,114,58,102,105,108,101,58,47,111,112,116,47,82,117,115,116,82,111,118,101,114,45,50,48,50,52,46,51,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,45,50,52,51,46,50,49,53,54,53,46,50,52,53,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
+          </file>
+          <file>
+            <entry file="file://$PROJECT_DIR$/static/modules/searchSelector.js">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="680">
+                  <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+                  <folding>
+                    <element signature="e#801#1067#0" expanded="true" />
+                    <element signature="e#890#957#0" expanded="true" />
+                    <element signature="e#2719#3171#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"searchSelector.js","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+          </file>
+          <file current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/static/modules/popupSelector.js">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="680">
+                  <caret line="89" selection-start-line="89" selection-end-line="89" />
+                  <folding>
+                    <element signature="n#!!block;n#constructor#0;n#SelectorPopup#0" expanded="true" />
+                    <element signature="e#1505#1755#0" expanded="true" />
+                    <element signature="n#!!block;n#getShownValue#0;n#SelectorPopup#0" expanded="true" />
+                    <element signature="e#2408#2586#0" expanded="true" />
+                    <element signature="n#!!block;n#_bindOptionClickEvents#0;n#SelectorPopup#0" expanded="true" />
+                    <element signature="e#2113#2350#0" expanded="true" />
+                    <element signature="e#2166#2338#0" expanded="true" />
+                    <element signature="n#!!block;n#constructor#0;n#Selector#0" expanded="true" />
+                    <element signature="n#!!block;n#handleFilter#0;n#Selector#0" expanded="true" />
+                    <element signature="n#!!block;n#selectOption#0;n#Selector#0" expanded="true" />
+                    <element signature="n#!!block;n#setValue#0;n#Selector#0" expanded="true" />
+                    <element signature="e#3688#3956#0" />
+                    <element signature="e#3967#4006#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"popupSelector.js","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf ideFingerprint="1zfy5c1ak3ebc">
+          <file>
+            <entry file="file://$PROJECT_DIR$/static/modules/popupSelector.js">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="989">
+                  <caret line="125" column="18" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="18" />
+                  <folding>
+                    <element signature="n#!!block;n#constructor#0;n#SelectorPopup#0" expanded="true" />
+                    <element signature="n#!!block;n#getShownValue#0;n#SelectorPopup#0" expanded="true" />
+                    <element signature="n#!!block;n#_bindOptionClickEvents#0;n#SelectorPopup#0" expanded="true" />
+                    <element signature="n#!!block;n#constructor#0;n#Selector#0" expanded="true" />
+                    <element signature="n#!!block;n#handleFilter#0;n#Selector#0" expanded="true" />
+                    <element signature="n#!!block;n#selectOption#0;n#Selector#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"popupSelector.js","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+          </file>
+          <file>
+            <entry file="file://$PROJECT_DIR$/static/modules/dynamicTableForm.js">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="949">
+                  <caret line="150" column="10" selection-start-line="150" selection-start-column="10" selection-end-line="150" selection-end-column="10" />
+                  <folding>
+                    <element signature="n#!!block;n#constructor#0;n#DynamicTable#0" expanded="true" />
+                    <element signature="e#607#637#0" />
+                    <element signature="n#!!block;n#constructor#0;n#DynamicTableForm#0" expanded="true" />
+                    <element signature="n#!!block;n#applyInputChangeEvents#0;n#DynamicTableForm#0" expanded="true" />
+                    <element signature="n#!!block;n#_addRowFunctional#0;n#DynamicTableForm#0" expanded="true" />
+                    <element signature="n#!!block;n#addNewRow#0;n#DynamicTableForm#0" expanded="true" />
+                    <element signature="n#!!block;n#fillTableInputs#0;n#DynamicTableForm#0" expanded="true" />
+                    <element signature="e#4552#4658#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"dynamicTableForm.js","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+          </file>
+          <file>
+            <entry file="file://$PROJECT_DIR$/templates/components/forms/filled/mix_composition.html">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="789">
+                  <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"filled/mix_composition.html","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,68,10,18,102,105,108,101,84,121,112,101,115,47,104,116,109,108,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,104,116,109,108,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-72,-21,-93,-62,3,48,0]}]]></tab>
+          </file>
+          <file current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/templates/components/selectors/ingredient_popup_selector.html">
+              <provider editor-type-id="text-editor" selected="true" />
+            </entry>
+            <tab><![CDATA[{"tabTitle":"ingredient_popup_selector.html","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,68,10,18,102,105,108,101,84,121,112,101,115,47,104,116,109,108,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,104,116,109,108,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-72,-21,-93,-62,3,48,0]}]]></tab>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "Rust": {
-      "usageCount": 614,
-      "lastUsed": 1738313202308
+      "usageCount": 616,
+      "lastUsed": 1738402126444
     },
     "textmate": {
       "usageCount": 26,
       "lastUsed": 1737204456764
     },
     "SQL": {
-      "usageCount": 70,
-      "lastUsed": 1738250585296
+      "usageCount": 71,
+      "lastUsed": 1738314564225
     },
     "Shell Script": {
       "usageCount": 19,
@@ -225,16 +316,16 @@
       "lastUsed": 1734058663989
     },
     "JavaScript": {
-      "usageCount": 290,
-      "lastUsed": 1738312327235
+      "usageCount": 312,
+      "lastUsed": 1738405114595
     },
     "DIFF": {
       "usageCount": 18,
       "lastUsed": 1737541109646
     },
     "HTML": {
-      "usageCount": 149,
-      "lastUsed": 1738306154880
+      "usageCount": 151,
+      "lastUsed": 1738405184560
     },
     "CSS": {
       "usageCount": 18,
@@ -368,18 +459,18 @@
     "/home/sinder/Projects/office_automation_system/static/interfaces/css/search_select.css",
     "/home/sinder/Projects/office_automation_system/static/interfaces/css/popup_form.css",
     "/home/sinder/Projects/office_automation_system/static/modules/popup_base.js",
-    "/home/sinder/Projects/office_automation_system/static/modules/popupSelector.js",
     "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/utils.rs",
     "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/error.rs",
     "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/ingredients/ingredient.rs",
     "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/ingredients/mix_composition.rs",
     "/home/sinder/Projects/office_automation_system/crates/libs/lib-web/src/rest/ingredients.rs",
-    "/home/sinder/Projects/office_automation_system/static/modules/popups_v2.js",
     "/home/sinder/Projects/office_automation_system/templates/components/selectors/supplier_selector_filled_option.html",
     "/home/sinder/Projects/office_automation_system/templates/components/forms/filled/mix_composition.html",
-    "/home/sinder/Projects/office_automation_system/static/modules/dynamicTableForm.js",
     "/home/sinder/Projects/office_automation_system/static/modules/utils.js",
-    "/home/sinder/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js"
+    "/home/sinder/Projects/office_automation_system/static/modules/popups_v2.js",
+    "/home/sinder/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js",
+    "/home/sinder/Projects/office_automation_system/static/modules/dynamicTableForm.js",
+    "/home/sinder/Projects/office_automation_system/static/modules/popupSelector.js"
   ]
 }]]></component>
   <component name="IgnoredFileRootStore">
@@ -400,19 +491,19 @@
       <summary usageCount="1" lastUsage="1735436128436" />
     </language>
     <language id="HTML">
-      <summary usageCount="149" lastUsage="1738306154880" />
+      <summary usageCount="151" lastUsage="1738405184560" />
     </language>
     <language id="JavaScript">
-      <summary usageCount="290" lastUsage="1738312327235" />
+      <summary usageCount="312" lastUsage="1738405114595" />
     </language>
     <language id="Markdown">
       <summary usageCount="2" lastUsage="1735443312623" />
     </language>
     <language id="Rust">
-      <summary usageCount="614" lastUsage="1738313202308" />
+      <summary usageCount="616" lastUsage="1738402126444" />
     </language>
     <language id="SQL">
-      <summary usageCount="70" lastUsage="1738250585296" />
+      <summary usageCount="71" lastUsage="1738314564225" />
     </language>
     <language id="Shell Script">
       <summary usageCount="19" lastUsage="1737535804636" />
@@ -732,7 +823,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248443000" />
+    <option name="totallyTimeSpent" value="255338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="all">
@@ -757,7 +848,7 @@
       <window_info anchor="bottom" id="Python Packages" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.33023703" />
       <window_info anchor="bottom" id="Database Changes" order="5" weight="0.33023703" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.33023703" />
+      <window_info anchor="bottom" auto_hide="true" x="0" y="449" width="2444" height="515" id="Find" order="6" show_stripe_button="false" type="FLOATING" weight="0.33023703" />
       <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="Notifications" order="0" weight="0.3298828" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25019532" />
@@ -819,13 +910,13 @@
       <unified_weights bottom="0.33023703" left="0.33027345" right="0.4435547" />
     </layout-to-restore>
     <recentWindows>
+      <value>Find</value>
       <value>Run</value>
       <value>Build</value>
-      <value>Structure</value>
       <value>Terminal</value>
+      <value>Structure</value>
       <value>Project</value>
       <value>Bookmarks</value>
-      <value>Find</value>
       <value>Commit</value>
       <value>Debug</value>
       <value>Notifications</value>
@@ -882,34 +973,34 @@
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="952" y="435" key="FileChooserDialogImpl.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733391930829" />
-    <state width="1134" height="1400" key="GridCell.Tab.0.bottom.ideScale=125" timestamp="1738313360031">
+    <state width="1134" height="1400" key="GridCell.Tab.0.bottom.ideScale=125" timestamp="1738404486646">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="1134" height="1400" key="GridCell.Tab.0.bottom.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738313360031" />
+    <state width="1134" height="1400" key="GridCell.Tab.0.bottom.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738404486646" />
     <state width="843" height="1427" key="GridCell.Tab.0.bottom.ideScale=150" timestamp="1733415929919">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state width="843" height="1427" key="GridCell.Tab.0.bottom.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733415929919" />
-    <state width="1134" height="1400" key="GridCell.Tab.0.center.ideScale=125" timestamp="1738313360031">
+    <state width="1134" height="1400" key="GridCell.Tab.0.center.ideScale=125" timestamp="1738404486645">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="1134" height="1400" key="GridCell.Tab.0.center.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738313360031" />
+    <state width="1134" height="1400" key="GridCell.Tab.0.center.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738404486645" />
     <state width="843" height="1427" key="GridCell.Tab.0.center.ideScale=150" timestamp="1733415929919">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state width="843" height="1427" key="GridCell.Tab.0.center.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733415929919" />
-    <state width="1134" height="1400" key="GridCell.Tab.0.left.ideScale=125" timestamp="1738313360031">
+    <state width="1134" height="1400" key="GridCell.Tab.0.left.ideScale=125" timestamp="1738404486645">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="1134" height="1400" key="GridCell.Tab.0.left.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738313360031" />
+    <state width="1134" height="1400" key="GridCell.Tab.0.left.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738404486645" />
     <state width="843" height="1427" key="GridCell.Tab.0.left.ideScale=150" timestamp="1733415929918">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state width="843" height="1427" key="GridCell.Tab.0.left.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733415929918" />
-    <state width="1134" height="1400" key="GridCell.Tab.0.right.ideScale=125" timestamp="1738313360031">
+    <state width="1134" height="1400" key="GridCell.Tab.0.right.ideScale=125" timestamp="1738404486646">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="1134" height="1400" key="GridCell.Tab.0.right.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738313360031" />
+    <state width="1134" height="1400" key="GridCell.Tab.0.right.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738404486646" />
     <state width="843" height="1427" key="GridCell.Tab.0.right.ideScale=150" timestamp="1733415929919">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
@@ -970,17 +1061,17 @@
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="642" y="358" width="1246" height="798" key="IDE.errors.dialog.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733420932318" />
-    <state x="1883" y="1284" width="640" height="246" key="ProcessPopupWindow.ideScale=125" timestamp="1738312338213">
+    <state x="1883" y="1284" width="640" height="246" key="ProcessPopupWindow.ideScale=125" timestamp="1738402273498">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="1883" y="1284" width="640" height="246" key="ProcessPopupWindow.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738312338213" />
+    <state x="1883" y="1284" width="640" height="246" key="ProcessPopupWindow.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738402273498" />
     <state x="164" y="14" key="SettingsEditor" timestamp="1733434791328">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="383" y="92" key="SettingsEditor.ideScale=125" timestamp="1738306771228">
+    <state x="393" y="142" key="SettingsEditor.ideScale=125" timestamp="1738402934024">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="383" y="92" key="SettingsEditor.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738306771228" />
+    <state x="393" y="142" key="SettingsEditor.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738402934024" />
     <state x="333" y="14" key="SettingsEditor.ideScale=150" timestamp="1733434743397">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
@@ -998,10 +1089,10 @@
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="805" y="380" width="945" height="946" key="StructurePopup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1736949657883" />
-    <state width="1583" height="849" key="SwitcherDM.ideScale=125" timestamp="1738313202175">
+    <state width="1583" height="849" key="SwitcherDM.ideScale=125" timestamp="1738405176671">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="1583" height="849" key="SwitcherDM.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738313202175" />
+    <state width="1583" height="849" key="SwitcherDM.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738405176671" />
     <state width="766" height="1492" key="SwitcherDM.ideScale=150" timestamp="1733434429667">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
@@ -1026,10 +1117,10 @@
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="795" y="39" width="1134" height="1482" key="find.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1737204483621" />
-    <state width="1054" height="349" key="javadoc.popup.ideScale=125" timestamp="1737540202012">
+    <state width="1054" height="349" key="javadoc.popup.ideScale=125" timestamp="1738402732947">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="1054" height="349" key="javadoc.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1737540202012" />
+    <state width="1054" height="349" key="javadoc.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738402732947" />
     <state width="1112" height="608" key="javadoc.popup.ideScale=150" timestamp="1733434420548">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
@@ -1054,38 +1145,16 @@
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="652" y="170" key="scopes.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1737006552474" />
-    <state x="189" y="43" width="1701" height="1499" key="search.everywhere.popup.ideScale=125" timestamp="1738309959644">
+    <state x="373" y="75" width="1717" height="1499" key="search.everywhere.popup.ideScale=125" timestamp="1738405184469">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="189" y="43" width="1701" height="1499" key="search.everywhere.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738309959644" />
+    <state x="373" y="75" width="1717" height="1499" key="search.everywhere.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738405184469" />
     <state x="773" y="92" width="1009" height="1504" key="search.everywhere.popup.ideScale=150" timestamp="1733434596034">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="773" y="92" width="1009" height="1504" key="search.everywhere.popup.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733434596034" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/users/permission.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc;n#RolePermission#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.cache/JetBrains/RustRover2024.3/intellij-rust/stdlib-local-copy/1.83.0-bbb143e576c6b4f1b86b562fe9bd8524a4861817/library/core/src/fmt/mod.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="748" column="7" selection-start-line="748" selection-start-column="7" selection-end-line="748" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!block;n#__injected#0" expanded="true" />
-            <element signature="n#!!block;n#__injected#0" expanded="true" />
-            <element signature="n#!!block;n#__injected#0" expanded="true" />
-            <element signature="n#!!block;n#__injected#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/config.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
@@ -1302,23 +1371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/modules/popupSelector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="n#!!block;n#constructor#0;n#SelectorPopup#0" expanded="true" />
-            <element signature="n#!!block;n#close#0;n#SelectorPopup#0" expanded="true" />
-            <element signature="n#!!block;n#bindOptionClickEvents#0;n#SelectorPopup#0" expanded="true" />
-            <element signature="n#!!block;n#constructor#0;n#Selector#0" expanded="true" />
-            <element signature="n#!!block;n#showPopup#0;n#Selector#0" expanded="true" />
-            <element signature="n#!!block;n#handleFilter#0;n#Selector#0" expanded="true" />
-            <element signature="n#!!block;n#selectOption#0;n#Selector#0" expanded="true" />
-            <element signature="n#!!block;n#apply_selector_functional#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/utils.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4080">
@@ -1443,39 +1495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/forms/filled/mix_composition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/modules/popup_base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!block;n#constructor#0;n#Popup#0" expanded="true" />
-            <element signature="n#!!block;n#init#0;n#Popup#0" expanded="true" />
-            <element signature="n#!!block;n#handleOutsideClick#0;n#Popup#0" expanded="true" />
-            <element signature="n#!!block;n#close#0;n#Popup#0" expanded="true" />
-            <element signature="n#!!block;n#open#0;n#Popup#0" expanded="true" />
-            <element signature="n#!!block;n#open1#0;n#Popup#0" expanded="true" />
-            <element signature="n#!!block;n#focusAutofocusElement#0;n#Popup#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/modules/searchSelector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <element signature="e#147#2619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crates/libs/lib-web/src/rest/mod.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1000">
@@ -1483,48 +1502,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/modules/dynamicTableForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="n#DynamicTable#0" />
-            <element signature="e#607#637#0" />
-            <element signature="n#!!block;n#applyInputChangeEvents#0;n#DynamicTableForm#0" expanded="true" />
-            <element signature="n#!!block;n#_addRowFunctional#0;n#DynamicTableForm#0" expanded="true" />
-            <element signature="n#!!block;n#addNewRow#0;n#DynamicTableForm#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/modules/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!block;n#processFormInputs#0" expanded="true" />
-            <element signature="e#727#1246#0" expanded="true" />
-            <element signature="e#1181#1240#0" />
-            <element signature="n#!!doc;n#constructor#0;n#UIElement#0" expanded="true" />
-            <element signature="n#!!doc;n#processInnerConfigs#0;n#UIElement#0" expanded="true" />
-            <element signature="n#!!block;n#processInnerConfigs#0;n#UIElement#0" expanded="true" />
-            <element signature="e#2330#2809#0" expanded="true" />
-            <element signature="n#!!doc;n#_initObjectClass#0;n#UIElement#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/migrations/20240802031119_add_ingredient_parent.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/modules/popups_v2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="320">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <element signature="n#!!doc;n#constructor#0;n#PopupRowEdit#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#PopupRowEdit#0" expanded="true" />
             <element signature="n#!!block;n#_apply_after_htx_swap#0;n#PopupRowEdit#0" expanded="true" />
             <element signature="n#!!block;n#displayButtons#0;n#PopupRowEdit#0" expanded="true" />
             <element signature="n#!!block;n#submitForm#0;n#PopupRowEdit#0" expanded="true" />
-            <element signature="e#10583#10661#0" expanded="true" />
+            <element signature="e#10595#10673#0" expanded="true" />
             <element signature="n#RowEdit#0" />
           </folding>
         </state>
@@ -1532,7 +1524,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crates/libs/lib-web/src/rest/ingredients.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
+        <state relative-caret-position="1680">
           <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -1558,16 +1550,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/interfaces/js/ingredient_scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="680">
+          <caret line="112" column="45" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
           <folding>
             <element signature="e#0#65#0" expanded="true" />
             <element signature="n#!!block;n#displayIngredientStatus#0" expanded="true" />
             <element signature="n#!!block;n#apply_explanation_button_func#0" expanded="true" />
             <element signature="n#!!doc;n#addFixCompositionButton#0" expanded="true" />
-            <element signature="e#4886#6491#0" expanded="true" />
-            <element signature="e#6655#6759#0" expanded="true" />
             <element signature="n#!!block;n#apply_ingredient_functional#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/modules/searchSelector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <element signature="e#801#1067#0" expanded="true" />
+            <element signature="e#890#957#0" expanded="true" />
+            <element signature="e#2719#3171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/modules/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!block;n#processFormInputs#0" expanded="true" />
+            <element signature="e#1197#1716#0" expanded="true" />
+            <element signature="e#1651#1710#0" />
+            <element signature="n#!!doc;n#constructor#0;n#UIElement#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#UIElement#0" expanded="true" />
+            <element signature="n#!!doc;n#processInnerConfigs#0;n#UIElement#0" expanded="true" />
+            <element signature="n#!!block;n#processInnerConfigs#0;n#UIElement#0" expanded="true" />
+            <element signature="e#2800#3279#0" expanded="true" />
+            <element signature="n#!!doc;n#_initObjectClass#0;n#UIElement#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/modules/popup_base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#Popup#0" expanded="true" />
+            <element signature="n#!!block;n#init#0;n#Popup#0" expanded="true" />
+            <element signature="n#!!block;n#handleOutsideClick#0;n#Popup#0" expanded="true" />
+            <element signature="n#!!block;n#close#0;n#Popup#0" expanded="true" />
+            <element signature="n#!!block;n#open#0;n#Popup#0" expanded="true" />
+            <element signature="n#!!block;n#open1#0;n#Popup#0" expanded="true" />
+            <element signature="n#!!block;n#focusAutofocusElement#0;n#Popup#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/modules/dynamicTableForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="934">
+          <caret line="133" column="10" selection-start-line="133" selection-start-column="10" selection-end-line="133" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#DynamicTable#0" expanded="true" />
+            <element signature="e#607#637#0" />
+            <element signature="n#!!block;n#constructor#0;n#DynamicTableForm#0" expanded="true" />
+            <element signature="n#!!block;n#applyInputChangeEvents#0;n#DynamicTableForm#0" expanded="true" />
+            <element signature="n#!!block;n#_addRowFunctional#0;n#DynamicTableForm#0" expanded="true" />
+            <element signature="n#!!block;n#addNewRow#0;n#DynamicTableForm#0" expanded="true" />
+            <element signature="e#4526#4632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/forms/filled/mix_composition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/selectors/ingredient_popup_selector.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/modules/popupSelector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#SelectorPopup#0" expanded="true" />
+            <element signature="e#1505#1755#0" expanded="true" />
+            <element signature="n#!!block;n#getShownValue#0;n#SelectorPopup#0" expanded="true" />
+            <element signature="e#2408#2586#0" expanded="true" />
+            <element signature="n#!!block;n#_bindOptionClickEvents#0;n#SelectorPopup#0" expanded="true" />
+            <element signature="e#2113#2350#0" expanded="true" />
+            <element signature="e#2166#2338#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#Selector#0" expanded="true" />
+            <element signature="n#!!block;n#handleFilter#0;n#Selector#0" expanded="true" />
+            <element signature="n#!!block;n#selectOption#0;n#Selector#0" expanded="true" />
+            <element signature="n#!!block;n#setValue#0;n#Selector#0" expanded="true" />
+            <element signature="e#3688#3956#0" />
+            <element signature="e#3967#4006#0" />
           </folding>
         </state>
       </provider>

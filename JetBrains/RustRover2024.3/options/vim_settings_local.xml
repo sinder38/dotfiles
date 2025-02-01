@@ -33,78 +33,6 @@
   </component>
   <component name="VimJumpsSettings">
     <project id="office_automation_system-8dea3e74">
-      <jump line="45" column="10" filename="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" protocol="file" />
-      <jump line="50" column="11" filename="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" protocol="file" />
-      <jump line="52" column="26" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="277" column="40" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popups_v2.js" protocol="file" />
-      <jump line="5" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" protocol="file" />
-      <jump line="162" column="18" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="164" column="37" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="92" column="22" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="66" column="38" filename="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" protocol="file" />
-      <jump line="3" column="0" filename="$USER_HOME$/Projects/office_automation_system/templates/components/forms/filled/mix_composition.html" protocol="file" />
-      <jump line="94" column="66" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="5" column="38" filename="$USER_HOME$/Projects/office_automation_system/templates/components/forms/filled/mix_composition.html" protocol="file" />
-      <jump line="11" column="13" filename="$USER_HOME$/Projects/office_automation_system/templates/components/forms/filled/mix_composition.html" protocol="file" />
-      <jump line="3" column="0" filename="$USER_HOME$/Projects/office_automation_system/templates/components/forms/ingredient_supplies_filled_form.html" protocol="file" />
-      <jump line="15" column="6" filename="$USER_HOME$/Projects/office_automation_system/templates/components/forms/filled/ingredient.html" protocol="file" />
-      <jump line="3" column="15" filename="$USER_HOME$/Projects/office_automation_system/templates/components/selectors/supplier_selector_filled_option.html" protocol="file" />
-      <jump line="14" column="37" filename="$USER_HOME$/Projects/office_automation_system/templates/components/forms/filled/ingredient.html" protocol="file" />
-      <jump line="5" column="117" filename="$USER_HOME$/Projects/office_automation_system/templates/components/selectors/supplier_selector_filled_option.html" protocol="file" />
-      <jump line="0" column="8" filename="$USER_HOME$/Projects/office_automation_system/templates/components/forms/filled/mix_composition.html" protocol="file" />
-      <jump line="32" column="15" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="96" column="33" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="82" column="4" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/fetch_ingredient_changes.js" protocol="file" />
-      <jump line="103" column="8" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="10" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/fetch_ingredient_changes.js" protocol="file" />
-      <jump line="104" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="93" column="11" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="89" column="30" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="100" column="25" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="92" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="111" column="4" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="115" column="16" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="113" column="49" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="94" column="6" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="99" column="21" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="102" column="18" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="95" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="126" column="32" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="141" column="4" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="72" column="16" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="61" column="16" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="57" column="13" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="65" column="13" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="31" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="62" column="20" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="55" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="241" column="12" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popups_v2.js" protocol="file" />
-      <jump line="70" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popups_v2.js" protocol="file" />
-      <jump line="8" column="34" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popups_v2.js" protocol="file" />
-      <jump line="2" column="27" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popup_base.js" protocol="file" />
-      <jump line="60" column="13" filename="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" protocol="file" />
-      <jump line="206" column="72" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="3" column="16" filename="$USER_HOME$/Projects/office_automation_system/static/modules/searchSelector.js" protocol="file" />
-      <jump line="208" column="75" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="109" column="24" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="108" column="31" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="69" column="4" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="91" column="18" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="3" column="8" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="4" column="16" filename="$USER_HOME$/Projects/office_automation_system/static/modules/searchSelector.js" protocol="file" />
-      <jump line="97" column="12" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="209" column="69" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="192" column="37" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="45" column="43" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-web/src/rest/mod.rs" protocol="file" />
-      <jump line="114" column="9" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-web/src/rest/ingredients.rs" protocol="file" />
-      <jump line="95" column="27" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="38" column="13" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
-      <jump line="42" column="44" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-web/src/rest/ingredients.rs" protocol="file" />
-      <jump line="106" column="27" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="64" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" protocol="file" />
-      <jump line="205" column="42" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="84" column="4" filename="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" protocol="file" />
       <jump line="68" column="29" filename="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" protocol="file" />
       <jump line="89" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" protocol="file" />
       <jump line="42" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
@@ -124,15 +52,87 @@
       <jump line="98" column="9" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
       <jump line="90" column="73" filename="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" protocol="file" />
       <jump line="69" column="20" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popups_v2.js" protocol="file" />
-      <jump line="112" column="87" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
-      <jump line="109" column="70" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
       <jump line="41" column="44" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-web/src/rest/ingredients.rs" protocol="file" />
-      <jump line="110" column="34" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
       <jump line="111" column="51" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
       <jump line="156" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
       <jump line="154" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
       <jump line="113" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
       <jump line="115" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
+      <jump line="109" column="36" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
+      <jump line="12" column="4" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popups_v2.js" protocol="file" />
+      <jump line="30" column="13" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popups_v2.js" protocol="file" />
+      <jump line="240" column="10" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popups_v2.js" protocol="file" />
+      <jump line="273" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popups_v2.js" protocol="file" />
+      <jump line="4" column="24" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popups_v2.js" protocol="file" />
+      <jump line="36" column="16" filename="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" protocol="file" />
+      <jump line="20" column="7" filename="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" protocol="file" />
+      <jump line="282" column="27" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popups_v2.js" protocol="file" />
+      <jump line="30" column="30" filename="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" protocol="file" />
+      <jump line="5" column="47" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
+      <jump line="8" column="50" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popups_v2.js" protocol="file" />
+      <jump line="110" column="22" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
+      <jump line="104" column="48" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
+      <jump line="49" column="8" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
+      <jump line="65" column="10" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
+      <jump line="20" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
+      <jump line="18" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
+      <jump line="127" column="4" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
+      <jump line="112" column="45" filename="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" protocol="file" />
+      <jump line="131" column="35" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
+      <jump line="16" column="15" filename="$USER_HOME$/Projects/office_automation_system/static/modules/searchSelector.js" protocol="file" />
+      <jump line="71" column="39" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="74" column="56" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="107" column="3" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="39" column="12" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="132" column="21" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
+      <jump line="153" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
+      <jump line="136" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="114" column="22" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="2" column="13" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popup_base.js" protocol="file" />
+      <jump line="30" column="19" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="5" column="13" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="131" column="16" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="82" column="20" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="130" column="23" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="80" column="8" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="60" column="4" filename="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" protocol="file" />
+      <jump line="127" column="62" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="7" column="12" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="5" column="4" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popup_base.js" protocol="file" />
+      <jump line="6" column="33" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="13" column="8" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="14" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="20" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="26" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="29" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="38" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="43" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="63" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="76" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="85" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="91" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="95" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="99" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="103" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="133" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="121" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="119" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="110" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="87" column="1" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="45" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="47" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="56" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="66" column="0" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="27" column="20" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="79" column="40" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="78" column="39" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="115" column="5" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="125" column="18" filename="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" protocol="file" />
+      <jump line="133" column="10" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
+      <jump line="150" column="10" filename="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" protocol="file" />
+      <jump line="26" column="8" filename="$USER_HOME$/Projects/office_automation_system/templates/components/forms/filled/mix_composition.html" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/office_automation_system/templates/components/selectors/ingredient_popup_selector.html" protocol="file" />
     </project>
     <project id="LeetCode-32cebcf5">
       <jump line="0" column="0" filename="$USER_HOME$/Projects/LeetCode/00_uni_code/prac2_1/temperatures.py" protocol="file" />
@@ -163,134 +163,136 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <localmarks>
-      <file name="$USER_HOME$/Projects/office_automation_system/static/interfaces/css/popup_select.css" timestamp="1738308785818">
-        <mark key="&quot;" line="35" column="23" />
+      <file name="$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/panicking.rs" timestamp="1738314442909">
+        <mark key="&quot;" line="41" column="27" />
       </file>
-      <file name="c628670a-74ab-4d14-8643-e1bffdefdaf2/database/postgres.sql" timestamp="1738308776096">
+      <file name="$USER_HOME$/Projects/office_automation_system/static/modules/searchSelector.js" timestamp="1738315057262">
+        <mark key="&quot;" line="3" column="47" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/setup.sh" timestamp="1738402592560">
+        <mark key="&quot;" line="23" column="0" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/static/modules/popups_v2.js" timestamp="1738314670950">
+        <mark key="&quot;" line="9" column="25" />
+        <mark key="'" line="283" column="27" />
+        <mark key="[" line="7" column="40" />
+        <mark key="]" line="8" column="51" />
+        <mark key="^" line="8" column="51" />
+        <mark key="." line="8" column="50" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/templates/components/selectors/ingredient_popup_selector.html" timestamp="1738405184474">
+        <mark key="&quot;" line="0" column="1" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" timestamp="1738403940144">
+        <mark key="&quot;" line="128" column="13" />
+        <mark key="'" line="132" column="21" />
+        <mark key="[" line="139" column="69" />
+        <mark key="]" line="139" column="67" />
+        <mark key="^" line="139" column="67" />
+        <mark key="." line="139" column="66" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/static/interfaces/css/data_table.css" timestamp="1738314535020">
+        <mark key="&quot;" line="334" column="24" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" timestamp="1738405095704">
+        <mark key="&quot;" line="79" column="52" />
+        <mark key="'" line="27" column="20" />
+        <mark key="[" line="122" column="0" />
+        <mark key="]" line="122" column="0" />
+        <mark key="." line="122" column="0" />
+        <mark key="^" line="79" column="41" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" timestamp="1738405183306">
+        <mark key="&quot;" line="8" column="32" />
+        <mark key="'" line="112" column="45" />
+        <mark key="[" line="111" column="51" />
+        <mark key="]" line="112" column="59" />
+        <mark key="." line="112" column="58" />
+        <mark key="^" line="112" column="59" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/migrations/20240802031119_add_ingredient_parent.sql" timestamp="1738314669732">
+        <mark key="&quot;" line="1" column="27" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" timestamp="1738314142864">
+        <mark key="&quot;" line="30" column="30" />
+        <mark key="'" line="36" column="16" />
+        <mark key="[" line="20" column="8" />
+        <mark key="]" line="20" column="8" />
+        <mark key="." line="20" column="7" />
+        <mark key="^" line="20" column="8" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/error.rs" timestamp="1738314633963">
+        <mark key="&quot;" line="7" column="15" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/static/modules/fileUpload.js" timestamp="1738314633537">
+        <mark key="&quot;" line="2" column="35" />
+      </file>
+      <file name="c628670a-74ab-4d14-8643-e1bffdefdaf2/database/postgres/schema/public/table/ingredient/column/parent_id.sql" timestamp="1738314557807">
         <mark key="&quot;" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/crates/services/web-server/src/main.rs" timestamp="1738308844405">
-        <mark key="&quot;" line="43" column="15" />
+      <file name="$USER_HOME$/Projects/office_automation_system/static/modules/popup_base.js" timestamp="1738402595408">
+        <mark key="&quot;" line="2" column="18" />
       </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js" timestamp="1738313336694">
-        <mark key="&quot;" line="213" column="42" />
-        <mark key="'" line="115" column="0" />
-        <mark key="[" line="141" column="0" />
-        <mark key="]" line="141" column="18" />
-        <mark key="." line="111" column="47" />
-        <mark key="^" line="111" column="48" />
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/ingredients/ingredient.rs" timestamp="1738405182604">
+        <mark key="&quot;" line="18" column="28" />
       </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/static/interfaces/css/popup_form.css" timestamp="1738308784304">
-        <mark key="&quot;" line="344" column="41" />
+      <file name="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/data_table.js" timestamp="1738314535142">
+        <mark key="&quot;" line="18" column="35" />
       </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-web/src/rest/ingredients.rs" timestamp="1738313247783">
-        <mark key="&quot;" line="42" column="44" />
-        <mark key="'" line="42" column="45" />
+      <file name="$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.13.0/src/serde_untagged_optional.rs" timestamp="1738314633838">
+        <mark key="&quot;" line="39" column="11" />
       </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/templates/components/id_created_updated_cells.html" timestamp="1738309953041">
+      <file name="$USER_HOME$/Projects/office_automation_system/templates/components/selectors/supplier_selector_filled_option.html" timestamp="1738402592212">
         <mark key="&quot;" line="0" column="1" />
-      </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/static/modules/utils.js" timestamp="1738313247795">
-        <mark key="&quot;" line="90" column="73" />
-        <mark key="[" line="88" column="0" />
-        <mark key="]" line="88" column="0" />
-        <mark key="." line="88" column="0" />
-      </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/setup.sh" timestamp="1738308843242">
-        <mark key="&quot;" line="17" column="44" />
-      </file>
-      <file name="$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/percent-encoding-2.3.1/src/lib.rs" timestamp="1738308842642">
-        <mark key="&quot;" line="0" column="5" />
-      </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/other_scripts/parse_recepie_table.py" timestamp="1738308775520">
-        <mark key="&quot;" line="11" column="21" />
-      </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/static/modules/popups_v2.js" timestamp="1738313247787">
-        <mark key="&quot;" line="28" column="0" />
-        <mark key="'" line="69" column="20" />
-        <mark key="[" line="254" column="70" />
-        <mark key="]" line="254" column="71" />
-        <mark key="^" line="254" column="71" />
-        <mark key="." line="254" column="70" />
-      </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/templates/components/forms/filled/ingredient.html" timestamp="1738309955086">
-        <mark key="&quot;" line="0" column="1" />
-      </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/static/interfaces/js/data_table.js" timestamp="1738308776751">
-        <mark key="&quot;" line="64" column="26" />
-      </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-web/src/rest/mod.rs" timestamp="1738313247772">
-        <mark key="&quot;" line="45" column="43" />
-        <mark key="'" line="45" column="43" />
-      </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/static/modules/dynamicTableForm.js" timestamp="1738312728164">
-        <mark key="&quot;" line="0" column="39" />
-        <mark key="'" line="110" column="31" />
-        <mark key="[" line="49" column="28" />
-        <mark key="]" line="49" column="38" />
-        <mark key="." line="49" column="37" />
-        <mark key="^" line="49" column="38" />
-      </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-template/src/interfaces/ingredients.rs" timestamp="1738308776574">
-        <mark key="&quot;" line="195" column="39" />
-      </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/build.sh" timestamp="1738308842957">
-        <mark key="&quot;" line="11" column="30" />
-      </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-web/src/middleware/mw_auth.rs" timestamp="1738308842318">
-        <mark key="&quot;" line="0" column="5" />
-      </file>
-      <file name="$USER_HOME$/Projects/office_automation_system/static/modules/popupSelector.js" timestamp="1738308796861">
-        <mark key="&quot;" line="100" column="91" />
       </file>
     </localmarks>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="LINE_WISE">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLy8gY29uc3Qgb3B0aW9ucyA9IGNoYW5nZXNMaXN0LnF1ZXJ5U2VsZWN0b3JBbGwoJy5vcHRpb24nKTsKICAgICAgICAgICAgICAgICAgICAgICAgLy8gb3B0aW9ucy5mb3JFYWNoKGZ1bmN0aW9uIChvcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8gICAgIG9wdGlvbi5yZW1vdmUoKTsKICAgICAgICAgICAgICAgICAgICAgICAgLy8gfSk7Cg==</text>
+        <text encoding="base64">ZXhwb3J0IGNsYXNzIFNlbGVjdG9yIGV4dGVuZHMgVUlFbGVtZW50IHsKICAgIGNvbnN0cnVjdG9yKGVsZW1lbnQsIHNlbGVjdG9yUG9wdXAsIGNvbmZpZyA9IHt9KSB7CiAgICAgICAgc3VwZXIoZWxlbWVudCwgY29uZmlnKTsKICAgICAgICBjb25zdCB7CiAgICAgICAgICAgIG9wZW5Qb3B1cFNlbGVjdG9yID0gIi5vcGVuLXBvcHVwLWJ1dHRvbiIsCiAgICAgICAgICAgIHNob3dlZFZhbHVlU2VsZWN0b3IgPSAiLnNob3duLXZhbHVlIiwgZm9ybUlucHV0U2VsZWN0b3IgPSAiLmZvcm0taW5wdXQiLAogICAgICAgIH0gPSBjb25maWc7CgoKICAgICAgICB0aGlzLnBvcHVwID0gc2VsZWN0b3JQb3B1cDsKICAgICAgICB0aGlzLm9wZW5fYnV0dG9uID0gdGhpcy5lbGVtZW50LnF1ZXJ5U2VsZWN0b3Iob3BlblBvcHVwU2VsZWN0b3IpOwogICAgICAgIHRoaXMudmFsdWVfc3BhbiA9IHRoaXMuZWxlbWVudC5xdWVyeVNlbGVjdG9yKHNob3dlZFZhbHVlU2VsZWN0b3IpOwogICAgICAgIHRoaXMuZm9ybUlucHV0ID0gdGhpcy5lbGVtZW50LnF1ZXJ5U2VsZWN0b3IoZm9ybUlucHV0U2VsZWN0b3IpOwoKICAgICAgICB0aGlzLm9wZW5fYnV0dG9uLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgdGhpcy5zaG93UG9wdXAuYmluZCh0aGlzKSk7CiAgICAgICAgdGhpcy5wb3B1cC5zZWFyY2hTZWxlY3RvcklucHV0LmFkZEV2ZW50TGlzdGVuZXIoJ2tleXVwJywgdGhpcy5oYW5kbGVGaWx0ZXIuYmluZCh0aGlzKSk7CiAgICB9CgogICAgc2hvd1BvcHVwKCkgewogICAgICAgIHRoaXMucG9wdXAub3Blbih0aGlzKTsKICAgIH0KCiAgICBoYW5kbGVGaWx0ZXIoKSB7CiAgICAgICAgdGhpcy5wb3B1cC5maWx0ZXJPcHRpb25zKHRoaXMucG9wdXAuc2VhcmNoU2VsZWN0b3JJbnB1dC52YWx1ZSk7CiAgICB9CgogICAgc2VsZWN0T3B0aW9uKG9wdGlvbikgewogICAgICAgIHRoaXMudmFsdWVfc3Bhbi5pbm5lckhUTUwgPSBvcHRpb24uaW5uZXJIVE1MOwogICAgICAgIHRoaXMudmFsdWVfc3Bhbi5xdWVyeVNlbGVjdG9yKCIuZGVzY3JpcHRpb24iKS5yZW1vdmUoKTsgLy8gVE9ETyBJIGhvcGUgbm8gb25lIHNlZXMgdGhpcyBjcmluZ2UKICAgICAgICB0aGlzLmZvcm1JbnB1dC52YWx1ZSA9IG9wdGlvbi5nZXRBdHRyaWJ1dGUoJ2RhdGEtdmFsdWUnKTsKICAgICAgICB0aGlzLmZvcm1JbnB1dC5kaXNwYXRjaEV2ZW50KG5ldyBFdmVudCgnY2hhbmdlJykpOwogICAgfQoKICAgIHNldFZhbHVlKHZhbHVlKSB7CiAgICAgICAgbGV0IG9wdGlvbiA9IHRoaXMucG9wdXAuZ2V0U2hvd25WYWx1ZSh2YWx1ZSk7CiAgICAgICAgdGhpcy52YWx1ZV9zcGFuLmlubmVySFRNTCA9IG9wdGlvbi5pbm5lckhUTUw7CiAgICAgICAgdGhpcy52YWx1ZV9zcGFuLnF1ZXJ5U2VsZWN0b3IoIi5kZXNjcmlwdGlvbiIpLnJlbW92ZSgpOyAvLyBUT0RPIEkgaG9wZSBubyBvbmUgc2VlcyB0aGlzIGNyaW5nZQogICAgICAgIHRoaXMuZm9ybUlucHV0LnZhbHVlID0gdmFsdWU7CiAgICAgICAgdGhpcy5mb3JtSW5wdXQuZGlzcGF0Y2hFdmVudChuZXcgRXZlbnQoJ2NoYW5nZScpKTsKICAgIH0KfQo=</text>
       </register>
       <register name="+" type="LINE_WISE">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLy8gY29uc3Qgb3B0aW9ucyA9IGNoYW5nZXNMaXN0LnF1ZXJ5U2VsZWN0b3JBbGwoJy5vcHRpb24nKTsKICAgICAgICAgICAgICAgICAgICAgICAgLy8gb3B0aW9ucy5mb3JFYWNoKGZ1bmN0aW9uIChvcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8gICAgIG9wdGlvbi5yZW1vdmUoKTsKICAgICAgICAgICAgICAgICAgICAgICAgLy8gfSk7Cg==</text>
+        <text encoding="base64">ZXhwb3J0IGNsYXNzIFNlbGVjdG9yIGV4dGVuZHMgVUlFbGVtZW50IHsKICAgIGNvbnN0cnVjdG9yKGVsZW1lbnQsIHNlbGVjdG9yUG9wdXAsIGNvbmZpZyA9IHt9KSB7CiAgICAgICAgc3VwZXIoZWxlbWVudCwgY29uZmlnKTsKICAgICAgICBjb25zdCB7CiAgICAgICAgICAgIG9wZW5Qb3B1cFNlbGVjdG9yID0gIi5vcGVuLXBvcHVwLWJ1dHRvbiIsCiAgICAgICAgICAgIHNob3dlZFZhbHVlU2VsZWN0b3IgPSAiLnNob3duLXZhbHVlIiwgZm9ybUlucHV0U2VsZWN0b3IgPSAiLmZvcm0taW5wdXQiLAogICAgICAgIH0gPSBjb25maWc7CgoKICAgICAgICB0aGlzLnBvcHVwID0gc2VsZWN0b3JQb3B1cDsKICAgICAgICB0aGlzLm9wZW5fYnV0dG9uID0gdGhpcy5lbGVtZW50LnF1ZXJ5U2VsZWN0b3Iob3BlblBvcHVwU2VsZWN0b3IpOwogICAgICAgIHRoaXMudmFsdWVfc3BhbiA9IHRoaXMuZWxlbWVudC5xdWVyeVNlbGVjdG9yKHNob3dlZFZhbHVlU2VsZWN0b3IpOwogICAgICAgIHRoaXMuZm9ybUlucHV0ID0gdGhpcy5lbGVtZW50LnF1ZXJ5U2VsZWN0b3IoZm9ybUlucHV0U2VsZWN0b3IpOwoKICAgICAgICB0aGlzLm9wZW5fYnV0dG9uLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgdGhpcy5zaG93UG9wdXAuYmluZCh0aGlzKSk7CiAgICAgICAgdGhpcy5wb3B1cC5zZWFyY2hTZWxlY3RvcklucHV0LmFkZEV2ZW50TGlzdGVuZXIoJ2tleXVwJywgdGhpcy5oYW5kbGVGaWx0ZXIuYmluZCh0aGlzKSk7CiAgICB9CgogICAgc2hvd1BvcHVwKCkgewogICAgICAgIHRoaXMucG9wdXAub3Blbih0aGlzKTsKICAgIH0KCiAgICBoYW5kbGVGaWx0ZXIoKSB7CiAgICAgICAgdGhpcy5wb3B1cC5maWx0ZXJPcHRpb25zKHRoaXMucG9wdXAuc2VhcmNoU2VsZWN0b3JJbnB1dC52YWx1ZSk7CiAgICB9CgogICAgc2VsZWN0T3B0aW9uKG9wdGlvbikgewogICAgICAgIHRoaXMudmFsdWVfc3Bhbi5pbm5lckhUTUwgPSBvcHRpb24uaW5uZXJIVE1MOwogICAgICAgIHRoaXMudmFsdWVfc3Bhbi5xdWVyeVNlbGVjdG9yKCIuZGVzY3JpcHRpb24iKS5yZW1vdmUoKTsgLy8gVE9ETyBJIGhvcGUgbm8gb25lIHNlZXMgdGhpcyBjcmluZ2UKICAgICAgICB0aGlzLmZvcm1JbnB1dC52YWx1ZSA9IG9wdGlvbi5nZXRBdHRyaWJ1dGUoJ2RhdGEtdmFsdWUnKTsKICAgICAgICB0aGlzLmZvcm1JbnB1dC5kaXNwYXRjaEV2ZW50KG5ldyBFdmVudCgnY2hhbmdlJykpOwogICAgfQoKICAgIHNldFZhbHVlKHZhbHVlKSB7CiAgICAgICAgbGV0IG9wdGlvbiA9IHRoaXMucG9wdXAuZ2V0U2hvd25WYWx1ZSh2YWx1ZSk7CiAgICAgICAgdGhpcy52YWx1ZV9zcGFuLmlubmVySFRNTCA9IG9wdGlvbi5pbm5lckhUTUw7CiAgICAgICAgdGhpcy52YWx1ZV9zcGFuLnF1ZXJ5U2VsZWN0b3IoIi5kZXNjcmlwdGlvbiIpLnJlbW92ZSgpOyAvLyBUT0RPIEkgaG9wZSBubyBvbmUgc2VlcyB0aGlzIGNyaW5nZQogICAgICAgIHRoaXMuZm9ybUlucHV0LnZhbHVlID0gdmFsdWU7CiAgICAgICAgdGhpcy5mb3JtSW5wdXQuZGlzcGF0Y2hFdmVudChuZXcgRXZlbnQoJ2NoYW5nZScpKTsKICAgIH0KfQo=</text>
       </register>
       <register name="-" type="CHARACTER_WISE">
-        <text encoding="base64">bWl4Y29tcG9zaXRpb24=</text>
+        <text encoding="base64">cG9wdXBTZWxlY3Rvcg==</text>
       </register>
       <register name="." type="CHARACTER_WISE">
-        <text encoding="base64">IGNvbXA6</text>
+        <text encoding="base64">U18=</text>
       </register>
       <register name="/" type="CHARACTER_WISE">
         <text encoding="base64">XDwpXD4=</text>
       </register>
       <register name="0" type="LINE_WISE">
-        <text encoding="base64">ZXhwb3J0IGNsYXNzIFVJRWxlbWVudCB7CiAgICAvKiogQ3JlYXRlcyBhbiBpbnN0YW5jZSBvZiBVSUVsZW1lbnQuCiAgICAgKiBAcGFyYW0ge0hUTUxFbGVtZW50fSBlbGVtZW50IC0gVGhlIERPTSBlbGVtZW50IGFzc29jaWF0ZWQgd2l0aCB0aGlzIFVJRWxlbWVudC4KICAgICAqIEBwYXJhbSB7T2JqZWN0fSBbY29uZmlnPXt9XSAtIENvbmZpZ3VyYXRpb24gb3B0aW9ucyBmb3IgdGhlIFVJRWxlbWVudC4KICAgICAqIEB0aHJvd3Mge0Vycm9yfSBUaHJvd3MgYW4gZXJyb3IgaWYgbm8gZWxlbWVudCBpcyBwcm92aWRlZC4KICAgICAqLwogICAgY29uc3RydWN0b3IoZWxlbWVudCwgY29uZmlnID0ge30pIHsKICAgICAgICBpZiAoIWVsZW1lbnQpIHsKICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKGBObyBlbGVtZW50IGZvdW5kIGZvciAiJHt0aGlzLmNvbnN0cnVjdG9yLm5hbWV9ImApOwogICAgICAgIH0KICAgICAgICB0aGlzLmNvbmZpZyA9IGNvbmZpZyB8fCB7fTsKICAgICAgICB0aGlzLmVsZW1lbnQgPSBlbGVtZW50OwogICAgICAgIC8vIHRoaXMuaWQgPSBvcHRpb25zLmlkIHx8IHRoaXMuZ2VuZXJhdGVJZCgpOwogICAgICAgIC8vIHRoaXMuY2xhc3NlcyA9IG9wdGlvbnMuY2xhc3NlcyB8fCBbXTsKICAgICAgICAvLyB0aGlzLnJlbmRlcigpOwogICAgfQoKICAgIC8qKgogICAgICogUHJvY2Vzc2VzIGlubmVyIGNvbmZpZ3VyYXRpb25zIHRvIGluaXRpYWxpemUgbmVzdGVkIFVJIGVsZW1lbnRzLgogICAgICogRWFjaCBjb25maWd1cmF0aW9uIG11c3Qgc3BlY2lmeSBhIHNlbGVjdG9yIGFuZCBlaXRoZXIgYW4gb2JqZWN0IGNsYXNzIG9yIGEgY3VzdG9tIGluaXRpYWxpemVyIGZ1bmN0aW9uLgogICAgICogQHRocm93cyB7RXJyb3J9IFRocm93cyBhbiBlcnJvciBpZiB0aGUgY29uZmlndXJhdGlvbiBpcyBpbnZhbGlkLgogICAgICovCiAgICBwcm9jZXNzSW5uZXJDb25maWdzKCkgewogICAgICAgIGlmICh0aGlzLmNvbmZpZy5pbm5lckNvbmZpZ3MpIHsKICAgICAgICAgICAgdGhpcy5jb25maWcuaW5uZXJDb25maWdzLmZvckVhY2goY29uZmlnID0+IHsKICAgICAgICAgICAgICAgIGNvbnN0IHtzZWxlY3Rvciwgb2JqZWN0Q2xhc3MsIGdyb3VwLCBwYXJhbWV0ZXJzLCBjdXN0b21Jbml0fSA9IGNvbmZpZzsKCiAgICAgICAgICAgICAgICBpZiAoY3VzdG9tSW5pdCAmJiB0eXBlb2YgY3VzdG9tSW5pdCA9PT0gJ2Z1bmN0aW9uJykgewogICAgICAgICAgICAgICAgICAgIGN1c3RvbUluaXQodGhpcywgc2VsZWN0b3IpOwogICAgICAgICAgICAgICAgfSBlbHNlIGlmIChvYmplY3RDbGFzcykgewogICAgICAgICAgICAgICAgICAgIHRoaXMuX2luaXRPYmplY3RDbGFzcyhzZWxlY3Rvciwgb2JqZWN0Q2xhc3MsIGdyb3VwLCBwYXJhbWV0ZXJzKTsKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKGBJbnZhbGlkIGNvbmZpZ3VyYXRpb24gZm9yIGlubmVyIGZvcm06ICR7Y29uZmlnfWApOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9KTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBJbml0aWFsaXplcyBpbnN0YW5jZXMgb2YgYSBnaXZlbiBvYmplY3QgY2xhc3MgYmFzZWQgb24gZWxlbWVudHMgZm91bmQgd2l0aCB0aGUgc3BlY2lmaWVkIHNlbGVjdG9yLgogICAgICogQHBhcmFtIHtzdHJpbmd9IHNlbGVjdG9yIC0gVGhlIENTUyBzZWxlY3RvciB0byBmaW5kIGVsZW1lbnRzIHRvIGluaXRpYWxpemUuCiAgICAgKiBAcGFyYW0ge0Z1bmN0aW9ufSBvYmplY3RDbGFzcyAtIFRoZSBjbGFzcyBjb25zdHJ1Y3RvciB0byBpbnN0YW50aWF0ZS4KICAgICAqIEBwYXJhbSB7c3RyaW5nfSBncm91cCAtIFRoZSBncm91cCBuYW1lIHVuZGVyIHdoaWNoIGluc3RhbmNlcyBzaG91bGQgYmUgc3RvcmVkLgogICAgICogQHBhcmFtIHtGdW5jdGlvbnxPYmplY3R8bnVsbH0gcGFyYW1ldGVycyAtIFBhcmFtZXRlcnMgZm9yIGluc3RhbnRpYXRpb24uIENhbiBiZSBhIGZ1bmN0aW9uIHJldHVybmluZyBwYXJhbWV0ZXJzLCBhbiBvYmplY3QsIG9yIG51bGwuCiAgICAgKiBAdGhyb3dzIHtFcnJvcn0gVGhyb3dzIGFuIGVycm9yIGlmIHBhcmFtZXRlcnMgYXJlIGludmFsaWQuCiAgICAgKi8KICAgIF9pbml0T2JqZWN0Q2xhc3Moc2VsZWN0b3IsIG9iamVjdENsYXNzLCBncm91cCwgcGFyYW1ldGVycykgewogICAgICAgIHRoaXMuZWxlbWVudC5xdWVyeVNlbGVjdG9yQWxsKHNlbGVjdG9yKS5mb3JFYWNoKChlbGVtZW50KSA9PiB7CiAgICAgICAgICAgIGxldCBvYmplY3RJbnN0YW5jZTsKICAgICAgICAgICAgaWYgKHR5cGVvZiBwYXJhbWV0ZXJzID09PSAnZnVuY3Rpb24nKSB7CiAgICAgICAgICAgICAgICBvYmplY3RJbnN0YW5jZSA9IG5ldyBvYmplY3RDbGFzcyguLi5wYXJhbWV0ZXJzKGVsZW1lbnQpKTsKICAgICAgICAgICAgfSBlbHNlIGlmICh0eXBlb2YgcGFyYW1ldGVycyA9PT0gJ29iamVjdCcpIHsKICAgICAgICAgICAgICAgIG9iamVjdEluc3RhbmNlID0gbmV3IG9iamVjdENsYXNzKGVsZW1lbnQsIHBhcmFtZXRlcnMpOwogICAgICAgICAgICB9IGVsc2UgaWYgKCFwYXJhbWV0ZXJzKSB7CiAgICAgICAgICAgICAgICBvYmplY3RJbnN0YW5jZSA9IG5ldyBvYmplY3RDbGFzcyhlbGVtZW50LCB7fSk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYEludmFsaWQgcGFyYW1ldGVycyAke3BhcmFtZXRlcnN9IGZvciAke29iamVjdENsYXNzfWApOwogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoIXRoaXNbZ3JvdXBdKSB7CiAgICAgICAgICAgICAgICB0aGlzW2dyb3VwXSA9IFtdOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHRoaXNbZ3JvdXBdLnB1c2gob2JqZWN0SW5zdGFuY2UpOwoKICAgICAgICAgICAgLy8gaWYgKGdyb3VwID09PSAiYWZ0ZXJfZm9ybSIpIHsKICAgICAgICAgICAgLy8gICAgIHRoaXMuYWZ0ZXJfZm9ybXMucHVzaChvYmplY3RJbnN0YW5jZSk7CiAgICAgICAgICAgIC8vIH0gZWxzZSBpZiAoZ3JvdXAgPT09ICJ3aXRoX2Zvcm0iKSB7CiAgICAgICAgICAgIC8vICAgICB0aGlzLndpdGhfZm9ybXMucHVzaChvYmplY3RJbnN0YW5jZSk7CiAgICAgICAgICAgIC8vIH0gZWxzZSB7CiAgICAgICAgICAgIC8vICAgICB0aHJvdyBuZXcgRXJyb3IoYEludmFsaWQgb3JkZXIgJHtncm91cH0gZm9yICR7b2JqZWN0Q2xhc3N9YCk7CiAgICAgICAgICAgIC8vIH0KICAgICAgICB9KTsKICAgIH0K</text>
+        <text encoding="base64">ZXhwb3J0IGNsYXNzIFNlbGVjdG9yIGV4dGVuZHMgVUlFbGVtZW50IHsKICAgIGNvbnN0cnVjdG9yKGVsZW1lbnQsIHNlbGVjdG9yUG9wdXAsIGNvbmZpZyA9IHt9KSB7CiAgICAgICAgc3VwZXIoZWxlbWVudCwgY29uZmlnKTsKICAgICAgICBjb25zdCB7CiAgICAgICAgICAgIG9wZW5Qb3B1cFNlbGVjdG9yID0gIi5vcGVuLXBvcHVwLWJ1dHRvbiIsCiAgICAgICAgICAgIHNob3dlZFZhbHVlU2VsZWN0b3IgPSAiLnNob3duLXZhbHVlIiwgZm9ybUlucHV0U2VsZWN0b3IgPSAiLmZvcm0taW5wdXQiLAogICAgICAgIH0gPSBjb25maWc7CgoKICAgICAgICB0aGlzLnBvcHVwID0gc2VsZWN0b3JQb3B1cDsKICAgICAgICB0aGlzLm9wZW5fYnV0dG9uID0gdGhpcy5lbGVtZW50LnF1ZXJ5U2VsZWN0b3Iob3BlblBvcHVwU2VsZWN0b3IpOwogICAgICAgIHRoaXMudmFsdWVfc3BhbiA9IHRoaXMuZWxlbWVudC5xdWVyeVNlbGVjdG9yKHNob3dlZFZhbHVlU2VsZWN0b3IpOwogICAgICAgIHRoaXMuZm9ybUlucHV0ID0gdGhpcy5lbGVtZW50LnF1ZXJ5U2VsZWN0b3IoZm9ybUlucHV0U2VsZWN0b3IpOwoKICAgICAgICB0aGlzLm9wZW5fYnV0dG9uLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgdGhpcy5zaG93UG9wdXAuYmluZCh0aGlzKSk7CiAgICAgICAgdGhpcy5wb3B1cC5zZWFyY2hTZWxlY3RvcklucHV0LmFkZEV2ZW50TGlzdGVuZXIoJ2tleXVwJywgdGhpcy5oYW5kbGVGaWx0ZXIuYmluZCh0aGlzKSk7CiAgICB9CgogICAgc2hvd1BvcHVwKCkgewogICAgICAgIHRoaXMucG9wdXAub3Blbih0aGlzKTsKICAgIH0KCiAgICBoYW5kbGVGaWx0ZXIoKSB7CiAgICAgICAgdGhpcy5wb3B1cC5maWx0ZXJPcHRpb25zKHRoaXMucG9wdXAuc2VhcmNoU2VsZWN0b3JJbnB1dC52YWx1ZSk7CiAgICB9CgogICAgc2VsZWN0T3B0aW9uKG9wdGlvbikgewogICAgICAgIHRoaXMudmFsdWVfc3Bhbi5pbm5lckhUTUwgPSBvcHRpb24uaW5uZXJIVE1MOwogICAgICAgIHRoaXMudmFsdWVfc3Bhbi5xdWVyeVNlbGVjdG9yKCIuZGVzY3JpcHRpb24iKS5yZW1vdmUoKTsgLy8gVE9ETyBJIGhvcGUgbm8gb25lIHNlZXMgdGhpcyBjcmluZ2UKICAgICAgICB0aGlzLmZvcm1JbnB1dC52YWx1ZSA9IG9wdGlvbi5nZXRBdHRyaWJ1dGUoJ2RhdGEtdmFsdWUnKTsKICAgICAgICB0aGlzLmZvcm1JbnB1dC5kaXNwYXRjaEV2ZW50KG5ldyBFdmVudCgnY2hhbmdlJykpOwogICAgfQoKICAgIHNldFZhbHVlKHZhbHVlKSB7CiAgICAgICAgbGV0IG9wdGlvbiA9IHRoaXMucG9wdXAuZ2V0U2hvd25WYWx1ZSh2YWx1ZSk7CiAgICAgICAgdGhpcy52YWx1ZV9zcGFuLmlubmVySFRNTCA9IG9wdGlvbi5pbm5lckhUTUw7CiAgICAgICAgdGhpcy52YWx1ZV9zcGFuLnF1ZXJ5U2VsZWN0b3IoIi5kZXNjcmlwdGlvbiIpLnJlbW92ZSgpOyAvLyBUT0RPIEkgaG9wZSBubyBvbmUgc2VlcyB0aGlzIGNyaW5nZQogICAgICAgIHRoaXMuZm9ybUlucHV0LnZhbHVlID0gdmFsdWU7CiAgICAgICAgdGhpcy5mb3JtSW5wdXQuZGlzcGF0Y2hFdmVudChuZXcgRXZlbnQoJ2NoYW5nZScpKTsKICAgIH0KfQo=</text>
       </register>
       <register name="1" type="LINE_WISE">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLy8gY29uc3Qgb3B0aW9ucyA9IGNoYW5nZXNMaXN0LnF1ZXJ5U2VsZWN0b3JBbGwoJy5vcHRpb24nKTsKICAgICAgICAgICAgICAgICAgICAgICAgLy8gb3B0aW9ucy5mb3JFYWNoKGZ1bmN0aW9uIChvcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8gICAgIG9wdGlvbi5yZW1vdmUoKTsKICAgICAgICAgICAgICAgICAgICAgICAgLy8gfSk7Cg==</text>
+        <text encoding="base64">ICAgIC8vRklYOiBzdG9wcGVkIGhlcmUK</text>
       </register>
       <register name="2" type="LINE_WISE">
-        <text encoding="base64">ICAgICAgICAgICAgZmV0Y2goYC9hcGkvaW5ncmVkaWVudHMvJHtkeW5hbWljVGFibGVPYmplY3QucGFyZW50Ln0vYW1vdW50X2NoYW5nZXNgKS50aGVuKHJlc3BvbnNlID0+IHJlc3BvbnNlLmpzb24oKSkKICAgICAgICAgICAgICAgIC50aGVuKGRhdGEgPT4gewogICAgICAgICAgICAgICAgICAgIC8vIGNsZWFyIGxpc3QKICAgICAgICAgICAgICAgICAgICBjb25zdCBvcHRpb25zID0gY2hhbmdlc0xpc3QucXVlcnlTZWxlY3RvckFsbCgnLm9wdGlvbicpOwogICAgICAgICAgICAgICAgICAgIG9wdGlvbnMuZm9yRWFjaChmdW5jdGlvbiAob3B0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIG9wdGlvbi5yZW1vdmUoKTsKICAgICAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgICAgICAvLyBhZGQgZGF0YQogICAgICAgICAgICAgICAgICAgIGRhdGEuZm9yRWFjaChjaGFuZ2VzX2RhdGEgPT4gewogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBkYXRlID0gbmV3IERhdGUoY2hhbmdlc19kYXRhLmRhdGUpOwogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBmb3JtYXR0ZXIgPSBuZXcgSW50bC5EYXRlVGltZUZvcm1hdCgncnUtUlUnLCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkYXk6ICdudW1lcmljJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vbnRoOiAnbG9uZycsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB5ZWFyOiAnbnVtZXJpYycsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aW1lWm9uZTogJ0V1cm9wZS9Nb3Njb3cnLAogICAgICAgICAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgZm9ybWF0dGVkRGF0ZSA9IGZvcm1hdHRlci5mb3JtYXQoZGF0ZSk7CgogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBjbG9uZSA9IGNoYW5nZVRlbXBsYXRlLmNvbnRlbnQuY2xvbmVOb2RlKHRydWUpOwoKICAgICAgICAgICAgICAgICAgICAgICAgY2xvbmUucXVlcnlTZWxlY3RvcignLmRhdGUnKS50ZXh0Q29udGVudCA9IGZvcm1hdHRlZERhdGU7CiAgICAgICAgICAgICAgICAgICAgICAgIGNsb25lLnF1ZXJ5U2VsZWN0b3IoJy5jaGFuZ2UnKS50ZXh0Q29udGVudCA9IGNoYW5nZXNfZGF0YS5jaGFuZ2U7CiAgICAgICAgICAgICAgICAgICAgICAgIGNsb25lLnF1ZXJ5U2VsZWN0b3IoJy50eXBlJykudGV4dENvbnRlbnQgPSB0eXBlTWFwcGluZ1tjaGFuZ2VzX2RhdGEudHlwZV0gfHwgJ9C90LXQuNC30LLQtdGB0YLQvdGL0Lkg0YLQuNC/JzsKCgogICAgICAgICAgICAgICAgICAgICAgICAvLyBBcHBseSBjb2xvciBiYXNlZCBvbiB0aGUgY2hhbmdlIHZhbHVlCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChjaGFuZ2VzX2RhdGEuY2hhbmdlID4gMCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xvbmUucXVlcnlTZWxlY3RvcignLmNoYW5nZScpLnN0eWxlLmNvbG9yID0gJ2dyZWVuJzsKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIGlmIChjaGFuZ2VzX2RhdGEuY2hhbmdlIDwgMCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xvbmUucXVlcnlTZWxlY3RvcignLmNoYW5nZScpLnN0eWxlLmNvbG9yID0gJ3JlZCc7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIGNoYW5nZXNMaXN0LmFwcGVuZENoaWxkKGNsb25lKTsKICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC5jYXRjaChlcnJvciA9PiB7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcignRXJyb3IgZmV0Y2hpbmcgdmVyc2lvbiBoaXN0b3J5OicsIGVycm9yKTsKICAgICAgICAgICAgICAgIH0pOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="3" type="LINE_WISE">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG9iamVjdEluc3RhbmNlID0gbmV3IG9iamVjdENsYXNzKGVsZW1lbnQsIHsuLi5wYXJhbWV0ZXJzKGVsZW1lbnQpLCBwYXJlbnQ6IHRoaXN9KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="4" type="LINE_WISE">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIFBhc3MgdGhlIHBhcmVudCAodGhpcykgYXMgYW4gYWRkaXRpb25hbCBwYXJhbWV0ZXIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="LINE_WISE">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIFBhc3MgdGhlIHBhcmVudCAodGhpcykgYXMgYW4gYWRkaXRpb25hbCBwYXJhbWV0ZXIK</text>
+        <text encoding="base64">ICAgICAgICBpZiAoZmlsdGVyZWRJdGVtc0xlbmd0aCA9PT0gMCkgewogICAgICAgICAgICB0aGlzLmVycl9tZXNzYWdlLmNsYXNzTGlzdC5hZGQoInNob3ciKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB0aGlzLmVycl9tZXNzYWdlLmNsYXNzTGlzdC5yZW1vdmUoInNob3ciKTsKICAgICAgICB9Cg==</text>
       </register>
       <register name="6" type="LINE_WISE">
-        <text encoding="base64">ICAgIF9pbml0T2JqZWN0Q2xhc3Moc2VsZWN0b3IsIG9iamVjdENsYXNzLCBncm91cCwgcGFyYW1ldGVycykgewogICAgICAgIHRoaXMuZWxlbWVudC5xdWVyeVNlbGVjdG9yQWxsKHNlbGVjdG9yKS5mb3JFYWNoKChlbGVtZW50KSA9PiB7CiAgICAgICAgICAgIGxldCBvYmplY3RJbnN0YW5jZTsKICAgICAgICAgICAgaWYgKHR5cGVvZiBwYXJhbWV0ZXJzID09PSAnZnVuY3Rpb24nKSB7CiAgICAgICAgICAgICAgICBvYmplY3RJbnN0YW5jZSA9IG5ldyBvYmplY3RDbGFzcyguLi5wYXJhbWV0ZXJzKGVsZW1lbnQpKTsKICAgICAgICAgICAgfSBlbHNlIGlmICh0eXBlb2YgcGFyYW1ldGVycyA9PT0gJ29iamVjdCcpIHsKICAgICAgICAgICAgICAgIG9iamVjdEluc3RhbmNlID0gbmV3IG9iamVjdENsYXNzKGVsZW1lbnQsIHBhcmFtZXRlcnMpOwogICAgICAgICAgICB9IGVsc2UgaWYgKCFwYXJhbWV0ZXJzKSB7CiAgICAgICAgICAgICAgICBvYmplY3RJbnN0YW5jZSA9IG5ldyBvYmplY3RDbGFzcyhlbGVtZW50LCB7fSk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYEludmFsaWQgcGFyYW1ldGVycyAke3BhcmFtZXRlcnN9IGZvciAke29iamVjdENsYXNzfWApOwogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoIXRoaXNbZ3JvdXBdKSB7CiAgICAgICAgICAgICAgICB0aGlzW2dyb3VwXSA9IFtdOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHRoaXNbZ3JvdXBdLnB1c2gob2JqZWN0SW5zdGFuY2UpOwoKICAgICAgICAgICAgLy8gaWYgKGdyb3VwID09PSAiYWZ0ZXJfZm9ybSIpIHsKICAgICAgICAgICAgLy8gICAgIHRoaXMuYWZ0ZXJfZm9ybXMucHVzaChvYmplY3RJbnN0YW5jZSk7CiAgICAgICAgICAgIC8vIH0gZWxzZSBpZiAoZ3JvdXAgPT09ICJ3aXRoX2Zvcm0iKSB7CiAgICAgICAgICAgIC8vICAgICB0aGlzLndpdGhfZm9ybXMucHVzaChvYmplY3RJbnN0YW5jZSk7CiAgICAgICAgICAgIC8vIH0gZWxzZSB7CiAgICAgICAgICAgIC8vICAgICB0aHJvdyBuZXcgRXJyb3IoYEludmFsaWQgb3JkZXIgJHtncm91cH0gZm9yICR7b2JqZWN0Q2xhc3N9YCk7CiAgICAgICAgICAgIC8vIH0KICAgICAgICB9KTsKICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZpbHRlcmVkSXRlbXNMZW5ndGggKz0gMTsK</text>
       </register>
       <register name="7" type="LINE_WISE">
-        <text encoding="base64">ICAgICAgICAgICAgcGFyZW50Cg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQgZmlsdGVyZWRJdGVtc0xlbmd0aCA9IDA7Cg==</text>
       </register>
       <register name="8" type="LINE_WISE">
-        <text encoding="base64">ICAgIH0pCg==</text>
+        <text encoding="base64">CiAgICAgICAgaWYgKGZpbHRlcmVkSXRlbXNMZW5ndGggPT09IDApIHsKICAgICAgICAgICAgdGhpcy5lcnJfbWVzc2FnZS5jbGFzc0xpc3QuYWRkKCJzaG93Iik7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdGhpcy5lcnJfbWVzc2FnZS5jbGFzc0xpc3QucmVtb3ZlKCJzaG93Iik7CiAgICAgICAgfQo=</text>
       </register>
-      <register name="9" type="LINE_WISE">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5kZWJ1ZygiYXBwbHlSb3dGdW5jIiwgcm93KTsK</text>
+      <register name="9" type="CHARACTER_WISE">
+        <text encoding="base64">ZWxzZSB7CiAgICAgICAgICAgIH0=</text>
       </register>
       <register name=":" type="CHARACTER_WISE">
         <text encoding="base64">dmVyYm9zZSBtYXAgPGxlYWRlcj5w</text>

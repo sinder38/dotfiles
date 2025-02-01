@@ -28,17 +28,17 @@
     <size key="GridCell.Tab.3.bottom.0.0.2560.1600@168dpi" width="2444" height="460" />
   </component>
   <component name="WindowManager">
-    <frame x="1280" y="39" width="1280" height="1561" extendedState="6" />
+    <frame x="0" y="39" width="2560" height="1561" extendedState="6" />
   </component>
   <component name="WindowStateApplicationService">
     <state x="952" y="425" key="FileChooserDialogImpl" timestamp="1733333199338">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="952" y="425" key="FileChooserDialogImpl/0.39.2560.1561" timestamp="1733333199338" />
-    <state width="863" height="275" key="ShowUsagesActions.dimensionServiceKey.ideScale=125" timestamp="1738310048657">
+    <state width="863" height="184" key="ShowUsagesActions.dimensionServiceKey.ideScale=125" timestamp="1738404038695">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="863" height="275" key="ShowUsagesActions.dimensionServiceKey.ideScale=125/0.39.2560.1561" timestamp="1738310048657" />
+    <state width="863" height="184" key="ShowUsagesActions.dimensionServiceKey.ideScale=125/0.39.2560.1561" timestamp="1738404038695" />
     <state width="742" height="175" key="ShowUsagesActions.dimensionServiceKey.ideScale=150" timestamp="1733407711248">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>

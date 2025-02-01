@@ -205,7 +205,7 @@
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Rerun 'Cargo: run'</Description>
           <Count>17</Count>
-          <Hit>9</Hit>
+          <Hit>11</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'Rerun Failed Tests'">
@@ -245,8 +245,8 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run</Description>
-          <Count>40</Count>
-          <Hit>62</Hit>
+          <Count>41</Count>
+          <Hit>67</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Select In…">
@@ -263,7 +263,7 @@
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings…</Description>
           <Count>1</Count>
-          <Hit>12</Hit>
+          <Hit>17</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Speed Search">
@@ -321,7 +321,7 @@
           <ShortCut>'Alt+F12'</ShortCut>
           <Description>Terminal</Description>
           <Count>33</Count>
-          <Hit>23</Hit>
+          <Hit>26</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Text…">
