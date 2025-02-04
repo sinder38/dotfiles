@@ -20,5 +20,7 @@ nvim/lazyvim.json
 !zed/**
 
 # RustRover (maybe saving this using GitHub is a bad idea)
-!JetBrains/
-!JetBrains/**
+!JetBrains/RustRover2024.3/codestyles
+!JetBrains/RustRover2024.3/options
+!JetBrains/RustRover2024.3/keymaps
+!JetBrains/*

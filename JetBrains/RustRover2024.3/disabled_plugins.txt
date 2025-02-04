@@ -3,6 +3,7 @@ AutoSwitchIm
 IdeaVimExtension
 com.intellij.ja
 com.intellij.ko
+com.intellij.settingsSync
 com.intellij.zh
 com.mallowigi
 dev.turingcomplete.intellijdevelopertoolsplugins
