@@ -6,80 +6,69 @@
       </GroupState>
     </option>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="4b1c433e:BranchNodeDescriptor$Root" />
+        <item name="LOCAL" type="7ab31ef7:BranchNodeDescriptor$TopLevelGroup" />
+      </path>
+      <path>
+        <item name="ROOT" type="4b1c433e:BranchNodeDescriptor$Root" />
+        <item name="REMOTE" type="7ab31ef7:BranchNodeDescriptor$TopLevelGroup" />
+      </path>
+      <path>
+        <item name="ROOT" type="4b1c433e:BranchNodeDescriptor$Root" />
+        <item name="REMOTE" type="7ab31ef7:BranchNodeDescriptor$TopLevelGroup" />
+        <item name="REMOTE:origin" type="9a375a70:BranchNodeDescriptor$RemoteGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="8cqs76qdtrpc" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+    <leaf ideFingerprint="10bc3bg75o64m" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file>
-        <entry file="file://$PROJECT_DIR$/00_uni_code/prac2_1/temperatures.py">
+        <entry file="file://$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance/src/main.rs">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="840">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="951">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding>
-                <element signature="e#0#71#1" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#435#658#0" expanded="true" />
+                <element signature="n#!!block;n#comp_sum#0" expanded="true" />
+                <element signature="n#!!block;n#generate_composition#0" expanded="true" />
+                <element signature="n#!!block;n#main#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"temperatures.py","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/00_uni_code/prac2_1/sales_bonus.py">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="160">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"sales_bonus.py","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/00_uni_code/prac2_1/loops.py">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="1040">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"loops.py","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/00_uni_code/prac2_1/shop_calculator.py">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="520">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"shop_calculator.py","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/00_uni_code/prac2_1/menus.py">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="640">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"menus.py","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"trait_common_behaiviour_performance/…/main.rs","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,116,10,114,106,97,114,58,102,105,108,101,58,47,111,112,116,47,82,117,115,116,82,111,118,101,114,45,50,48,50,52,46,51,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,45,50,52,51,46,50,49,53,54,53,46,50,52,53,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
       </file>
       <file current-in-tab="true">
-        <entry file="file://$USER_HOME$/.ideavimrc">
+        <entry file="file://$PROJECT_DIR$/codepen/test.py">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="905">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="880">
+              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+              <folding>
+                <element signature="e#1741#1920#0" expanded="true" />
+                <element signature="e#1974#2294#0" expanded="true" />
+                <element signature="e#2352#2500#0" expanded="true" />
+                <element signature="e#2529#2796#0" expanded="true" />
+                <element signature="e#2836#3105#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":".ideavimrc","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,73,10,18,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-122,-48,-19,-85,-2,-1,-1,-1,-1,1,48,0]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"test.py","foregroundColor":-2712981,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"d69a6b"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
       </file>
       <file>
-        <entry file="file://$PROJECT_DIR$/00_uni_code/prac2_1/broken_score.py">
+        <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand-0.9.0/src/rng.rs">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="40">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="680">
+              <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"broken_score.py","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"rng.rs","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,116,10,114,106,97,114,58,102,105,108,101,58,47,111,112,116,47,82,117,115,116,82,111,118,101,114,45,50,48,50,52,46,51,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,45,50,52,51,46,50,49,53,54,53,46,50,52,53,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
       </file>
     </leaf>
   </component>
@@ -90,12 +79,20 @@
       "lastUsed": 1737967149519
     },
     "Python": {
-      "usageCount": 23,
-      "lastUsed": 1738552124877
+      "usageCount": 50,
+      "lastUsed": 1742134268803
     },
     "textmate": {
+      "usageCount": 9,
+      "lastUsed": 1741302240567
+    },
+    "Rust": {
+      "usageCount": 21,
+      "lastUsed": 1742134268721
+    },
+    "DIFF": {
       "usageCount": 3,
-      "lastUsed": 1738552125079
+      "lastUsed": 1741302923237
     }
   }
 }]]></component>
@@ -116,7 +113,11 @@
     &quot;/home/sinder/Projects/LeetCode/00_uni_code/prac2_1/loops.py&quot;,
     &quot;/home/sinder/Projects/LeetCode/00_uni_code/prac2_1/shop_calculator.py&quot;,
     &quot;/home/sinder/Projects/LeetCode/00_uni_code/prac2_1/menus.py&quot;,
-    &quot;/home/sinder/.ideavimrc&quot;
+    &quot;/home/sinder/Projects/LeetCode/codepen/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs&quot;,
+    &quot;/home/sinder/.ideavimrc&quot;,
+    &quot;/home/sinder/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/codepen/test.py&quot;
   ]
 }</component>
   <component name="IgnoredFileRootStore">
@@ -128,10 +129,13 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="Python">
-      <summary usageCount="23" lastUsage="1738552124877" />
+      <summary usageCount="50" lastUsage="1742134268803" />
+    </language>
+    <language id="Rust">
+      <summary usageCount="21" lastUsage="1742134268721" />
     </language>
     <language id="textmate">
-      <summary usageCount="3" lastUsage="1738552125079" />
+      <summary usageCount="9" lastUsage="1741302240567" />
     </language>
   </component>
   <component name="ProjectView">
@@ -147,13 +151,42 @@
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/prac2_1}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/codepen}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/codepen}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/codepen/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values/src}" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,194 +219,131 @@
                 </attributes>
                 <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="00_uni_code" />
                 <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/code_pen_records" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="code_pen_records" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records}" type="462c0819:PsiDirectoryNode" />
                 <presentation>
                   <attributes>
                     <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/assignment1" />
+                      <entry key="filePath" value="$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance" />
                     </map>
                   </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="assignment1" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/assignment1}" type="462c0819:PsiDirectoryNode" />
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="trait_common_behaiviour_performance" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance/src" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                    <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance/src/main.rs" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="main.rs" />
+                      <item name="main.rs" type="f3e56494:RsPsiFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance/target" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
+                    <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/target}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance/Cargo.lock" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="Cargo.lock" />
+                    <item name="Cargo.lock" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance/Cargo.toml" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="Cargo.toml" />
+                    <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                  </presentation>
                 </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/codepen" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="codepen" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/codepen}" type="462c0819:PsiDirectoryNode" />
                 <presentation>
                   <attributes>
                     <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/assignment2" />
+                      <entry key="filePath" value="$PROJECT_DIR$/codepen/src" />
                     </map>
                   </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="assignment2" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/assignment2}" type="462c0819:PsiDirectoryNode" />
-                </presentation>
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac1" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="prac1" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/prac1}" type="462c0819:PsiDirectoryNode" />
-                </presentation>
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac2" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="prac2" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/prac2}" type="462c0819:PsiDirectoryNode" />
-                </presentation>
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac2_1" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="prac2_1" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/prac2_1}" type="462c0819:PsiDirectoryNode" />
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/codepen/src}" type="462c0819:PsiDirectoryNode" />
                   <presentation>
                     <attributes>
                       <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac2_1/broken_score.py" />
+                        <entry key="filePath" value="$PROJECT_DIR$/codepen/src/main.rs" />
                       </map>
                     </attributes>
-                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="broken_score.py" />
-                    <item name="broken_score.py" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac2_1/loops.py" />
-                      </map>
-                    </attributes>
-                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="loops.py" />
-                    <item name="loops.py" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac2_1/menus.py" />
-                      </map>
-                    </attributes>
-                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="menus.py" />
-                    <item name="menus.py" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac2_1/sales_bonus.py" />
-                      </map>
-                    </attributes>
-                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="sales_bonus.py" />
-                    <item name="sales_bonus.py" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac2_1/shop_calculator.py" />
-                      </map>
-                    </attributes>
-                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="shop_calculator.py" />
-                    <item name="shop_calculator.py" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac2_1/temperatures.py" />
-                      </map>
-                    </attributes>
-                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="temperatures.py" />
-                    <item name="temperatures.py" type="ab9368bb:PsiFileNode" />
+                    <data isLeaf="true" text="main.rs" />
+                    <item name="main.rs" type="f3e56494:RsPsiFileNode" />
                   </presentation>
                 </presentation>
                 <presentation>
                   <attributes>
                     <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac3" />
+                      <entry key="filePath" value="$PROJECT_DIR$/codepen/target" />
                     </map>
                   </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="prac3" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/prac3}" type="462c0819:PsiDirectoryNode" />
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/codepen/target}" type="462c0819:PsiDirectoryNode" />
                 </presentation>
                 <presentation>
                   <attributes>
                     <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac5" />
+                      <entry key="filePath" value="$PROJECT_DIR$/codepen/Cargo.lock" />
                     </map>
                   </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="prac5" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/prac5}" type="462c0819:PsiDirectoryNode" />
+                  <data isLeaf="true" text="Cargo.lock" />
+                  <item name="Cargo.lock" type="ab9368bb:PsiFileNode" />
                 </presentation>
                 <presentation>
                   <attributes>
                     <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac6" />
+                      <entry key="filePath" value="$PROJECT_DIR$/codepen/Cargo.toml" />
                     </map>
                   </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="prac6" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/prac6}" type="462c0819:PsiDirectoryNode" />
+                  <data isLeaf="true" text="Cargo.toml" />
+                  <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
                 </presentation>
                 <presentation>
                   <attributes>
                     <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac7" />
+                      <entry key="filePath" value="$PROJECT_DIR$/codepen/test.py" />
                     </map>
                   </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="prac7" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/prac7}" type="462c0819:PsiDirectoryNode" />
-                </presentation>
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac8" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="prac8" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/prac8}" type="462c0819:PsiDirectoryNode" />
-                </presentation>
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac9" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="prac9" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/prac9}" type="462c0819:PsiDirectoryNode" />
-                </presentation>
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/prac10" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="prac10" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/prac10}" type="462c0819:PsiDirectoryNode" />
-                </presentation>
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/web_assignment1" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="web_assignment1" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/web_assignment1}" type="462c0819:PsiDirectoryNode" />
-                </presentation>
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/web_prac2" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="web_prac2" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/00_uni_code/web_prac2}" type="462c0819:PsiDirectoryNode" />
-                </presentation>
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/00_uni_code/web_assignment1.zip" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/fileTypes/archive.svg" iconPlugin="com.intellij" isLeaf="true" text="web_assignment1.zip" />
-                  <item name="web_assignment1.zip" type="ab9368bb:PsiFileNode" />
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test.py" />
+                  <item name="test.py" type="ab9368bb:PsiFileNode" />
                 </presentation>
               </presentation>
               <presentation>
@@ -546,6 +516,60 @@
                 </attributes>
                 <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2285_maximum_total_importance_of_roads" />
                 <item name="dir{file:///home/sinder/Projects/LeetCode/s2285_maximum_total_importance_of_roads}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s2965_find_missing_and_repeated_values" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2965_find_missing_and_repeated_values" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s2965_find_missing_and_repeated_values/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values/src}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/s2965_find_missing_and_repeated_values/src/main.rs" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="main.rs" />
+                    <item name="main.rs" type="f3e56494:RsPsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s2965_find_missing_and_repeated_values/target" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values/target}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s2965_find_missing_and_repeated_values/Cargo.lock" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.lock" />
+                  <item name="Cargo.lock" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s2965_find_missing_and_repeated_values/Cargo.toml" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.toml" />
+                  <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -1176,13 +1200,30 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Python.test" />
+      <element setting="Cargo.Run trait_common_behaiviour_performance" />
+      <element setting="Cargo.Run s2965_find_missing_and_repeated_values" />
+    </history>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local">
+        <shellCommand>
+          <arg value="/usr/bin/fish" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4795000" />
+    <option name="totallyTimeSpent" value="16269000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
       <window_info id="Merge Requests" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36914062" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2566406" />
       <window_info id="Commit" order="1" weight="0.33027345" />
       <window_info id="Bookmarks" order="2" side_tool="true" weight="0.19550781" />
       <window_info x="-118" y="167" width="2550" height="1556" id="Structure" order="3" side_tool="true" weight="0.33027345" />
@@ -1206,21 +1247,67 @@
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Cargo" order="5" weight="0.2" />
       <window_info anchor="right" id="RustCargo" order="6" weight="0.2" />
-      <window_info anchor="right" id="Build" order="7" side_tool="true" weight="0.44980466" />
-      <window_info anchor="right" id="Terminal" order="8" sideWeight="0.49965614" side_tool="true" weight="0.44980466" />
-      <window_info anchor="right" id="Problems View" order="9" weight="0.44980466" />
+      <window_info anchor="right" id="Build" order="7" sideWeight="0.49974948" side_tool="true" weight="0.38964844" />
+      <window_info active="true" anchor="right" id="Terminal" order="8" sideWeight="0.49965614" side_tool="true" visible="true" weight="0.44941407" />
+      <window_info anchor="right" id="Problems View" order="9" weight="0.33496094" />
       <window_info anchor="right" id="Developer Tools" order="10" side_tool="true" />
-      <window_info anchor="right" id="Run" order="11" side_tool="true" weight="0.44980466" />
+      <window_info anchor="right" id="Run" order="11" show_stripe_button="false" side_tool="true" weight="0.31933594" />
       <window_info anchor="right" id="Services" order="12" side_tool="true" />
       <window_info anchor="right" id="Key Promoter X" order="13" />
-      <window_info anchor="right" id="Version Control" order="14" side_tool="true" weight="0.26308596" />
+      <window_info anchor="right" id="Version Control" order="14" side_tool="true" weight="0.5673828" />
       <window_info anchor="right" id="Hierarchy" order="15" show_stripe_button="false" weight="0.3298828" />
       <window_info anchor="right" id="Coverage" order="16" side_tool="true" weight="0.3298828" />
       <window_info anchor="right" id="Python Console" order="17" />
-      <unified_weights bottom="0.33023703" left="0.36914062" right="0.3298828" />
+      <unified_weights bottom="0.33023703" left="0.2566406" right="0.44941407" />
     </layoutV2>
+    <layout-to-restore>
+      <window_info id="Merge Requests" show_stripe_button="false" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15605469" />
+      <window_info id="Commit" order="1" weight="0.33027345" />
+      <window_info id="Bookmarks" order="2" side_tool="true" weight="0.19550781" />
+      <window_info x="-118" y="167" width="2550" height="1556" id="Structure" order="3" side_tool="true" weight="0.33027345" />
+      <window_info id="TODO" order="4" side_tool="true" weight="0.33027345" />
+      <window_info id="Activity" order="5" weight="0.33027345" />
+      <window_info id="Pull Requests" order="6" weight="0.33027345" />
+      <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="0" />
+      <window_info anchor="bottom" id="Messages" order="1" />
+      <window_info anchor="bottom" id="ExcelReader" order="2" />
+      <window_info anchor="bottom" id="Python Packages" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.33023703" />
+      <window_info anchor="bottom" id="Database Changes" order="5" weight="0.33023703" />
+      <window_info anchor="bottom" id="Find" order="6" show_stripe_button="false" weight="0.33023703" />
+      <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Notifications" order="0" weight="0.25019532" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25019532" />
+      <window_info anchor="right" id="Database" order="2" sideWeight="0.5003439" weight="0.42636716" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Cargo" order="5" weight="0.2" />
+      <window_info anchor="right" id="RustCargo" order="6" weight="0.2" />
+      <window_info anchor="right" id="Build" order="7" sideWeight="0.49974948" side_tool="true" weight="0.38964844" />
+      <window_info anchor="right" id="Terminal" order="8" sideWeight="0.49965614" side_tool="true" weight="0.44980466" />
+      <window_info active="true" anchor="right" id="Problems View" order="9" visible="true" weight="0.33496094" />
+      <window_info anchor="right" id="Developer Tools" order="10" side_tool="true" />
+      <window_info anchor="right" id="Run" order="11" side_tool="true" weight="0.33496094" />
+      <window_info anchor="right" id="Services" order="12" side_tool="true" />
+      <window_info anchor="right" id="Key Promoter X" order="13" />
+      <window_info anchor="right" id="Version Control" order="14" side_tool="true" weight="0.5673828" />
+      <window_info anchor="right" id="Hierarchy" order="15" show_stripe_button="false" weight="0.3298828" />
+      <window_info anchor="right" id="Coverage" order="16" side_tool="true" weight="0.3298828" />
+      <window_info anchor="right" id="Python Console" order="17" />
+      <unified_weights bottom="0.33023703" left="0.33027345" right="0.6701172" />
+    </layout-to-restore>
     <recentWindows>
+      <value>Terminal</value>
+      <value>Run</value>
       <value>Project</value>
+      <value>Problems View</value>
+      <value>Build</value>
+      <value>Commit</value>
+      <value>Version Control</value>
+      <value>Structure</value>
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
@@ -1228,36 +1315,68 @@
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="259" y="490" key="FileChooserDialogImpl.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738552147148" />
-    <state x="1883" y="1128" width="640" height="402" key="ProcessPopupWindow.ideScale=125" timestamp="1738552134913">
+    <state width="815" height="1417" key="GridCell.Tab.0.bottom.ideScale=125" timestamp="1741937102908">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="1883" y="1128" width="640" height="402" key="ProcessPopupWindow.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738552134913" />
+    <state width="815" height="1417" key="GridCell.Tab.0.bottom.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741937102908" />
+    <state width="815" height="1417" key="GridCell.Tab.0.center.ideScale=125" timestamp="1741937102908">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="815" height="1417" key="GridCell.Tab.0.center.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741937102908" />
+    <state width="815" height="1417" key="GridCell.Tab.0.left.ideScale=125" timestamp="1741937102908">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="815" height="1417" key="GridCell.Tab.0.left.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741937102908" />
+    <state width="815" height="1417" key="GridCell.Tab.0.right.ideScale=125" timestamp="1741937102908">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="815" height="1417" key="GridCell.Tab.0.right.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741937102908" />
+    <state x="1883" y="1128" width="640" height="402" key="ProcessPopupWindow.ideScale=125" timestamp="1742134283753">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state x="1883" y="1128" width="640" height="402" key="ProcessPopupWindow.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1742134283753" />
     <state x="565" y="185" key="PythonInterpreterConfigurable.size.ideScale=125" timestamp="1737965673965">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="565" y="185" key="PythonInterpreterConfigurable.size.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1737965673965" />
-    <state x="383" y="92" key="SettingsEditor.ideScale=125" timestamp="1738061912588">
+    <state x="508" y="39" width="1585" height="1561" key="SettingsEditor.ideScale=125" timestamp="1742134367774">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="383" y="92" key="SettingsEditor.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738061912588" />
-    <state width="871" height="927" key="SwitcherDM.ideScale=125" timestamp="1738061571418">
+    <state x="508" y="39" width="1585" height="1561" key="SettingsEditor.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1742134367774" />
+    <state x="800" y="355" width="945" height="946" key="StructurePopup.ideScale=125" timestamp="1741934991947">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="871" height="927" key="SwitcherDM.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738061571418" />
+    <state x="800" y="355" width="945" height="946" key="StructurePopup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741934991947" />
+    <state width="871" height="927" key="SwitcherDM.ideScale=125" timestamp="1742134273655">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="871" height="927" key="SwitcherDM.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1742134273655" />
+    <state x="560" y="247" key="Vcs.Push.Dialog.v2.ideScale=125" timestamp="1741303668318">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state x="560" y="247" key="Vcs.Push.Dialog.v2.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741303668318" />
     <state x="811" y="291" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.ideScale=125" timestamp="1738061529158">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="811" y="291" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738061529158" />
-    <state x="689" y="39" width="1212" height="1558" key="search.everywhere.popup.ideScale=125" timestamp="1738061725913">
+    <state x="904" y="654" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=125" timestamp="1741300983321">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="689" y="39" width="1212" height="1558" key="search.everywhere.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738061725913" />
+    <state x="904" y="654" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741300983321" />
+    <state x="686" y="358" key="run.anything.popup.ideScale=125" timestamp="1742134471040">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state x="686" y="358" key="run.anything.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1742134471040" />
+    <state x="689" y="39" width="1236" height="1558" key="search.everywhere.popup.ideScale=125" timestamp="1742134463532">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state x="689" y="39" width="1236" height="1558" key="search.everywhere.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1742134463532" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_uni_code/prac2_1/broken_score.py">
+    <entry file="file://$PROJECT_DIR$/00_uni_code/prac2_1/sales_bonus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -1265,6 +1384,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_uni_code/prac2_1/temperatures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#71#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1282,27 +1411,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_uni_code/prac2_1/temperatures.py">
+    <entry file="file://$PROJECT_DIR$/00_uni_code/prac2_1/broken_score.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="40">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codepen/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#71#1" expanded="true" />
+            <element signature="n#!!block;n#comp_sum#0" expanded="true" />
+            <element signature="n#!!block;n#generate_composition#0" expanded="true" />
+            <element signature="n#!!block;n#main#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_uni_code/prac2_1/sales_bonus.py">
+    <entry file="file://$PROJECT_DIR$/s1382_balance_a_binary_search_tree/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state>
+          <folding>
+            <element signature="n#!!block;n#main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s1405_langest_happy_string/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!block;n#main#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.ideavimrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="905">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="431">
+          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2965_find_missing_and_repeated_values/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#68#69#0" expanded="true" />
+            <element signature="e#180#959#0" expanded="true" />
+            <element signature="n#!!block;n#main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand-0.9.0/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3320">
+          <caret line="115" column="7" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
+          <folding>
+            <element signature="e#3392#3393#0" expanded="true" />
+            <element signature="e#3404#3405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand-0.9.0/src/rng.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="951">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#435#658#0" expanded="true" />
+            <element signature="n#!!block;n#comp_sum#0" expanded="true" />
+            <element signature="n#!!block;n#generate_composition#0" expanded="true" />
+            <element signature="n#!!block;n#main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codepen/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding>
+            <element signature="e#1741#1920#0" expanded="true" />
+            <element signature="e#1974#2294#0" expanded="true" />
+            <element signature="e#2352#2500#0" expanded="true" />
+            <element signature="e#2529#2796#0" expanded="true" />
+            <element signature="e#2836#3105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

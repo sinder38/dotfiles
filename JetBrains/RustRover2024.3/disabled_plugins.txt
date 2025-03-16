@@ -1,6 +1,5 @@
 AceJump
 AutoSwitchIm
-IdeaVimExtension
 com.intellij.ja
 com.intellij.ko
 com.intellij.settingsSync

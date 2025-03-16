@@ -11,36 +11,56 @@
         {
           "id": "Project",
           "order": 0,
+          "isAutoHide": true,
+          "floatingBounds": [
+            1035,
+            92,
+            489,
+            1455
+          ],
           "contentUiType": "COMBO",
-          "weight": 0.22910157
-        },
-        {
-          "id": "Commit",
-          "order": 1,
-          "weight": 0.33027345
+          "weight": 0.2529297,
+          "sideWeight": 0.82027495
         },
         {
           "id": "Bookmarks",
-          "order": 2,
-          "weight": 0.19550781,
+          "order": 1,
+          "weight": 0.20917968,
+          "sideWeight": 0.17972508,
           "isSplit": true
         },
         {
           "id": "Structure",
-          "order": 3,
+          "order": 2,
           "floatingBounds": [
-            -118,
-            167,
+            0,
+            14,
             2550,
             1556
           ],
-          "weight": 0.33027345,
+          "weight": 0.20917968,
+          "sideWeight": 0.43539518,
+          "isSplit": true
+        },
+        {
+          "id": "Commit",
+          "order": 3,
+          "isAutoHide": true,
+          "weight": 0.2529297,
+          "sideWeight": 0.8099656,
           "isSplit": true
         },
         {
           "id": "TODO",
           "order": 4,
+          "floatingBounds": [
+            321,
+            92,
+            1933,
+            1438
+          ],
           "weight": 0.33027345,
+          "sideWeight": 0.3515464,
           "isSplit": true
         },
         {
@@ -49,9 +69,14 @@
           "weight": 0.33027345
         },
         {
+          "id": "VcsChanges",
+          "order": 6,
+          "weight": 0.23808594
+        },
+        {
           "id": "Pull Requests",
-          "order": 5,
-          "weight": 0.33027345
+          "order": 7,
+          "weight": 0.41777343
         },
         {
           "id": "TypeScript",
@@ -64,43 +89,62 @@
           "isShowStripeButton": false
         },
         {
-          "id": "Problems",
+          "id": "Python Packages",
           "order": 0,
-          "anchor": "BOTTOM"
+          "anchor": "BOTTOM",
+          "isSplit": true
         },
         {
-          "id": "Messages",
+          "id": "Database Changes",
           "order": 1,
-          "anchor": "BOTTOM"
+          "anchor": "BOTTOM",
+          "floatingBounds": [
+            116,
+            613,
+            2444,
+            987
+          ],
+          "type": "FLOATING",
+          "isActiveOnStart": true,
+          "weight": 0.6326073,
+          "isSplit": true
         },
         {
           "id": "ExcelReader",
           "order": 2,
-          "anchor": "BOTTOM"
+          "anchor": "BOTTOM",
+          "isSplit": true
         },
         {
-          "id": "Python Packages",
+          "id": "Find",
           "order": 3,
+          "anchor": "BOTTOM",
+          "isAutoHide": true,
+          "floatingBounds": [
+            0,
+            449,
+            2444,
+            515
+          ],
+          "weight": 0.6326073,
+          "isSplit": true
+        },
+        {
+          "id": "Messages",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "isSplit": true
+        },
+        {
+          "id": "Problems",
+          "order": 5,
           "anchor": "BOTTOM"
         },
         {
           "id": "Debug",
-          "order": 4,
-          "anchor": "BOTTOM",
-          "weight": 0.33023703
-        },
-        {
-          "id": "Database Changes",
-          "order": 5,
-          "anchor": "BOTTOM",
-          "weight": 0.33023703
-        },
-        {
-          "id": "Find",
           "order": 6,
           "anchor": "BOTTOM",
-          "isShowStripeButton": false,
-          "weight": 0.33023703
+          "weight": 0.6326073
         },
         {
           "id": "documentation.v2",
@@ -112,20 +156,20 @@
           "id": "Notifications",
           "order": 0,
           "anchor": "RIGHT",
-          "weight": 0.25019532
+          "weight": 0.33964843
         },
         {
           "id": "AIAssistant",
           "order": 1,
           "anchor": "RIGHT",
-          "weight": 0.25019532
+          "weight": 0.4044922
         },
         {
           "id": "Database",
           "order": 2,
           "anchor": "RIGHT",
-          "weight": 0.42636716,
-          "sideWeight": 0.5003439
+          "weight": 0.3353516,
+          "sideWeight": 0.50058305
         },
         {
           "id": "Gradle",
@@ -155,22 +199,22 @@
           "id": "Build",
           "order": 7,
           "anchor": "RIGHT",
-          "weight": 0.44980466,
+          "weight": 0.4126953,
           "isSplit": true
         },
         {
           "id": "Terminal",
           "order": 8,
           "anchor": "RIGHT",
-          "weight": 0.44980466,
-          "sideWeight": 0.49965614,
+          "weight": 0.4044922,
+          "sideWeight": 0.4994169,
           "isSplit": true
         },
         {
           "id": "Problems View",
           "order": 9,
           "anchor": "RIGHT",
-          "weight": 0.44980466
+          "weight": 0.4126953
         },
         {
           "id": "Developer Tools",
@@ -182,13 +226,14 @@
           "id": "Run",
           "order": 11,
           "anchor": "RIGHT",
-          "weight": 0.44980466,
+          "weight": 0.4126953,
           "isSplit": true
         },
         {
           "id": "Services",
           "order": 12,
           "anchor": "RIGHT",
+          "weight": 0.3353516,
           "isSplit": true
         },
         {
@@ -200,14 +245,15 @@
           "id": "Version Control",
           "order": 14,
           "anchor": "RIGHT",
-          "weight": 0.26308596,
+          "type": "SLIDING",
+          "internalType": "SLIDING",
+          "weight": 0.4126953,
           "isSplit": true
         },
         {
           "id": "Hierarchy",
           "order": 15,
           "anchor": "RIGHT",
-          "isShowStripeButton": false,
           "weight": 0.3298828
         },
         {
@@ -220,14 +266,15 @@
         {
           "id": "Python Console",
           "order": 17,
-          "anchor": "RIGHT"
+          "anchor": "RIGHT",
+          "weight": 0.33964843
         }
       ],
       "unifiedWeights": {
         "top": 0.33,
-        "left": 0.33027345,
-        "bottom": 0.33023703,
-        "right": 0.3298828
+        "left": 0.2529297,
+        "bottom": 0.6326073,
+        "right": 0.4044922
       }
     }
   }

@@ -1,13 +1,31 @@
 <keymap version="1" name="Sinder vim style" parent="Default for KDE">
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="shift insert" />
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
   <action id="ActivateFindToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="BraceOrQuoteOut" />
+  <action id="ChangesView.ToggleCommitUi">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="CloseDiffEditor" />
   <action id="CollapseAllRegions" />
   <action id="CollapseBlock" />
   <action id="CollapseRegion" />
   <action id="CollapseSelection" />
+  <action id="ContextHelp" />
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
   <action id="EditorChooseLookupItemReplace" />
   <action id="EditorIndentSelection" />
   <action id="EditorLookupSelectionDown">
@@ -21,8 +39,15 @@
   <action id="ExpandAllRegions" />
   <action id="ExpandLiveTemplateByTab" />
   <action id="ExpandRegion" />
+  <action id="FileChooserToolbar">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="FindUsages" />
   <action id="FindUsagesInFile" />
+  <action id="Git.Commit.Stage">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="HippieCompletion" />
   <action id="InsertInlineCompletionAction">
     <keyboard-shortcut first-keystroke="shift enter" />
@@ -68,9 +93,6 @@
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="tab" />
   </action>
-  <action id="StructuralSearchPlugin.StructuralSearchAction">
-    <keyboard-shortcut first-keystroke="shift 7" />
-  </action>
   <action id="Table-selectNextRow">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="tab" />
@@ -80,6 +102,9 @@
     <keyboard-shortcut first-keystroke="shift tab" />
   </action>
   <action id="Terminal.CommandCompletion" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="shift ctrl f1" />
+  </action>
   <action id="Tree-selectNext">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="tab" />
@@ -93,5 +118,8 @@
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="page_down" />
     <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="ViewMainMenu">
+    <keyboard-shortcut first-keystroke="shift ctrl f3" />
   </action>
 </keymap>

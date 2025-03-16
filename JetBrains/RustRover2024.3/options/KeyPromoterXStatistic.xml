@@ -9,12 +9,44 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Add">
+        <Item>
+          <IdeaActionID>Git.Add</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+A'</ShortCut>
+          <Description>Add</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Add to VCS">
+        <Item>
+          <IdeaActionID>ChangesView.AddUnversioned</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+A'</ShortCut>
+          <Description>Add to VCS</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Apply Current Layout">
+        <Item>
+          <IdeaActionID>Graph.ApplyCurrentLayout</IdeaActionID>
+          <ShortCut>'Shift+F5'</ShortCut>
+          <Description>Apply Current Layout</Description>
+          <Count>5</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Auto Route Edges">
+        <Item>
+          <IdeaActionID>Graph.RouteEdges</IdeaActionID>
+          <ShortCut>'F5'</ShortCut>
+          <Description>Auto Route Edges</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Back">
         <Item>
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Left'</ShortCut>
           <Description>Back</Description>
-          <Count>4</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build">
@@ -22,8 +54,16 @@
           <IdeaActionID>Rust.Build</IdeaActionID>
           <ShortCut>'Ctrl+9'</ShortCut>
           <Description>Build</Description>
-          <Count>64</Count>
+          <Count>87</Count>
           <Hit>1</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Column Selection Mode">
+        <Item>
+          <IdeaActionID>EditorToggleColumnMode</IdeaActionID>
+          <ShortCut>'Alt+Shift+Insert'</ShortCut>
+          <Description>Column Selection Mode</Description>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Commit">
@@ -31,8 +71,17 @@
           <IdeaActionID>ActivateCommitToolWindow</IdeaActionID>
           <ShortCut>'Alt+0'</ShortCut>
           <Description>Commit</Description>
-          <Count>18</Count>
-          <Hit>15</Hit>
+          <Count>136</Count>
+          <Hit>228</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Commit Message History">
+        <Item>
+          <IdeaActionID>Vcs.ShowMessageHistory</IdeaActionID>
+          <ShortCut>'Ctrl+M'</ShortCut>
+          <Description>Commit Message History</Description>
+          <Count>1</Count>
+          <Hit>2</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Cut">
@@ -48,6 +97,30 @@
           <IdeaActionID>$Delete</IdeaActionID>
           <ShortCut>'Delete'</ShortCut>
           <Description>Delete…</Description>
+          <Count>8</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Directory">
+        <Item>
+          <IdeaActionID>ChangesView.GroupBy.Directory</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+P'</ShortCut>
+          <Description>Directory</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Expand All">
+        <Item>
+          <IdeaActionID>ExpandAll</IdeaActionID>
+          <ShortCut>'Ctrl+NumPad +' or 'Ctrl+='</ShortCut>
+          <Description>Expand All</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="File Path">
+        <Item>
+          <IdeaActionID>ShowFilePath</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+2'</ShortCut>
+          <Description>File Path</Description>
           <Count>2</Count>
         </Item>
       </Statistic>
@@ -57,6 +130,7 @@
           <ShortCut>'Ctrl+Alt+F'</ShortCut>
           <Description>File Structure</Description>
           <Count>1</Count>
+          <Hit>4</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Find…">
@@ -64,8 +138,8 @@
           <IdeaActionID>Find</IdeaActionID>
           <ShortCut>'Ctrl+F' or 'Alt+Shift+3'</ShortCut>
           <Description>Find…</Description>
-          <Count>1</Count>
-          <Hit>3</Hit>
+          <Count>2</Count>
+          <Hit>6</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Generate…">
@@ -75,6 +149,31 @@
           <Description>Generate…</Description>
           <Count>1</Count>
           <Hit>1</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Git">
+        <Item>
+          <IdeaActionID>ActivateVersionControlToolWindow</IdeaActionID>
+          <ShortCut>'Alt+9'</ShortCut>
+          <Description>Git</Description>
+          <Count>1</Count>
+          <Hit>9</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Go to Declaration or Usages">
+        <Item>
+          <IdeaActionID>GotoDeclaration</IdeaActionID>
+          <ShortCut>'Ctrl+B'</ShortCut>
+          <Description>Go to Declaration or Usages</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Go to Type Declaration">
+        <Item>
+          <IdeaActionID>GotoTypeDeclaration</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+B'</ShortCut>
+          <Description>Go to Type Declaration</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Group by Directory">
@@ -90,7 +189,8 @@
           <IdeaActionID>EditSource</IdeaActionID>
           <ShortCut>'F4'</ShortCut>
           <Description>Jump to Source</Description>
-          <Count>1</Count>
+          <Count>2</Count>
+          <Hit>1</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Maximize Tool Window">
@@ -117,12 +217,52 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Move to Another Changelist…">
+        <Item>
+          <IdeaActionID>ChangesView.Move</IdeaActionID>
+          <ShortCut>'Alt+Shift+M'</ShortCut>
+          <Description>Move to Another Changelist…</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Navigation Bar">
+        <Item>
+          <IdeaActionID>ShowNavBar</IdeaActionID>
+          <ShortCut>'Alt+Home'</ShortCut>
+          <Description>Navigation Bar</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="New Branch">
+        <Item>
+          <IdeaActionID>Git.New.Branch.In.Log</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+N'</ShortCut>
+          <Description>New Branch</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="New Tab">
         <Item>
           <IdeaActionID>Terminal.NewTab</IdeaActionID>
           <ShortCut>'Ctrl+Shift+T'</ShortCut>
           <Description>New Tab</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="No Changes">
+        <Item>
+          <IdeaActionID>IdeaVim.ReloadVimRc.reload</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+O'</ShortCut>
+          <Description>No Changes</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Open As ExcelReader">
+        <Item>
+          <IdeaActionID>Reader</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+D'</ShortCut>
+          <Description>Open As ExcelReader</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Packages">
@@ -138,8 +278,8 @@
           <IdeaActionID>$Paste</IdeaActionID>
           <ShortCut>'Ctrl+V' or 'Shift+Insert'</ShortCut>
           <Description>Paste</Description>
-          <Count>1</Count>
-          <Hit>30</Hit>
+          <Count>4</Count>
+          <Hit>133</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Project">
@@ -147,8 +287,17 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'Alt+1'</ShortCut>
           <Description>Project</Description>
-          <Count>42</Count>
-          <Hit>30</Hit>
+          <Count>167</Count>
+          <Hit>107</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Push…">
+        <Item>
+          <IdeaActionID>Vcs.Push</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+K'</ShortCut>
+          <Description>Push…</Description>
+          <Count>5</Count>
+          <Hit>2</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Recent Changes">
@@ -157,6 +306,7 @@
           <ShortCut>'Alt+Shift+C'</ShortCut>
           <Description>Recent Changes</Description>
           <Count>1</Count>
+          <Hit>1</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Reformat Code">
@@ -172,15 +322,7 @@
           <IdeaActionID>Vcs.Log.Refresh</IdeaActionID>
           <ShortCut>'Ctrl+5'</ShortCut>
           <Description>Refresh</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Reload">
-        <Item>
-          <IdeaActionID>IdeaVim.ReloadVimRc.reload</IdeaActionID>
-          <ShortCut>'Ctrl+Shift+O'</ShortCut>
-          <Description>Reload</Description>
-          <Count>13</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rename Bookmark List…">
@@ -196,8 +338,8 @@
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'Shift+F6'</ShortCut>
           <Description>Rename…</Description>
-          <Count>9</Count>
-          <Hit>3</Hit>
+          <Count>18</Count>
+          <Hit>4</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Rerun">
@@ -213,8 +355,8 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Rerun 'Cargo: Run web-server'</Description>
-          <Count>12</Count>
-          <Hit>34</Hit>
+          <Count>16</Count>
+          <Hit>86</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'Cargo: run'">
@@ -224,6 +366,22 @@
           <Description>Rerun 'Cargo: run'</Description>
           <Count>19</Count>
           <Hit>13</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'Expand field_types'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'Expand field_types'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'Python: exceptionsto_complete'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Rerun 'Python: exceptionsto_complete'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'Rerun Failed Tests'">
@@ -239,7 +397,95 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'Ctrl+5'</ShortCut>
           <Description>Rerun 'Test office_automation_system'</Description>
-          <Count>5</Count>
+          <Count>6</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'Test sql_struct_field_names'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'Test sql_struct_field_names'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'assignment1'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'assignment1'</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'capitalist_conrad'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'capitalist_conrad'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'emails'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'emails'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'exceptions_demo'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'exceptions_demo'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'exceptions_to_complete'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'exceptions_to_complete'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'file'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'file'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'kivy_demo'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'kivy_demo'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'list_comprehensions'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'list_comprehensions'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'password_checker'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'password_checker'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'randoms'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'randoms'</Description>
+          <Count>36</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'run'">
@@ -250,12 +496,36 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'test'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'test'</Description>
+          <Count>38</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'wimblendon'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'wimblendon'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'word_occurences'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Rerun 'word_occurences'</Description>
+          <Count>14</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Restore Windows">
         <Item>
           <IdeaActionID>HideAllWindows</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F12'</ShortCut>
           <Description>Restore Windows</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rollback…">
@@ -263,7 +533,7 @@
           <IdeaActionID>ChangesView.Revert</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Z'</ShortCut>
           <Description>Rollback…</Description>
-          <Count>1</Count>
+          <Count>23</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run">
@@ -271,8 +541,16 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run</Description>
-          <Count>60</Count>
-          <Hit>143</Hit>
+          <Count>113</Count>
+          <Hit>713</Hit>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run…">
+        <Item>
+          <IdeaActionID>ChooseRunConfiguration</IdeaActionID>
+          <ShortCut>'Alt+Shift+F10'</ShortCut>
+          <Description>Run…</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Select In…">
@@ -288,8 +566,8 @@
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings…</Description>
-          <Count>2</Count>
-          <Hit>23</Hit>
+          <Count>7</Count>
+          <Hit>67</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Show All Affected Files">
@@ -298,6 +576,22 @@
           <ShortCut>'Alt+Shift+A'</ShortCut>
           <Description>Show All Affected Files</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Show Diagram Popup…">
+        <Item>
+          <IdeaActionID>ShowUmlDiagramPopup</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+U'</ShortCut>
+          <Description>Show Diagram Popup…</Description>
+          <Count>5</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Show Diagram…">
+        <Item>
+          <IdeaActionID>ShowUmlDiagram</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+U'</ShortCut>
+          <Description>Show Diagram…</Description>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Diff">
@@ -330,7 +624,15 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+2'</ShortCut>
           <Description>Stop 'Run web-server'</Description>
-          <Count>10</Count>
+          <Count>30</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'exceptions_to_complete'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+2'</ShortCut>
+          <Description>Stop 'exceptions_to_complete'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'run'">
@@ -341,13 +643,21 @@
           <Count>6</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'test'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+2'</ShortCut>
+          <Description>Stop 'test'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Structure">
         <Item>
           <IdeaActionID>ActivateStructureToolWindow</IdeaActionID>
           <ShortCut>'Alt+7'</ShortCut>
           <Description>Structure</Description>
           <Count>5</Count>
-          <Hit>16</Hit>
+          <Hit>22</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Super Method">
@@ -358,12 +668,21 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Symbol…">
+        <Item>
+          <IdeaActionID>GotoSymbol</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+N'</ShortCut>
+          <Description>Symbol…</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Sync Cargo Changes">
         <Item>
           <IdeaActionID>ExternalSystem.ProjectRefreshAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+O'</ShortCut>
           <Description>Sync Cargo Changes</Description>
-          <Count>1</Count>
+          <Count>23</Count>
+          <Hit>24</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Terminal">
@@ -371,8 +690,8 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'Alt+F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>35</Count>
-          <Hit>58</Hit>
+          <Count>88</Count>
+          <Hit>313</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Text…">
@@ -383,12 +702,37 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Type Declaration">
+        <Item>
+          <IdeaActionID>GotoTypeDeclaration</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+B'</ShortCut>
+          <Description>Type Declaration</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Type-Matching">
+        <Item>
+          <IdeaActionID>SmartTypeCompletion</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+Space'</ShortCut>
+          <Description>Type-Matching</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Type...">
         <Item>
           <IdeaActionID>GotoClass</IdeaActionID>
           <ShortCut>'Ctrl+N'</ShortCut>
           <Description>Type...</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Update Branch Filter in Log">
+        <Item>
+          <IdeaActionID>Git.Log.Branches.Change.Branch.Filter</IdeaActionID>
+          <ShortCut>'Enter'</ShortCut>
+          <Description>Update Branch Filter in Log</Description>
+          <Count>10</Count>
+          <Hit>1</Hit>
         </Item>
       </Statistic>
       <Statistic Action="Usage Type">
@@ -410,12 +754,28 @@
           <Hit>3</Hit>
         </Item>
       </Statistic>
+      <Statistic Action="Reload">
+        <Item>
+          <IdeaActionID>IdeaVim.ReloadVimRc.reload</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+O'</ShortCut>
+          <Description>Reload</Description>
+          <Count>17</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
         <Item>
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Zoom In">
+        <Item>
+          <IdeaActionID>Graph.ZoomIn</IdeaActionID>
+          <ShortCut>'NumPad +' or '='</ShortCut>
+          <Description>Zoom In</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
     </option>

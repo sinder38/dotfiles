@@ -1269,5 +1269,13 @@
       <item type="maven" url="software.amazon.awssdk:ssooidc:2.20.45"/>
       <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/DynamoDB/LICENSE.txt"/>
     </version>
+    <version version="0.7.1">
+      <item url="https://download.jetbrains.com/idea/jdbc-drivers/DynamoDB/dynamodb-jdbc-driver-0.7.jar"/>
+      <item type="maven" url="software.amazon.awssdk:sso:2.20.45"/>
+      <item type="maven" url="software.amazon.awssdk:ssooidc:2.20.45"/>
+      <item type="maven" url="software.amazon.awssdk:sts:2.20.45"/>
+      <item type="maven" url="software.amazon.awssdk:aws-query-protocol:2.20.45"/>
+      <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/DynamoDB/LICENSE.txt"/>
+    </version>
   </artifact>
 </artifacts>

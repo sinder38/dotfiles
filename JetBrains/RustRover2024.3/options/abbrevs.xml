@@ -4,6 +4,15 @@
       <action id="EditorChooseLookupItemReplace">
         <abbreviation name="enter completion test" />
       </action>
+      <action id="Git.Commit.Stage">
+        <abbreviation name="not switch" />
+      </action>
+      <action id="ChangesView.ToggleCommitUi">
+        <abbreviation name="not switch" />
+      </action>
+      <action id="CloseDiffEditor">
+        <abbreviation name="removed" />
+      </action>
       <action id="EditorDown" />
       <action id="EditorUp" />
       <action id="List-selectNextRow" />

@@ -1,19 +1,19 @@
 <application>
   <component name="DimensionService">
     <location key="XPathView.FindDialog.DIMENSION_SERVICE_KEY.SIMPLE.0.0.2560.1600@168dpi" x="909" y="470" />
-    <location key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog.0.0.2560.1600@168dpi" x="411" y="175" />
+    <location key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog.0.0.2560.1600@168dpi" x="376" y="14" />
     <location key="find.popup.0.0.2560.1600@168dpi" x="795" y="39" />
     <size key="GridCell.Tab.0.left.0.0.2560.1600@144dpi" width="843" height="1427" />
     <size key="GridCell.Tab.0.center.0.0.2560.1600@144dpi" width="843" height="1427" />
     <size key="GridCell.Tab.0.right.0.0.2560.1600@144dpi" width="843" height="1427" />
     <size key="GridCell.Tab.0.bottom.0.0.2560.1600@144dpi" width="843" height="1427" />
-    <size key="GridCell.Tab.0.left.0.0.2560.1600@168dpi" width="868" height="1400" />
-    <size key="GridCell.Tab.0.center.0.0.2560.1600@168dpi" width="868" height="1400" />
-    <size key="GridCell.Tab.0.right.0.0.2560.1600@168dpi" width="868" height="1400" />
-    <size key="GridCell.Tab.0.bottom.0.0.2560.1600@168dpi" width="868" height="1400" />
+    <size key="GridCell.Tab.0.left.0.0.2560.1600@168dpi" width="815" height="1417" />
+    <size key="GridCell.Tab.0.center.0.0.2560.1600@168dpi" width="815" height="1417" />
+    <size key="GridCell.Tab.0.right.0.0.2560.1600@168dpi" width="815" height="1417" />
+    <size key="GridCell.Tab.0.bottom.0.0.2560.1600@168dpi" width="815" height="1417" />
     <size key="XPathView.FindDialog.DIMENSION_SERVICE_KEY.SIMPLE.0.0.2560.1600@168dpi" width="731" height="649" />
     <size key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog.0.0.2560.1600@168dpi" width="1678" height="989" />
-    <size key="find.popup.0.0.2560.1600@168dpi" width="1134" height="1482" />
+    <size key="find.popup.0.0.2560.1600@168dpi" width="1237" height="1482" />
     <size key="GridCell.Tab.1.left.0.0.2560.1600@168dpi" width="2444" height="932" />
     <size key="GridCell.Tab.1.center.0.0.2560.1600@168dpi" width="2444" height="932" />
     <size key="GridCell.Tab.1.right.0.0.2560.1600@168dpi" width="2444" height="932" />
@@ -28,24 +28,20 @@
     <size key="GridCell.Tab.3.bottom.0.0.2560.1600@168dpi" width="2444" height="932" />
   </component>
   <component name="WindowManager">
-    <frame x="0" y="39" width="2560" height="1561" extendedState="6" />
+    <frame x="-5" y="29" width="1290" height="1571" extendedState="6" />
   </component>
   <component name="WindowStateApplicationService">
-    <state x="952" y="425" key="FileChooserDialogImpl" timestamp="1733333199338">
+    <state width="853" height="223" key="ShowUsagesActions.dimensionServiceKey.ideScale=125" timestamp="1741792274235">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="952" y="425" key="FileChooserDialogImpl/0.39.2560.1561" timestamp="1733333199338" />
-    <state width="1256" height="275" key="ShowUsagesActions.dimensionServiceKey.ideScale=125" timestamp="1738650132019">
+    <state width="853" height="223" key="ShowUsagesActions.dimensionServiceKey.ideScale=125/0.39.2560.1561" timestamp="1741792274235" />
+    <state x="1275" y="809" width="1400" height="1591" key="WELCOME_SCREEN.ideScale=125" timestamp="1742134257024">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="1256" height="275" key="ShowUsagesActions.dimensionServiceKey.ideScale=125/0.39.2560.1561" timestamp="1738650132019" />
-    <state width="742" height="175" key="ShowUsagesActions.dimensionServiceKey.ideScale=150" timestamp="1733407711248">
+    <state x="1275" y="809" width="1400" height="1591" key="WELCOME_SCREEN.ideScale=125/0.39.2560.1561" timestamp="1742134257024" />
+    <state width="525" height="920" key="manage.recent.projects.popup.ideScale=125" timestamp="1741760199800">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="742" height="175" key="ShowUsagesActions.dimensionServiceKey.ideScale=150/0.39.2560.1561" timestamp="1733407711248" />
-    <state width="525" height="920" key="manage.recent.projects.popup.ideScale=125" timestamp="1738552588018">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state width="525" height="920" key="manage.recent.projects.popup.ideScale=125/0.39.2560.1561" timestamp="1738552588018" />
+    <state width="525" height="920" key="manage.recent.projects.popup.ideScale=125/0.39.2560.1561" timestamp="1741760199800" />
   </component>
 </application>
