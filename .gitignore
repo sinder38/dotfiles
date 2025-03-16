@@ -24,3 +24,8 @@ nvim/lazyvim.json
 !JetBrains/RustRover2024.3/options
 !JetBrains/RustRover2024.3/keymaps
 !JetBrains/*
+
+# Fish shell
+!fish/
+!fish/*
+
