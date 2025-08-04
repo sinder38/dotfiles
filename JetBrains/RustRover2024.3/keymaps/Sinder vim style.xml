@@ -4,9 +4,26 @@
     <keyboard-shortcut first-keystroke="shift insert" />
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
+  <action id="ActivateBookmarksToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+    <keyboard-shortcut first-keystroke="alt braceleft" />
+  </action>
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="alt 0" />
+    <keyboard-shortcut first-keystroke="alt asterisk" />
+  </action>
   <action id="ActivateFindToolWindow" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="alt plus" />
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+    <keyboard-shortcut first-keystroke="alt left_parenthesis" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
   <action id="BraceOrQuoteOut" />
   <action id="ChangesView.ToggleCommitUi">
@@ -27,6 +44,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
   <action id="EditorChooseLookupItemReplace" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift ctrl 1" />
+  </action>
   <action id="EditorIndentSelection" />
   <action id="EditorLookupSelectionDown">
     <keyboard-shortcut first-keystroke="tab" />
@@ -39,8 +62,9 @@
   <action id="ExpandAllRegions" />
   <action id="ExpandLiveTemplateByTab" />
   <action id="ExpandRegion" />
-  <action id="FileChooserToolbar">
-    <keyboard-shortcut first-keystroke="f1" />
+  <action id="FileChooser.NewFile">
+    <keyboard-shortcut first-keystroke="ctrl f2" />
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="FindUsages" />
   <action id="FindUsagesInFile" />
@@ -48,6 +72,9 @@
     <keyboard-shortcut first-keystroke="ctrl k" />
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="GotoAction" />
+  <action id="GotoClass" />
+  <action id="GotoFile" />
   <action id="HippieCompletion" />
   <action id="InsertInlineCompletionAction">
     <keyboard-shortcut first-keystroke="shift enter" />
@@ -68,6 +95,10 @@
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="shift tab" />
   </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
   <action id="NextParameter" />
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="enter" />
@@ -80,12 +111,17 @@
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="shift tab" />
   </action>
+  <action id="PrevInlineCompletionSuggestionAction" />
   <action id="PrevParameter" />
   <action id="PreviousTemplateVariable" />
   <action id="SearchEverywhere.CompleteCommand" />
   <action id="SearchEverywhere.NextTab" />
   <action id="SearchEverywhere.PrevTab" />
   <action id="ShowIntentionActions" />
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="ShowSettingsAndFindUsages" />
   <action id="SplitChooser.NextWindow" />
   <action id="SplitChooser.PreviousWindow" />

@@ -10,6 +10,15 @@ local config = wezterm.config_builder()
 config.color_scheme = "Catppuccin Mocha"
 config.font = wezterm.font("JetbrainsMono Nerd Font")
 
+config.window_decorations = "RESIZE"
+
+config.window_padding = {
+  left = 0,
+  right = 0,
+  top = 0,
+  bottom = 0,
+}
+
 local act = wezterm.action
 
 -- Change mouse scroll amount

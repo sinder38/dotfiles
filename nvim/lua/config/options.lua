@@ -1,3 +1,6 @@
+-- Options are automatically loaded before lazy.nvim startup
+-- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
+-- Add any additional options here
 vim.g.mapleader = " "
 
 vim.lsp.inlay_hint.enable(false)
@@ -26,8 +29,8 @@ vim.opt.smartcase = true
 vim.opt.smarttab = true
 vim.opt.breakindent = true
 
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
+-- vim.opt.tabstop = 4
+-- vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
 vim.opt.wrap = true
@@ -38,13 +41,3 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.splitkeep = "cursor"
 vim.opt.mouse = ""
-
-for _, method in ipairs({ 'textDocument/diagnostic', 'workspace/diagnostic' }) do
-    local default_diagnostic_handler = vim.lsp.handlers[method]
-    vim.lsp.handlers[method] = function(err, result, context, config)
-        if err ~= nil and err.code == -32802 then
-            return
-        end
-        return default_diagnostic_handler(err, result, context, config)
-    end
-end

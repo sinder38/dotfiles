@@ -40,11 +40,7 @@ com.intellij.dev|null
 
 com.intellij.diagram|Other Tools
 
-com.intellij.ja|IDE Localization
-
 com.intellij.jsonpath|Languages
-
-com.intellij.ko|IDE Localization
 
 com.intellij.lang.qml|Languages
 
@@ -117,8 +113,6 @@ com.intellij.tailwindcss|Style Sheets
 com.intellij.tasks.timeTracking|Other Tools
 
 com.intellij.tasks|Other Tools
-
-com.intellij.zh|IDE Localization
 
 com.intellij|null
 

@@ -29,3 +29,29 @@ nvim/lazyvim.json
 !fish/
 !fish/*
 
+# Kitty terminal
+!kitty/
+!kitty/*
+
+# KDE 
+!KDE/
+!KDE/*
+!kde.org/
+!kde.org/*
+!plasma-workspace/
+!plasma-workspace/*
+!kdedefaults/
+!kdedefaults/*
+!kate/
+!kate/*
+!kdeglobals
+
+
+# Haruna
+!haruna/
+!haruna/*
+
+# VLC
+!vlc
+!vlc/*
+

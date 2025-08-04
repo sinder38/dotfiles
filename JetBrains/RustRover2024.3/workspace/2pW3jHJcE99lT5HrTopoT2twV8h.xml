@@ -25,50 +25,38 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="10bc3bg75o64m" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+    <leaf ideFingerprint="2s2qe8zlm28xo" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file>
-        <entry file="file://$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance/src/main.rs">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="951">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#435#658#0" expanded="true" />
-                <element signature="n#!!block;n#comp_sum#0" expanded="true" />
-                <element signature="n#!!block;n#generate_composition#0" expanded="true" />
-                <element signature="n#!!block;n#main#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"trait_common_behaiviour_performance/…/main.rs","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,116,10,114,106,97,114,58,102,105,108,101,58,47,111,112,116,47,82,117,115,116,82,111,118,101,114,45,50,48,50,52,46,51,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,45,50,52,51,46,50,49,53,54,53,46,50,52,53,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
-      </file>
-      <file current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codepen/test.py">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="880">
-              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+            <state relative-caret-position="80">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"test.py","foregroundColor":-9670522,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"6c7086"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/can place flowers.py">
+          <provider editor-type-id="text-editor" selected="true" />
+        </entry>
+        <tab><![CDATA[{"tabTitle":"can place flowers.py","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/s781_rabbits_in_forest/src/main.rs">
+          <provider editor-type-id="text-editor" selected="true">
+            <state>
+              <caret column="29" selection-start-column="29" selection-end-column="29" />
               <folding>
-                <element signature="e#1741#1920#0" expanded="true" />
-                <element signature="e#1974#2294#0" expanded="true" />
-                <element signature="e#2352#2500#0" expanded="true" />
-                <element signature="e#2529#2796#0" expanded="true" />
-                <element signature="e#2836#3105#0" expanded="true" />
+                <element signature="n#!!block;n#main#0" expanded="true" />
+                <element signature="e#259#783#0" expanded="true" />
+                <element signature="e#862#1281#0" expanded="true" />
+                <element signature="e#1360#1793#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"test.py","foregroundColor":-2712981,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"d69a6b"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand-0.9.0/src/rng.rs">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="680">
-              <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"rng.rs","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,116,10,114,106,97,114,58,102,105,108,101,58,47,111,112,116,47,82,117,115,116,82,111,118,101,114,45,50,48,50,52,46,51,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,45,50,52,51,46,50,49,53,54,53,46,50,52,53,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"s781_rabbits_in_forest/…/main.rs","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,116,10,114,106,97,114,58,102,105,108,101,58,47,111,112,116,47,82,117,115,116,82,111,118,101,114,45,50,48,50,52,46,51,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,45,50,52,51,46,50,49,53,54,53,46,50,52,53,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
       </file>
     </leaf>
   </component>
@@ -79,30 +67,68 @@
       "lastUsed": 1737967149519
     },
     "Python": {
-      "usageCount": 50,
-      "lastUsed": 1742134268803
+      "usageCount": 62,
+      "lastUsed": 1745132230465
     },
     "textmate": {
-      "usageCount": 9,
-      "lastUsed": 1741302240567
+      "usageCount": 25,
+      "lastUsed": 1744001912917
     },
     "Rust": {
-      "usageCount": 21,
-      "lastUsed": 1742134268721
+      "usageCount": 127,
+      "lastUsed": 1745132230407
     },
     "DIFF": {
-      "usageCount": 3,
-      "lastUsed": 1741302923237
+      "usageCount": 8,
+      "lastUsed": 1743752926462
+    },
+    "TOML": {
+      "usageCount": 9,
+      "lastUsed": 1743407494539
+    },
+    "PLAIN_TEXT": {
+      "usageCount": 2,
+      "lastUsed": 1744540486178
+    },
+    "WebPreview": {
+      "usageCount": 1,
+      "lastUsed": 1745126210619
     }
   }
 }]]></component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>(char, BigUint)</find>
+      <find>sort_by</find>
+      <find>enumerate</find>
       <find />
+      <find>MTC3</find>
+      <find>chunk</find>
+      <find>CHUN</find>
+      <find>TEST</find>
+      <find>first</find>
+      <find>bin_res</find>
+      <find>unsafe</find>
     </findStrings>
     <replaceStrings>
+      <replace>Unit</replace>
       <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/s3375_minimum_operations_to_make_array_value_equal_to_k/src</dir>
+    </dirStrings>
+  </component>
+  <component name="FindInProjectScope">
+    <option name="isProjectScope" value="true" />
+  </component>
+  <component name="GitBranchesPopupTreeState">
+    <expand>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="LOCAL" type="6e158aa5:GitBranchType$LOCAL" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="GitSEFilterConfiguration">{}</component>
   <component name="IdeDocumentHistory">{
@@ -113,11 +139,28 @@
     &quot;/home/sinder/Projects/LeetCode/00_uni_code/prac2_1/loops.py&quot;,
     &quot;/home/sinder/Projects/LeetCode/00_uni_code/prac2_1/shop_calculator.py&quot;,
     &quot;/home/sinder/Projects/LeetCode/00_uni_code/prac2_1/menus.py&quot;,
-    &quot;/home/sinder/Projects/LeetCode/codepen/src/main.rs&quot;,
     &quot;/home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs&quot;,
-    &quot;/home/sinder/.ideavimrc&quot;,
     &quot;/home/sinder/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src/main.rs&quot;,
-    &quot;/home/sinder/Projects/LeetCode/codepen/test.py&quot;
+    &quot;/home/sinder/Projects/LeetCode/codepen/Cargo.toml&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s3169_count_days_without_meetings/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/codepen/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s2083_minimum_operations_to_make_a_univalue_grid/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s2780_minimum_index_of_a_valid_split/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s2503_maximum_number_of_points_from_grid_queries/src/main.rs&quot;,
+    &quot;/home/sinder/.ideavimrc&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s2551_put_marbles_in_bags/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s2140_solving_questions_with_brainpower/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s763_partition_labels/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s2873/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s1123_lowest_common_ancestor_of_deepest_leaves/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s2874_maximum_value_of_an_ordered_triplet_2/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s1863_sum_of_all_subset_xor_totals/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/codepen/test.py&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs&quot;,
+    &quot;/home/sinder/Projects/LeetCode/s781_rabbits_in_forest/src/main.rs&quot;
   ]
 }</component>
   <component name="IgnoredFileRootStore">
@@ -129,13 +172,19 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="Python">
-      <summary usageCount="50" lastUsage="1742134268803" />
+      <summary usageCount="62" lastUsage="1745132230465" />
     </language>
     <language id="Rust">
-      <summary usageCount="21" lastUsage="1742134268721" />
+      <summary usageCount="127" lastUsage="1745132230410" />
+    </language>
+    <language id="TEXT">
+      <summary usageCount="2" lastUsage="1744540486180" />
+    </language>
+    <language id="TOML">
+      <summary usageCount="9" lastUsage="1743407494542" />
     </language>
     <language id="textmate">
-      <summary usageCount="9" lastUsage="1741302240567" />
+      <summary usageCount="25" lastUsage="1744001912917" />
     </language>
   </component>
   <component name="ProjectView">
@@ -151,42 +200,94 @@
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/sinder/Projects/LeetCode/codepen}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode/codepen}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode/codepen/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s781_rabbits_in_forest}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s781_rabbits_in_forest}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s781_rabbits_in_forest/src}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s995_minimum_number_of_k_consecutive_bit_flips}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s1038_binary_search_tree_to_greater_sum_tree}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s1123_lowest_common_ancestor_of_deepest_leaves}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s1123_lowest_common_ancestor_of_deepest_leaves}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s1123_lowest_common_ancestor_of_deepest_leaves/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s1863_sum_of_all_subset_xor_totals}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s1863_sum_of_all_subset_xor_totals}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s1863_sum_of_all_subset_xor_totals/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s2874_maximum_value_of_an_ordered_triplet_2}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s2874_maximum_value_of_an_ordered_triplet_2}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s2874_maximum_value_of_an_ordered_triplet_2/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/sinder/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src}" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -228,60 +329,6 @@
                 </attributes>
                 <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="code_pen_records" />
                 <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records}" type="462c0819:PsiDirectoryNode" />
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="trait_common_behaiviour_performance" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance}" type="462c0819:PsiDirectoryNode" />
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance/src" />
-                      </map>
-                    </attributes>
-                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
-                    <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src}" type="462c0819:PsiDirectoryNode" />
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance/src/main.rs" />
-                        </map>
-                      </attributes>
-                      <data isLeaf="true" text="main.rs" />
-                      <item name="main.rs" type="f3e56494:RsPsiFileNode" />
-                    </presentation>
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance/target" />
-                      </map>
-                    </attributes>
-                    <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
-                    <item name="dir{file:///home/sinder/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/target}" type="462c0819:PsiDirectoryNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance/Cargo.lock" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="Cargo.lock" />
-                    <item name="Cargo.lock" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance/Cargo.toml" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="Cargo.toml" />
-                    <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -299,15 +346,6 @@
                   </attributes>
                   <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
                   <item name="dir{file:///home/sinder/Projects/LeetCode/codepen/src}" type="462c0819:PsiDirectoryNode" />
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/codepen/src/main.rs" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="main.rs" />
-                    <item name="main.rs" type="f3e56494:RsPsiFileNode" />
-                  </presentation>
                 </presentation>
                 <presentation>
                   <attributes>
@@ -367,6 +405,15 @@
               <presentation>
                 <attributes>
                   <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s416_partition_equal_subset_sum" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s416_partition_equal_subset_sum" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s416_partition_equal_subset_sum}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
                     <entry key="filePath" value="$PROJECT_DIR$/s502_IPO" />
                   </map>
                 </attributes>
@@ -385,6 +432,69 @@
               <presentation>
                 <attributes>
                   <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s763_partition_labels" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s763_partition_labels" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s763_partition_labels}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s781_rabbits_in_forest" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s781_rabbits_in_forest" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s781_rabbits_in_forest}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s781_rabbits_in_forest/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s781_rabbits_in_forest/src}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/s781_rabbits_in_forest/src/main.rs" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="main.rs" />
+                    <item name="main.rs" type="f3e56494:RsPsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s781_rabbits_in_forest/target" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s781_rabbits_in_forest/target}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s781_rabbits_in_forest/Cargo.lock" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.lock" />
+                  <item name="Cargo.lock" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s781_rabbits_in_forest/Cargo.toml" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.toml" />
+                  <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
                     <entry key="filePath" value="$PROJECT_DIR$/s945_minimum_increment_to_make_array_unique" />
                   </map>
                 </attributes>
@@ -399,6 +509,24 @@
                 </attributes>
                 <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s995_minimum_number_of_k_consecutive_bit_flips" />
                 <item name="dir{file:///home/sinder/Projects/LeetCode/s995_minimum_number_of_k_consecutive_bit_flips}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s995_minimum_number_of_k_consecutive_bit_flips/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s995_minimum_number_of_k_consecutive_bit_flips/src}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s995_minimum_number_of_k_consecutive_bit_flips/Cargo.toml" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.toml" />
+                  <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -408,6 +536,42 @@
                 </attributes>
                 <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s1038_binary_search_tree_to_greater_sum_tree" />
                 <item name="dir{file:///home/sinder/Projects/LeetCode/s1038_binary_search_tree_to_greater_sum_tree}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s1038_binary_search_tree_to_greater_sum_tree/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s1038_binary_search_tree_to_greater_sum_tree/src}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s1038_binary_search_tree_to_greater_sum_tree/target" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s1038_binary_search_tree_to_greater_sum_tree/target}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s1038_binary_search_tree_to_greater_sum_tree/Cargo.lock" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.lock" />
+                  <item name="Cargo.lock" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s1038_binary_search_tree_to_greater_sum_tree/Cargo.toml" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.toml" />
+                  <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -417,6 +581,60 @@
                 </attributes>
                 <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s1106_parsing_a_boolean_expression" />
                 <item name="dir{file:///home/sinder/Projects/LeetCode/s1106_parsing_a_boolean_expression}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s1123_lowest_common_ancestor_of_deepest_leaves" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s1123_lowest_common_ancestor_of_deepest_leaves" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s1123_lowest_common_ancestor_of_deepest_leaves}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s1123_lowest_common_ancestor_of_deepest_leaves/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s1123_lowest_common_ancestor_of_deepest_leaves/src}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/s1123_lowest_common_ancestor_of_deepest_leaves/src/main.rs" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="main.rs" />
+                    <item name="main.rs" type="f3e56494:RsPsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s1123_lowest_common_ancestor_of_deepest_leaves/target" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s1123_lowest_common_ancestor_of_deepest_leaves/target}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s1123_lowest_common_ancestor_of_deepest_leaves/Cargo.lock" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.lock" />
+                  <item name="Cargo.lock" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s1123_lowest_common_ancestor_of_deepest_leaves/Cargo.toml" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.toml" />
+                  <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -502,11 +720,146 @@
               <presentation>
                 <attributes>
                   <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s1863_sum_of_all_subset_xor_totals" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s1863_sum_of_all_subset_xor_totals" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s1863_sum_of_all_subset_xor_totals}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s1863_sum_of_all_subset_xor_totals/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s1863_sum_of_all_subset_xor_totals/src}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/s1863_sum_of_all_subset_xor_totals/src/main.rs" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="main.rs" />
+                    <item name="main.rs" type="f3e56494:RsPsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s1863_sum_of_all_subset_xor_totals/target" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s1863_sum_of_all_subset_xor_totals/target}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s1863_sum_of_all_subset_xor_totals/Cargo.lock" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.lock" />
+                  <item name="Cargo.lock" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s1863_sum_of_all_subset_xor_totals/Cargo.toml" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.toml" />
+                  <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
                     <entry key="filePath" value="$PROJECT_DIR$/s2044_count_number_of_maximum_bitwise_or_subsets" />
                   </map>
                 </attributes>
                 <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2044_count_number_of_maximum_bitwise_or_subsets" />
                 <item name="dir{file:///home/sinder/Projects/LeetCode/s2044_count_number_of_maximum_bitwise_or_subsets}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s2083_minimum_operations_to_make_a_univalue_grid" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2083_minimum_operations_to_make_a_univalue_grid" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s2083_minimum_operations_to_make_a_univalue_grid}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s2140_solving_questions_with_brainpower" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2140_solving_questions_with_brainpower" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s2140_solving_questions_with_brainpower}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s2176_count_equal_and_divisible_pairs_in_an_array" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2176_count_equal_and_divisible_pairs_in_an_array" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s2176_count_equal_and_divisible_pairs_in_an_array/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="main.rs" />
+                    <item name="main.rs" type="f3e56494:RsPsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s2176_count_equal_and_divisible_pairs_in_an_array/target" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/target}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s2176_count_equal_and_divisible_pairs_in_an_array/Cargo.lock" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.lock" />
+                  <item name="Cargo.lock" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s2176_count_equal_and_divisible_pairs_in_an_array/Cargo.toml" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.toml" />
+                  <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s2206_divide_array_into_equal_pairs" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2206_divide_array_into_equal_pairs" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s2206_divide_array_into_equal_pairs}" type="462c0819:PsiDirectoryNode" />
               </presentation>
               <presentation>
                 <attributes>
@@ -520,23 +873,68 @@
               <presentation>
                 <attributes>
                   <map>
-                    <entry key="filePath" value="$PROJECT_DIR$/s2965_find_missing_and_repeated_values" />
+                    <entry key="filePath" value="$PROJECT_DIR$/s2401_longes_nice_subarray" />
                   </map>
                 </attributes>
-                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2965_find_missing_and_repeated_values" />
-                <item name="dir{file:///home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values}" type="462c0819:PsiDirectoryNode" />
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2401_longes_nice_subarray" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s2401_longes_nice_subarray}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s2503_maximum_number_of_points_from_grid_queries" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2503_maximum_number_of_points_from_grid_queries" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s2503_maximum_number_of_points_from_grid_queries}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s2551_put_marbles_in_bags" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2551_put_marbles_in_bags" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s2551_put_marbles_in_bags}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s2780_minimum_index_of_a_valid_split" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2780_minimum_index_of_a_valid_split" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s2780_minimum_index_of_a_valid_split}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s2873" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2873" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s2873}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s2874_maximum_value_of_an_ordered_triplet_2" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2874_maximum_value_of_an_ordered_triplet_2" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s2874_maximum_value_of_an_ordered_triplet_2}" type="462c0819:PsiDirectoryNode" />
                 <presentation>
                   <attributes>
                     <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/s2965_find_missing_and_repeated_values/src" />
+                      <entry key="filePath" value="$PROJECT_DIR$/s2874_maximum_value_of_an_ordered_triplet_2/src" />
                     </map>
                   </attributes>
                   <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values/src}" type="462c0819:PsiDirectoryNode" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s2874_maximum_value_of_an_ordered_triplet_2/src}" type="462c0819:PsiDirectoryNode" />
                   <presentation>
                     <attributes>
                       <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/s2965_find_missing_and_repeated_values/src/main.rs" />
+                        <entry key="filePath" value="$PROJECT_DIR$/s2874_maximum_value_of_an_ordered_triplet_2/src/main.rs" />
                       </map>
                     </attributes>
                     <data isLeaf="true" text="main.rs" />
@@ -546,16 +944,16 @@
                 <presentation>
                   <attributes>
                     <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/s2965_find_missing_and_repeated_values/target" />
+                      <entry key="filePath" value="$PROJECT_DIR$/s2874_maximum_value_of_an_ordered_triplet_2/target" />
                     </map>
                   </attributes>
                   <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
-                  <item name="dir{file:///home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values/target}" type="462c0819:PsiDirectoryNode" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s2874_maximum_value_of_an_ordered_triplet_2/target}" type="462c0819:PsiDirectoryNode" />
                 </presentation>
                 <presentation>
                   <attributes>
                     <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/s2965_find_missing_and_repeated_values/Cargo.lock" />
+                      <entry key="filePath" value="$PROJECT_DIR$/s2874_maximum_value_of_an_ordered_triplet_2/Cargo.lock" />
                     </map>
                   </attributes>
                   <data isLeaf="true" text="Cargo.lock" />
@@ -564,7 +962,151 @@
                 <presentation>
                   <attributes>
                     <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/s2965_find_missing_and_repeated_values/Cargo.toml" />
+                      <entry key="filePath" value="$PROJECT_DIR$/s2874_maximum_value_of_an_ordered_triplet_2/Cargo.toml" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.toml" />
+                  <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s2965_find_missing_and_repeated_values" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s2965_find_missing_and_repeated_values" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s2965_find_missing_and_repeated_values}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s3108_minimum_cost_walk_in_weighted_graph" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s3108_minimum_cost_walk_in_weighted_graph" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s3108_minimum_cost_walk_in_weighted_graph}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s3169_count_days_without_meetings" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s3169_count_days_without_meetings" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s3169_count_days_without_meetings}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s3191_minimum_operations_to_make_binary_array_elements_equal_to_one" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s3191_minimum_operations_to_make_binary_array_elements_equal_to_one" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s3191_minimum_operations_to_make_binary_array_elements_equal_to_one}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s3375_minimum_operations_to_make_array_value_equal_to_k" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s3375_minimum_operations_to_make_array_value_equal_to_k" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s3375_minimum_operations_to_make_array_value_equal_to_k/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="main.rs" />
+                    <item name="main.rs" type="f3e56494:RsPsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s3375_minimum_operations_to_make_array_value_equal_to_k/target" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/target}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s3375_minimum_operations_to_make_array_value_equal_to_k/Cargo.lock" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.lock" />
+                  <item name="Cargo.lock" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s3375_minimum_operations_to_make_array_value_equal_to_k/Cargo.toml" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.toml" />
+                  <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="s3396_minimum_number_of_operations_to_make_elements_in_array_distinct" />
+                <item name="dir{file:///home/sinder/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="main.rs" />
+                    <item name="main.rs" type="f3e56494:RsPsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/target" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
+                  <item name="dir{file:///home/sinder/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/target}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/Cargo.lock" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Cargo.lock" />
+                  <item name="Cargo.lock" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/Cargo.toml" />
                     </map>
                   </attributes>
                   <data isLeaf="true" text="Cargo.toml" />
@@ -577,7 +1119,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
                   </map>
                 </attributes>
-                <data iconPath="vcs/ignore_file.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
                 <item name=".gitignore" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -640,7 +1182,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/calculate money in leetcode bank.cpp" />
                   </map>
                 </attributes>
-                <data iconPath="fileTypes/custom.svg" iconPlugin="com.intellij" isLeaf="true" text="calculate money in leetcode bank.cpp" />
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="calculate money in leetcode bank.cpp" />
                 <item name="calculate money in leetcode bank.cpp" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -1202,9 +1744,16 @@
   </component>
   <component name="RunConfigurationStartHistory">
     <history>
-      <element setting="Python.test" />
-      <element setting="Cargo.Run trait_common_behaiviour_performance" />
-      <element setting="Cargo.Run s2965_find_missing_and_repeated_values" />
+      <element setting="Cargo.Run s781_rabbits_in_forest" />
+      <element setting="Cargo.Run s2176_count_equal_and_divisible_pairs_in_an_array" />
+      <element setting="Cargo.Run s3375_minimum_operations_to_make_array_value_equal_to_k" />
+      <element setting="Cargo.Run s416_partition_equal_subset_sum" />
+      <element setting="Cargo.Run s1863_sum_of_all_subset_xor_totals" />
+      <element setting="Cargo.Run s1123_lowest_common_ancestor_of_deepest_leaves" />
+      <element setting="Cargo.Run s2874_maximum_value_of_an_ordered_triplet_2" />
+      <element setting="Cargo.Run s2873" />
+      <element setting="Cargo.Run s2140_solving_questions_with_brainpower" />
+      <element setting="Cargo.Run s2551_put_marbles_in_bags" />
     </history>
   </component>
   <component name="TerminalArrangementManager">
@@ -1218,14 +1767,14 @@
     </option>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16269000" />
+    <option name="totallyTimeSpent" value="129739000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
       <window_info id="Merge Requests" show_stripe_button="false" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2566406" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5003397" weight="0.2566406" />
       <window_info id="Commit" order="1" weight="0.33027345" />
-      <window_info id="Bookmarks" order="2" side_tool="true" weight="0.19550781" />
+      <window_info id="Bookmarks" order="2" sideWeight="0.4996603" side_tool="true" weight="0.2564453" />
       <window_info x="-118" y="167" width="2550" height="1556" id="Structure" order="3" side_tool="true" weight="0.33027345" />
       <window_info id="TODO" order="4" side_tool="true" weight="0.33027345" />
       <window_info id="Activity" order="5" weight="0.33027345" />
@@ -1236,9 +1785,9 @@
       <window_info anchor="bottom" id="Messages" order="1" />
       <window_info anchor="bottom" id="ExcelReader" order="2" />
       <window_info anchor="bottom" id="Python Packages" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.33023703" />
+      <window_info anchor="bottom" id="Debug" order="4" show_stripe_button="false" weight="0.33023703" />
       <window_info anchor="bottom" id="Database Changes" order="5" weight="0.33023703" />
-      <window_info anchor="bottom" id="Find" order="6" show_stripe_button="false" weight="0.33023703" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.33023703" />
       <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="Notifications" order="0" weight="0.25019532" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25019532" />
@@ -1246,25 +1795,25 @@
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Cargo" order="5" weight="0.2" />
-      <window_info anchor="right" id="RustCargo" order="6" weight="0.2" />
-      <window_info anchor="right" id="Build" order="7" sideWeight="0.49974948" side_tool="true" weight="0.38964844" />
-      <window_info active="true" anchor="right" id="Terminal" order="8" sideWeight="0.49965614" side_tool="true" visible="true" weight="0.44941407" />
-      <window_info anchor="right" id="Problems View" order="9" weight="0.33496094" />
+      <window_info anchor="right" id="RustCargo" order="6" weight="0.20019531" />
+      <window_info anchor="right" id="Build" order="7" side_tool="true" weight="0.48457032" />
+      <window_info anchor="right" id="Terminal" order="8" sideWeight="0.49965614" side_tool="true" weight="0.35957032" />
+      <window_info anchor="right" id="Problems View" order="9" weight="0.35566407" />
       <window_info anchor="right" id="Developer Tools" order="10" side_tool="true" />
-      <window_info anchor="right" id="Run" order="11" show_stripe_button="false" side_tool="true" weight="0.31933594" />
+      <window_info anchor="right" id="Run" order="11" show_stripe_button="false" side_tool="true" weight="0.35566407" />
       <window_info anchor="right" id="Services" order="12" side_tool="true" />
       <window_info anchor="right" id="Key Promoter X" order="13" />
       <window_info anchor="right" id="Version Control" order="14" side_tool="true" weight="0.5673828" />
       <window_info anchor="right" id="Hierarchy" order="15" show_stripe_button="false" weight="0.3298828" />
       <window_info anchor="right" id="Coverage" order="16" side_tool="true" weight="0.3298828" />
       <window_info anchor="right" id="Python Console" order="17" />
-      <unified_weights bottom="0.33023703" left="0.2566406" right="0.44941407" />
+      <unified_weights bottom="0.33023703" left="0.33027345" right="0.7115234" />
     </layoutV2>
     <layout-to-restore>
       <window_info id="Merge Requests" show_stripe_button="false" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15605469" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5003397" weight="0.2566406" />
       <window_info id="Commit" order="1" weight="0.33027345" />
-      <window_info id="Bookmarks" order="2" side_tool="true" weight="0.19550781" />
+      <window_info id="Bookmarks" order="2" sideWeight="0.4996603" side_tool="true" weight="0.2564453" />
       <window_info x="-118" y="167" width="2550" height="1556" id="Structure" order="3" side_tool="true" weight="0.33027345" />
       <window_info id="TODO" order="4" side_tool="true" weight="0.33027345" />
       <window_info id="Activity" order="5" weight="0.33027345" />
@@ -1275,9 +1824,9 @@
       <window_info anchor="bottom" id="Messages" order="1" />
       <window_info anchor="bottom" id="ExcelReader" order="2" />
       <window_info anchor="bottom" id="Python Packages" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.33023703" />
+      <window_info anchor="bottom" id="Debug" order="4" show_stripe_button="false" weight="0.33023703" />
       <window_info anchor="bottom" id="Database Changes" order="5" weight="0.33023703" />
-      <window_info anchor="bottom" id="Find" order="6" show_stripe_button="false" weight="0.33023703" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.33023703" />
       <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="Notifications" order="0" weight="0.25019532" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25019532" />
@@ -1285,76 +1834,144 @@
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Cargo" order="5" weight="0.2" />
-      <window_info anchor="right" id="RustCargo" order="6" weight="0.2" />
-      <window_info anchor="right" id="Build" order="7" sideWeight="0.49974948" side_tool="true" weight="0.38964844" />
-      <window_info anchor="right" id="Terminal" order="8" sideWeight="0.49965614" side_tool="true" weight="0.44980466" />
-      <window_info active="true" anchor="right" id="Problems View" order="9" visible="true" weight="0.33496094" />
+      <window_info anchor="right" id="RustCargo" order="6" weight="0.20019531" />
+      <window_info anchor="right" id="Build" order="7" side_tool="true" weight="0.48457032" />
+      <window_info anchor="right" id="Terminal" order="8" sideWeight="0.49965614" side_tool="true" weight="0.35957032" />
+      <window_info active="true" anchor="right" id="Problems View" order="9" visible="true" weight="0.35566407" />
       <window_info anchor="right" id="Developer Tools" order="10" side_tool="true" />
-      <window_info anchor="right" id="Run" order="11" side_tool="true" weight="0.33496094" />
+      <window_info anchor="right" id="Run" order="11" side_tool="true" visible="true" weight="0.35566407" />
       <window_info anchor="right" id="Services" order="12" side_tool="true" />
       <window_info anchor="right" id="Key Promoter X" order="13" />
       <window_info anchor="right" id="Version Control" order="14" side_tool="true" weight="0.5673828" />
       <window_info anchor="right" id="Hierarchy" order="15" show_stripe_button="false" weight="0.3298828" />
       <window_info anchor="right" id="Coverage" order="16" side_tool="true" weight="0.3298828" />
       <window_info anchor="right" id="Python Console" order="17" />
-      <unified_weights bottom="0.33023703" left="0.33027345" right="0.6701172" />
+      <unified_weights bottom="0.33023703" left="0.33027345" right="0.7115234" />
     </layout-to-restore>
     <recentWindows>
-      <value>Terminal</value>
-      <value>Run</value>
-      <value>Project</value>
-      <value>Problems View</value>
-      <value>Build</value>
       <value>Commit</value>
+      <value>Problems View</value>
+      <value>Run</value>
+      <value>Build</value>
+      <value>Project</value>
       <value>Version Control</value>
       <value>Structure</value>
+      <value>RustCargo</value>
+      <value>Debug</value>
+      <value>Find</value>
+      <value>Terminal</value>
+      <value>Bookmarks</value>
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
+    <state x="855" y="194" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog.ideScale=125" timestamp="1743139083100">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state x="855" y="194" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743139083100" />
+    <state x="801" y="557" key="#org.rust.ide.typing.paste.CratesImportDialog.ideScale=125" timestamp="1743865311931">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state x="801" y="557" key="#org.rust.ide.typing.paste.CratesImportDialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743865311931" />
     <state x="259" y="490" key="FileChooserDialogImpl.ideScale=125" timestamp="1738552147148">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="259" y="490" key="FileChooserDialogImpl.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738552147148" />
-    <state width="815" height="1417" key="GridCell.Tab.0.bottom.ideScale=125" timestamp="1741937102908">
+    <state width="910" height="1417" key="GridCell.Tab.0.bottom.ideScale=125" timestamp="1745128278169">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="815" height="1417" key="GridCell.Tab.0.bottom.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741937102908" />
-    <state width="815" height="1417" key="GridCell.Tab.0.center.ideScale=125" timestamp="1741937102908">
+    <state width="910" height="1417" key="GridCell.Tab.0.bottom.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1745128278169" />
+    <state width="910" height="1417" key="GridCell.Tab.0.center.ideScale=125" timestamp="1745128278169">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="815" height="1417" key="GridCell.Tab.0.center.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741937102908" />
-    <state width="815" height="1417" key="GridCell.Tab.0.left.ideScale=125" timestamp="1741937102908">
+    <state width="910" height="1417" key="GridCell.Tab.0.center.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1745128278169" />
+    <state width="910" height="1417" key="GridCell.Tab.0.left.ideScale=125" timestamp="1745128278169">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="815" height="1417" key="GridCell.Tab.0.left.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741937102908" />
-    <state width="815" height="1417" key="GridCell.Tab.0.right.ideScale=125" timestamp="1741937102908">
+    <state width="910" height="1417" key="GridCell.Tab.0.left.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1745128278169" />
+    <state width="910" height="1417" key="GridCell.Tab.0.right.ideScale=125" timestamp="1745128278169">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="815" height="1417" key="GridCell.Tab.0.right.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741937102908" />
-    <state x="1883" y="1128" width="640" height="402" key="ProcessPopupWindow.ideScale=125" timestamp="1742134283753">
+    <state width="910" height="1417" key="GridCell.Tab.0.right.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1745128278169" />
+    <state width="2560" height="460" key="GridCell.Tab.1.bottom.ideScale=125" timestamp="1743303563966">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="1883" y="1128" width="640" height="402" key="ProcessPopupWindow.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1742134283753" />
+    <state width="2560" height="460" key="GridCell.Tab.1.bottom.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743303563966" />
+    <state width="2560" height="460" key="GridCell.Tab.1.center.ideScale=125" timestamp="1743303563966">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="2560" height="460" key="GridCell.Tab.1.center.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743303563966" />
+    <state width="2560" height="460" key="GridCell.Tab.1.left.ideScale=125" timestamp="1743303563966">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="2560" height="460" key="GridCell.Tab.1.left.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743303563966" />
+    <state width="2560" height="460" key="GridCell.Tab.1.right.ideScale=125" timestamp="1743303563966">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="2560" height="460" key="GridCell.Tab.1.right.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743303563966" />
+    <state width="2560" height="460" key="GridCell.Tab.2.bottom.ideScale=125" timestamp="1743303563966">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="2560" height="460" key="GridCell.Tab.2.bottom.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743303563966" />
+    <state width="2560" height="460" key="GridCell.Tab.2.center.ideScale=125" timestamp="1743303563966">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="2560" height="460" key="GridCell.Tab.2.center.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743303563966" />
+    <state width="2560" height="460" key="GridCell.Tab.2.left.ideScale=125" timestamp="1743303563966">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="2560" height="460" key="GridCell.Tab.2.left.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743303563966" />
+    <state width="2560" height="460" key="GridCell.Tab.2.right.ideScale=125" timestamp="1743303563966">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="2560" height="460" key="GridCell.Tab.2.right.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743303563966" />
+    <state width="2560" height="460" key="GridCell.Tab.3.bottom.ideScale=125" timestamp="1743303563966">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="2560" height="460" key="GridCell.Tab.3.bottom.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743303563966" />
+    <state width="2560" height="460" key="GridCell.Tab.3.center.ideScale=125" timestamp="1743303563966">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="2560" height="460" key="GridCell.Tab.3.center.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743303563966" />
+    <state width="2560" height="460" key="GridCell.Tab.3.left.ideScale=125" timestamp="1743303563966">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="2560" height="460" key="GridCell.Tab.3.left.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743303563966" />
+    <state width="2560" height="460" key="GridCell.Tab.3.right.ideScale=125" timestamp="1743303563966">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="2560" height="460" key="GridCell.Tab.3.right.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743303563966" />
+    <state x="544" y="331" key="IDE.errors.dialog.ideScale=125" timestamp="1743988266932">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state x="544" y="331" key="IDE.errors.dialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743988266932" />
+    <state x="1883" y="1128" width="640" height="402" key="ProcessPopupWindow.ideScale=125" timestamp="1745128231525">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state x="1883" y="1128" width="640" height="402" key="ProcessPopupWindow.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1745128231525" />
     <state x="565" y="185" key="PythonInterpreterConfigurable.size.ideScale=125" timestamp="1737965673965">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="565" y="185" key="PythonInterpreterConfigurable.size.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1737965673965" />
-    <state x="508" y="39" width="1585" height="1561" key="SettingsEditor.ideScale=125" timestamp="1742134367774">
+    <state x="938" y="316" key="RollbackChangesDialog.ideScale=125" timestamp="1742794876490">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="508" y="39" width="1585" height="1561" key="SettingsEditor.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1742134367774" />
+    <state x="938" y="316" key="RollbackChangesDialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1742794876490" />
+    <state x="483" y="14" width="1585" height="1561" key="SettingsEditor.ideScale=125" timestamp="1745132657131">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state x="483" y="14" width="1585" height="1561" key="SettingsEditor.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1745132657131" />
     <state x="800" y="355" width="945" height="946" key="StructurePopup.ideScale=125" timestamp="1741934991947">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="800" y="355" width="945" height="946" key="StructurePopup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741934991947" />
-    <state width="871" height="927" key="SwitcherDM.ideScale=125" timestamp="1742134273655">
+    <state width="871" height="927" key="SwitcherDM.ideScale=125" timestamp="1745126331348">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="871" height="927" key="SwitcherDM.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1742134273655" />
-    <state x="560" y="247" key="Vcs.Push.Dialog.v2.ideScale=125" timestamp="1741303668318">
+    <state width="871" height="927" key="SwitcherDM.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1745126331348" />
+    <state x="550" y="233" key="Vcs.Push.Dialog.v2.ideScale=125" timestamp="1745128275677">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="560" y="247" key="Vcs.Push.Dialog.v2.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741303668318" />
+    <state x="550" y="233" key="Vcs.Push.Dialog.v2.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1745128275677" />
     <state x="811" y="291" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.ideScale=125" timestamp="1738061529158">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
@@ -1363,14 +1980,26 @@
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="904" y="654" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741300983321" />
-    <state x="686" y="358" key="run.anything.popup.ideScale=125" timestamp="1742134471040">
+    <state x="850" y="359" width="819" height="600" key="conflicts.dialog.ideScale=125" timestamp="1743645757389">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="686" y="358" key="run.anything.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1742134471040" />
-    <state x="689" y="39" width="1236" height="1558" key="search.everywhere.popup.ideScale=125" timestamp="1742134463532">
+    <state x="850" y="359" width="819" height="600" key="conflicts.dialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743645757389" />
+    <state x="795" y="39" width="1134" height="962" key="find.popup.ideScale=125" timestamp="1744205708053">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="689" y="39" width="1236" height="1558" key="search.everywhere.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1742134463532" />
+    <state x="795" y="39" width="1134" height="962" key="find.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1744205708053" />
+    <state width="1054" height="335" key="javadoc.popup.ideScale=125" timestamp="1743004727348">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state width="1054" height="335" key="javadoc.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1743004727348" />
+    <state x="686" y="358" key="run.anything.popup.ideScale=125" timestamp="1744003455539">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state x="686" y="358" key="run.anything.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1744003455539" />
+    <state x="689" y="39" width="1236" height="1558" key="search.everywhere.popup.ideScale=125" timestamp="1745126352447">
+      <screen x="0" y="39" width="2560" height="1561" />
+    </state>
+    <state x="689" y="39" width="1236" height="1558" key="search.everywhere.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1745126352447" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/00_uni_code/prac2_1/sales_bonus.py">
@@ -1418,17 +2047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codepen/src/main.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!block;n#comp_sum#0" expanded="true" />
-            <element signature="n#!!block;n#generate_composition#0" expanded="true" />
-            <element signature="n#!!block;n#main#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/s1382_balance_a_binary_search_tree/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1445,13 +2063,6 @@
           <folding>
             <element signature="n#!!block;n#main#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.ideavimrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1478,16 +2089,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand-0.9.0/src/rng.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code_pen_records/trait_common_behaiviour_performance/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="951">
+        <state relative-caret-position="1520">
           <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -1499,19 +2103,340 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codepen/test.py">
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand-0.9.0/src/rng.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        <state relative-caret-position="680">
+          <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codepen/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.4.6/src/biguint/subtraction.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
           <folding>
-            <element signature="e#1741#1920#0" expanded="true" />
-            <element signature="e#1974#2294#0" expanded="true" />
-            <element signature="e#2352#2500#0" expanded="true" />
-            <element signature="e#2529#2796#0" expanded="true" />
-            <element signature="e#2836#3105#0" expanded="true" />
+            <element signature="n#!!block;n#sub2#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lazy_static-1.5.0/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="151" column="17" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/iter/traits/iterator.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10400">
+          <caret line="1966" column="18" selection-start-line="1966" selection-start-column="18" selection-end-line="1966" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/cmp.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="252" column="7" selection-start-line="252" selection-start-column="7" selection-end-line="252" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/iter/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19200">
+          <caret line="2066" column="11" selection-start-line="2066" selection-start-column="11" selection-end-line="2066" selection-end-column="11" />
+          <folding>
+            <element signature="e#47129#47130#0" expanded="true" />
+            <element signature="e#47158#47159#0" expanded="true" />
+            <element signature="e#68960#68961#0" expanded="true" />
+            <element signature="e#68997#68998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3169_count_days_without_meetings/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="e#10#11#0" expanded="true" />
+            <element signature="e#43#44#0" expanded="true" />
+            <element signature="e#612#980#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2083_minimum_operations_to_make_a_univalue_grid/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1960">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding>
+            <element signature="e#1405#1697#0" expanded="true" />
+            <element signature="e#1827#2778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2780_minimum_index_of_a_valid_split/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#main#0" expanded="true" />
+            <element signature="e#211#702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cache/JetBrains/RustRover2024.3/intellij-rust/stdlib-local-copy/1.84.0-bf089056487ca87a19ffae2febbcd53a7295a576/library/core/src/cmp.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6680">
+          <caret line="650" column="11" selection-start-line="650" selection-start-column="11" selection-end-line="650" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frequency of the most frequent element.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2503_maximum_number_of_points_from_grid_queries/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#398#1917#0" expanded="true" />
+            <element signature="e#2025#3539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2503_maximum_number_of_points_from_grid_queries/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s330_patching_array/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s330_patching_array/Cargo.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2503_maximum_number_of_points_from_grid_queries/Cargo.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2551_put_marbles_in_bags/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3280">
+          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="n#!!block;n#main#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#602#745#0" expanded="true" />
+            <element signature="e#860#1902#0" expanded="true" />
+            <element signature="e#2540#3339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2140_solving_questions_with_brainpower/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!block;n#main#0" expanded="true" />
+            <element signature="e#321#1225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s763_partition_labels/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2873/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1031">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!block;n#main#0" expanded="true" />
+            <element signature="e#248#589#0" expanded="true" />
+            <element signature="e#671#1106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2874_maximum_value_of_an_ordered_triplet_2/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!block;n#main#0" expanded="true" />
+            <element signature="e#1176#1467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s1123_lowest_common_ancestor_of_deepest_leaves/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#354#456#0" expanded="true" />
+            <element signature="e#611#674#0" expanded="true" />
+            <element signature="n#!!block;n#traverse#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s1863_sum_of_all_subset_xor_totals/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!block;n#main#0" expanded="true" />
+            <element signature="e#264#421#0" expanded="true" />
+            <element signature="e#534#904#0" expanded="true" />
+            <element signature="e#593#872#0" expanded="true" />
+            <element signature="e#993#1192#0" expanded="true" />
+            <element signature="e#1276#1404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.ideavimrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2120">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codepen/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15720">
+          <caret line="466" column="3" selection-start-line="466" selection-start-column="3" selection-end-line="466" selection-end-column="3" />
+          <folding>
+            <element signature="e#47#72#0" expanded="true" />
+            <element signature="n#!!block;n#possible_sums_for_ascii#0" expanded="true" />
+            <element signature="n#!!block;n#ascii_possible_sums#0" expanded="true" />
+            <element signature="n#!!block;n#find_subset_old#0" expanded="true" />
+            <element signature="n#!!block;n#binary_to_ascii#0" expanded="true" />
+            <element signature="n#!!block;n#convert_positions_to_string#0" expanded="true" />
+            <element signature="n#!!block;n#iterate_combinations#0" expanded="true" />
+            <element signature="n#!!block;n#find_sum_greed#0" expanded="true" />
+            <element signature="n#!!block;n#process_combinations#0" expanded="true" />
+            <element signature="n#!!block;n#main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s416_partition_equal_subset_sum/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="n#!!block;n#main#0" expanded="true" />
+            <element signature="e#4053#4650#0" expanded="true" />
+            <element signature="e#4742#5161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/panicking.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9680">
+          <caret line="664" column="4" selection-start-line="664" selection-start-column="4" selection-end-line="664" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_uni_code/prac1/target/debug/deps/deranged-8eaa091e522606dc.d">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="378" selection-start-column="378" selection-end-column="378" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+          <folding>
+            <element signature="e#204#627#0" expanded="true" />
+            <element signature="e#734#1086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <element signature="n#!!block;n#main#0" expanded="true" />
+            <element signature="e#465#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="911">
+          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!block;n#main#0" expanded="true" />
+            <element signature="e#279#545#0" expanded="true" />
+            <element signature="e#625#1073#0" expanded="true" />
+            <element signature="e#1207#1695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s781_rabbits_in_forest/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!block;n#main#0" expanded="true" />
+            <element signature="e#259#783#0" expanded="true" />
+            <element signature="e#862#1281#0" expanded="true" />
+            <element signature="e#1360#1793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codepen/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/can place flowers.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

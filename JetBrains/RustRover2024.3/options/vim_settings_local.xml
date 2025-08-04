@@ -3,7 +3,6 @@
     <history>
       <history-cmd>
         <entry encoding="base64">d2E=</entry>
-        <entry encoding="base64">bQ==</entry>
         <entry encoding="base64">OTk=</entry>
         <entry encoding="base64">IDo=</entry>
         <entry encoding="base64">bWFwIDxsZWFkZXI+cA==</entry>
@@ -11,10 +10,17 @@
         <entry encoding="base64">OnZlcmJvc2UgbWFwIDxsZWFkZXI+UCA=</entry>
         <entry encoding="base64">dmVyYm9zZSBtYXAgPGxlYWRlcj5Q</entry>
         <entry encoding="base64">dmVyYm9zZSBtYXAgPGxlYWRlcj5w</entry>
+        <entry encoding="base64">Vw==</entry>
+        <entry encoding="base64">JzwsJz4h</entry>
+        <entry encoding="base64">d3E=</entry>
+        <entry encoding="base64">bQ==</entry>
         <entry encoding="base64">JzwsJz4=</entry>
-        <entry encoding="base64">cQ==</entry>
+        <entry encoding="base64">cy9tZW51X3RleHRfZm9udC9hcHAubWVudV90ZXh0X2ZvbnQ=</entry>
+        <entry encoding="base64">cw==</entry>
+        <entry encoding="base64">cy8=</entry>
         <entry encoding="base64" />
         <entry encoding="base64">dw==</entry>
+        <entry encoding="base64">cQ==</entry>
       </history-cmd>
       <history-search>
         <entry encoding="base64">dGhoaA==</entry>
@@ -23,7 +29,6 @@
         <entry encoding="base64">YWN0aW9u</entry>
         <entry encoding="base64">R290bw==</entry>
         <entry encoding="base64">XDxiaWdnZXN0X2lfZGVwdGhcPg==</entry>
-        <entry encoding="base64">XDwpXD4=</entry>
         <entry encoding="base64">IC8=</entry>
         <entry encoding="base64">XDxkaXZcPg==</entry>
         <entry encoding="base64">XDw+XD4=</entry>
@@ -47,218 +52,232 @@
         <entry encoding="base64">XDw7XD4=</entry>
         <entry encoding="base64">XDwiXD4=</entry>
         <entry encoding="base64">XDxGYXJld2VsbFw+</entry>
-        <entry encoding="base64" />
         <entry encoding="base64">XDxteV9jYXJcPg==</entry>
-        <entry encoding="base64">Lw==</entry>
         <entry encoding="base64">bm4=</entry>
         <entry encoding="base64">XDxwdWJcPg==</entry>
+        <entry encoding="base64">XDxwYWNrYWdlXD4=</entry>
+        <entry encoding="base64">Q29sbw==</entry>
+        <entry encoding="base64">bWVudV90ZXh0X2ZvbnQ=</entry>
+        <entry encoding="base64">XDxUT0RPXD4=</entry>
+        <entry encoding="base64">Y29sb3Vy</entry>
+        <entry encoding="base64">YQ==</entry>
+        <entry encoding="base64">dG5oYW9zbmV0dWhzbmFvZWh1bnRzYWhv</entry>
+        <entry encoding="base64">XDwpXD4=</entry>
+        <entry encoding="base64">bm5ubm5u</entry>
+        <entry encoding="base64">Yg==</entry>
+        <entry encoding="base64">aW1wbA==</entry>
+        <entry encoding="base64">Lw==</entry>
+        <entry encoding="base64">Z2V0</entry>
+        <entry encoding="base64">dw==</entry>
+        <entry encoding="base64" />
+        <entry encoding="base64">XDxsZXRcPg==</entry>
       </history-search>
     </history>
   </component>
   <component name="VimJumpsSettings">
     <project id="office_automation_system-8dea3e74">
-      <jump line="0" column="4" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/error.rs" protocol="file" />
-      <jump line="49" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/error.rs" protocol="file" />
-      <jump line="42" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/error.rs" protocol="file" />
-      <jump line="11" column="19" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/ctx/mod.rs" protocol="file" />
-      <jump line="5" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/ctx/mod.rs" protocol="file" />
-      <jump line="59" column="4" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
-      <jump line="26" column="4" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/lib.rs" protocol="file" />
+      <jump line="332" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_version.rs" protocol="file" />
+      <jump line="334" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_version.rs" protocol="file" />
+      <jump line="288" column="36" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_version.rs" protocol="file" />
+      <jump line="94" column="39" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_version.rs" protocol="file" />
+      <jump line="313" column="39" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_version.rs" protocol="file" />
+      <jump line="275" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_version.rs" protocol="file" />
+      <jump line="67" column="16" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_version.rs" protocol="file" />
+      <jump line="233" column="23" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="237" column="17" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="241" column="31" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="243" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="262" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="264" column="48" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="82" column="17" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="78" column="28" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="90" column="55" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="275" column="32" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="246" column="20" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="272" column="31" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="260" column="11" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="282" column="8" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="271" column="73" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="280" column="8" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="74" column="14" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="12" column="22" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-file/src/excel/mod.rs" protocol="file" />
+      <jump line="2" column="21" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-file/src/excel/mix_production_report.rs" protocol="file" />
+      <jump line="482" column="18" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="18" column="54" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/prelude.rs" protocol="file" />
+      <jump line="481" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="2" column="43" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/prelude.rs" protocol="file" />
+      <jump line="12" column="31" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/prelude.rs" protocol="file" />
+      <jump line="480" column="13" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="75" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
+      <jump line="98" column="47" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
       <jump line="0" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/client.rs" protocol="file" />
-      <jump line="80" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/client.rs" protocol="file" />
-      <jump line="62" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_type.rs" protocol="file" />
-      <jump line="7" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_type.rs" protocol="file" />
-      <jump line="59" column="17" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_type.rs" protocol="file" />
-      <jump line="26" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="510" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="487" column="44" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="321" column="1" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="322" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="310" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="208" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="230" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="519" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="505" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="486" column="36" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="83" column="1" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="84" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="92" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="88" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="159" column="128" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="167" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="160" column="53" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="149" column="27" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="145" column="36" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="125" column="32" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="130" column="54" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="87" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="56" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="43" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="98" column="1" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="35" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="5" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="0" column="12" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="2" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="250" column="1" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="403" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="489" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="70" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="71" column="85" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="73" column="75" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="375" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="54" column="4" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_type.rs" protocol="file" />
-      <jump line="43" column="4" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_type.rs" protocol="file" />
-      <jump line="280" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/mod.rs" protocol="file" />
-      <jump line="1" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="51" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_type.rs" protocol="file" />
-      <jump line="66" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_type.rs" protocol="file" />
-      <jump line="2" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_type.rs" protocol="file" />
-      <jump line="206" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="207" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="12" column="4" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="14" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/property_traits.rs" protocol="file" />
-      <jump line="11" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/property_traits.rs" protocol="file" />
-      <jump line="4" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/property_traits.rs" protocol="file" />
-      <jump line="23" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/mix_composition.rs" protocol="file" />
-      <jump line="7" column="30" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/property_traits.rs" protocol="file" />
-      <jump line="27" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/property_traits.rs" protocol="file" />
-      <jump line="26" column="5" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/property_traits.rs" protocol="file" />
-      <jump line="19" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/property_traits.rs" protocol="file" />
-      <jump line="199" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="28" column="19" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="41" column="65" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="18" column="61" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_type.rs" protocol="file" />
-      <jump line="39" column="8" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="29" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="27" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="25" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="23" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="20" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="51" column="9" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="3" column="11" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_type.rs" protocol="file" />
-      <jump line="40" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
-      <jump line="59" column="4" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="11" column="33" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="20" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
-      <jump line="16" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
-      <jump line="89" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
-      <jump line="64" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="60" column="7" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="201" column="1" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
-      <jump line="49" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="26" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="44" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
-      <jump line="199" column="12" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient_interface_methods.rs" protocol="file" />
-      <jump line="39" column="20" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient_interface_methods.rs" protocol="file" />
-      <jump line="40" column="30" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
-      <jump line="15" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient_interface_methods.rs" protocol="file" />
-      <jump line="68" column="3" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
+      <jump line="96" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
+      <jump line="29" column="4" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
+      <jump line="0" column="13" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" protocol="file" />
+      <jump line="521" column="22" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="4" column="8" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/mod.rs" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/action_type.rs" protocol="file" />
+      <jump line="5" column="8" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/mod.rs" protocol="file" />
+      <jump line="527" column="27" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="389" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="47" column="4" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="305" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
+      <jump line="48" column="4" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="282" column="17" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="279" column="14" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="211" column="11" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="29" column="8" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="213" column="14" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="60" column="20" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="41" column="8" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/mix_composition.rs" protocol="file" />
+      <jump line="39" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/mix_composition.rs" protocol="file" />
+      <jump line="162" column="31" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/mix_composition.rs" protocol="file" />
+      <jump line="144" column="11" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/mix_composition.rs" protocol="file" />
+      <jump line="48" column="27" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="38" column="13" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="95" column="17" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
+      <jump line="60" column="16" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
+      <jump line="14" column="26" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/custom_types.rs" protocol="file" />
+      <jump line="53" column="14" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
+      <jump line="38" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
+      <jump line="223" column="22" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="214" column="13" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="227" column="13" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="34" column="15" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="358" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
+      <jump line="46" column="17" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="405" column="16" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="188" column="68" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="84" column="27" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="91" column="26" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="233" column="22" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="54" column="30" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
+      <jump line="240" column="53" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="250" column="16" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="232" column="12" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="242" column="20" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="243" column="8" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="262" column="39" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="215" column="20" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="17" column="18" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="265" column="32" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="263" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="259" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="247" column="0" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="222" column="8" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="251" column="28" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="260" column="27" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="252" column="33" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="257" column="16" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="51" column="20" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" protocol="file" />
+      <jump line="237" column="40" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="306" column="24" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" protocol="file" />
+      <jump line="64" column="30" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="273" column="22" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
+      <jump line="31" column="22" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" protocol="file" />
+      <jump line="289" column="17" filename="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" protocol="file" />
     </project>
     <project id="LeetCode-32cebcf5">
-      <jump line="8" column="0" filename="$USER_HOME$/Projects/LeetCode/00_uni_code/prac2_1/sales_bonus.py" protocol="file" />
-      <jump line="26" column="17" filename="$USER_HOME$/Projects/LeetCode/00_uni_code/prac2_1/loops.py" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/Projects/LeetCode/00_uni_code/prac2_1/shop_calculator.py" protocol="file" />
-      <jump line="13" column="26" filename="$USER_HOME$/Projects/LeetCode/00_uni_code/prac2_1/shop_calculator.py" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/Projects/LeetCode/00_uni_code/prac2_1/menus.py" protocol="file" />
-      <jump line="16" column="2" filename="$USER_HOME$/Projects/LeetCode/00_uni_code/prac2_1/menus.py" protocol="file" />
-      <jump line="95" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="87" column="12" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="85" column="12" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="96" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="19" column="7" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="30" column="33" filename="$USER_HOME$/Projects/LeetCode/codepen/src/main.rs" protocol="file" />
-      <jump line="48" column="17" filename="$USER_HOME$/Projects/LeetCode/codepen/src/main.rs" protocol="file" />
-      <jump line="3" column="7" filename="$USER_HOME$/Projects/LeetCode/codepen/src/main.rs" protocol="file" />
-      <jump line="4" column="12" filename="$USER_HOME$/Projects/LeetCode/codepen/src/main.rs" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/src/main.rs" protocol="file" />
-      <jump line="70" column="0" filename="$USER_HOME$/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src/main.rs" protocol="file" />
-      <jump line="0" column="4" filename="$USER_HOME$/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src/main.rs" protocol="file" />
-      <jump line="9" column="0" filename="$USER_HOME$/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src/main.rs" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/Projects/LeetCode/s1382_balance_a_binary_search_tree/src/main.rs" protocol="file" />
-      <jump line="1" column="0" filename="$USER_HOME$/Projects/LeetCode/s1405_langest_happy_string/src/main.rs" protocol="file" />
-      <jump line="37" column="28" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="23" column="8" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="16" column="27" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="6" column="14" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="2" column="0" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="3" column="0" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="12" column="22" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="27" column="14" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="4" column="24" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="0" column="26" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="11" column="20" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="14" column="45" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="64" column="0" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="8" column="0" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="10" column="8" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="6" column="0" filename="$USER_HOME$/Projects/LeetCode/s1405_langest_happy_string/src/main.rs" protocol="file" />
-      <jump line="47" column="0" filename="$USER_HOME$/Projects/LeetCode/s1405_langest_happy_string/src/main.rs" protocol="file" />
-      <jump line="7" column="13" filename="$USER_HOME$/Projects/LeetCode/s1405_langest_happy_string/src/main.rs" protocol="file" />
-      <jump line="68" column="40" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="7" column="14" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="5" column="0" filename="$USER_HOME$/Projects/LeetCode/s2965_find_missing_and_repeated_values/src/main.rs" protocol="file" />
-      <jump line="2" column="0" filename="$USER_HOME$/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src/main.rs" protocol="file" />
-      <jump line="26" column="0" filename="$USER_HOME$/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src/main.rs" protocol="file" />
-      <jump line="115" column="7" filename="$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand-0.9.0/src/lib.rs" protocol="file" />
-      <jump line="321" column="13" filename="$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand-0.9.0/src/rng.rs" protocol="file" />
-      <jump line="94" column="7" filename="$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand-0.9.0/src/rng.rs" protocol="file" />
-      <jump line="43" column="33" filename="$USER_HOME$/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src/main.rs" protocol="file" />
-      <jump line="40" column="24" filename="$USER_HOME$/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src/main.rs" protocol="file" />
-      <jump line="38" column="0" filename="$USER_HOME$/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src/main.rs" protocol="file" />
-      <jump line="34" column="19" filename="$USER_HOME$/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src/main.rs" protocol="file" />
-      <jump line="5" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="33" column="16" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="41" column="16" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="21" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="39" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="28" column="30" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="34" column="32" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="38" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="30" column="6" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="40" column="3" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="36" column="14" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="24" column="24" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="23" column="17" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="16" column="38" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="49" column="13" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="48" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="18" column="32" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="26" column="21" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="31" column="16" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="27" column="20" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="32" column="4" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="29" column="4" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="25" column="4" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="61" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="37" column="36" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="15" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="46" column="28" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="45" column="6" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="57" column="39" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="51" column="31" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="54" column="19" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="55" column="10" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="56" column="7" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="63" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="60" column="23" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="67" column="17" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="69" column="10" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="58" column="42" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="65" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="68" column="14" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="73" column="33" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="78" column="20" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="70" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="10" column="59" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="80" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="13" column="69" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="20" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
-      <jump line="31" column="20" filename="$USER_HOME$/Projects/LeetCode/code_pen_records/trait_common_behaiviour_performance/src/main.rs" protocol="file" />
+      <jump line="55" column="13" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="54" column="32" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="24" column="23" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="27" column="47" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="80" column="41" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="664" column="4" filename="$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/panicking.rs" protocol="file" />
+      <jump line="66" column="50" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="67" column="41" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="70" column="33" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="90" column="4" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="33" column="1" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="34" column="53" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="87" column="20" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="28" column="0" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="52" column="19" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="31" column="49" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="86" column="38" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="78" column="32" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="72" column="27" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="64" column="29" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="39" column="53" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="73" column="60" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="60" column="12" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="71" column="8" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="32" column="49" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="84" column="39" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="76" column="40" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="69" column="36" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="63" column="21" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="59" column="13" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="62" column="21" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="68" column="34" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="65" column="45" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="61" column="26" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="58" column="36" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="85" column="21" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="79" column="21" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="77" column="20" filename="$USER_HOME$/Projects/LeetCode/s416_partition_equal_subset_sum/src/main.rs" protocol="file" />
+      <jump line="7" column="0" filename="$USER_HOME$/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs" protocol="file" />
+      <jump line="0" column="28" filename="$USER_HOME$/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs" protocol="file" />
+      <jump line="8" column="36" filename="$USER_HOME$/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs" protocol="file" />
+      <jump line="13" column="8" filename="$USER_HOME$/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs" protocol="file" />
+      <jump line="65" column="8" filename="$USER_HOME$/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs" protocol="file" />
+      <jump line="70" column="4" filename="$USER_HOME$/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs" protocol="file" />
+      <jump line="42" column="0" filename="$USER_HOME$/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs" protocol="file" />
+      <jump line="43" column="46" filename="$USER_HOME$/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs" protocol="file" />
+      <jump line="25" column="43" filename="$USER_HOME$/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs" protocol="file" />
+      <jump line="21" column="8" filename="$USER_HOME$/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="7" column="0" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="19" column="0" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="5" column="23" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="17" column="8" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="21" column="0" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="9" column="0" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="10" column="20" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="28" column="8" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="26" column="16" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="34" column="12" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="23" column="0" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="7" column="0" filename="$USER_HOME$/Projects/LeetCode/00_uni_code/prac1/target/debug/deps/deranged-8eaa091e522606dc.d" protocol="file" />
+      <jump line="0" column="378" filename="$USER_HOME$/Projects/LeetCode/00_uni_code/prac1/target/debug/deps/deranged-8eaa091e522606dc.d" protocol="file" />
+      <jump line="49" column="21" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="14" column="8" filename="$USER_HOME$/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs" protocol="file" />
+      <jump line="52" column="36" filename="$USER_HOME$/Projects/LeetCode/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct/src/main.rs" protocol="file" />
+      <jump line="51" column="32" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="46" column="12" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="52" column="30" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="24" column="0" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="64" column="25" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="67" column="8" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="76" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" protocol="file" />
+      <jump line="2" column="47" filename="$USER_HOME$/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" protocol="file" />
+      <jump line="3" column="25" filename="$USER_HOME$/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" protocol="file" />
+      <jump line="18" column="21" filename="$USER_HOME$/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" protocol="file" />
+      <jump line="16" column="68" filename="$USER_HOME$/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" protocol="file" />
+      <jump line="15" column="62" filename="$USER_HOME$/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" protocol="file" />
+      <jump line="7" column="0" filename="$USER_HOME$/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" protocol="file" />
+      <jump line="11" column="21" filename="$USER_HOME$/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" protocol="file" />
+      <jump line="23" column="37" filename="$USER_HOME$/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" protocol="file" />
+      <jump line="4" column="4" filename="$USER_HOME$/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" protocol="file" />
+      <jump line="25" column="0" filename="$USER_HOME$/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" protocol="file" />
+      <jump line="19" column="38" filename="$USER_HOME$/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" protocol="file" />
+      <jump line="27" column="17" filename="$USER_HOME$/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" protocol="file" />
+      <jump line="13" column="54" filename="$USER_HOME$/Projects/LeetCode/s2176_count_equal_and_divisible_pairs_in_an_array/src/main.rs" protocol="file" />
+      <jump line="70" column="12" filename="$USER_HOME$/Projects/LeetCode/s3375_minimum_operations_to_make_array_value_equal_to_k/src/main.rs" protocol="file" />
+      <jump line="2" column="0" filename="$USER_HOME$/Projects/LeetCode/codepen/test.py" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/LeetCode/can place flowers.py" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/LeetCode/s781_rabbits_in_forest/src/main.rs" protocol="file" />
+      <jump line="12" column="8" filename="$USER_HOME$/Projects/LeetCode/s781_rabbits_in_forest/src/main.rs" protocol="file" />
+      <jump line="6" column="14" filename="$USER_HOME$/Projects/LeetCode/s781_rabbits_in_forest/src/main.rs" protocol="file" />
+      <jump line="8" column="0" filename="$USER_HOME$/Projects/LeetCode/s781_rabbits_in_forest/src/main.rs" protocol="file" />
+      <jump line="22" column="72" filename="$USER_HOME$/Projects/LeetCode/s781_rabbits_in_forest/src/main.rs" protocol="file" />
+      <jump line="10" column="0" filename="$USER_HOME$/Projects/LeetCode/s781_rabbits_in_forest/src/main.rs" protocol="file" />
+      <jump line="25" column="21" filename="$USER_HOME$/Projects/LeetCode/s781_rabbits_in_forest/src/main.rs" protocol="file" />
+      <jump line="55" column="25" filename="$USER_HOME$/Projects/LeetCode/s781_rabbits_in_forest/src/main.rs" protocol="file" />
+      <jump line="57" column="39" filename="$USER_HOME$/Projects/LeetCode/s781_rabbits_in_forest/src/main.rs" protocol="file" />
+      <jump line="27" column="15" filename="$USER_HOME$/Projects/LeetCode/s781_rabbits_in_forest/src/main.rs" protocol="file" />
     </project>
     <project id="JupyterNootbook-b05e527c">
       <jump line="0" column="0" filename="$USER_HOME$/Projects/JupyterNootbook/prac1/Practical1_Part 3_template.ipynb" protocol="file" />
@@ -274,111 +293,108 @@
       <jump line="14" column="15" filename="$USER_HOME$/.ideavimrc" protocol="file" />
     </project>
     <project id="cp1404practicals-87059ffa">
-      <jump line="21" column="28" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/car.py" protocol="file" />
-      <jump line="12" column="25" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/car.py" protocol="file" />
-      <jump line="19" column="41" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/car.py" protocol="file" />
-      <jump line="14" column="12" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/used_cars.py" protocol="file" />
-      <jump line="18" column="8" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/car.py" protocol="file" />
-      <jump line="15" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/car.py" protocol="file" />
-      <jump line="14" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/car.py" protocol="file" />
-      <jump line="16" column="25" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/used_cars.py" protocol="file" />
-      <jump line="12" column="13" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/used_cars.py" protocol="file" />
-      <jump line="6" column="29" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/car.py" protocol="file" />
-      <jump line="13" column="25" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/car.py" protocol="file" />
-      <jump line="9" column="36" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/car.py" protocol="file" />
-      <jump line="10" column="25" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/car.py" protocol="file" />
-      <jump line="17" column="1" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/car.py" protocol="file" />
-      <jump line="13" column="12" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/used_cars.py" protocol="file" />
-      <jump line="17" column="9" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/used_cars.py" protocol="file" />
-      <jump line="15" column="13" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/used_cars.py" protocol="file" />
-      <jump line="11" column="15" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/used_cars.py" protocol="file" />
-      <jump line="0" column="1" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/languages.py" protocol="file" />
-      <jump line="17" column="47" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_05/emails.py" protocol="file" />
-      <jump line="7" column="26" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/languages.py" protocol="file" />
-      <jump line="41" column="4" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/programming_language.py" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/programming_language.py" protocol="file" />
-      <jump line="11" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/programming_language.py" protocol="file" />
-      <jump line="14" column="38" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/programming_language.py" protocol="file" />
-      <jump line="15" column="55" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/programming_language.py" protocol="file" />
-      <jump line="10" column="25" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/languages.py" protocol="file" />
-      <jump line="11" column="47" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="12" column="29" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="10" column="13" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="17" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/programming_language.py" protocol="file" />
-      <jump line="5" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="21" column="21" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="27" column="44" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="30" column="25" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="32" column="35" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="19" column="21" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="18" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="26" column="14" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar_test.py" protocol="file" />
-      <jump line="0" column="32" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar_test.py" protocol="file" />
-      <jump line="28" column="6" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="12" column="17" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar_test.py" protocol="file" />
-      <jump line="24" column="38" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="10" column="37" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar_test.py" protocol="file" />
-      <jump line="19" column="18" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar_test.py" protocol="file" />
-      <jump line="20" column="23" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar_test.py" protocol="file" />
-      <jump line="28" column="70" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar_test.py" protocol="file" />
-      <jump line="36" column="40" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="29" column="4" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar_test.py" protocol="file" />
-      <jump line="30" column="19" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar_test.py" protocol="file" />
-      <jump line="35" column="40" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
-      <jump line="8" column="25" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar_test.py" protocol="file" />
-      <jump line="16" column="23" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar_test.py" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="36" column="5" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="13" column="20" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="31" column="25" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="12" column="16" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="26" column="12" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="23" column="47" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="18" column="26" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="22" column="44" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="40" column="5" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="20" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="21" column="68" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_05/emails.py" protocol="file" />
-      <jump line="16" column="30" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_05/emails.py" protocol="file" />
-      <jump line="13" column="28" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_05/hex_colours.py" protocol="file" />
-      <jump line="15" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_05/kivy_demo.py" protocol="file" />
-      <jump line="10" column="18" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_05/wimblendon.py" protocol="file" />
-      <jump line="18" column="31" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_05/word_occurences.py" protocol="file" />
-      <jump line="15" column="15" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_05/word_occurences.py" protocol="file" />
-      <jump line="13" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_05/word_occurences.py" protocol="file" />
-      <jump line="5" column="9" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/languages.py" protocol="file" />
-      <jump line="16" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="14" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="43" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="33" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="15" column="52" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitars.py" protocol="file" />
-      <jump line="2" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/REFLECTION.md" protocol="file" />
-      <jump line="7" column="2" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/REFLECTION.md" protocol="file" />
-      <jump line="11" column="2" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/REFLECTION.md" protocol="file" />
-      <jump line="24" column="23" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/REFLECTION.md" protocol="file" />
-      <jump line="14" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/REFLECTION.md" protocol="file" />
-      <jump line="18" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/REFLECTION.md" protocol="file" />
-      <jump line="11" column="2" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="70" column="10" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="57" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="0" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/README.md" protocol="file" />
-      <jump line="1" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/README.md" protocol="file" />
-      <jump line="97" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="16" column="30" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="22" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="21" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="19" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="44" column="22" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="36" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="32" column="10" filename="$USER_HOME$/.ideavimrc" protocol="file" />
-      <jump line="31" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="5" column="24" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="16" column="8" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="6" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="6" column="25" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="2" column="9" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="1" column="22" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="26" column="38" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/box_layout.kv" protocol="file" />
+      <jump line="35" column="8" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="11" column="18" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="33" column="20" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="10" column="29" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="13" column="43" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="17" column="10" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="9" column="8" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="2" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/box_layout.kv" protocol="file" />
+      <jump line="15" column="64" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="19" column="9" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="5" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/box_layout.kv" protocol="file" />
+      <jump line="20" column="35" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="19" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="13" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/box_layout.kv" protocol="file" />
+      <jump line="20" column="23" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="14" column="19" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="244" column="0" filename="/usr/lib/python3.13/site-packages/kivy/lang/builder.py" protocol="file" />
+      <jump line="58" column="0" filename="/usr/lib/python3.13/site-packages/kivy/core/__init__.py" protocol="file" />
+      <jump line="21" column="26" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="7" column="18" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="28" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="18" column="36" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="24" column="19" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="22" column="23" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="31" column="3" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="36" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="12" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="18" column="49" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="21" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="27" column="44" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="7" column="58" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="12" column="15" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.kv" protocol="file" />
+      <jump line="9" column="25" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="29" column="56" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="57" column="24" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_widgets.py" protocol="file" />
+      <jump line="17" column="36" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_widgets.kv" protocol="file" />
+      <jump line="39" column="14" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_widgets.py" protocol="file" />
+      <jump line="22" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="23" column="45" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="2" column="14" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_widgets.py" protocol="file" />
+      <jump line="12" column="14" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_widgets.kv" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_widgets.kv" protocol="file" />
+      <jump line="2" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_widgets.kv" protocol="file" />
+      <jump line="4" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_widgets.kv" protocol="file" />
+      <jump line="22" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_widgets.py" protocol="file" />
+      <jump line="0" column="3" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_widgets.py" protocol="file" />
+      <jump line="19" column="16" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/squaring.py" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/squaring.py" protocol="file" />
+      <jump line="30" column="42" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_widgets.py" protocol="file" />
+      <jump line="14" column="32" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_widgets.py" protocol="file" />
+      <jump line="19" column="23" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_widgets.py" protocol="file" />
+      <jump line="17" column="46" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/convert_miles_km.py" protocol="file" />
+      <jump line="21" column="40" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_widgets.py" protocol="file" />
+      <jump line="20" column="36" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_labels.py" protocol="file" />
+      <jump line="16" column="19" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_labels.py" protocol="file" />
+      <jump line="3" column="2" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_08/dynamic_labels.py" protocol="file" />
+      <jump line="13" column="36" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/guitar.py" protocol="file" />
+      <jump line="26" column="27" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/myguitars.py" protocol="file" />
+      <jump line="5" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/myguitars.py" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/myguitars.py" protocol="file" />
+      <jump line="22" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/guitar.py" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/guitar.py" protocol="file" />
+      <jump line="34" column="29" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/guitar.py" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/myguitars.py" protocol="file" />
+      <jump line="28" column="29" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/guitar.py" protocol="file" />
+      <jump line="36" column="45" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_06/guitar.py" protocol="file" />
+      <jump line="19" column="6" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/myguitars.py" protocol="file" />
+      <jump line="28" column="14" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/myguitars.py" protocol="file" />
+      <jump line="65" column="4" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/myguitars.py" protocol="file" />
+      <jump line="23" column="10" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/myguitars.py" protocol="file" />
+      <jump line="23" column="27" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/guitar.py" protocol="file" />
+      <jump line="10" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/guitar.py" protocol="file" />
+      <jump line="16" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/language_file_reader.py" protocol="file" />
+      <jump line="8" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/programming_language.py" protocol="file" />
+      <jump line="23" column="67" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/language_file_reader.py" protocol="file" />
+      <jump line="21" column="39" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/language_file_reader.py" protocol="file" />
+      <jump line="82" column="18" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/language_file_reader.py" protocol="file" />
+      <jump line="78" column="28" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/language_file_reader.py" protocol="file" />
+      <jump line="94" column="23" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/language_file_reader.py" protocol="file" />
+      <jump line="25" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/programming_language.py" protocol="file" />
+      <jump line="40" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/programming_language.py" protocol="file" />
+      <jump line="41" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/programming_language.py" protocol="file" />
+      <jump line="39" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/programming_language.py" protocol="file" />
+      <jump line="13" column="15" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/project.py" protocol="file" />
+      <jump line="38" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/project.py" protocol="file" />
+      <jump line="41" column="1" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/project_management.py" protocol="file" />
+      <jump line="49" column="23" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/project_management.py" protocol="file" />
+      <jump line="103" column="4" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/project_management.py" protocol="file" />
+      <jump line="70" column="31" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/project_management.py" protocol="file" />
+      <jump line="25" column="0" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/project_management.py" protocol="file" />
+      <jump line="73" column="53" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/project_management.py" protocol="file" />
+      <jump line="46" column="26" filename="$USER_HOME$/RustroverProjects/cp1404practicals/prac_07/project_management.py" protocol="file" />
     </project>
     <project id="a1-2025-1-sinder38-922dd9c9">
-      <jump line="98" column="21" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
-      <jump line="102" column="84" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
-      <jump line="137" column="0" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
       <jump line="139" column="39" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
       <jump line="142" column="45" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
       <jump line="140" column="0" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
@@ -446,7 +462,6 @@
       <jump line="70" column="28" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
       <jump line="72" column="26" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
       <jump line="154" column="8" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
-      <jump line="219" column="4" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
       <jump line="209" column="30" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
       <jump line="202" column="0" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
       <jump line="191" column="0" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
@@ -475,7 +490,11 @@
       <jump line="17" column="0" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/README.md" protocol="file" />
       <jump line="0" column="163" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/README.md" protocol="file" />
       <jump line="205" column="31" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
-      <jump line="3" column="0" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
+      <jump line="3" column="67" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
+      <jump line="22" column="13" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
+      <jump line="16" column="15" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
+      <jump line="219" column="11" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/assignment1.py" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/a1-2025-1-sinder38/songs.csv" protocol="file" />
     </project>
     <project id="struct-field-names-as-enum-cc79118c">
       <jump line="23" column="0" filename="$USER_HOME$/Projects/struct-field-names-as-enum/tests/new_gen_field_name.rs" protocol="file" />
@@ -579,178 +598,403 @@
       <jump line="65" column="0" filename="$USER_HOME$/Projects/struct-field-names-as-enum/tests/new_gen_field_name.rs" protocol="file" />
       <jump line="82" column="53" filename="$USER_HOME$/Projects/struct-field-names-as-enum/tests/new_gen_field_name.rs" protocol="file" />
     </project>
+    <project id="cp1404practicals-ffd48c32">
+      <jump line="12" column="18" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/band.py" protocol="file" />
+      <jump line="25" column="17" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/band.py" protocol="file" />
+      <jump line="23" column="8" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/musician.py" protocol="file" />
+      <jump line="24" column="21" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/band.py" protocol="file" />
+      <jump line="9" column="31" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/band.py" protocol="file" />
+      <jump line="95" column="5" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="71" column="13" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="12" column="4" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="8" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="47" column="26" filename="$USER_HOME$/Projects/cp1404practicals/prac_07/project_management.py" protocol="file" />
+      <jump line="52" column="29" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="41" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="63" column="13" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="50" column="4" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="20" column="29" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="23" column="45" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="11" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_07/project_management.py" protocol="file" />
+      <jump line="56" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_07/project_management.py" protocol="file" />
+      <jump line="0" column="20" filename="$USER_HOME$/Projects/cp1404practicals/prac_07/project_management.py" protocol="file" />
+      <jump line="9" column="6" filename="$USER_HOME$/Projects/cp1404practicals/prac_07/project.py" protocol="file" />
+      <jump line="85" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_07/project.py" protocol="file" />
+      <jump line="44" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="14" column="22" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="12" column="8" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/silver_service_taxi.py" protocol="file" />
+      <jump line="15" column="16" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="22" column="14" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi.py" protocol="file" />
+      <jump line="31" column="16" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="28" column="50" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="24" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="22" column="35" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="29" column="30" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="26" column="8" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="30" column="18" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="5" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="1" column="13" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="6" column="1" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="69" column="8" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="34" column="7" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="46" column="8" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="39" column="15" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="25" column="12" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="9" column="17" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="56" column="13" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="43" column="2" filename="$USER_HOME$/Projects/cp1404practicals/prac_09/taxi_simulator.py" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/README.md" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/README.md" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/REFLECTION.md" protocol="file" />
+      <jump line="46" column="14" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/REFLECTION.md" protocol="file" />
+      <jump line="42" column="10" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/REFLECTION.md" protocol="file" />
+      <jump line="50" column="81" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/REFLECTION.md" protocol="file" />
+      <jump line="39" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/REFLECTION.md" protocol="file" />
+      <jump line="38" column="16" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/REFLECTION.md" protocol="file" />
+      <jump line="57" column="48" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/REFLECTION.md" protocol="file" />
+      <jump line="56" column="56" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/REFLECTION.md" protocol="file" />
+      <jump line="2" column="59" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/REFLECTION.md" protocol="file" />
+      <jump line="11" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/REFLECTION.md" protocol="file" />
+      <jump line="24" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/REFLECTION.md" protocol="file" />
+      <jump line="59" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/REFLECTION.md" protocol="file" />
+      <jump line="44" column="2" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/REFLECTION.md" protocol="file" />
+      <jump line="17" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="13" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="24" column="28" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="35" column="4" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="44" column="46" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="34" column="37" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="28" column="40" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="27" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="67" column="60" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="40" column="11" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="36" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="6" column="24" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="32" column="23" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="7" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="11" column="12" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="29" column="26" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="46" column="4" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="60" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="57" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="15" column="6" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="75" column="3" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="71" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="53" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="59" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/testing.py" protocol="file" />
+      <jump line="0" column="7" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki.py" protocol="file" />
+      <jump line="5" column="26" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki.py" protocol="file" />
+      <jump line="4" column="58" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki.py" protocol="file" />
+      <jump line="13" column="63" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki.py" protocol="file" />
+      <jump line="24" column="9" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki.py" protocol="file" />
+      <jump line="20" column="11" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki.py" protocol="file" />
+      <jump line="17" column="8" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki.py" protocol="file" />
+      <jump line="21" column="17" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki.py" protocol="file" />
+      <jump line="22" column="45" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki.py" protocol="file" />
+      <jump line="12" column="10" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki.py" protocol="file" />
+      <jump line="28" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki.py" protocol="file" />
+      <jump line="18" column="42" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki.py" protocol="file" />
+      <jump line="8" column="14" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki_modifications.py" protocol="file" />
+      <jump line="13" column="50" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki_modifications.py" protocol="file" />
+      <jump line="14" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki.py" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/Projects/cp1404practicals/prac_10/wiki.py" protocol="file" />
+    </project>
+    <project id="a2-2025-1-sinder38-e2d7b7ca">
+      <jump line="56" column="25" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/app.kv" protocol="file" />
+      <jump line="71" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="70" column="17" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="55" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="61" column="12" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="65" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="72" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="59" column="0" filename="/usr/lib/python3.13/site-packages/kivy/lang/builder.py" protocol="file" />
+      <jump line="72" column="0" filename="/usr/lib/python3.13/site-packages/kivy/lang/builder.py" protocol="file" />
+      <jump line="65" column="39" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/app.kv" protocol="file" />
+      <jump line="72" column="40" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/app.kv" protocol="file" />
+      <jump line="12" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="78" column="7" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="77" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="41" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="88" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="127" column="32" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="125" column="21" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="35" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="48" column="13" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="54" column="8" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="82" column="0" filename="/usr/lib/python3.13/site-packages/kivy/lang/parser.py" protocol="file" />
+      <jump line="63" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/songcollection.py" protocol="file" />
+      <jump line="70" column="43" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/app.kv" protocol="file" />
+      <jump line="86" column="8" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="60" column="8" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/songcollection.py" protocol="file" />
+      <jump line="131" column="35" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="93" column="12" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/app.kv" protocol="file" />
+      <jump line="2" column="0" filename="/Dummy.txt" protocol="mock" />
+      <jump line="113" column="11" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="33" column="24" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/songcollection.py" protocol="file" />
+      <jump line="85" column="31" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/app.kv" protocol="file" />
+      <jump line="62" column="8" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="57" column="28" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="114" column="25" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="137" column="21" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="120" column="26" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="118" column="12" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="123" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="129" column="101" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="139" column="35" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="32" column="1" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="14" column="12" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/app.kv" protocol="file" />
+      <jump line="49" column="25" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="9" column="25" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="147" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="149" column="14" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="77" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/app.kv" protocol="file" />
+      <jump line="148" column="14" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="31" column="6" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="37" column="5" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="16" column="39" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/app.kv" protocol="file" />
+      <jump line="50" column="23" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="21" column="25" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="26" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="68" column="73" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="73" column="36" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="163" column="18" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="164" column="40" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="40" column="33" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="1" column="5" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="8" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="107" column="42" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="106" column="25" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="38" column="8" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/song.py" protocol="file" />
+      <jump line="119" column="4" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="31" column="62" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/test_song.py" protocol="file" />
+      <jump line="25" column="63" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/test_song.py" protocol="file" />
+      <jump line="47" column="26" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/test_song.py" protocol="file" />
+      <jump line="10" column="20" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/song.py" protocol="file" />
+      <jump line="42" column="61" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/song.py" protocol="file" />
+      <jump line="16" column="22" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/test_song.py" protocol="file" />
+      <jump line="48" column="51" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/test_song.py" protocol="file" />
+      <jump line="0" column="2" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/test_song.py" protocol="file" />
+      <jump line="135" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="138" column="4" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="143" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="130" column="66" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="132" column="12" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="39" column="10" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/song.py" protocol="file" />
+      <jump line="41" column="27" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/song.py" protocol="file" />
+      <jump line="9" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/song.py" protocol="file" />
+      <jump line="40" column="22" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/song.py" protocol="file" />
+      <jump line="124" column="9" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="108" column="46" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="109" column="41" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="116" column="68" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="110" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="126" column="17" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="170" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="22" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="80" column="9" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="0" column="0" filename="/Dummy.txt" protocol="mock" />
+      <jump line="82" column="22" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="67" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="2" column="22" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="7" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+      <jump line="0" column="81" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/README.md" protocol="file" />
+      <jump line="40" column="0" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/README.md" protocol="file" />
+      <jump line="20" column="13" filename="$USER_HOME$/Projects/a2-2025-1-sinder38/main.py" protocol="file" />
+    </project>
+    <project id="flaskdemo-3a054d76">
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/flaskdemo/flaskdemo.py" protocol="file" />
+      <jump line="8" column="14" filename="$USER_HOME$/Projects/flaskdemo/flaskdemo.py" protocol="file" />
+      <jump line="10" column="38" filename="$USER_HOME$/Projects/flaskdemo/flaskdemo.py" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/flaskdemo/templates/results.html" protocol="file" />
+      <jump line="4" column="0" filename="$USER_HOME$/Projects/flaskdemo/templates/results.html" protocol="file" />
+      <jump line="1" column="18" filename="$USER_HOME$/Projects/flaskdemo/templates/results.html" protocol="file" />
+      <jump line="1" column="13" filename="$USER_HOME$/Projects/flaskdemo/templates/layout.html" protocol="file" />
+      <jump line="10" column="45" filename="$USER_HOME$/Projects/flaskdemo/templates/layout.html" protocol="file" />
+      <jump line="5" column="52" filename="$USER_HOME$/Projects/flaskdemo/templates/layout.html" protocol="file" />
+      <jump line="5" column="18" filename="$USER_HOME$/Projects/flaskdemo/templates/results.html" protocol="file" />
+      <jump line="42" column="15" filename="$USER_HOME$/Projects/flaskdemo/flaskdemo.py" protocol="file" />
+      <jump line="38" column="48" filename="$USER_HOME$/Projects/flaskdemo/flaskdemo.py" protocol="file" />
+      <jump line="137" column="4" filename="/usr/lib/python3.13/site-packages/flask/templating.py" protocol="file" />
+      <jump line="30" column="36" filename="$USER_HOME$/Projects/flaskdemo/flaskdemo.py" protocol="file" />
+      <jump line="7" column="13" filename="$USER_HOME$/Projects/flaskdemo/templates/results.html" protocol="file" />
+      <jump line="2" column="4" filename="$USER_HOME$/Projects/flaskdemo/templates/results.html" protocol="file" />
+      <jump line="11" column="13" filename="$USER_HOME$/Projects/flaskdemo/templates/results.html" protocol="file" />
+      <jump line="4" column="13" filename="$USER_HOME$/Projects/flaskdemo/templates/about.html" protocol="file" />
+      <jump line="11" column="44" filename="$USER_HOME$/Projects/flaskdemo/templates/layout.html" protocol="file" />
+      <jump line="18" column="43" filename="$USER_HOME$/Projects/flaskdemo/flaskdemo.py" protocol="file" />
+      <jump line="5" column="62" filename="$USER_HOME$/Projects/flaskdemo/flaskdemo.py" protocol="file" />
+      <jump line="13" column="0" filename="$USER_HOME$/Projects/flaskdemo/flaskdemo.py" protocol="file" />
+    </project>
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
     <localmarks>
-      <file name="$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/darling_core-0.20.10/src/util/path_list.rs" timestamp="1741794614180">
-        <mark key="&quot;" line="28" column="0" />
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_alias.rs" timestamp="1746609567981">
+        <mark key="&quot;" line="92" column="17" />
+        <mark key="'" line="16" column="0" />
+        <mark key="[" line="109" column="60" />
+        <mark key="]" line="109" column="53" />
+        <mark key="^" line="109" column="53" />
+        <mark key="." line="109" column="52" />
       </file>
-      <file name="/Dummy.txt" timestamp="1741796185613">
+      <file name="$USER_HOME$/.cache/JetBrains/RustRover2024.3/intellij-rust/stdlib-local-copy/1.86.0-90ed2b9f41a04b344378b717e9bfc1d4777b9dd3/library/core/src/convert/mod.rs" timestamp="1746609729592">
+        <mark key="&quot;" line="581" column="10" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs" timestamp="1746641779666">
+        <mark key="&quot;" line="105" column="30" />
+        <mark key="'" line="188" column="68" />
+        <mark key="[" line="105" column="39" />
+        <mark key="]" line="105" column="31" />
+        <mark key="." line="105" column="30" />
+        <mark key="^" line="105" column="31" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/mix_composition.rs" timestamp="1746641881552">
+        <mark key="&quot;" line="162" column="31" />
+        <mark key="'" line="162" column="31" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_version.rs" timestamp="1746617396287">
+        <mark key="&quot;" line="107" column="23" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/client.rs" timestamp="1746616155536">
         <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-file/src/excel/mix_production_report.rs" timestamp="1746616078060">
+        <mark key="&quot;" line="2" column="21" />
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs" timestamp="1746642069464">
+        <mark key="'" line="29" column="4" />
+      </file>
+      <file name="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-core-0.8.5/src/query_as.rs" timestamp="1746607496055">
+        <mark key="&quot;" line="346" column="7" />
+        <mark key="'" line="194" column="19" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-file/src/excel/mod.rs" timestamp="1746615964980">
+        <mark key="&quot;" line="12" column="22" />
+      </file>
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs" timestamp="1746616176072">
+        <mark key="&quot;" line="0" column="13" />
+        <mark key="'" line="0" column="13" />
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="16" />
-        <mark key="." line="0" column="15" />
-        <mark key="^" line="0" column="16" />
+        <mark key="]" line="1" column="26" />
       </file>
-      <file name="$USER_HOME$/Projects/struct-field-names-as-enum/.gitignore" timestamp="1741796258580">
-        <mark key="&quot;" line="4" column="0" />
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="1" />
-        <mark key="." line="4" column="0" />
-        <mark key="^" line="4" column="1" />
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_type.rs" timestamp="1746608342365">
+        <mark key="&quot;" line="2" column="17" />
+        <mark key="'" line="1" column="25" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="29" />
+        <mark key="." line="0" column="28" />
+        <mark key="^" line="0" column="29" />
       </file>
-      <file name="$USER_HOME$/Projects/struct-field-names-as-enum/tests/field_name.rs" timestamp="1741942565872">
-        <mark key="&quot;" line="10" column="10" />
-        <mark key="'" line="160" column="0" />
-        <mark key="[" line="158" column="0" />
-        <mark key="]" line="163" column="1" />
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql" timestamp="1746642673616">
+        <mark key="&quot;" line="305" column="0" />
+        <mark key="'" line="228" column="0" />
+        <mark key="[" line="306" column="26" />
+        <mark key="]" line="306" column="26" />
+        <mark key="^" line="234" column="77" />
+        <mark key="." line="306" column="26" />
       </file>
-      <file name="$USER_HOME$/Projects/struct-field-names-as-enum/tests/new_gen_field_name.rs" timestamp="1741943298348">
-        <mark key="&quot;" line="19" column="13" />
-        <mark key="'" line="65" column="0" />
-        <mark key="[" line="78" column="8" />
-        <mark key="]" line="78" column="24" />
-        <mark key="." line="78" column="8" />
-        <mark key="^" line="78" column="8" />
-      </file>
-      <file name="$USER_HOME$/Projects/struct-field-names-as-enum/src/field_name.rs" timestamp="1741790585924">
-        <mark key="'" line="51" column="24" />
-        <mark key="[" line="56" column="0" />
-        <mark key="]" line="56" column="0" />
-        <mark key="^" line="56" column="33" />
-        <mark key="." line="56" column="0" />
-      </file>
-      <file name="$USER_HOME$/Projects/struct-field-names-as-enum/README.md" timestamp="1741796179448">
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/action_type.rs" timestamp="1746616860621">
         <mark key="&quot;" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand-0.9.0/src/lib.rs" timestamp="1741932678418">
-        <mark key="&quot;" line="115" column="7" />
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" timestamp="1746652703195">
+        <mark key="&quot;" line="289" column="17" />
+        <mark key="'" line="257" column="16" />
+        <mark key="[" line="284" column="0" />
+        <mark key="]" line="284" column="34" />
+        <mark key="." line="284" column="0" />
+        <mark key="^" line="290" column="24" />
       </file>
-      <file name="$USER_HOME$/Projects/struct-field-names-as-enum/src/case.rs" timestamp="1741785259646">
-        <mark key="&quot;" line="0" column="2" />
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/mod.rs" timestamp="1746617130312">
+        <mark key="&quot;" line="5" column="8" />
+        <mark key="'" line="5" column="8" />
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="." line="8" column="0" />
       </file>
-      <file name="$USER_HOME$/Projects/struct-field-names-as-enum/src/.case" timestamp="1741795907947">
-        <mark key="&quot;" line="0" column="0" />
+      <file name="$USER_HOME$/Projects/office_automation_system/templates/components/objects/cluster_updated.html" timestamp="1746609865784">
+        <mark key="&quot;" line="0" column="1" />
       </file>
-      <file name="$USER_HOME$/Projects/struct-field-names-as-enum/tests/field_types.rs" timestamp="1741939992951">
-        <mark key="&quot;" line="10" column="30" />
-        <mark key="'" line="9" column="0" />
-        <mark key="[" line="7" column="54" />
-        <mark key="]" line="7" column="54" />
-        <mark key="." line="7" column="53" />
-        <mark key="^" line="7" column="54" />
+      <file name="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-core-0.8.5/src/executor.rs" timestamp="1746607412349">
+        <mark key="&quot;" line="137" column="43" />
       </file>
-      <file name="$USER_HOME$/Projects/struct-field-names-as-enum/src/lib.rs" timestamp="1741943030159">
-        <mark key="&quot;" line="17" column="48" />
-        <mark key="'" line="19" column="18" />
-        <mark key="[" line="17" column="58" />
-        <mark key="]" line="17" column="58" />
-        <mark key="." line="17" column="58" />
-        <mark key="^" line="17" column="35" />
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/custom_types.rs" timestamp="1746641110729">
+        <mark key="&quot;" line="14" column="26" />
       </file>
-      <file name="$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fnv-1.0.7/lib.rs" timestamp="1741942810355">
-        <mark key="&quot;" line="0" column="33" />
-      </file>
-      <file name="$USER_HOME$/.cargo/registry/src/index.crates.io-6f17d22bba15001f/darling_core-0.20.10/src/ast/data.rs" timestamp="1741794793449">
-        <mark key="&quot;" line="20" column="11" />
-        <mark key="'" line="20" column="11" />
-      </file>
-      <file name="$USER_HOME$/Projects/struct-field-names-as-enum/tests/field_type.rs" timestamp="1741796183351">
-        <mark key="&quot;" line="0" column="0" />
-        <mark key="'" line="32" column="12" />
-        <mark key="[" line="32" column="12" />
-        <mark key="]" line="32" column="12" />
-        <mark key="^" line="40" column="22" />
-        <mark key="." line="32" column="12" />
-      </file>
-      <file name="$USER_HOME$/Projects/struct-field-names-as-enum/Cargo.toml" timestamp="1741796168370">
-        <mark key="&quot;" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Projects/struct-field-names-as-enum/Cargo.lock" timestamp="1741796153875">
-        <mark key="&quot;" line="15" column="17" />
-      </file>
-      <file name="$USER_HOME$/Projects/struct-field-names-as-enum/src/.case.rs" timestamp="1741939926538">
-        <mark key="&quot;" line="78" column="4" />
-      </file>
-      <file name="$USER_HOME$/Projects/struct-field-names-as-enum/src/field_name_new_gen.rs" timestamp="1741942976847">
-        <mark key="&quot;" line="8" column="6" />
-        <mark key="'" line="51" column="12" />
-        <mark key="[" line="95" column="0" />
-        <mark key="]" line="95" column="0" />
-        <mark key="." line="95" column="0" />
-      </file>
-      <file name="$USER_HOME$/Projects/LeetCode/codepen/test.py" timestamp="1742134463541">
-        <mark key="&quot;" line="2" column="8" />
-        <mark key="'" line="13" column="69" />
-        <mark key="[" line="17" column="13" />
-        <mark key="]" line="17" column="59" />
-        <mark key="." line="17" column="58" />
-        <mark key="^" line="17" column="59" />
+      <file name="$USER_HOME$/Projects/office_automation_system/crates/libs/lib-core/src/model/prelude.rs" timestamp="1746616120268">
+        <mark key="&quot;" line="12" column="31" />
+        <mark key="[" line="2" column="43" />
+        <mark key="]" line="2" column="44" />
+        <mark key="." line="2" column="43" />
+        <mark key="^" line="2" column="44" />
       </file>
     </localmarks>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="CHARACTER_WISE">
-        <text encoding="base64">VGVkZXJpZXZGaWVsZE5hbWU=</text>
+      <register name="&quot;" type="LINE_WISE">
+        <text encoding="base64">ICAgIGxldCBtdXQgdHggPSBkYi5iZWdpbigpLmF3YWl0PzsK</text>
       </register>
-      <register name="+" type="CHARACTER_WISE">
-        <text encoding="base64">VGVkZXJpZXZGaWVsZE5hbWU=</text>
+      <register name="+" type="LINE_WISE">
+        <text encoding="base64">ICAgIGxldCBtdXQgdHggPSBkYi5iZWdpbigpLmF3YWl0PzsK</text>
       </register>
       <register name="-" type="CHARACTER_WISE">
-        <text encoding="base64">VGVkZXJpZXZGaWVsZE5hbWU=</text>
+        <text encoding="base64">Ly9UZWNobmljYWxseSBzaG91bGQgYmUgYWxzbyBiZSBPcHRpb24g</text>
       </register>
       <register name="." type="CHARACTER_WISE">
-        <text encoding="base64" />
+        <text encoding="base64">X2Ri</text>
       </register>
       <register name="/" type="CHARACTER_WISE">
-        <text encoding="base64">XDxwdWJcPg==</text>
+        <text encoding="base64">XDxsZXRcPg==</text>
       </register>
-      <register name="0" type="CHARACTER_WISE">
-        <text encoding="base64">VGVzdERlcml2ZUZpZWxkTmFtZQ==</text>
+      <register name="0" type="LINE_WISE">
+        <text encoding="base64">cHViIChjcmF0ZSkgdHJhaXQgRmlsbE1pc3NpbmcgewoJdHlwZSBJbnB1dDsKCXR5cGUgT3V0cHV0OwoJZm4gZmlsbF9taXNzaW5nKHNlbGYsICBpbnB1dDogU2VsZjo6SW5wdXQpIC0+IFNlbGY6Ok91dHB1dDsKfQo=</text>
       </register>
       <register name="1" type="LINE_WISE">
-        <text encoding="base64">ZW51bSBGaWVsZE5hbWVFRSB7CiAgICBGaXJzdCA9IDEsCiAgICBTZWNvbmQgPSAyLAp9Cg==</text>
+        <text encoding="base64">ICAgIGxldCBtdXQgdHggPSBkYi5iZWdpbigpLmF3YWl0PzsK</text>
       </register>
       <register name="q" type="CHARACTER_WISE">
         <text encoding="base64" />
       </register>
       <register name="2" type="LINE_WISE">
-        <text encoding="base64">CiAgICAvLyBDb25zdHJ1Y3QgdGhlIGZpbmFsIHN0cnVjdCBieSBjb21iaW5pbmcgYWxsIHRoZQogICAgLy8gVG9rZW5TdHJlYW1zIGdlbmVyYXRlZCBzbyBmYXIuCiAgICBxdW90ZSEgewogICAgICAgICNbZGVyaXZlKCNleHRyYV9kZXJpdmVzX291dHB1dCldCiAgICAgICAgcHViIHN0cnVjdCAjc3RydWN0X2lkZW50IHsKICAgICAgICAgICAgI25ld19maWVsZHMKICAgICAgICB9CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBhbGlhc2VzLAo=</text>
       </register>
       <register name="3" type="LINE_WISE">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIG1heWJlIHVwZGF0ZSBvcHRpb24K</text>
       </register>
       <register name="4" type="LINE_WISE">
-        <text encoding="base64">ICAgICAgICAvLyBUaGlzIHN5bnRheCBpcyBhIGJpdCBjb21wYWN0LCBidXQgeW91IHNob3VsZCBhbHJlYWR5CiAgICAgICAgLy8ga25vdyBldmVyeXRoaW5nIHlvdSBuZWVkIHRvIHVuZGVyc3RhbmQgaXQgYnkgbm93Lgo=</text>
+        <text encoding="base64">ICAgIHB1YiBhbGlhc2VzOiBPcHRpb248VmVjPEluZ3JlZGllbnRBbGlhc0NyZWF0ZT4+LAo=</text>
       </register>
       <register name="5" type="LINE_WISE">
-        <text encoding="base64">ICAgIG1hdGNoIGZpZWxkIHsKICAgICAgICBUZXN0RmllbGROYW1lOjpGaXJzdCA9PiAoKSwKICAgICAgICBUZXN0RmllbGROYW1lOjpTZWNvbmRGaWVsZCA9PiAoKSwK</text>
+        <text encoding="base64">ICAgIHB1YiB2ZXJzaW9uOiBJbmdyZWRpZW50VmVyc2lvbkNyZWF0ZUZvcm0sCg==</text>
       </register>
       <register name="6" type="LINE_WISE">
-        <text encoding="base64">I1tmaWVsZF9uYW1lX2Rlcml2ZShkZXJpdmUoQXNSZWZTdHIpKV0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5hbGlhc2VzLAo=</text>
       </register>
       <register name="7" type="LINE_WISE">
-        <text encoding="base64">ICAgICNbZGFybGluZyhtdWx0aXBsZSldCg==</text>
+        <text encoding="base64">ICAgICkgLT4gU2VsZjo6T3V0cHV0IHsK</text>
       </register>
       <register name="8" type="LINE_WISE">
-        <text encoding="base64">Y29uc3QgRklFTERfTkFNRV9FTlVNX05BTUVfQURESVRJT04gOiAmJ3N0YXRpYyBzdHIgPSAiRmllbGROYW1lIjsgCg==</text>
+        <text encoding="base64">ICAgICAgICBPcHRpb248VmVjPEluZ3JlZGllbnRBbGlhc0NyZWF0ZT4+LAo=</text>
       </register>
       <register name="9" type="LINE_WISE">
-        <text encoding="base64">I1tkZXJpdmUoQXNSZWZTdHIpXQo=</text>
+        <text encoding="base64">ICAgIHB1YiBhbGlhc2VzOiBPcHRpb248VmVjPEluZ3JlZGllbnRBbGlhc0NyZWF0ZT4+LAo=</text>
       </register>
       <register name=":" type="CHARACTER_WISE">
-        <text encoding="base64">dw==</text>
+        <text encoding="base64">cQ==</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxwdWJcPg==</last-search>
+      <last-search encoding="base64">XDxsZXRcPg==</last-search>
+      <last-substitute encoding="base64">bWVudV90ZXh0X2ZvbnQ=</last-substitute>
       <last-offset encoding="base64" />
-      <last-replace encoding="base64">fg==</last-replace>
-      <last-pattern encoding="base64">XDxwdWJcPg==</last-pattern>
+      <last-replace encoding="base64" />
+      <last-pattern encoding="base64">XDxsZXRcPg==</last-pattern>
       <last-dir encoding="base64">MQ==</last-dir>
       <show-last encoding="base64">dHJ1ZQ==</show-last>
     </search>

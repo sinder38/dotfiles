@@ -254,6 +254,18 @@
       <item type="maven" url="com.oracle.database.security:oraclepki:21.5.0.0"/>
       <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/oracle/21.1.0.0/BASIC_LICENSE.txt"/>
     </version>
+    <version version="23.5" name="Oracle">
+      <item type="maven" url="com.oracle.database.jdbc:ojdbc11:23.5.0.24.07"/>
+      <item type="maven" url="com.oracle.database.xml:xdb:23.5.0.24.07"/>
+      <item type="maven" url="com.oracle.database.xml:xmlparserv2:23.5.0.24.07"/>
+      <item type="maven" url="com.oracle.database.nls:orai18n:23.5.0.24.07"/>
+      <item type="maven" url="com.oracle.database.jdbc:ucp:23.5.0.24.07"/>
+      <item type="maven" url="com.oracle.database.jdbc:rsi:23.5.0.24.07"/>
+      <item type="maven" url="com.oracle.database.security:osdt_core:21.15.0.0"/>
+      <item type="maven" url="com.oracle.database.security:osdt_cert:21.15.0.0"/>
+      <item type="maven" url="com.oracle.database.security:oraclepki:21.15.0.0"/>
+      <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/oracle/21.1.0.0/BASIC_LICENSE.txt"/>
+    </version>
     <constraint from="12" dbms="ORACLE" db-from="11.2"/><!-- todo: compat -->
     <unsupported from="12" dbms="ORACLE" db-to="11.2"/>
   </artifact>
@@ -329,6 +341,11 @@
     </version>
     <version version="2.2.220">
       <item type="maven" url="com.h2database:h2:2.2.220"/>
+      <item type="license" name="license-mpl.txt" url="https://download.jetbrains.com/idea/jdbc-drivers/h2/h2-license-mpl20.txt"/>
+      <item type="license" name="license-epl.txt" url="https://download.jetbrains.com/idea/jdbc-drivers/h2/h2-license-epl10.txt"/>
+    </version>
+    <version version="2.3.232">
+      <item type="maven" url="com.h2database:h2:2.3.232"/>
       <item type="license" name="license-mpl.txt" url="https://download.jetbrains.com/idea/jdbc-drivers/h2/h2-license-mpl20.txt"/>
       <item type="license" name="license-epl.txt" url="https://download.jetbrains.com/idea/jdbc-drivers/h2/h2-license-epl10.txt"/>
     </version>
@@ -559,6 +576,10 @@
       <item type="pack" url="https://s3.amazonaws.com/redshift-downloads/drivers/jdbc/2.1.0.28/redshift-jdbc42-2.1.0.28.zip"/>
       <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/Redshift/license2.txt"/>
     </version>
+    <version version="2.1.0.32">
+      <item type="pack" url="https://s3.amazonaws.com/redshift-downloads/drivers/jdbc/2.1.0.32/redshift-jdbc42-2.1.0.32.zip"/>
+      <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/Redshift/license2.txt"/>
+    </version>
   </artifact>
 
   <artifact name="Exasol">
@@ -751,6 +772,10 @@
       <item type="maven" url="net.snowflake:snowflake-jdbc:3.20.0"/>
       <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/snowflake/snowflake-license.txt"/>
     </version>
+    <version version="3.23.2">
+      <item type="maven" url="net.snowflake:snowflake-jdbc:3.23.2"/>
+      <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/snowflake/snowflake-license.txt"/>
+    </version>
   </artifact>
 
   <artifact name="MongoDB">
@@ -885,6 +910,10 @@
       <item type="maven" url="com.facebook.presto:presto-jdbc:0.283"/>
       <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/Presto/LICENSE.txt"/>
     </version>
+    <version version="0.291">
+      <item type="maven" url="com.facebook.presto:presto-jdbc:0.291"/>
+      <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/Presto/LICENSE.txt"/>
+    </version>
   </artifact>
 
   <artifact name="Trino">
@@ -971,6 +1000,18 @@
   <artifact name="Firebird">
     <version version="4.0.2">
       <item url="https://download.jetbrains.com/idea/jdbc-drivers/Firebird/jaybird-full-4.0.2.java8.jar"/>
+      <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/Firebird/LICENSE.txt"/>
+    </version>
+    <version version="4.0.10">
+      <item type="maven" url="org.firebirdsql.jdbc:jaybird:4.0.10.java11"/>
+      <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/Firebird/LICENSE.txt"/>
+    </version>
+    <version version="5.0.7">
+      <item type="maven" url="org.firebirdsql.jdbc:jaybird:5.0.7.java11"/>
+      <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/Firebird/LICENSE.txt"/>
+    </version>
+    <version version="6.0.1">
+      <item type="maven" url="org.firebirdsql.jdbc:jaybird:6.0.1"/>
       <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/Firebird/LICENSE.txt"/>
     </version>
   </artifact>
@@ -1102,6 +1143,11 @@
   <artifact name="Databricks">
     <version version="2.6.36">
       <item type="maven" url="com.databricks:databricks-jdbc:2.6.36"/>
+      <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/Databricks/LICENSE2.txt"/>
+      <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/Databricks/THIRD-PARTY-LICENSES2.txt"/>
+    </version>
+    <version version="2.7.1">
+      <item type="maven" url="com.databricks:databricks-jdbc:2.7.1"/>
       <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/Databricks/LICENSE2.txt"/>
       <item type="license" url="https://download.jetbrains.com/idea/jdbc-drivers/Databricks/THIRD-PARTY-LICENSES2.txt"/>
     </version>

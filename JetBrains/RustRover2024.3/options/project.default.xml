@@ -1,8 +1,27 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
-      <component name="PropertiesComponent">{}</component>
+      <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "settings.sync"
+  }
+}]]></component>
+      <component name="TaskManager">
+        <task active="true" id="Default" summary="Default task">
+          <created>1746752718194</created>
+          <option name="number" value="Default" />
+          <option name="presentableId" value="Default" />
+          <updated>1746752718194</updated>
+        </task>
+        <servers />
+      </component>
       <component name="VcsDirectoryMappings" defaultProject="true" />
+      <component name="WindowStateProjectService">
+        <state x="388" y="132" key="SettingsEditor.ideScale=125" timestamp="1746752743247">
+          <screen x="0" y="39" width="2560" height="1561" />
+        </state>
+        <state x="388" y="132" key="SettingsEditor.ideScale=125/0.39.2560.1561" timestamp="1746752743247" />
+      </component>
     </defaultProject>
   </component>
 </application>

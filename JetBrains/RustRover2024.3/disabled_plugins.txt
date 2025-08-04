@@ -1,10 +1,9 @@
 AceJump
 AutoSwitchIm
+com.chesterccw.excelreader
 com.intellij.ja
 com.intellij.ko
-com.intellij.settingsSync
 com.intellij.zh
 com.mallowigi
 dev.turingcomplete.intellijdevelopertoolsplugins
-eu.theblob42.idea.whichkey
 org.jetbrains.IdeaVim-EasyMotion

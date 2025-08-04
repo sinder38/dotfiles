@@ -68,75 +68,156 @@
         <item name="postgres: database" type="162271b6:PgImplModel$Database" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
       </path>
+      <path>
+        <item name="Root Group" type="25e4ec8d:DvRootDsGroup" />
+        <item name="postgres@localhost: DSN" type="27e358d6:DataSourceNode" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="Family of 33 table (host: schema public)" type="28178dcc:BaseModel$BaseNamingIdentifyingFamily" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="10bc3bg75o64m" SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file>
-        <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/property_traits.rs">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="600">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"property_traits.rs","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,116,10,114,106,97,114,58,102,105,108,101,58,47,111,112,116,47,82,117,115,116,82,111,118,101,114,45,50,48,50,52,46,51,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,45,50,52,51,46,50,49,53,54,53,46,50,52,53,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
-      </file>
-      <file current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/mod.rs">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="800">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-              <folding>
-                <element signature="e#100#123#0" />
-                <element signature="e#159#176#0" />
-                <element signature="e#189#213#0" />
-                <element signature="n#!!block;n#IngredientSortBy#0" />
-                <element signature="n#!!block;n#GoodFull#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"good/mod.rs","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,116,10,114,106,97,114,58,102,105,108,101,58,47,111,112,116,47,82,117,115,116,82,111,118,101,114,45,50,48,50,52,46,51,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,45,50,52,51,46,50,49,53,54,53,46,50,52,53,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/good_type.rs">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="840">
-              <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <element signature="n#!!block;n#list_full#0" expanded="true" />
-                <element signature="n#!!block;n#list_interface#0" expanded="true" />
-                <element signature="n#!!block;n#get_full#0" expanded="true" />
-                <element signature="e#1308#1321#0" expanded="true" />
-                <element signature="n#!!block;n#test_list_good_types#0;n#tests#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"good_type.rs","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,116,10,114,106,97,114,58,102,105,108,101,58,47,111,112,116,47,82,117,115,116,82,111,118,101,114,45,50,48,50,52,46,51,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,45,50,52,51,46,50,49,53,54,53,46,50,52,53,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf ideFingerprint="2s2qe8zlm28xo" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+          <file current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/mod.rs">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="680">
+                  <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+                  <folding>
+                    <element signature="n#!!doc;n#error#0" expanded="true" />
+                    <element signature="e#798#835#0" expanded="true" />
+                    <element signature="e#798#835#0" expanded="true" />
+                    <element signature="e#1603#1604#0" expanded="true" />
+                    <element signature="e#1660#1661#0" expanded="true" />
+                    <element signature="e#1734#1735#0" expanded="true" />
+                    <element signature="e#1789#1790#0" expanded="true" />
+                    <element signature="n#!!doc;n#Unpack#0" expanded="true" />
+                    <element signature="n#!!doc;n#unpack#0;n#!!block;n#Unpack#0" expanded="true" />
+                    <element signature="n#!!block;n#new_db_pool#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"model/mod.rs","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,116,10,114,106,97,114,58,102,105,108,101,58,47,111,112,116,47,82,117,115,116,82,111,118,101,114,45,50,48,50,52,46,51,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,45,50,52,51,46,50,49,53,54,53,46,50,52,53,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
+          </file>
+          <file>
+            <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/good.rs">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="200">
+                  <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+                  <folding>
+                    <element signature="e#90#194#0" />
+                    <element signature="e#220#246#0" />
+                    <element signature="e#305#344#0" />
+                    <element signature="e#364#394#0" />
+                    <element signature="e#422#450#0" />
+                    <element signature="n#!!block;n#Good#0;n#public#0" />
+                    <element signature="e#1258#1611#0" expanded="true" />
+                    <element signature="n#!!block;n#GoodUpdateForm#0;n#public#0" />
+                    <element signature="e#2110#2543#0" />
+                    <element signature="e#2247#2286#0" />
+                    <element signature="e#2325#2454#0" />
+                    <element signature="e#2842#2868#0" />
+                    <element signature="n#!!block;n#GoodInterface#0;n#public#0" />
+                    <element signature="n#internal#0" />
+                    <element signature="n#!!block;n#GoodCreate#0;n#internal#0" />
+                    <element signature="n#!!block;n#GoodUpdate#0;n#internal#0" />
+                    <element signature="n#!!block;n#GoodRow#0;n#internal#0" />
+                    <element signature="n#!!block;n#GoodFull#0;n#internal#0" />
+                    <element signature="n#private#0" />
+                    <element signature="n#tests#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"good.rs","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,116,10,114,106,97,114,58,102,105,108,101,58,47,111,112,116,47,82,117,115,116,82,111,118,101,114,45,50,48,50,52,46,51,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,45,50,52,51,46,50,49,53,54,53,46,50,52,53,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf ideFingerprint="2s2qe8zlm28xo" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+          <file current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/good.rs">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="286">
+                  <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#90#194#0" />
+                    <element signature="e#220#246#0" />
+                    <element signature="e#305#344#0" />
+                    <element signature="e#364#394#0" />
+                    <element signature="e#422#450#0" />
+                    <element signature="n#!!block;n#Good#0;n#public#0" />
+                    <element signature="e#1055#1614#0" />
+                    <element signature="e#1258#1611#0" expanded="true" />
+                    <element signature="e#2303#2540#0" expanded="true" />
+                    <element signature="e#2842#2868#0" />
+                    <element signature="n#!!block;n#GoodInterface#0;n#public#0" />
+                    <element signature="n#!!block;n#GoodCreate#0;n#internal#0" />
+                    <element signature="n#!!block;n#GoodUpdate#0;n#internal#0" />
+                    <element signature="n#!!block;n#GoodRow#0;n#internal#0" />
+                    <element signature="n#!!block;n#GoodFull#0;n#internal#0" />
+                    <element signature="n#private#0" />
+                    <element signature="n#tests#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"good.rs","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,116,10,114,106,97,114,58,102,105,108,101,58,47,111,112,116,47,82,117,115,116,82,111,118,101,114,45,50,48,50,52,46,51,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,45,50,52,51,46,50,49,53,54,53,46,50,52,53,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
+          </file>
+          <file>
+            <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="326">
+                  <caret line="402" column="16" selection-start-line="402" selection-start-column="16" selection-end-line="402" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#29#0" expanded="true" />
+                    <element signature="e#6888#7561#0" expanded="true" />
+                    <element signature="e#12619#14961#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"ingredient.rs","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}},{"name":"option","attributes":{"name":"EFFECT_COLOR","value":"fa6675"}},{"name":"option","attributes":{"name":"EFFECT_TYPE","value":"2"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,116,10,114,106,97,114,58,102,105,108,101,58,47,111,112,116,47,82,117,115,116,82,111,118,101,114,45,50,48,50,52,46,51,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,45,50,52,51,46,50,49,53,54,53,46,50,52,53,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
+          </file>
+          <file>
+            <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql">
+              <provider editor-type-id="text-editor" selected="true">
+                <state relative-caret-position="400">
+                  <caret line="306" column="24" selection-start-line="306" selection-start-column="24" selection-end-line="306" selection-end-column="24" />
+                  <folding>
+                    <element signature="n#mix_production_packaging#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+            <tab><![CDATA[{"tabTitle":"20250218153140_create_new_scheme.sql","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,72,10,13,105,99,111,110,115,47,115,113,108,46,115,118,103,18,19,105,99,111,110,115,47,101,120,112,117,105,47,115,113,108,46,115,118,103,26,21,99,111,109,46,105,110,116,101,108,108,105,106,46,100,97,116,97,98,97,115,101,40,-37,-17,-93,-40,-2,-1,-1,-1,-1,1,48,0]}]]></tab>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "Rust": {
-      "usageCount": 1305,
-      "lastUsed": 1741598041210
+      "usageCount": 1682,
+      "lastUsed": 1746641881627
     },
     "textmate": {
-      "usageCount": 35,
-      "lastUsed": 1739156680851
+      "usageCount": 37,
+      "lastUsed": 1746505778923
     },
     "SQL": {
-      "usageCount": 340,
-      "lastUsed": 1741585521556
+      "usageCount": 381,
+      "lastUsed": 1746641110841
     },
     "Shell Script": {
-      "usageCount": 47,
-      "lastUsed": 1740146278066
+      "usageCount": 48,
+      "lastUsed": 1746240243991
     },
     ".env file": {
       "usageCount": 16,
@@ -147,8 +228,8 @@
       "lastUsed": 1739892202682
     },
     "DIFF": {
-      "usageCount": 76,
-      "lastUsed": 1741584015243
+      "usageCount": 79,
+      "lastUsed": 1746242429542
     },
     "HTML": {
       "usageCount": 393,
@@ -163,8 +244,8 @@
       "lastUsed": 1733416324367
     },
     "TOML": {
-      "usageCount": 126,
-      "lastUsed": 1739517190602
+      "usageCount": 137,
+      "lastUsed": 1746491093031
     },
     "TypeScript": {
       "usageCount": 9,
@@ -201,6 +282,14 @@
     "VcsLog": {
       "usageCount": 5,
       "lastUsed": 1739631287268
+    },
+    "Database Element": {
+      "usageCount": 1,
+      "lastUsed": 1744001535321
+    },
+    "AUTO_DETECTED": {
+      "usageCount": 1,
+      "lastUsed": 1746512450826
     }
   }
 }]]></component>
@@ -211,7 +300,6 @@
       <find>apply_po</find>
       <find>Popup</find>
       <find>New</find>
-      <find>id</find>
       <find>popstate</find>
       <find>popstate'</find>
       <find>route</find>
@@ -231,7 +319,6 @@
       <find>popup_</find>
       <find>mix_composition</find>
       <find>button</find>
-      <find>vim</find>
       <find>params</find>
       <find>.popup</find>
       <find>console</find>
@@ -257,7 +344,6 @@
       <find>sort</find>
       <find>1.0</find>
       <find>E:</find>
-      <find>Into</find>
       <find>Into&lt;M</find>
       <find>fraction()</find>
       <find>ingredient_id()</find>
@@ -272,7 +358,6 @@
       <find>creat</find>
       <find>creating</find>
       <find>mel_required</find>
-      <find>dbg</find>
       <find>print</find>
       <find>BIGINT</find>
       <find>delta</find>
@@ -304,16 +389,42 @@
       <find>active_index</find>
       <find>supply</find>
       <find>ingredient</find>
-      <find>good</find>
       <find>UNIQUE</find>
       <find>_group</find>
       <find>table ing</find>
       <find>unique_shor</find>
       <find>short_name</find>
       <find>n</find>
-      <find />
       <find>group</find>
       <find>TODO</find>
+      <find>Q</find>
+      <find>Dist</find>
+      <find>list</find>
+      <find>trait</find>
+      <find>good_ty</find>
+      <find>crate::model::ingredients::</find>
+      <find>dbg</find>
+      <find>TestFixture</find>
+      <find>good</find>
+      <find>TABLE go</find>
+      <find>id</find>
+      <find>update1</find>
+      <find>update(</find>
+      <find>get</find>
+      <find>tx</find>
+      <find>query_as</find>
+      <find />
+      <find>pub enum</find>
+      <find>vim</find>
+      <find>TYPE</find>
+      <find>struct GoodVersion</find>
+      <find>Expr</find>
+      <find>update</find>
+      <find>Transa</find>
+      <find>into</find>
+      <find>IntoIterator</find>
+      <find>Into</find>
+      <find>update_row</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -323,6 +434,7 @@
       <replace>ingredient_id</replace>
       <replace>action_id</replace>
       <replace>BIGINT</replace>
+      <replace>good_id</replace>
       <replace />
     </replaceStrings>
     <dirStrings>
@@ -330,11 +442,12 @@
       <dir>$PROJECT_DIR$/templates/components/forms</dir>
       <dir>$PROJECT_DIR$/crates/libs/lib-template/src/basic</dir>
       <dir>$PROJECT_DIR$/static/modules</dir>
+      <dir>$PROJECT_DIR$/crates/libs/lib-core/src/model</dir>
+      <dir>$PROJECT_DIR$/crates/libs/lib-core/src/model/good</dir>
     </dirStrings>
   </component>
   <component name="FindInProjectScope">
-    <option name="isCustomScope" value="true" />
-    <option name="customScopeName" value="All Places" />
+    <option name="isProjectScope" value="true" />
   </component>
   <component name="GitBranchesPopupTreeState">
     <expand>
@@ -350,61 +463,61 @@
     <select />
   </component>
   <component name="GitSEFilterConfiguration">{}</component>
-  <component name="IdeDocumentHistory">{
-  &quot;changedPaths&quot;: [
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-template/src/interfaces/mixes.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-template/src/interfaces/packaging_types.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-template/src/interfaces/suppliers.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-template/src/interfaces/ingredients.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-template/src/interfaces/ingredient_supply.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-template/src/interfaces/packaging_supplies.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-template/src/interfaces/mix_productions.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/static/interfaces/js/base_scripts.js&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/files/complex.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/files/file.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-web/src/handlers/file_upload.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/static/modules/fileUpload.js&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/Cargo.toml&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-file/Cargo.toml&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-utils/src/time.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-file/src/file_upload.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/static/interfaces/css/notification.css&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/static/modules/notification.js&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-auth/src/token/mod.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/ingredients/mix_composition.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/static/modules/popup_base.js&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/static/modules/dynamicTableForm.js&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/static/modules/utils.js&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/static/modules/fetchPopovers.js&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/static/modules/popupSelector.js&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/static/modules/popups_v2.js&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/static/interfaces/js/data_table.js&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-web/src/rest/ingredients.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/static/interfaces/js/mix_scripts.js&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/static/modules/commonConfig.js&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_setup.sql&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/migrations/20240802025135_ingredient_groups.sql&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/migrations/20240802025210_ingredient.sql&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/migrations/20241123133945_add_batches.sql&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/migrations/20241115043343_user_action_logs.sql&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/.env&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/setup.sh&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/.gitignore&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/ingredients/ingredient.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/db/fixtures/seed_test.sql&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/migrations/20240825153344_seed_test.sql&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/error.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/ctx/mod.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/lib.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/client.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_type.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/property_traits.rs&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql&quot;,
-    &quot;/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs&quot;
+  <component name="IdeDocumentHistory"><![CDATA[{
+  "changedPaths": [
+    "/home/sinder/Projects/office_automation_system/static/modules/popupSelector.js",
+    "/home/sinder/Projects/office_automation_system/static/modules/popups_v2.js",
+    "/home/sinder/Projects/office_automation_system/static/interfaces/js/data_table.js",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-web/src/rest/ingredients.rs",
+    "/home/sinder/Projects/office_automation_system/static/interfaces/js/ingredient_scripts.js",
+    "/home/sinder/Projects/office_automation_system/static/interfaces/js/mix_scripts.js",
+    "/home/sinder/Projects/office_automation_system/static/modules/commonConfig.js",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_setup.sql",
+    "/home/sinder/Projects/office_automation_system/migrations/20240802025135_ingredient_groups.sql",
+    "/home/sinder/Projects/office_automation_system/migrations/20240802025210_ingredient.sql",
+    "/home/sinder/Projects/office_automation_system/migrations/20241123133945_add_batches.sql",
+    "/home/sinder/Projects/office_automation_system/migrations/20241115043343_user_action_logs.sql",
+    "/home/sinder/Projects/office_automation_system/.env",
+    "/home/sinder/Projects/office_automation_system/.gitignore",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/ingredients/ingredient.rs",
+    "/home/sinder/Projects/office_automation_system/migrations/20240825153344_seed_test.sql",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/ctx/mod.rs",
+    "/home/sinder/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-core-0.8.3/src/query_builder.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/property_traits.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/lib.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient_interface_methods.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient_cost.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/client.rs",
+    "/home/sinder/Projects/office_automation_system/setup.sh",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/db/fixtures/seed_test.sql",
+    "/home/sinder/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-macros-core-0.8.5/src/test_attr.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient_version.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/mix.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/packagings/packaging_interface_methods.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/mix_composition.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/files/complex.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-utils/src/time.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/parameters.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/config.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/users/permission.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/Cargo.toml",
+    "/home/sinder/.ideavimrc",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/fields.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_type.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_alias.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/error.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/custom_types.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good_version.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-file/src/excel/mix_production_report.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/prelude.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/mod.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/mod.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/good.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/mod.rs",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql",
+    "/home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs"
   ]
-}</component>
+}]]></component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -438,25 +551,25 @@
       <summary usageCount="9" lastUsage="1738914013621" />
     </language>
     <language id="Rust">
-      <summary usageCount="1305" lastUsage="1741598041210" />
+      <summary usageCount="1682" lastUsage="1746641881627" />
     </language>
     <language id="SQL">
-      <summary usageCount="340" lastUsage="1741585521556" />
+      <summary usageCount="381" lastUsage="1746641110841" />
     </language>
     <language id="Shell Script">
-      <summary usageCount="47" lastUsage="1740146278066" />
+      <summary usageCount="48" lastUsage="1746240243991" />
     </language>
     <language id="TEXT">
       <summary usageCount="4" lastUsage="1739561346369" />
     </language>
     <language id="TOML">
-      <summary usageCount="126" lastUsage="1739517190602" />
+      <summary usageCount="137" lastUsage="1746491093031" />
     </language>
     <language id="TypeScript">
       <summary usageCount="9" lastUsage="1736745987660" />
     </language>
     <language id="textmate">
-      <summary usageCount="35" lastUsage="1739156680851" />
+      <summary usageCount="37" lastUsage="1746505778923" />
     </language>
   </component>
   <component name="ProjectView">
@@ -493,14 +606,6 @@
               <item name="dir{file:///home/sinder/Projects/office_automation_system/crates}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core/db}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="office_automation_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///home/sinder/Projects/office_automation_system}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/office_automation_system/crates}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core/src}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -521,17 +626,6 @@
               <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core/src}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="office_automation_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///home/sinder/Projects/office_automation_system}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/office_automation_system/crates}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="office_automation_system" type="b2602c69:ProjectViewProjectNode" />
@@ -601,33 +695,6 @@
                       </attributes>
                       <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="db" />
                       <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core/db}" type="462c0819:PsiDirectoryNode" />
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/db/fixtures" />
-                          </map>
-                        </attributes>
-                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="fixtures" />
-                        <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core/db/fixtures}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/db/migrations" />
-                          </map>
-                        </attributes>
-                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="migrations" />
-                        <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core/db/migrations}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/db/schema.sql" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/expui/sql.svg" iconPlugin="com.intellij.database" isLeaf="true" text="schema.sql" />
-                        <item name="schema.sql" type="ab9368bb:PsiFileNode" />
-                      </presentation>
                     </presentation>
                     <presentation>
                       <attributes>
@@ -679,78 +746,6 @@
                             </attributes>
                             <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="ingredients" />
                             <item name="dir{file:///home/sinder/Projects/office_automation_system/crates/libs/lib-core/src/model/good/ingredients}" type="462c0819:PsiDirectoryNode" />
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/mod.rs" />
-                                </map>
-                              </attributes>
-                              <data isLeaf="true" text="mod.rs" />
-                              <item name="mod.rs" type="f3e56494:RsPsiFileNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/action_type.rs" />
-                                </map>
-                              </attributes>
-                              <data isLeaf="true" text="action_type.rs" />
-                              <item name="action_type.rs" type="f3e56494:RsPsiFileNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs" />
-                                </map>
-                              </attributes>
-                              <data isLeaf="true" text="ingredient.rs" />
-                              <item name="ingredient.rs" type="f3e56494:RsPsiFileNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/ingredient_alias.rs" />
-                                </map>
-                              </attributes>
-                              <data isLeaf="true" text="ingredient_alias.rs" />
-                              <item name="ingredient_alias.rs" type="f3e56494:RsPsiFileNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/ingredient_cost.rs" />
-                                </map>
-                              </attributes>
-                              <data isLeaf="true" text="ingredient_cost.rs" />
-                              <item name="ingredient_cost.rs" type="f3e56494:RsPsiFileNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/ingredient_interface_methods.rs" />
-                                </map>
-                              </attributes>
-                              <data isLeaf="true" text="ingredient_interface_methods.rs" />
-                              <item name="ingredient_interface_methods.rs" type="f3e56494:RsPsiFileNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/ingredients_group.rs" />
-                                </map>
-                              </attributes>
-                              <data isLeaf="true" text="ingredients_group.rs" />
-                              <item name="ingredients_group.rs" type="f3e56494:RsPsiFileNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/mix_composition.rs" />
-                                </map>
-                              </attributes>
-                              <data isLeaf="true" text="mix_composition.rs" />
-                              <item name="mix_composition.rs" type="f3e56494:RsPsiFileNode" />
-                            </presentation>
                           </presentation>
                           <presentation>
                             <attributes>
@@ -773,11 +768,38 @@
                           <presentation>
                             <attributes>
                               <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/good/good.rs" />
+                              </map>
+                            </attributes>
+                            <data isLeaf="true" text="good.rs" />
+                            <item name="good.rs" type="f3e56494:RsPsiFileNode" />
+                          </presentation>
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/good/good_alias.rs" />
+                              </map>
+                            </attributes>
+                            <data isLeaf="true" text="good_alias.rs" />
+                            <item name="good_alias.rs" type="f3e56494:RsPsiFileNode" />
+                          </presentation>
+                          <presentation>
+                            <attributes>
+                              <map>
                                 <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/good/good_type.rs" />
                               </map>
                             </attributes>
                             <data isLeaf="true" text="good_type.rs" />
                             <item name="good_type.rs" type="f3e56494:RsPsiFileNode" />
+                          </presentation>
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/good/good_version.rs" />
+                              </map>
+                            </attributes>
+                            <data isLeaf="true" text="good_version.rs" />
+                            <item name="good_version.rs" type="f3e56494:RsPsiFileNode" />
                           </presentation>
                         </presentation>
                         <presentation>
@@ -828,11 +850,29 @@
                         <presentation>
                           <attributes>
                             <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/custom_types.rs" />
+                            </map>
+                          </attributes>
+                          <data isLeaf="true" text="custom_types.rs" />
+                          <item name="custom_types.rs" type="f3e56494:RsPsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
                               <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/error.rs" />
                             </map>
                           </attributes>
                           <data isLeaf="true" text="error.rs" />
                           <item name="error.rs" type="f3e56494:RsPsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/fields.rs" />
+                            </map>
+                          </attributes>
+                          <data isLeaf="true" text="fields.rs" />
+                          <item name="fields.rs" type="f3e56494:RsPsiFileNode" />
                         </presentation>
                         <presentation>
                           <attributes>
@@ -846,11 +886,20 @@
                         <presentation>
                           <attributes>
                             <map>
-                              <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/property_traits.rs" />
+                              <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/parameters.rs" />
                             </map>
                           </attributes>
-                          <data isLeaf="true" text="property_traits.rs" />
-                          <item name="property_traits.rs" type="f3e56494:RsPsiFileNode" />
+                          <data isLeaf="true" text="parameters.rs" />
+                          <item name="parameters.rs" type="f3e56494:RsPsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/crates/libs/lib-core/src/model/prelude.rs" />
+                            </map>
+                          </attributes>
+                          <data isLeaf="true" text="prelude.rs" />
+                          <item name="prelude.rs" type="f3e56494:RsPsiFileNode" />
                         </presentation>
                         <presentation>
                           <attributes>
@@ -980,7 +1029,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/target" />
                   </map>
                 </attributes>
-                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
+                <data iconPath="modules/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
                 <item name="dir{file:///home/sinder/Projects/office_automation_system/target}" type="462c0819:PsiDirectoryNode" />
               </presentation>
               <presentation>
@@ -1034,7 +1083,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/build.sh" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/shell.svg" iconPlugin="com.intellij" isLeaf="true" text="build.sh" />
+                <data iconPath="nodes/console.svg" iconPlugin="com.intellij" isLeaf="true" text="build.sh" />
                 <item name="build.sh" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -1061,7 +1110,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/Dockerfile" />
                   </map>
                 </attributes>
-                <data iconPath="icons/expui/docker.svg" iconPlugin="Docker" isLeaf="true" text="Dockerfile" />
+                <data iconPath="icons/DockerFile_1.svg" iconPlugin="Docker" isLeaf="true" text="Dockerfile" />
                 <item name="Dockerfile" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -1070,7 +1119,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/migs.sh" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/shell.svg" iconPlugin="com.intellij" isLeaf="true" text="migs.sh" />
+                <data iconPath="nodes/console.svg" iconPlugin="com.intellij" isLeaf="true" text="migs.sh" />
                 <item name="migs.sh" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -1079,7 +1128,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/office_pack_archive.tar.gz" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="office_pack_archive.tar.gz" />
+                <data iconPath="nodes/nodePlaceholder.svg" iconPlugin="com.intellij" isLeaf="true" text="office_pack_archive.tar.gz" />
                 <item name="office_pack_archive.tar.gz" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -1088,7 +1137,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/plan.md" />
                   </map>
                 </attributes>
-                <data iconPath="icons/expui/markdown.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="plan.md" />
+                <data iconPath="icons/MarkdownPlugin.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="plan.md" />
                 <item name="plan.md" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -1097,7 +1146,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/README.md" />
                   </map>
                 </attributes>
-                <data iconPath="icons/expui/markdown.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="README.md" />
+                <data iconPath="icons/MarkdownPlugin.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="README.md" />
                 <item name="README.md" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -1115,13 +1164,13 @@
                     <entry key="filePath" value="$PROJECT_DIR$/setup.sh" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/shell.svg" iconPlugin="com.intellij" isLeaf="true" text="setup.sh" />
+                <data iconPath="nodes/console.svg" iconPlugin="com.intellij" isLeaf="true" text="setup.sh" />
                 <item name="setup.sh" type="ab9368bb:PsiFileNode" />
               </presentation>
             </presentation>
             <presentation>
               <attributes />
-              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <data iconPath="nodes/ppLib.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </presentation>
             <presentation>
@@ -1155,11 +1204,13 @@
   </component>
   <component name="RunConfigurationStartHistory">
     <history>
+      <element setting="Cargo.Run web-server" />
+      <element setting="Cargo.Test office_automation_system" />
+      <element setting="Cargo.Test good_type" />
+      <element setting="Cargo.Test model::good::good_type::tests::test_list_interface" />
       <element setting="Cargo.Test good_type::tests" />
       <element setting="Cargo.Test model::good::good_type::tests::test_list_good_types" />
       <element setting="Database Script.20250218153140_create_new_scheme.sql" />
-      <element setting="Cargo.Run web-server" />
-      <element setting="Cargo.Test office_automation_system" />
       <element setting="Cargo.Test mix_composition" />
       <element setting="Cargo.run" />
     </history>
@@ -1194,47 +1245,47 @@
   </component>
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",STRUCTURE_VIEW_MACRO_EXPANDED_FILTER" />
   </component>
   <component name="TerminalArrangementManager">
     <option name="myTabStates">
-      <TerminalTabState tabName="Local (2)" currentWorkingDirectory="$PROJECT_DIR$">
+      <TerminalTabState tabName="Local">
         <shellCommand>
           <arg value="/usr/bin/fish" />
           <arg value="-i" />
         </shellCommand>
       </TerminalTabState>
-      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$" />
     </option>
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_good_type__tests - 2025.03.10 at 13h 22m 41s.xml">
-      <configuration name="Test good_type::tests" configurationId="CargoCommandRunConfiguration" />
+    <history-entry file="Test_good_type - 2025.05.03 at 09h 56m 17s.xml">
+      <configuration name="Test good_type" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_good_type__tests - 2025.03.10 at 13h 24m 02s.xml">
-      <configuration name="Test good_type::tests" configurationId="CargoCommandRunConfiguration" />
+    <history-entry file="Test_good_type - 2025.05.03 at 10h 01m 39s.xml">
+      <configuration name="Test good_type" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_office_automation_system - 2025.02.15 at 19h 19m 45s.xml">
-      <configuration name="Test office_automation_system" configurationId="CargoCommandRunConfiguration" />
+    <history-entry file="Test_good_type - 2025.05.03 at 10h 07m 01s.xml">
+      <configuration name="Test good_type" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_office_automation_system - 2025.02.15 at 19h 22m 13s.xml">
-      <configuration name="Test office_automation_system" configurationId="CargoCommandRunConfiguration" />
+    <history-entry file="Test_good_type - 2025.05.03 at 10h 10m 42s.xml">
+      <configuration name="Test good_type" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_office_automation_system - 2025.02.15 at 19h 35m 26s.xml">
-      <configuration name="Test office_automation_system" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_office_automation_system - 2025.02.15 at 19h 37m 02s.xml">
-      <configuration name="Test office_automation_system" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_office_automation_system - 2025.02.15 at 19h 38m 15s.xml">
-      <configuration name="Test office_automation_system" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_office_automation_system - 2025.02.17 at 00h 09m 57s.xml">
-      <configuration name="Test office_automation_system" configurationId="CargoCommandRunConfiguration" />
+    <history-entry file="Test_good_type - 2025.05.03 at 10h 42m 38s.xml">
+      <configuration name="Test good_type" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
     <history-entry file="Test_office_automation_system - 2025.02.17 at 17h 05m 51s.xml">
       <configuration name="Test office_automation_system" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
     <history-entry file="Test_office_automation_system - 2025.02.17 at 20h 43m 01s.xml">
+      <configuration name="Test office_automation_system" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_office_automation_system - 2025.05.03 at 10h 47m 15s.xml">
+      <configuration name="Test office_automation_system" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_office_automation_system - 2025.05.03 at 10h 56m 43s.xml">
+      <configuration name="Test office_automation_system" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_office_automation_system - 2025.05.03 at 10h 59m 03s.xml">
       <configuration name="Test office_automation_system" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
   </component>
@@ -1244,7 +1295,7 @@
     </option>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="523084000" />
+    <option name="totallyTimeSpent" value="640372000" />
   </component>
   <component name="TodoView">
     <todo-panel id="all">
@@ -1254,9 +1305,9 @@
   <component name="ToolWindowManager">
     <layoutV2>
       <window_info id="Merge Requests" show_stripe_button="false" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82027495" weight="0.26972657" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82027495" weight="0.22167969" />
       <window_info id="Bookmarks" order="1" sideWeight="0.17972508" side_tool="true" weight="0.20917968" />
-      <window_info x="0" y="14" width="2550" height="1556" id="Structure" order="2" sideWeight="0.43539518" side_tool="true" weight="0.20917968" />
+      <window_info auto_hide="true" x="0" y="14" width="2550" height="1556" id="Structure" order="2" sideWeight="0.43539518" side_tool="true" weight="0.20917968" />
       <window_info x="321" y="92" width="1933" height="1438" id="TODO" order="3" sideWeight="0.3515464" side_tool="true" weight="0.33027345" />
       <window_info id="Activity" order="4" weight="0.33027345" />
       <window_info id="VcsChanges" order="5" weight="0.23808594" />
@@ -1280,34 +1331,74 @@
       <window_info anchor="right" id="Cargo" order="5" weight="0.2" />
       <window_info anchor="right" id="RustCargo" order="6" weight="0.2" />
       <window_info anchor="right" id="Build" order="7" side_tool="true" weight="0.4126953" />
-      <window_info anchor="right" id="Terminal" order="8" sideWeight="0.4994169" side_tool="true" weight="0.3353516" />
+      <window_info anchor="right" id="Terminal" order="8" sideWeight="0.4994169" side_tool="true" weight="0.4283203" />
       <window_info anchor="right" id="Problems View" order="9" weight="0.4126953" />
       <window_info anchor="right" id="Developer Tools" order="10" side_tool="true" />
-      <window_info anchor="right" id="Run" order="11" side_tool="true" weight="0.4126953" />
+      <window_info anchor="right" id="Run" order="11" show_stripe_button="false" side_tool="true" weight="0.4126953" />
       <window_info anchor="right" id="Services" order="12" side_tool="true" weight="0.3353516" />
       <window_info anchor="right" id="Key Promoter X" order="13" />
       <window_info anchor="right" id="Version Control" internal_type="SLIDING" order="14" side_tool="true" type="SLIDING" weight="0.4126953" />
       <window_info anchor="right" id="Hierarchy" order="15" weight="0.3298828" />
       <window_info anchor="right" id="Coverage" order="16" side_tool="true" weight="0.3298828" />
       <window_info anchor="right" id="Python Console" order="17" weight="0.33964843" />
-      <unified_weights bottom="0.6326073" left="0.26972657" right="0.4126953" />
+      <unified_weights bottom="0.6326073" left="0.22167969" right="0.4283203" />
     </layoutV2>
+    <layout-to-restore>
+      <window_info id="Merge Requests" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82027495" visible="true" weight="0.22167969" />
+      <window_info id="Bookmarks" order="1" sideWeight="0.17972508" side_tool="true" weight="0.20917968" />
+      <window_info auto_hide="true" x="0" y="14" width="2550" height="1556" id="Structure" order="2" sideWeight="0.43539518" side_tool="true" weight="0.20917968" />
+      <window_info x="321" y="92" width="1933" height="1438" id="TODO" order="3" sideWeight="0.3515464" side_tool="true" weight="0.33027345" />
+      <window_info id="Activity" order="4" weight="0.33027345" />
+      <window_info id="VcsChanges" order="5" weight="0.23808594" />
+      <window_info id="Pull Requests" order="6" weight="0.27792966" />
+      <window_info id="Commit" order="7" sideWeight="0.8099656" weight="0.26972657" />
+      <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Packages" order="0" side_tool="true" />
+      <window_info active="true" anchor="bottom" x="116" y="613" width="2444" height="987" id="Database Changes" order="1" side_tool="true" type="FLOATING" weight="0.6326073" />
+      <window_info anchor="bottom" id="ExcelReader" order="2" side_tool="true" />
+      <window_info anchor="bottom" auto_hide="true" x="0" y="449" width="2444" height="515" id="Find" order="3" side_tool="true" weight="0.6326073" />
+      <window_info anchor="bottom" id="Messages" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.6326073" />
+      <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Notifications" order="0" weight="0.33964843" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25019532" />
+      <window_info anchor="right" id="Database" order="2" sideWeight="0.50058305" weight="0.3353516" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Cargo" order="5" weight="0.2" />
+      <window_info anchor="right" id="RustCargo" order="6" weight="0.2" />
+      <window_info anchor="right" id="Build" order="7" side_tool="true" weight="0.4126953" />
+      <window_info anchor="right" id="Terminal" order="8" sideWeight="0.4994169" side_tool="true" weight="0.4283203" />
+      <window_info anchor="right" id="Problems View" order="9" weight="0.4126953" />
+      <window_info anchor="right" id="Developer Tools" order="10" side_tool="true" />
+      <window_info anchor="right" id="Run" order="11" show_stripe_button="false" side_tool="true" weight="0.4126953" />
+      <window_info anchor="right" id="Services" order="12" side_tool="true" weight="0.3353516" />
+      <window_info anchor="right" id="Key Promoter X" order="13" />
+      <window_info anchor="right" id="Version Control" internal_type="SLIDING" order="14" side_tool="true" type="SLIDING" weight="0.4126953" />
+      <window_info anchor="right" id="Hierarchy" order="15" weight="0.3298828" />
+      <window_info anchor="right" id="Coverage" order="16" side_tool="true" weight="0.3298828" />
+      <window_info anchor="right" id="Python Console" order="17" weight="0.33964843" />
+      <unified_weights bottom="0.6326073" left="0.22167969" right="0.4283203" />
+    </layout-to-restore>
     <recentWindows>
+      <value>Find</value>
       <value>Project</value>
-      <value>Commit</value>
-      <value>Run</value>
-      <value>Build</value>
       <value>Terminal</value>
+      <value>Structure</value>
+      <value>Build</value>
+      <value>Problems View</value>
+      <value>Commit</value>
+      <value>Bookmarks</value>
+      <value>Run</value>
+      <value>Database</value>
       <value>AIAssistant</value>
       <value>Pull Requests</value>
       <value>Services</value>
-      <value>Find</value>
       <value>Debug</value>
-      <value>Bookmarks</value>
-      <value>Database</value>
-      <value>Problems View</value>
       <value>Version Control</value>
-      <value>Structure</value>
       <value>Notifications</value>
       <value>Python Console</value>
       <value>VcsChanges</value>
@@ -1323,26 +1414,10 @@
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="635" y="153" key="#Notifications.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1739626730792" />
-    <state x="752" y="488" width="1046" height="628" key="#SQL_Dialects.ideScale=125" timestamp="1734586293676">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state x="752" y="488" width="1046" height="628" key="#SQL_Dialects.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1734586293676" />
-    <state x="870" y="274" width="1368" height="1046" key="#com.intellij.execution.impl.EditConfigurationsDialog.ideScale=125" timestamp="1733513519191">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state x="870" y="274" width="1368" height="1046" key="#com.intellij.execution.impl.EditConfigurationsDialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1733513519191" />
-    <state x="855" y="39" width="1290" height="1561" key="#com.intellij.execution.impl.EditConfigurationsDialog.ideScale=150" timestamp="1733391968406">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state x="855" y="39" width="1290" height="1561" key="#com.intellij.execution.impl.EditConfigurationsDialog.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733391968406" />
     <state x="607" y="441" key="#com.intellij.fileTypes.FileTypeChooser.ideScale=125" timestamp="1738790961061">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="607" y="441" key="#com.intellij.fileTypes.FileTypeChooser.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738790961061" />
-    <state x="587" y="516" key="#com.intellij.fileTypes.FileTypeChooser.ideScale=150" timestamp="1733416340585">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state x="587" y="516" key="#com.intellij.fileTypes.FileTypeChooser.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733416340585" />
     <state x="830" y="522" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.ideScale=125" timestamp="1738709871781">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
@@ -1351,66 +1426,46 @@
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="964" y="379" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1739795456682" />
-    <state x="922" y="208" key="#com.intellij.ide.util.MemberChooser.ideScale=125" timestamp="1741584881664">
+    <state x="272" y="148" key="#com.intellij.ide.util.MemberChooser.ideScale=125" timestamp="1746641283710">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="922" y="208" key="#com.intellij.ide.util.MemberChooser.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741584881664" />
-    <state x="855" y="204" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog.ideScale=125" timestamp="1736775239824">
+    <state x="272" y="148" key="#com.intellij.ide.util.MemberChooser.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746641283710" />
+    <state x="855" y="208" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog.ideScale=125" timestamp="1746243382685">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="855" y="204" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1736775239824" />
+    <state x="855" y="208" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746243382685" />
     <state x="376" y="14" width="1678" height="989" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog.ideScale=125" timestamp="1738787603095">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="376" y="14" width="1678" height="989" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738787603095" />
-    <state x="1441" y="567" key="#org.rust.ide.typing.paste.CratesImportDialog.ideScale=125" timestamp="1739352613111">
+    <state x="1436" y="542" key="#org.rust.ide.typing.paste.CratesImportDialog.ideScale=125" timestamp="1746582894476">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="1441" y="567" key="#org.rust.ide.typing.paste.CratesImportDialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1739352613111" />
+    <state x="1436" y="542" key="#org.rust.ide.typing.paste.CratesImportDialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746582894476" />
     <state x="231" y="81" key="DiffContextDialog.ideScale=125" timestamp="1738782630567">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="231" y="81" key="DiffContextDialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738782630567" />
-    <state x="867" y="200" key="FileChooserDialogImpl.ideScale=125" timestamp="1739963105550">
+    <state x="857" y="150" key="FileChooserDialogImpl.ideScale=125" timestamp="1746245503476">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="867" y="200" key="FileChooserDialogImpl.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1739963105550" />
-    <state x="952" y="435" key="FileChooserDialogImpl.ideScale=150" timestamp="1733391930829">
+    <state x="857" y="150" key="FileChooserDialogImpl.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746245503476" />
+    <state width="1054" height="1417" key="GridCell.Tab.0.bottom.ideScale=125" timestamp="1746241165802">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="952" y="435" key="FileChooserDialogImpl.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733391930829" />
-    <state width="1054" height="1417" key="GridCell.Tab.0.bottom.ideScale=125" timestamp="1741584255816">
+    <state width="1054" height="1417" key="GridCell.Tab.0.bottom.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746241165802" />
+    <state width="1054" height="1417" key="GridCell.Tab.0.center.ideScale=125" timestamp="1746241165802">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="1054" height="1417" key="GridCell.Tab.0.bottom.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741584255816" />
-    <state width="843" height="1427" key="GridCell.Tab.0.bottom.ideScale=150" timestamp="1733415929919">
+    <state width="1054" height="1417" key="GridCell.Tab.0.center.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746241165802" />
+    <state width="1054" height="1417" key="GridCell.Tab.0.left.ideScale=125" timestamp="1746241165802">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="843" height="1427" key="GridCell.Tab.0.bottom.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733415929919" />
-    <state width="1054" height="1417" key="GridCell.Tab.0.center.ideScale=125" timestamp="1741584255816">
+    <state width="1054" height="1417" key="GridCell.Tab.0.left.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746241165802" />
+    <state width="1054" height="1417" key="GridCell.Tab.0.right.ideScale=125" timestamp="1746241165802">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="1054" height="1417" key="GridCell.Tab.0.center.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741584255816" />
-    <state width="843" height="1427" key="GridCell.Tab.0.center.ideScale=150" timestamp="1733415929919">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state width="843" height="1427" key="GridCell.Tab.0.center.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733415929919" />
-    <state width="1054" height="1417" key="GridCell.Tab.0.left.ideScale=125" timestamp="1741584255816">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state width="1054" height="1417" key="GridCell.Tab.0.left.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741584255816" />
-    <state width="843" height="1427" key="GridCell.Tab.0.left.ideScale=150" timestamp="1733415929918">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state width="843" height="1427" key="GridCell.Tab.0.left.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733415929918" />
-    <state width="1054" height="1417" key="GridCell.Tab.0.right.ideScale=125" timestamp="1741584255816">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state width="1054" height="1417" key="GridCell.Tab.0.right.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741584255816" />
-    <state width="843" height="1427" key="GridCell.Tab.0.right.ideScale=150" timestamp="1733415929919">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state width="843" height="1427" key="GridCell.Tab.0.right.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733415929919" />
+    <state width="1054" height="1417" key="GridCell.Tab.0.right.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746241165802" />
     <state width="2444" height="932" key="GridCell.Tab.1.bottom.ideScale=125" timestamp="1738476221362">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
@@ -1459,54 +1514,34 @@
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state width="2444" height="932" key="GridCell.Tab.3.right.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738476221362" />
-    <state x="544" y="320" width="1452" height="959" key="IDE.errors.dialog.ideScale=125" timestamp="1736839961293">
+    <state x="544" y="316" width="1452" height="917" key="IDE.errors.dialog.ideScale=125" timestamp="1746592668491">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="544" y="320" width="1452" height="959" key="IDE.errors.dialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1736839961293" />
-    <state x="642" y="358" width="1246" height="798" key="IDE.errors.dialog.ideScale=150" timestamp="1733420932318">
+    <state x="544" y="316" width="1452" height="917" key="IDE.errors.dialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746592668491" />
+    <state x="1900" y="1284" width="640" height="246" key="ProcessPopupWindow.ideScale=125" timestamp="1746642135435">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="642" y="358" width="1246" height="798" key="IDE.errors.dialog.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733420932318" />
-    <state x="66" y="1302" width="640" height="246" key="ProcessPopupWindow.ideScale=125" timestamp="1741598206892">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state x="66" y="1302" width="640" height="246" key="ProcessPopupWindow.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741598206892" />
+    <state x="1900" y="1284" width="640" height="246" key="ProcessPopupWindow.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746642135435" />
     <state x="878" y="26" key="RollbackChangesDialog.ideScale=125" timestamp="1739511947712">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="878" y="26" key="RollbackChangesDialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1739511947712" />
-    <state x="164" y="14" key="SettingsEditor" timestamp="1733434791328">
+    <state x="378" y="57" key="SettingsEditor.ideScale=125" timestamp="1746493331438">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="373" y="32" key="SettingsEditor.ideScale=125" timestamp="1741598206132">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state x="373" y="32" key="SettingsEditor.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741598206132" />
-    <state x="333" y="14" key="SettingsEditor.ideScale=150" timestamp="1733434743397">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state x="333" y="14" key="SettingsEditor.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733434743397" />
-    <state x="164" y="14" key="SettingsEditor/0.39.2560.1561@0.39.2560.1561" timestamp="1733434791328" />
+    <state x="378" y="57" key="SettingsEditor.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746493331438" />
     <state width="1120" height="491" key="ShowBookmarks.ideScale=125" timestamp="1739732914043">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state width="1120" height="491" key="ShowBookmarks.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1739732914043" />
-    <state width="431" height="341" key="ShowFilterAction_Filter_Popup.ideScale=125" timestamp="1739026998086">
+    <state width="431" height="341" key="ShowFilterAction_Filter_Popup.ideScale=125" timestamp="1746526714091">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="431" height="341" key="ShowFilterAction_Filter_Popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1739026998086" />
-    <state x="805" y="380" width="945" height="946" key="StructurePopup.ideScale=125" timestamp="1736949657883">
+    <state width="431" height="341" key="ShowFilterAction_Filter_Popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746526714091" />
+    <state width="1583" height="849" key="SwitcherDM.ideScale=125" timestamp="1746643392199">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="805" y="380" width="945" height="946" key="StructurePopup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1736949657883" />
-    <state width="1583" height="849" key="SwitcherDM.ideScale=125" timestamp="1741585792665">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state width="1583" height="849" key="SwitcherDM.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741585792665" />
-    <state width="766" height="1492" key="SwitcherDM.ideScale=150" timestamp="1733434429667">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state width="766" height="1492" key="SwitcherDM.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733434429667" />
+    <state width="1583" height="849" key="SwitcherDM.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746643392199" />
     <state x="837" y="593" key="VCS.ChangelistChooser.ideScale=125" timestamp="1738764961181">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
@@ -1515,614 +1550,602 @@
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="545" y="189" key="Vcs.Push.Dialog.v2.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1739797951094" />
-    <state x="670" y="380" key="Vcs.Push.Dialog.v2.ideScale=150" timestamp="1733420847452">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state x="670" y="380" key="Vcs.Push.Dialog.v2.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733420847452" />
-    <state x="909" y="470" width="731" height="649" key="XPathView.FindDialog.DIMENSION_SERVICE_KEY.SIMPLE.ideScale=125" timestamp="1733512537307">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state x="909" y="470" width="731" height="649" key="XPathView.FindDialog.DIMENSION_SERVICE_KEY.SIMPLE.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1733512537307" />
     <state x="806" y="266" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.ideScale=125" timestamp="1739936093185">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="806" y="266" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1739936093185" />
-    <state x="859" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=125" timestamp="1740378997724">
+    <state x="849" y="389" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=125" timestamp="1746593540281">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="859" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1740378997724" />
+    <state x="849" y="389" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746593540281" />
     <state x="95" y="114" width="2360" height="1361" key="dock-window-1.ideScale=125" timestamp="1739370080984">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="95" y="114" width="2360" height="1361" key="dock-window-1.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1739370080984" />
-    <state x="795" y="39" width="1237" height="1482" key="find.popup.ideScale=125" timestamp="1738808456332">
+    <state x="795" y="39" width="1237" height="1482" key="find.popup.ideScale=125" timestamp="1746493590493">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="795" y="39" width="1237" height="1482" key="find.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738808456332" />
+    <state x="795" y="39" width="1237" height="1482" key="find.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746493590493" />
     <state x="817" y="293" key="git4idea.branch.GitSmartOperationDialog.ideScale=125" timestamp="1738804966759">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="817" y="293" key="git4idea.branch.GitSmartOperationDialog.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738804966759" />
-    <state width="1054" height="349" key="javadoc.popup.ideScale=125" timestamp="1740130687351">
+    <state width="1054" height="349" key="javadoc.popup.ideScale=125" timestamp="1746479449051">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="1054" height="349" key="javadoc.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1740130687351" />
-    <state width="1112" height="608" key="javadoc.popup.ideScale=150" timestamp="1733434420548">
+    <state width="1054" height="349" key="javadoc.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746479449051" />
+    <state x="85" y="64" width="2360" height="1361" key="lvcs.dialog.size.ideScale=125" timestamp="1746241533683">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state width="1112" height="608" key="javadoc.popup.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733434420548" />
-    <state x="90" y="89" width="2360" height="1361" key="lvcs.dialog.size.ideScale=125" timestamp="1738725037368">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state x="90" y="89" width="2360" height="1361" key="lvcs.dialog.size.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1738725037368" />
+    <state x="85" y="64" width="2360" height="1361" key="lvcs.dialog.size.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746241533683" />
     <state x="665" y="353" width="1225" height="928" key="recent.locations.popup.ideScale=125" timestamp="1741584694590">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
     <state x="665" y="353" width="1225" height="928" key="recent.locations.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741584694590" />
-    <state x="1558" y="493" key="refactoring.ChangeSignatureDialog.ideScale=150" timestamp="1733428902136">
+    <state x="691" y="39" width="1177" height="1558" key="run.anything.popup.ideScale=125" timestamp="1746512545684">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="1558" y="493" key="refactoring.ChangeSignatureDialog.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733428902136" />
-    <state x="691" y="39" width="1177" height="1558" key="run.anything.popup.ideScale=125" timestamp="1740366510156">
+    <state x="691" y="39" width="1177" height="1558" key="run.anything.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746512545684" />
+    <state x="371" y="86" width="1749" height="1459" key="search.everywhere.popup.ideScale=125" timestamp="1746609866645">
       <screen x="0" y="39" width="2560" height="1561" />
     </state>
-    <state x="691" y="39" width="1177" height="1558" key="run.anything.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1740366510156" />
-    <state x="775" y="381" key="run.anything.popup.ideScale=150" timestamp="1733433237677">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state x="775" y="381" key="run.anything.popup.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733433237677" />
-    <state x="652" y="170" key="scopes.ideScale=125" timestamp="1737006552474">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state x="652" y="170" key="scopes.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1737006552474" />
-    <state x="371" y="86" width="1745" height="1459" key="search.everywhere.popup.ideScale=125" timestamp="1741585800592">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state x="371" y="86" width="1745" height="1459" key="search.everywhere.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1741585800592" />
-    <state x="773" y="92" width="1009" height="1504" key="search.everywhere.popup.ideScale=150" timestamp="1733434596034">
-      <screen x="0" y="39" width="2560" height="1561" />
-    </state>
-    <state x="773" y="92" width="1009" height="1504" key="search.everywhere.popup.ideScale=150/0.39.2560.1561@0.39.2560.1561" timestamp="1733434596034" />
+    <state x="371" y="86" width="1749" height="1459" key="search.everywhere.popup.ideScale=125/0.39.2560.1561@0.39.2560.1561" timestamp="1746609866645" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/migrations/20240802025135_ingredient_groups.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802025445_mix_composition.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802025616_ingredient_aliases.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802025656_igredient_supply.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802025746_mix_production.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802030250_packaging.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802030253_packaging_supply.sql">
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/packagings/packaging_interface_methods.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20241028010922_views.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20241123133945_add_batches.sql" />
-    <entry file="file://$PROJECT_DIR$/migrations/20241115043343_user_action_logs.sql" />
-    <entry file="uml://DATABASE/c628670a-74ab-4d14-8643-e1bffdefdaf2.TABLE:postgres.public.mix_production">
-      <provider selected="true" editor-type-id="UmlEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802025347_action_types.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20241115230446_file_attachments.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802024930_supplier.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="uml://DATABASE/c628670a-74ab-4d14-8643-e1bffdefdaf2.SCHEMA:postgres.public">
-      <provider selected="true" editor-type-id="UmlEditorProvider" />
-    </entry>
-    <entry file="uml://DATABASE/c628670a-74ab-4d14-8643-e1bffdefdaf2.TABLE:postgres.public.action_type">
-      <provider selected="true" editor-type-id="UmlEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802025210_ingredient.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c628670a-74ab-4d14-8643-e1bffdefdaf2/database/postgres/schema/pg_catalog/routine/gen_random_uuid@().sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.test.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.sql" />
-    <entry file="file://$PROJECT_DIR$/setup.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/db/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1069">
-          <caret line="307" column="19" selection-start-line="307" selection-start-column="19" selection-end-line="307" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/supplier.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="949">
-          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        <state relative-caret-position="720">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding>
-            <element signature="n#!!block;n#update#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802030406_seed_permissions.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802030440_seed_root_user.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802024638_roles.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802030514_seed_special_clients.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://c628670a-74ab-4d14-8643-e1bffdefdaf2/database/postgres/schema/public/table/delivery_target.sql">
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/ingredient_alias.rs" />
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/files/complex.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802030927_seed_ingredient_groups.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802031002_seed_packaging_groups.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802031004_seed_special_ing.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802031109_seed_actions.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/lib.rs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/error.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="490">
+          <caret line="225" selection-start-line="225" selection-end-line="225" />
           <folding>
-            <element signature="e#0#60#0" expanded="true" />
-            <element signature="e#0#60#0" expanded="true" />
+            <element signature="n#!!block;n#test_copy_object_files#0;n#tests#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/files/file_attachment.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="96" column="48" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
+          <folding>
+            <element signature="e#2004#2017#0" expanded="true" />
+            <element signature="n#!!block;n#test_list_file_attachments#0;n#tests#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-core-0.8.5/src/query.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="187" column="27" selection-start-line="187" selection-start-column="27" selection-end-line="187" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!block;n#example#0;n#!!block;n#__main#0" expanded="true" />
+            <element signature="n#!!block;n#example2#0;n#!!block;n#__main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-0.32.4/src/query/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+          <folding>
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-0.32.4/src/query/insert.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1086">
+          <caret line="663" column="11" selection-start-line="663" selection-start-column="11" selection-end-line="663" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-utils/src/time.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+          <folding>
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="n#!!block;n#format_time_for_file#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-binder-0.7.0/src/sqlx_postgres.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-0.32.4/src/backend/postgres/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/ctx/mod.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="951">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="e#39#76#0" expanded="true" />
+            <element signature="e#39#76#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#1010#1077#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/client.rs">
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-core-0.8.5/src/pool/mod.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="680">
+          <caret line="371" column="17" selection-start-line="371" selection-start-column="17" selection-end-line="371" selection-end-column="17" />
           <folding>
-            <element signature="e#0#55#0" expanded="true" />
-            <element signature="e#0#55#0" expanded="true" />
-            <element signature="n#!!doc;n#Client#0" expanded="true" />
-            <element signature="n#!!block;n#set_deleted#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240825153344_seed_test.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20240802031119_add_ingredient_parent.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/db/fixtures/seed_test.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8280">
-          <caret line="207" column="15" selection-start-line="207" selection-start-column="15" selection-end-line="207" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/mod.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/mix_composition.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#19#121#0" />
-            <element signature="e#208#236#0" />
-            <element signature="e#451#568#0" />
-            <element signature="e#623#647#0" />
-            <element signature="e#685#741#0" />
-            <element signature="e#810#848#0" expanded="true" />
-            <element signature="e#850#912#0" expanded="true" />
-            <element signature="e#1005#1161#0" expanded="true" />
-            <element signature="e#1188#1239#0" />
-            <element signature="e#1353#1446#0" />
-            <element signature="e#1498#1727#0" />
-            <element signature="e#1581#1722#0" />
-            <element signature="e#1826#2059#0" />
-            <element signature="e#1834#1855#0" />
-            <element signature="e#2389#2406#0" />
-            <element signature="e#2456#2459#0" />
-            <element signature="e#2530#2533#0" />
-            <element signature="e#2588#2608#1" />
-            <element signature="e#2691#2697#0" />
-            <element signature="e#2698#2900#1" />
-            <element signature="e#2915#2921#0" />
-            <element signature="e#2922#3125#1" />
-            <element signature="e#3174#3284#0" />
-            <element signature="e#3306#3475#0" />
-            <element signature="e#3332#3367#0" />
-            <element signature="e#3438#3470#0" />
-            <element signature="e#3536#3842#0" />
-            <element signature="e#3630#3634#0" />
-            <element signature="e#3659#3822#0" />
-            <element signature="e#3949#4117#0" />
-            <element signature="e#4165#4460#0" />
-            <element signature="e#4248#4455#0" />
-            <element signature="e#4573#4894#0" />
-            <element signature="e#4583#4611#0" />
-            <element signature="e#4667#4889#0" />
-            <element signature="e#4917#4945#0" />
-            <element signature="e#4996#4999#0" />
-            <element signature="e#5024#5230#0" />
-            <element signature="e#5268#5287#0" />
-            <element signature="e#5334#5337#0" />
-            <element signature="e#5358#5519#0" />
-            <element signature="e#5614#5920#0" />
-            <element signature="e#5969#6198#0" />
-            <element signature="e#6052#6193#0" />
-            <element signature="e#6259#6504#0" />
-            <element signature="e#6269#6298#0" />
-            <element signature="e#6354#6499#0" />
-            <element signature="e#6654#6744#0" />
-            <element signature="e#6819#7085#0" />
-            <element signature="e#7201#7210#0" />
-            <element signature="e#7893#7920#0" />
-            <element signature="e#8649#8676#0" />
-            <element signature="e#9331#9348#0" />
-            <element signature="e#9387#9431#0" />
-            <element signature="e#9809#9876#0" />
-            <element signature="e#9891#9922#0" />
-            <element signature="e#10744#10759#0" />
-            <element signature="e#10760#10923#1" />
-            <element signature="e#11093#11123#0" />
-            <element signature="e#11147#11191#0" />
-            <element signature="e#11543#11583#0" />
-            <element signature="e#11791#11903#0" />
-            <element signature="e#11951#12291#0" />
-            <element signature="e#12073#12161#0" />
-            <element signature="e#12114#12157#1" />
-            <element signature="e#12228#12272#0" />
-            <element signature="e#12333#12429#0" />
-            <element signature="e#12745#13218#0" />
-            <element signature="e#12896#12985#1" />
-            <element signature="e#12941#12979#0" />
-            <element signature="e#13250#13432#1" />
-            <element signature="e#13376#13429#1" />
-            <element signature="e#13413#13423#0" />
-            <element signature="e#13490#13544#1" />
-            <element signature="e#13521#13539#0" />
-            <element signature="e#13676#13714#1" />
-            <element signature="e#13702#13709#0" />
-            <element signature="e#13743#13808#1" />
-            <element signature="e#13814#14097#1" />
-            <element signature="e#13834#14094#0" />
-            <element signature="e#13883#14090#1" />
-            <element signature="e#13939#13965#1" />
-            <element signature="e#13971#14085#1" />
-            <element signature="e#14006#14078#0" />
-            <element signature="e#14128#14205#0" />
-            <element signature="e#14246#14293#1" />
-            <element signature="e#14550#14977#0" />
-            <element signature="e#14650#14739#1" />
-            <element signature="e#14695#14733#0" />
-            <element signature="e#15040#15086#1" />
-            <element signature="e#15071#15081#0" />
-            <element signature="e#15127#15315#1" />
-            <element signature="e#15165#15293#0" />
-            <element signature="e#15400#15582#1" />
-            <element signature="e#15526#15579#1" />
-            <element signature="e#15563#15573#0" />
-            <element signature="e#15673#15679#0" />
-            <element signature="e#15815#15930#1" />
-            <element signature="e#15847#15927#0" />
-            <element signature="e#16100#16175#0" />
-            <element signature="e#16368#16578#0" />
-            <element signature="e#16516#16575#1" />
-            <element signature="e#16624#16637#1" />
-            <element signature="e#16643#17557#1" />
-            <element signature="e#16663#17324#0" />
-            <element signature="e#16719#17320#1" />
-            <element signature="e#16786#17176#1" />
-            <element signature="e#16898#17040#0" />
-            <element signature="e#17125#17170#1" />
-            <element signature="e#17182#17315#1" />
-            <element signature="e#17224#17307#0" />
-            <element signature="e#17365#17371#0" />
-            <element signature="e#17501#17516#1" />
-            <element signature="e#17522#17554#1" />
-            <element signature="e#17542#17549#0" />
-            <element signature="e#17633#17705#0" />
-            <element signature="e#17853#18582#0" />
-            <element signature="e#17886#18579#0" />
-            <element signature="e#17909#17953#1" />
-            <element signature="e#17968#18575#1" />
-            <element signature="e#18733#19671#0" />
-            <element signature="e#18834#18886#0" />
-            <element signature="e#18959#18978#0" />
-            <element signature="e#19041#19068#0" />
-            <element signature="e#19140#19159#0" />
-            <element signature="e#19218#19234#0" />
-            <element signature="e#19367#19401#0" />
-            <element signature="e#19476#19535#0" />
-            <element signature="e#19692#19743#0" />
-            <element signature="e#19744#19771#0" />
-            <element signature="e#19892#19920#1" />
-            <element signature="e#19941#20022#0" />
-            <element signature="e#20123#20751#1" />
-            <element signature="e#20171#20748#0" />
-            <element signature="e#20257#20607#1" />
-            <element signature="e#20380#20394#1" />
-            <element signature="e#20400#20432#1" />
-            <element signature="e#20616#20744#1" />
-            <element signature="e#20655#20738#0" />
-            <element signature="e#20857#20938#0" />
-            <element signature="e#21055#21709#1" />
-            <element signature="e#21110#21705#0" />
-            <element signature="e#21196#21585#1" />
-            <element signature="e#21319#21333#1" />
-            <element signature="e#21339#21371#1" />
-            <element signature="e#21620#21699#0" />
-            <element signature="e#21746#21811#0" />
-            <element signature="e#21859#22361#1" />
-            <element signature="e#22087#22145#0" />
-            <element signature="e#22492#22679#0" />
-            <element signature="e#22787#23650#0" />
-            <element signature="e#22809#22878#1" />
-            <element signature="e#22959#23537#1" />
-            <element signature="e#23556#23647#1" />
-            <element signature="e#23632#23642#0" />
-            <element signature="e#23690#23728#0" />
-            <element signature="e#23830#24057#0" />
-            <element signature="e#23913#24054#1" />
-            <element signature="e#23966#24048#0" />
-            <element signature="e#24077#29596#0" />
-            <element signature="e#24518#24624#0" />
-            <element signature="e#24653#24759#0" />
-            <element signature="e#24969#25070#0" />
-            <element signature="e#25320#25426#0" />
-            <element signature="e#25455#25561#0" />
-            <element signature="e#25807#25908#0" />
-            <element signature="e#25950#26067#0" />
-            <element signature="e#26270#26371#0" />
-            <element signature="e#26413#26530#0" />
-            <element signature="e#26771#27117#0" />
-            <element signature="e#27143#27476#0" />
-            <element signature="e#27502#27841#0" />
-            <element signature="e#28352#28698#0" />
-            <element signature="e#28724#29093#0" />
-            <element signature="e#29119#29458#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/mod.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc;n#error#0" expanded="true" />
-            <element signature="e#473#507#0" expanded="true" />
+            <element signature="n#!!block;n#bleh#0;n#!!block;n#__main#0" expanded="true" />
+            <element signature="n#!!block;n#bleh#0;n#!!block;n#__main#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/config.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="966">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
           <folding>
             <element signature="n#!!block;n#core_config#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql">
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/users/permission.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="201" column="1" selection-start-line="201" selection-start-column="1" selection-end-line="201" selection-end-column="1" />
+        <state relative-caret-position="440">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#294#852#0" />
-            <element signature="e#312#852#0" />
-            <element signature="e#916#953#0" />
-            <element signature="e#955#1102#0" />
-            <element signature="e#994#1102#0" />
-            <element signature="e#1173#1318#0" />
-            <element signature="e#1196#1318#0" />
-            <element signature="e#1352#1696#0" />
-            <element signature="e#1381#1696#0" />
-            <element signature="e#2733#2828#0" />
-            <element signature="e#2758#2828#0" />
-            <element signature="e#2831#2928#0" />
-            <element signature="e#2858#2928#0" />
-            <element signature="e#3007#3850#0" />
-            <element signature="e#3033#3850#0" />
-            <element signature="e#5124#5863#0" />
-            <element signature="e#5153#5863#0" />
-            <element signature="e#5927#6364#0" />
-            <element signature="e#5965#6364#0" />
-            <element signature="e#6452#6976#0" />
-            <element signature="e#6479#6976#0" />
-            <element signature="e#8104#8630#0" />
-            <element signature="e#8133#8630#0" />
-            <element signature="e#8760#9283#0" />
-            <element signature="e#8790#9283#0" />
-            <element signature="e#9321#10250#0" />
-            <element signature="e#9345#10250#0" />
-            <element signature="e#10528#10794#0" />
-            <element signature="e#10558#10794#0" />
-            <element signature="e#10859#11482#0" />
-            <element signature="e#10891#11482#0" />
-            <element signature="e#11647#12072#0" />
-            <element signature="e#12148#12327#0" />
-            <element signature="e#12185#12327#0" />
-            <element signature="e#12393#13108#0" />
-            <element signature="e#12422#13108#0" />
-            <element signature="e#13111#13644#0" />
-            <element signature="e#13145#13644#0" />
-            <element signature="e#13685#14174#0" />
-            <element signature="e#13713#14174#0" />
-            <element signature="e#14277#15389#0" />
-            <element signature="e#14299#15389#0" />
-            <element signature="e#15631#16154#0" />
-            <element signature="e#15650#16154#0" />
-            <element signature="n#ingredient_batch#0" />
-            <element signature="e#16426#16645#0" />
-            <element signature="n#packaging_batch#0" />
-            <element signature="e#16677#16857#0" />
-            <element signature="n#supply_batch#0" />
-            <element signature="e#16926#17221#0" />
-            <element signature="n#delivery_batch#0" />
-            <element signature="e#17252#17516#0" />
-            <element signature="n#mix_production#0" />
-            <element signature="e#17547#18300#0" />
+            <element signature="n#!!doc;n#RolePermission#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/property_traits.rs">
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-0.32.4/src/value.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="223" column="13" lean-forward="true" selection-start-line="223" selection-start-column="13" selection-end-line="223" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-0.32.4/src/table/column.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2519">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with-3.12.0/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#39#209#0" expanded="true" />
+            <element signature="e#39#209#0" expanded="true" />
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/utils.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#568#745#0" expanded="true" />
+            <element signature="e#817#998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cache/JetBrains/RustRover2024.3/intellij-rust/stdlib-local-copy/1.86.0-90ed2b9f41a04b344378b717e9bfc1d4777b9dd3/library/core/src/option.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16549">
+          <caret line="571" column="9" selection-start-line="571" selection-start-column="9" selection-end-line="571" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#main#0" expanded="true" />
+            <element signature="n#!!block;n#nobody#0;n#!!block;n#__main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.ideavimrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-core-0.8.5/src/transaction.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.16.0/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="299" column="9" selection-start-line="299" selection-start-column="9" selection-end-line="299" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/users/user.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="221" column="16" selection-start-line="221" selection-start-column="16" selection-end-line="221" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!block;n#update_pwd_tx#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/fields.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc;n#Generated#0" expanded="true" />
+            <element signature="e#1611#1704#0" expanded="true" />
+            <element signature="e#1707#1730#0" expanded="true" />
+            <element signature="e#1770#1860#0" expanded="true" />
+            <element signature="n#!!doc;n#UpdateField#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/good_type.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
             <element signature="n#!!block;n#list_full#0" expanded="true" />
             <element signature="n#!!block;n#list_interface#0" expanded="true" />
             <element signature="n#!!block;n#get_full#0" expanded="true" />
-            <element signature="e#1308#1321#0" expanded="true" />
-            <element signature="n#!!block;n#test_list_good_types#0;n#tests#0" expanded="true" />
+            <element signature="e#2795#2808#0" expanded="true" />
+            <element signature="n#!!block;n#test_list_interface#0;n#tests#0" expanded="true" />
+            <element signature="n#!!block;n#test_list_full#0;n#tests#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cache/JetBrains/RustRover2024.3/intellij-rust/stdlib-local-copy/1.86.0-90ed2b9f41a04b344378b717e9bfc1d4777b9dd3/library/alloc/src/vec/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="396" column="11" selection-start-line="396" selection-start-column="11" selection-end-line="396" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/parameters.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-0.32.4/src/query/update.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="207" column="11" selection-start-line="207" selection-start-column="11" selection-end-line="207" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/supplies/ingredient_supply.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="159" column="13" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-core-0.1.33/src/callsite.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="178" column="11" selection-start-line="178" selection-start-column="11" selection-end-line="178" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/error.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="n#!!doc;n#InvalidVersionCreationStatus#0;n#!!block;n#Error#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-core-0.8.5/src/from_row.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="301" column="7" selection-start-line="301" selection-start-column="7" selection-end-line="301" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!block;n#__injected#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-core-0.8.5/src/executor.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="137" column="43" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-core-0.8.5/src/query_as.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="346" column="7" selection-start-line="346" selection-start-column="7" selection-end-line="346" selection-end-column="7" />
+          <folding>
+            <element signature="e#1603#1668#0" expanded="true" />
+            <element signature="e#5592#5715#0" expanded="true" />
+            <element signature="e#6615#6805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/good_alias.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+          <folding>
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#764#814#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="n#!!block;n#get_related#0;n#internal#0" expanded="true" />
+            <element signature="n#!!block;n#list_for_interface#0;n#internal#0" expanded="true" />
+            <element signature="n#!!block;n#delete_related_aliases#0;n#internal#0" expanded="true" />
+            <element signature="n#!!block;n#create_multiple#0;n#internal#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cache/JetBrains/RustRover2024.3/intellij-rust/stdlib-local-copy/1.86.0-90ed2b9f41a04b344378b717e9bfc1d4777b9dd3/library/core/src/convert/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="581" column="10" selection-start-line="581" selection-start-column="10" selection-end-line="581" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/good_version.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2960">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+          <folding>
+            <element signature="e#25#87#0" />
+            <element signature="e#435#448#0" expanded="true" />
+            <element signature="n#!!doc;n#GoodVersionCreate#0;n#internal#0" expanded="true" />
+            <element signature="e#1195#1328#0" expanded="true" />
+            <element signature="e#1536#1846#0" expanded="true" />
+            <element signature="n#!!doc;n#GoodVersionUpdate#0;n#internal#0" expanded="true" />
+            <element signature="n#!!doc;n#GoodVersionMigrate#0;n#internal#0" expanded="true" />
+            <element signature="e#2794#3040#0" expanded="true" />
+            <element signature="n#!!doc;n#create#0;n#internal#0" expanded="true" />
+            <element signature="n#!!block;n#create#0;n#internal#0" expanded="true" />
+            <element signature="n#!!doc;n#create_version#0;n#internal#0" expanded="true" />
+            <element signature="n#!!block;n#create_version#0;n#internal#0" expanded="true" />
+            <element signature="n#!!doc;n#update_version#0;n#internal#0" expanded="true" />
+            <element signature="n#!!block;n#update_version#0;n#internal#0" expanded="true" />
+            <element signature="n#!!block;n#get#0;n#internal#0" expanded="true" />
+            <element signature="n#!!doc;n#get_latest_version#0;n#internal#0" expanded="true" />
+            <element signature="n#!!block;n#get_latest_version#0;n#internal#0" expanded="true" />
+            <element signature="n#!!doc;n#get_version_identifier#0;n#internal#0" expanded="true" />
+            <element signature="n#!!block;n#get_version_identifier#0;n#internal#0" expanded="true" />
+            <element signature="n#!!doc;n#get_row#0;n#internal#0" expanded="true" />
+            <element signature="n#!!block;n#get_row#0;n#internal#0" expanded="true" />
+            <element signature="e#11052#11053#0" expanded="true" />
+            <element signature="e#11074#11075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-file/src/excel/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#267#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-file/src/excel/mix_production_report.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/prelude.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/client.rs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/action_type.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/mix_composition.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5240">
+          <caret line="162" column="31" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="31" />
+          <folding>
+            <element signature="e#19#121#0" />
+            <element signature="e#2479#3202#0" expanded="true" />
+            <element signature="e#3649#3904#0" expanded="true" />
+            <element signature="e#7182#7221#0" expanded="true" />
+            <element signature="e#10312#11089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/custom_types.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#807#921#0" expanded="true" />
+            <element signature="e#944#999#0" expanded="true" />
+            <element signature="e#1013#1058#0" expanded="true" />
+            <element signature="e#1072#1109#0" expanded="true" />
+            <element signature="e#1464#1529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/db/migrations/20250218153140_create_new_scheme.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="306" column="24" selection-start-line="306" selection-start-column="24" selection-end-line="306" selection-end-column="24" />
+          <folding>
+            <element signature="n#mix_production_packaging#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/good.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <folding>
+            <element signature="e#90#194#0" />
+            <element signature="e#220#246#0" />
+            <element signature="e#305#344#0" />
+            <element signature="e#364#394#0" />
+            <element signature="e#422#450#0" />
+            <element signature="n#!!block;n#Good#0;n#public#0" />
+            <element signature="e#1258#1611#0" expanded="true" />
+            <element signature="n#!!block;n#GoodUpdateForm#0;n#public#0" />
+            <element signature="e#2110#2543#0" />
+            <element signature="e#2247#2286#0" />
+            <element signature="e#2325#2454#0" />
+            <element signature="e#2842#2868#0" />
+            <element signature="n#!!block;n#GoodInterface#0;n#public#0" />
+            <element signature="n#internal#0" />
+            <element signature="n#!!block;n#GoodCreate#0;n#internal#0" />
+            <element signature="n#!!block;n#GoodUpdate#0;n#internal#0" />
+            <element signature="n#!!block;n#GoodRow#0;n#internal#0" />
+            <element signature="n#!!block;n#GoodFull#0;n#internal#0" />
+            <element signature="n#private#0" />
+            <element signature="n#tests#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/ingredient.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1960">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="326">
+          <caret line="402" column="16" selection-start-line="402" selection-start-column="16" selection-end-line="402" selection-end-column="16" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <element signature="e#958#1018#0" expanded="true" />
-            <element signature="e#4213#4596#0" expanded="true" />
-            <element signature="e#5242#5807#0" expanded="true" />
-            <element signature="e#5914#6290#0" expanded="true" />
-            <element signature="e#7431#7982#0" expanded="true" />
-            <element signature="e#8052#10273#0" expanded="true" />
-            <element signature="e#10465#12160#0" expanded="true" />
-            <element signature="e#12309#12512#0" expanded="true" />
-            <element signature="e#12726#13094#0" expanded="true" />
-            <element signature="e#13185#13604#0" expanded="true" />
-            <element signature="e#14009#14257#0" expanded="true" />
-            <element signature="e#14420#14898#0" expanded="true" />
-            <element signature="e#15056#15278#0" expanded="true" />
-            <element signature="e#15462#16751#0" expanded="true" />
-            <element signature="e#16909#17863#0" expanded="true" />
-            <element signature="e#18017#18227#0" expanded="true" />
-            <element signature="e#18396#19678#0" expanded="true" />
-            <element signature="e#20080#20777#0" expanded="true" />
-            <element signature="e#20884#21325#0" expanded="true" />
-            <element signature="e#21502#22340#0" expanded="true" />
-            <element signature="e#22473#22651#0" expanded="true" />
-            <element signature="e#22777#22974#0" expanded="true" />
-            <element signature="e#23093#23185#0" expanded="true" />
-            <element signature="e#23693#24093#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#6888#7561#0" expanded="true" />
+            <element signature="e#12619#14961#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/ingredients/ingredient_interface_methods.rs">
+    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/mod.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crates/libs/lib-core/src/model/good/mod.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="680">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
           <folding>
-            <element signature="e#100#123#0" />
-            <element signature="e#159#176#0" />
-            <element signature="e#189#213#0" />
-            <element signature="n#!!block;n#IngredientSortBy#0" />
-            <element signature="n#!!block;n#GoodFull#0" />
+            <element signature="n#!!doc;n#error#0" expanded="true" />
+            <element signature="e#798#835#0" expanded="true" />
+            <element signature="e#798#835#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1734#1735#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+            <element signature="n#!!doc;n#Unpack#0" expanded="true" />
+            <element signature="n#!!doc;n#unpack#0;n#!!block;n#Unpack#0" expanded="true" />
+            <element signature="n#!!block;n#new_db_pool#0" expanded="true" />
           </folding>
         </state>
       </provider>

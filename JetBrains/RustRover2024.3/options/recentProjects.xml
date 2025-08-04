@@ -18,54 +18,6 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/Projects/a1-2025-1-sinder38">
-          <value>
-            <RecentProjectMetaInfo frameTitle="a1-2025-1-sinder38 – assignment1.py" projectWorkspaceId="2tyXsbNGsMftaZQfpXyAl1KHbS2">
-              <option name="activationTimestamp" value="1741575205938" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="RR-243.21565.245" />
-              <option name="buildTimestamp" value="1732165200000" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="1" />
-              </option>
-              <frame x="-5" y="29" width="2570" height="1591" extendedState="6" />
-              <option name="productionCode" value="RR" />
-              <option name="projectOpenTimestamp" value="1741325495164" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/Projects/office_automation_system">
-          <value>
-            <RecentProjectMetaInfo frameTitle="office_automation_system – good/mod.rs" projectWorkspaceId="2pVYfgCCi3Tgow9ebjJFiAE0vlc">
-              <option name="activationTimestamp" value="1741598206356" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="RR-243.21565.245" />
-              <option name="buildTimestamp" value="1732165200000" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="4" />
-              </option>
-              <frame x="-5" y="29" width="1290" height="1591" />
-              <option name="productionCode" value="RR" />
-              <option name="projectOpenTimestamp" value="1741575213441" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/RustroverProjects/cp1404practicals">
-          <value>
-            <RecentProjectMetaInfo frameTitle="cp1404practicals – word_occurences.py" projectWorkspaceId="2speCP8LYD7U0c34mRrlKCSqnF0">
-              <option name="activationTimestamp" value="1741761151420" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="RR-243.21565.245" />
-              <option name="buildTimestamp" value="1732165200000" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="0" />
-              </option>
-              <frame x="-5" y="29" width="1290" height="1591" />
-              <option name="productionCode" value="RR" />
-              <option name="projectOpenTimestamp" value="1741751279291" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/Projects/struct-field-names-as-enum">
           <value>
             <RecentProjectMetaInfo frameTitle="struct-field-names-as-enum – field_name.rs" projectWorkspaceId="2u7VWaN2n4UYWCqtmh7uQ0SDN9D">
@@ -82,25 +34,137 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/Projects/LeetCode">
+        <entry key="$USER_HOME$/Projects/a1-2025-1-sinder38">
           <value>
-            <RecentProjectMetaInfo frameTitle="LeetCode – test.py" opened="true" projectWorkspaceId="2pW3jHJcE99lT5HrTopoT2twV8h">
-              <option name="activationTimestamp" value="1742134478653" />
+            <RecentProjectMetaInfo frameTitle="a1-2025-1-sinder38 – assignment1.py" projectWorkspaceId="2tyXsbNGsMftaZQfpXyAl1KHbS2">
+              <option name="activationTimestamp" value="1744347406876" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RR-243.21565.245" />
+              <option name="buildTimestamp" value="1732165200000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="-5" y="29" width="2570" height="1571" extendedState="6" />
+              <option name="productionCode" value="RR" />
+              <option name="projectOpenTimestamp" value="1744347301987" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/a2-2025-1-sinder38">
+          <value>
+            <RecentProjectMetaInfo frameTitle="a2-2025-1-sinder38 – main.py" projectWorkspaceId="2vTd1ycQ50MT7mSFYWVOLkJsJS7">
+              <option name="activationTimestamp" value="1744388103088" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="RR-243.21565.245" />
               <option name="buildTimestamp" value="1732165200000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="5" />
               </option>
+              <frame x="-5" y="14" width="1290" height="1591" extendedState="6" />
+              <option name="productionCode" value="RR" />
+              <option name="projectOpenTimestamp" value="1744378601819" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/flaskProject">
+          <value>
+            <RecentProjectMetaInfo frameTitle="flaskProject – app.js" projectWorkspaceId="2vcv0N9rMwXokGcCLi6Tukc39Pg">
+              <option name="activationTimestamp" value="1744457452057" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RR-243.21565.245" />
+              <option name="buildTimestamp" value="1732165200000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="-5" y="14" width="2570" height="1591" extendedState="6" />
+              <option name="productionCode" value="RR" />
+              <option name="projectOpenTimestamp" value="1744456952173" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/cp1404practicals">
+          <value>
+            <RecentProjectMetaInfo frameTitle="cp1404practicals – testing.py" projectWorkspaceId="2speCP8LYD7U0c34mRrlKCSqnF0">
+              <option name="activationTimestamp" value="1744459469867" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RR-243.21565.245" />
+              <option name="buildTimestamp" value="1732165200000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="-5" y="14" width="1290" height="1591" />
+              <option name="productionCode" value="RR" />
+              <option name="projectOpenTimestamp" value="1744459032488" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/LeetCode">
+          <value>
+            <RecentProjectMetaInfo frameTitle="LeetCode – main.rs" projectWorkspaceId="2pW3jHJcE99lT5HrTopoT2twV8h">
+              <option name="activationTimestamp" value="1745132660659" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RR-243.21565.245" />
+              <option name="buildTimestamp" value="1732165200000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="1275" y="29" width="2570" height="1591" extendedState="6" />
+              <option name="productionCode" value="RR" />
+              <option name="projectOpenTimestamp" value="1745132230233" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/deno-solidjs-demo">
+          <value>
+            <RecentProjectMetaInfo frameTitle="deno-solidjs-demo" projectWorkspaceId="2wGhTnVCW9nepKTS2FGthVlxpVU">
+              <option name="activationTimestamp" value="1745674050151" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RR-243.21565.245" />
+              <option name="buildTimestamp" value="1732165200000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="-5" y="14" width="1290" height="1591" />
+              <option name="productionCode" value="RR" />
+              <option name="projectOpenTimestamp" value="1745673827372" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/office_automation_system">
+          <value>
+            <RecentProjectMetaInfo frameTitle="office_automation_system – model/mod.rs" projectWorkspaceId="2pVYfgCCi3Tgow9ebjJFiAE0vlc">
+              <option name="activationTimestamp" value="1746652701214" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RR-243.21565.245" />
+              <option name="buildTimestamp" value="1732165200000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
               <frame x="-5" y="29" width="1290" height="1571" extendedState="6" />
               <option name="productionCode" value="RR" />
-              <option name="projectOpenTimestamp" value="1742134268803" />
+              <option name="projectOpenTimestamp" value="1746641008159" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/flaskdemo">
+          <value>
+            <RecentProjectMetaInfo frameTitle="flaskdemo – flaskdemo.py" projectWorkspaceId="2vcw1KJObQKXzlZActqeNRGbcQE">
+              <option name="activationTimestamp" value="1746752810198" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RR-243.21565.245" />
+              <option name="buildTimestamp" value="1732165200000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="-5" y="14" width="1290" height="1571" />
+              <option name="productionCode" value="RR" />
+              <option name="projectOpenTimestamp" value="1746752748549" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/Projects/LeetCode" />
+    <option name="lastOpenedProject" value="$USER_HOME$/Projects/flaskdemo" />
     <option name="lastProjectLocation" value="$USER_HOME$/Projects" />
   </component>
 </application>

@@ -1,5 +1,6 @@
 <application>
   <component name="UISettings">
+    <option name="compactTreeIndents" value="true" />
     <option name="DIFFERENTIATE_PROJECTS" value="false" />
     <option name="DISABLE_MNEMONICS" value="true" />
     <option name="EDITOR_TAB_LIMIT" value="3" />
@@ -8,10 +9,8 @@
     <option name="HIDE_TOOL_STRIPES" value="true" />
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
     <option name="BORDERLESS_MODE" value="false" />
-    <option name="PIN_FIND_IN_PATH_POPUP" value="true" />
     <option name="REMEMBER_SIZE_FOR_EACH_TOOL_WINDOW_NEW_UI" value="true" />
     <option name="RIGHT_HORIZONTAL_SPLIT" value="true" />
-    <option name="SHOW_NAVIGATION_BAR_MEMBERS" value="false" />
     <option name="SHOW_NEW_MAIN_TOOLBAR" value="false" />
     <option name="SHOW_PREVIEW_IN_SEARCH_EVERYWHERE" value="true" />
     <option name="UI_DENSITY" value="COMPACT" />

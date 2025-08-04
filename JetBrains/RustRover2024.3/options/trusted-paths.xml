@@ -2,9 +2,14 @@
   <component name="Trusted.Paths">
     <option name="TRUSTED_PROJECT_PATHS">
       <map>
+        <entry key="$USER_HOME$/Projects" value="true" />
         <entry key="$USER_HOME$/Projects/JupyterNootbook" value="true" />
         <entry key="$USER_HOME$/Projects/LeetCode" value="true" />
         <entry key="$USER_HOME$/Projects/a1-2025-1-sinder38" value="true" />
+        <entry key="$USER_HOME$/Projects/a2-2025-1-sinder38" value="true" />
+        <entry key="$USER_HOME$/Projects/cp1404practicals" value="true" />
+        <entry key="$USER_HOME$/Projects/flaskProject" value="true" />
+        <entry key="$USER_HOME$/Projects/flaskdemo" value="true" />
         <entry key="$USER_HOME$/Projects/office_automation_system" value="true" />
         <entry key="$USER_HOME$/Projects/struct-field-names-as-enum" value="true" />
         <entry key="$USER_HOME$/RustroverProjects/cp1404practicals" value="true" />

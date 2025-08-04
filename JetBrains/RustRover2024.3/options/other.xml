@@ -13,13 +13,17 @@
       <option value="NavbarLocationGroup" />
       <option value="NavigateInFileGroup" />
       <option value="ShowFilePath" />
-      <option value="VimActions" />
       <option value="ToolsMenu" />
       <option value="ToolWindowsGroup" />
       <option value="VimFindActionIdAction" />
+      <option value="VimActions" />
     </ids>
   </component>
-  <component name="FileEditorProviderManager">{}</component>
+  <component name="FileEditorProviderManager">{
+  &quot;selectedProviders&quot;: {
+    &quot;text-editor,csv-data-editor&quot;: &quot;text-editor&quot;
+  }
+}</component>
   <component name="NotRoamableUiSettings">
     <option name="ideAAType" value="No antialiasing" />
     <option name="fontSize" value="20.0" />
@@ -58,11 +62,11 @@
     "BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR": "true",
     "BEFORE.DISTRACTION.MODE.SHOW_NEW_MAIN_TOOLBAR": "false",
     "BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR": "true",
-    "BuildView.Splitter.Proportion": "0.38345864",
-    "CRATES_IO_INDEX_LAST_UPDATE": "1742134292361",
+    "BuildView.Splitter.Proportion": "0.29522184",
+    "CRATES_IO_INDEX_LAST_UPDATE": "1746649126442",
     "Cargo Test.Splitter.Proportion": "0.28369322",
-    "Cargo TestSupport.hideIgnoredTests": "true",
-    "Cargo TestSupport.hidePassedTests": "true",
+    "Cargo TestSupport.hideIgnoredTests": "false",
+    "Cargo TestSupport.hidePassedTests": "false",
     "ColorChooser.RecentColors": "179-61-73-255",
     "CommitToolWindow.COMMIT_SPLITTER_PROPORTION": "0.60233516",
     "DBE.Default.Dialect": "PostgreSQL",
@@ -70,14 +74,14 @@
     "FileTemplates.SelectedTemplate": "HTML File",
     "FindSplitterProportion": "0.53125",
     "Grazie.Professional.Advertisement.Invoked": "3",
-    "Grazie.Professional.Advertisement.Shown": "1741416507347",
+    "Grazie.Professional.Advertisement.Shown": "1744195296972",
     "IdeErrorsDialog.LAST_OK_ACTION": "REPORT_AND_CLEAR_ALL",
-    "InstalledPluginsSearchHistory": "git\nnotif\nnoti\nn\n7",
+    "InstalledPluginsSearchHistory": "struct\nenglish\nengli\nengl\neng",
     "JSHintOptionsTreeView.TREE_SCROLL_BAR_HORIZONTAL": "51",
     "JSHintOptionsTreeView.TREE_SCROLL_BAR_VERTICAL": "708",
     "JSHintOptionsTreeView.TREE_SELECTED_NODE_ID": "38",
-    "KEYMAP": "new file\nfile\nfile choo\nProject\nnew pro",
-    "LAST_CALCULATED_COLOR_INDEX_KEY": "2",
+    "KEYMAP": "termi\nnavigation bar\nfile navi\ntest\nnew",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "8",
     "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators": "RR-243.21565.245",
     "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/extractors": "RR-243.21565.245",
     "LAST_INJECTED_LANGUAGE": "PostgreSQL",
@@ -87,7 +91,7 @@
     "LayoutCode.processChangedText": "false",
     "LayoutCode.rearrangeEntriesECMAScript 6": "true",
     "Markdown Split EditorLayout": "Editor only",
-    "MarketplacePluginsSearchHistory": "/vendor:\"JetBrains s.r.o.\" js\n/vendor:\"JetBrains s.r.o.\" j\n/vendor:\"JetBrains s.r.o.\"\njavaSc\njavaS",
+    "MarketplacePluginsSearchHistory": "/sortBy:downloads\nkiv\nkivy\nvim\nfile",
     "MemberChooser.copyJavadoc": "false",
     "MemberChooser.showClasses": "true",
     "NextRunPlatformUpdateBuild": "RR-243.26053.17",
@@ -99,46 +103,51 @@
     "RunOnceActivity.rust.find.settings.fix": "true",
     "RunOnceActivity.rust.first.ide.run": "true",
     "SHELLCHECK.PATH": "/home/sinder/.local/share/JetBrains/RustRover2024.3/Shell Script/shellcheck",
-    "SettingsSearchHistory": "speed s\nsearch\nproject\nstart\ncommit",
+    "SettingsSearchHistory": "configuration\nstruct\nenglish\nlangu\nrust",
     "SqlStructureView.filterD.file.structure.state": "true",
     "ask.about.ctrl.y.shortcut.v2": "true",
     "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "build.toolwindow.show.warnings.selection.state": "false",
     "combined.diff.badge.shown": "true",
+    "disable.forced.soft.wraps.notification": "true",
     "enter_selection_count": "4",
     "evlsprt.243": "19373802c00",
     "evlsprt3.243": "7",
     "exception.accepted.notices": ":d4a3ab85",
     "experimental.ui.used.version": "243.21565.245",
-    "file.gist.reindex.count": "3",
-    "fileTypeChangedCounter": "11",
+    "file.gist.reindex.count": "4",
+    "fileTypeChangedCounter": "12",
     "fontSizeToResetConsole": "19.5",
     "fontSizeToResetEditor": "19.5",
     "got.it.tooltip.database.schema.control.got.it": "1",
     "got.it.tooltip.org.rust.external.linter.promoter": "1",
     "got.it.tooltip.resolve.context.promoter": "1",
-    "ideavim.statistics.timestamp": "1742134464982",
+    "ideavim.statistics.timestamp": "1746593282898",
     "input.method.disabler.muted": "true",
     "js.extract.function.top.level.scope.was.selected": "true",
     "js.rename.search.for.text.occurrences": "false",
     "js.rename.search.in.comments": "false",
-    "last_opened_file_path": "/home/sinder/Projects",
+    "last_opened_file_path": "/home/sinder/Projects/cp1404practicals",
     "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
     "migrated.non.roamable.values.from.general.settings": "true",
     "org.rust.ide.formatter.rustfmt.enabled.rustfmt.by.default.notified": "true",
     "previousColorScheme": "_@user_Dark",
+    "pycharm.pro.suggestion.dismissed": "true",
     "registry.to.advanced.settings.migration.build": "RR-243.21565.245",
     "rs.new.file.attach.selected": "false",
     "second.reformat.confirmed.2": "true",
+    "selected.color.option.type": "BASH.SUBSHELL_COMMAND",
     "tab_selection_count": "1",
     "toolwindow.showToolWindowsNames.ts": "2025-02-03T12:00:16.729484468",
     "ts.lib.d.ts.version": "5.4.3",
-    "vcs.branch.view.splitter.proportion": "0.060099132",
+    "vcs.branch.view.splitter.proportion": "0.1738076",
     "vcs.history.diff.splitter.proportion": "0.28759766"
   },
   "keyToStringList": {
     "file.chooser.recent.files": [
+      "/home/sinder/Projects/deno-solidjs-demo",
+      "/home/sinder/Projects/cp1404practicals",
       "/home/sinder/Projects",
       "/home/sinder/Downloads",
       "/home/sinder/RustroverProjects/cp1404practicals",
