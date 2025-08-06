@@ -55,3 +55,5 @@ nvim/lazyvim.json
 !vlc
 !vlc/*
 
+# Git
+!.gitconfig

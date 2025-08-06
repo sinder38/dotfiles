@@ -1,0 +1,20 @@
+[user]
+    name = Sinder
+    email = smirnov.sinder@gmail.com 
+
+[alias]
+    recent = for-each-ref --format='%(refname:short) %(committerdate:relative) %(subject)' refs/heads/ --sort=-committerdate
+    unmerged = branch --no-merged main -v
+    diff-main = log main..HEAD --oneline
+
+[core]
+    editor = nvim
+
+[init]
+    defaultBranch = main
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
