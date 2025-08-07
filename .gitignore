@@ -48,8 +48,8 @@ nvim/lazyvim.json
 
 
 # Haruna
-!haruna/
-!haruna/*
+# !haruna/
+# !haruna/*
 
 # VLC
 !vlc
