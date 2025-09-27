@@ -1,6 +1,7 @@
 # Ignore everything
 *
 
+
 # Include specific files or directories
 !.gitignore
 !README.md
@@ -20,10 +21,10 @@ nvim/lazyvim.json
 !zed/**
 
 # RustRover (maybe saving this using GitHub is a bad idea)
-!JetBrains/RustRover2024.3/codestyles
-!JetBrains/RustRover2024.3/options
-!JetBrains/RustRover2024.3/keymaps
-!JetBrains/*
+# !JetBrains/RustRover2024.3/codestyles
+# !JetBrains/RustRover2024.3/options
+# !JetBrains/RustRover2024.3/keymaps
+!JetBrains/**
 
 # Fish shell
 !fish/
@@ -50,6 +51,7 @@ nvim/lazyvim.json
 # Haruna
 # !haruna/
 # !haruna/*
+!haruna/shortcuts.conf
 
 # VLC
 !vlc
@@ -57,3 +59,7 @@ nvim/lazyvim.json
 
 # Git
 !.gitconfig
+
+# Kanata
+!kanata
+!kanata/*

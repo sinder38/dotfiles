@@ -133,12 +133,12 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
-DirSelectDialog Size=839,584
-History Items[$e]=file:$HOME,file:$HOME/Downloads,file:$HOME/Projects/office_automation_system,file:$HOME/Projects/svelte-test,file:$HOME/Downloads,file:$HOME/Videos,file:$HOME/Videos,file:$HOME/Projects/uni_codepen
+DirSelectDialog Size=819,593
+History Items[$e]=file:$HOME/Videos/OBS,file:$HOME,file:$HOME/Downloads,file:$HOME/Projects/office_automation_system,file:$HOME/Projects/svelte-test,file:$HOME/Downloads,file:$HOME/Videos,file:$HOME/Videos,file:$HOME/Projects/uni_codepen
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x9f\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
-ColorSchemeHash=8ff306d9a93379c74540e00506966df24df1798b
+ColorSchemeHash=2c3f86428c11011a7c64ee1e7f47c274d498ff10
 TerminalApplication=wezterm start --cwd .
 TerminalService=org.wezfurlong.wezterm.desktop
 XftHintStyle=hintslight
@@ -159,7 +159,6 @@ Breadcrumb Navigation=false
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
