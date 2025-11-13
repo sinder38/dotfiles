@@ -1,11 +1,6 @@
 # Ignore everything
 *
 
-
-# Include specific files or directories
-!.gitignore
-!README.md
-
 # Nvim
 !nvim/
 !nvim/**
@@ -59,7 +54,13 @@ nvim/lazyvim.json
 
 # Git
 !.gitconfig
+!.gitignore
+!README.md
 
 # Kanata
 !kanata
 !kanata/*
+
+# Scripts
+!scripts
+!scripts/*
