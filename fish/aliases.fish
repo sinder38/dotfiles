@@ -27,7 +27,7 @@ alias ncdu "command -v gdu-go > /dev/null && gdu-go  || ncdu"
 abbr g git
 abbr v nvim
 
-abbr cat 'bat -P'
+abbr cat 'bat -Pp'
 set -x BAT_STYLE "header,header-filesize,header-filename,changes"
 
 alias push="git push"

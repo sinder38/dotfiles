@@ -9,34 +9,409 @@
     "context": "Workspace",
     "bindings": {
       // "shift shift": "file_finder::Toggle"
-    }
+    },
   },
   {
     "context": "Editor",
     "bindings": {
       // "j k": ["workspace::SendKeystrokes", "escape"]
-    }
+    },
   },
   {
     "context": "VimControl && !menu",
     "bindings": {
-      // Dworak remap
-      "t": "vim::Down",
-      "n": "vim::Up",
-      "s": "vim::Right"
-      // Swap "a" and "i" TODO: figure out what this does
-      // "a": ["vim::PushOperator", { "Object": { "around": false } }],
-      // "i": ["vim::PushOperator", { "Object": { "around": true } }],
-    }
+      // Dvorak navigation remapping
+      "t": "vim::Down", // t -> j (down)
+      "n": "vim::Up", // n -> k (up)
+      "s": "vim::Right", // s -> l (right)
+    },
   },
   {
-    "context": "vim_mode == normal",
+    "context": "(vim_mode == normal || vim_mode == visual) && !menu",
     "bindings": {
-      // Swap "a" and "i"
-      "a": "vim::InsertBefore",
-      "shift-a": "vim::InsertFirstNonWhitespace",
-      "i": "vim::InsertAfter",
-      "shift-i": "vim::InsertEndOfLine"
-    }
-  }
+      // Insert mode remapping (swap a and i)
+      // Note: These work in normal mode only
+      "a": "vim::InsertBefore", // a -> i (insert before cursor)
+      "i": "vim::InsertAfter", // i -> a (insert after cursor)
+      "shift-i": "vim::InsertEndOfLine", // I -> A (insert at end of line)
+      "shift-a": "vim::InsertFirstNonWhitespace", // A -> I (insert at first non-whitespace)
+    },
+  },
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      // Quick saving
+      "space w": "workspace::Save",
+    },
+  },
+  {
+    "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting",
+    "bindings": {
+      // Open recent project
+      "space f p": "projects::OpenRecent",
+      // Search word under cursor
+      "space s W": "pane::DeploySearch",
+      "space s w": "pane::DeploySearch",
+      // Chat with AI
+      "space a c": "agent::ToggleFocus",
+      // ===== RUN / DEBUG =====
+      "space r": "task::Spawn", // Run (closest to Run action)
+      "space shift-r": "task::Rerun", // Choose run configuration
+      // Buffer switcher
+      "space space": "tab_switcher::ToggleAll",
+    },
+  },
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      // Toggle inlay hints
+      "space u h": "editor::ToggleInlayHints",
+      "space u l": "editor::ToggleLineNumbers", // Toggle line numbers
+      // Toggle soft wrap
+      "space u w": "editor::ToggleSoftWrap",
+      // NOTE: Toggle Zen mode, not fully working yet
+      "space u z": "workspace::ToggleCenteredLayout",
+      // Open markdown preview
+      "space m p": "markdown::OpenPreview",
+      "space m P": "markdown::OpenPreviewToTheSide",
+      // Go to file with `gf`
+      "g f": "editor::OpenExcerpts",
+      "g r": "editor::FindAllReferences", // Find usages
+      "g y": "editor::GoToTypeDefinition", // Go to type declaration
+      "g n": "editor::GoToDiagnostic", // Go to next error
+      // ===== CODE FORMATTING =====
+      "space c f": "editor::Format", // Format code
+      // ===== SEARCH ACTIONS =====
+      "space s p": "project_panel::ToggleFocus", // Tool windows group
+      "space s b": "buffer_search::Deploy", // Find in buffer
+      // "space s r": "search::ToggleReplace", // Replace in buffer
+      // "space s w": "pane::DeploySearch", // Text search action
+      "space s shift-w": "project_search::ToggleFocus", // Find in path
+      "space s c": "outline::Toggle", // Structure view
+      "space s t": "diagnostics::Deploy", // TODO: view todos (using diagnostics)
+      "space s s": "project_symbols::Toggle", // Go to symbol
+      // "space s e": "command_palette::Toggle", // Search everywhere
+      // "space s d": "project_search::ToggleFocus", // Database objects (Doesn't work in Zed)
+      "space s a": "command_palette::Toggle", // Go to action
+      // "space s n": "notifications::Toggle",        // Notifications
+      // "space s l": "recent_projects::Toggle",      // Recent locations
+      // Open recent project
+      "space f p": "projects::OpenRecent",
+      //todo:
+      // "space u f": "workspace::ToggleFullScreen",  // Toggle fullscreen
+      // ===== WINDOW MANAGEMENT =====
+      "backslash backslash": "workspace::ToggleLeftDock", // Project panel (\\\\)
+      "space ;": "workspace::CloseAllDocks", // Hide all windows
+      "space t t": "terminal_panel::ToggleFocus",
+      // "space space": "tab_switcher::Toggle",
+      // ===== GIT ACTIONS =====
+      "space g d": "editor::ToggleSelectedDiffHunks", // Compare with version
+      // put key-bindings here if you want them to work in normal & visual mode
+      // Git
+      // "space g h d": "editor::ToggleSelectedDiffHunks",
+      // "space g s": "git_panel::ToggleFocus",
+      "space g b": "git::Blame", // Annotate (git blame)
+      "space g h": "git::FileHistory", // Annotate (git blame)
+      // "space g l": "workspace::ToggleRightDock", // Version control tool window
+      // ===== FILE NAVIGATION =====
+      "space e": "project_panel::ToggleFocus",
+      "space f f": "file_finder::Toggle", // Go to file
+      "space f d": "project_panel::ToggleFocus", // Zed doesn't have a menu to navigate local file directory
+      // "space f p": "recent_projects::Toggle",      // Recent projects
+      // ===== CODE ACTIONS =====
+      "space c shift-a": "editor::OpenContextMenu", // Show popup menu
+      "space c a": "editor::ToggleCodeActions", // Show intention actions
+      "space c d": "editor::Hover", // Show error description
+      // ===== REFACTORING =====
+      "space c r": "editor::Rename", // Rename element
+      "space c shift-r": "editor::ToggleCodeActions", // Refactorings menu
+      // Navigate between panel (Dvorak)
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-s": "workspace::ActivatePaneRight",
+      "ctrl-n": "workspace::ActivatePaneUp",
+      "ctrl-t": "workspace::ActivatePaneDown",
+    },
+  },
+  // NOTE: c needs to be set as a context because it is a vim action
+  // Rename
+  {
+    "context": "Editor && vim_operator == c",
+    "bindings": {
+      "r": "editor::Rename", // zed specific
+    },
+  },
+  // Code Action
+  {
+    "context": "Editor && vim_operator == c",
+    "bindings": {
+      "a": "editor::ToggleCodeActions", // zed specific
+    },
+  },
+  // Empty pane, set of keybindings that are available when there is no active editor
+  {
+    "context": "EmptyPane || SharedScreen",
+    "bindings": {
+      // Open file finder
+      "space space": "file_finder::Toggle",
+      // Open recent project
+      "space f p": "projects::OpenRecent",
+    },
+  },
+  {
+    // File panel (netrw)
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      // Better kebinds
+      "a": "project_panel::NewFile",
+      "A": "project_panel::NewDirectory",
+      "r": "project_panel::Rename",
+      "d": "project_panel::Delete",
+      "x": "project_panel::Cut",
+      "c": "project_panel::Copy",
+      "p": "project_panel::Paste",
+      // Close project panel as project file panel on the left
+      "q": "workspace::ToggleLeftDock",
+      "space e": "workspace::ToggleLeftDock",
+      // Navigate between panel (Dvorak)
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-s": "workspace::ActivatePaneRight",
+      "ctrl-n": "workspace::ActivatePaneUp",
+      "ctrl-t": "workspace::ActivatePaneDown",
+      // Dvorak hjkl remap
+      "h": "project_panel::CollapseSelectedEntry",
+      "t": "vim::MenuSelectNext",
+      "n": "vim::MenuSelectPrevious",
+      "s": "project_panel::ExpandSelectedEntry",
+      "l": "workspace::OpenWithSystem",
+      // Standard keymap
+      ":": "command_palette::Toggle",
+      "%": "project_panel::NewFile",
+      "/": "project_panel::NewSearchInDirectory",
+      // "d": "project_panel::NewDirectory",
+      "enter": "project_panel::OpenPermanent",
+      "escape": "vim::ToggleProjectPanelFocus",
+      "down": "vim::MenuSelectNext",
+      "up": "vim::MenuSelectPrevious",
+      "shift-d": "project_panel::Delete",
+      "shift-r": "project_panel::Rename",
+      // "t": "project_panel::OpenPermanent",
+      "v": "project_panel::OpenSplitVertical",
+      "o": "project_panel::OpenSplitHorizontal",
+      // "p": "project_panel::Open",
+      "j": "project_panel::RevealInFileManager",
+      // "x": "project_panel::RevealInFileManager",
+      "z d": "project_panel::CompareMarkedFiles",
+      "] c": "project_panel::SelectNextGitEntry",
+      "[ c": "project_panel::SelectPrevGitEntry",
+      "] d": "project_panel::SelectNextDiagnostic",
+      "[ d": "project_panel::SelectPrevDiagnostic",
+      "}": "project_panel::SelectNextDirectory",
+      "{": "project_panel::SelectPrevDirectory",
+      "shift-g": "menu::SelectLast",
+      "g g": "menu::SelectFirst",
+      "-": "project_panel::SelectParent",
+      "ctrl-u": "project_panel::ScrollUp",
+      "ctrl-d": "project_panel::ScrollDown",
+      "z t": "project_panel::ScrollCursorTop",
+      "z z": "project_panel::ScrollCursorCenter",
+      "z b": "project_panel::ScrollCursorBottom",
+      "0": [
+        "vim::Number",
+        0
+      ],
+      "1": [
+        "vim::Number",
+        1
+      ],
+      "2": [
+        "vim::Number",
+        2
+      ],
+      "3": [
+        "vim::Number",
+        3
+      ],
+      "4": [
+        "vim::Number",
+        4
+      ],
+      "5": [
+        "vim::Number",
+        5
+      ],
+      "6": [
+        "vim::Number",
+        6
+      ],
+      "7": [
+        "vim::Number",
+        7
+      ],
+      "8": [
+        "vim::Number",
+        8
+      ],
+      "9": [
+        "vim::Number",
+        9
+      ],
+    },
+  },
+  // These are Alt + 1/2 for terminal and project (dvp Dvorak)
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-+": "project_panel::ToggleFocus",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-+": "project_panel::ToggleFocus",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-{": "terminal_panel::Toggle",
+    },
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "alt-+": "workspace::CloseActiveDock",
+    },
+  },
+  // Tabs (buffers) movemnt
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-s": "pane::ActivateNextItem",
+    },
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-h": "pane::ActivatePreviousItem",
+    },
+  },
+  // Shift Escape is used to close windows
+  {
+    "bindings": {
+      "shift-escape": null,
+    },
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "shift-escape": "workspace::CloseActiveDock",
+    },
+  },
+  // Ctrl-t is meant for vim
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-t": null,
+    },
+  },
+  // Ctrl-q for closing whole application is annoying I use meta for that
+  {
+    "bindings": {
+      "ctrl-q": null,
+    },
+  },
+  // Ctrl-w is not for closing.
+  {
+    "context": "SettingsWindow",
+    "bindings": {
+      "ctrl-w": null,
+    },
+  },
+  {
+    "context": "RulesLibrary",
+    "bindings": {
+      "ctrl-w": null,
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-w": null,
+    },
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-w": null,
+    },
+  },
+  // Rebind Ctrl-w to Ctrl-q
+  {
+    "context": "SettingsWindow",
+    "bindings": {
+      "ctrl-q": "workspace::CloseWindow",
+    },
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-q": [
+        "pane::CloseActiveItem",
+        {
+          "close_pinned": false,
+        },
+      ],
+    },
+  },
+  // Enable alt-w for new terminal tabs
+  {
+    "context": "Terminal",
+    "bindings": {
+      "alt-w": "workspace::NewTerminal",
+    },
+  },
+  // Enable alt-q for closing tabs
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-q": [
+        "pane::CloseActiveItem",
+        {
+          "close_pinned": false,
+        },
+      ],
+    },
+  },
+  //TODO: currently this doesn't work well because modifier is used to preview the suggestion,and removes LSP completions, which is unacceptable
+  // Use shift enter for acception predictions
+  // {
+  //   "context": "(Editor && edit_prediction)",
+  //   "bindings": {
+  //     "shift-enter": "editor::AcceptEditPrediction",
+  //   },
+  // },
+  // {
+  //   "context": "Terminal",
+  //   "bindings": {
+  //     "alt-t": null,
+  //   },
+  // },
+  // {
+  //   "context": "Workspace",
+  //   "bindings": {
+  //     "alt-t": null,
+  //   },
+  // },
+  // {
+  //   "context": "(Editor && edit_prediction_conflict)",
+  //   "bindings": {
+  //     "shift-enter": "editor::AcceptEditPrediction",
+  //   },
+  // },
+  // {
+  //   "context": "((os != macos && Editor) && edit_prediction_conflict)",
+  //   "bindings": {
+  //     "shift-enter": "editor::AcceptEditPrediction",
+  //   },
+  // },
 ]

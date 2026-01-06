@@ -132,15 +132,10 @@ ForegroundNormal=252,252,252
 ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
-[DirSelect Dialog]
-DirSelectDialog Size=1707,1041
-History Items[$e]=file:$HOME/Projects/OpenSource/office_automation_system,file:$HOME/Videos/OBS,file:$HOME,file:$HOME/Downloads,file:$HOME/Projects/office_automation_system,file:$HOME/Projects/svelte-test,file:$HOME/Downloads,file:$HOME/Videos,file:$HOME/Videos,file:$HOME/Projects/uni_codepen
-Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x9f\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
-
 [General]
 ColorSchemeHash=2c3f86428c11011a7c64ee1e7f47c274d498ff10
-TerminalApplication=wezterm start --cwd .
-TerminalService=org.wezfurlong.wezterm.desktop
+TerminalApplication=alacritty
+TerminalService=Alacritty.desktop
 XftHintStyle=hintslight
 XftSubPixel=rgb
 font=JetBrainsMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
@@ -155,7 +150,7 @@ ShowDeleteCommand=false
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=false
-Breadcrumb Navigation=true
+Breadcrumb Navigation=false
 Decoration position=2
 Show Full Path=false
 Show Inline Previews=true

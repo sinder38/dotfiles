@@ -3,6 +3,7 @@
 )
 
 (defsrc
+  esc
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
   caps a    s    d    f    g    h    j    k    l    ;    '    ret
@@ -15,6 +16,15 @@
   vim (layer-toggle vimmode)
 
   gar (tap-hold-release 200 200 g @vim)
+
+  ;; layer setup
+  lay (layer-toggle layers)
+  grl (tap-hold-release 200 200 grv @lay)
+
+
+  ;; change the base layer  for no homerow mods
+  bas (layer-switch base)
+  nmd (layer-switch no-mods)
 )
 
 (defvar
@@ -23,47 +33,78 @@
   ;; fingers faster.
   p-tap-time 200
   p-hold-time 200
-  tap-time 150
+  tap-time 200
   hold-time 200
   ;; tap-time 120
-  ;; hold-time 175
-
+  ;; hold-time 176
 )
 
-
+;; switch  caps and esc
+;; switch lalt and lmet
 (deflayer base
-  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
-  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
-  caps @a   @s  @d   @f  @gar   h   @j   @k   @l   @;    '    ret
-  lsft z    x    c    v    b    n    m    ,    .    /    rsft
-  lctl lmet lalt           spc            bspc  rctl
+  caps
+  @grl  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab   q    w    e    r    t    y    u    i    o    p    [    ]    \
+  @esc  @a   @s  @d   @f  @gar   h   @j   @k   @l   @;   @'    ret
+  lsft z    x    c     v    b    n    m    ,    .    /    rsft
+  lctl lalt lmet           spc            @ralt  rctl
 )
 
+;; Layers switcher
+(deflayer layers
+  _
+  _    @nmd @bas lrld _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _              _              _    _
+)
+
+
+;; Vim-like commands
 (deflayer vimmode
-  _    f1   f2   f3   f4   f5   f6   f7   f8   f9   f10   f11 f12  _
+  caps
+  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  _    _
   _    _    _    _    _    _    _    home pgdn pgup C-tab _   _    _
-  caps _    _   lsft  _    _    _    left down up   rght  _   ret
-  lsft _    _    _    _    _  C-left  _  C-rght _    _     _
+  @esc _    _   lsft  _    _    _    left down up   rght  _   ret
+  lsft _    _    _    _    _  C-left  _  C-rght _   _     _
   lctl _    _              _              _    _  
 )
 
-(deflayer nomods
-  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+;; no homerow mods for gaming 
+(deflayer no-mods
+  caps
+  @grl 1    2    3    4    5    6    7    8    9    0    -    =    bspc
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
-  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  @esc a    s    d    f    g    h    j    k    l    ;   @'    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft
-  lctl lmet lalt           spc            bspc  rctl
+  lctl lalt lmet           spc            @ralt  rctl
 )
 
 
-;; lalt and lmeta are swapped
+;; homerow mods 
 (defalias
-  a (tap-hold $p-tap-time $p-hold-time a lalt )
-  s (tap-hold $tap-time $hold-time s lmet )
+  a (tap-hold $p-tap-time $p-hold-time a lmet )
+  s (tap-hold $tap-time $hold-time s lalt )
   d (tap-hold $tap-time $hold-time d lsft )
   f (tap-hold $tap-time $hold-time f lctl )
+
   j (tap-hold $tap-time $hold-time j rctl )
   k (tap-hold $tap-time $hold-time k rsft )
   l (tap-hold $tap-time $hold-time l ralt )
-  ; (tap-hold $p-tap-time $p-hold-time ; rmet)
+  ; (tap-hold $p-tap-time $p-hold-time ; lmet)
 )
+
+;; additional shifts
+(defalias
+  esc (tap-hold-press $tap-time $hold-time esc lsft)
+  '  (tap-hold-press $tap-time $hold-time ' lsft)
+)
+
+
+;; thumb keys with more functionality
+(defalias
+  ralt (tap-hold-press $tap-time $hold-time bspc rsft)
+  spc  (tap-hold $tap-time $hold-time spc lctl)
+)
+

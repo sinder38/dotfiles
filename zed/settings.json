@@ -7,14 +7,208 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "search": {
+    "center_on_match": true
+  },
+  "use_smartcase_search": true,
+  "context_servers": {
+    "postgres-context-server": {
+      "enabled": true,
+      "settings": {
+        "database_url": "postgresql://postgres:welcome@localhost/app_db?sslmode=disable"
+      }
+    }
+  },
+  "prettier": {
+    "allowed": false
+  },
+  "vertical_scroll_margin": 6.0,
+  "autoscroll_on_clicks": false,
+  "project_panel": {
+    "hide_root": true,
+    "starts_open": false,
+  },
+  "git_panel": {
+    "sort_by_path": true,
+  },
+  "always_treat_brackets_as_autoclosed": false,
+  "sticky_scroll": {
+    "enabled": true,
+  },
+  "completions": {
+    "words_min_length": 0,
+  },
+  "show_edit_predictions": true,
+  "show_completions_on_input": true,
+  "edit_predictions": {
+    "mode": "subtle",
+  },
+  "extend_comment_on_newline": false,
+  "icon_theme": {
+    "mode": "system",
+    "light": "Catppuccin Frappé",
+    "dark": "Material Icon Theme",
+  },
+  "when_closing_with_no_tabs": "keep_window_open",
+  "buffer_line_height": "standard",
+  "terminal": {
+    "toolbar": {
+      "breadcrumbs": true,
+    },
+    "copy_on_select": true,
+    "font_size": 14.0,
+  },
+  "file_finder": {
+    "modal_max_width": "large",
+  },
+  "agent": {
+    "always_allow_tool_actions": true,
+    "play_sound_when_agent_done": true,
+    "message_editor_min_lines": 4,
+    "use_modifier_to_send": true,
+    "enable_feedback": true,
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-5",
+    },
+    // Inline assistant model: Used for the inline assistant feature
+    "inline_assistant_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4",
+    },
+    // Commit message model: Used for generating Git commit messages
+    "commit_message_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4.5",
+    },
+    // Thread summary model: Used for generating thread summaries
+    "thread_summary_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4",
+    },
+  },
+  "diagnostics": {
+    // Errors are more important. This affects only the default
+    "include_warnings": false,
+    "inline": {
+      "update_debounce_ms": 0,
+      "enabled": false,
+    },
+  },
+  "show_whitespaces": "trailing",
+  "preview_tabs": {
+    "enable_keep_preview_on_code_navigation": true,
+    "enable_preview_from_file_finder": true,
+  },
+  "tabs": {
+    "show_close_button": "always",
+    "show_diagnostics": "all",
+    "file_icons": true,
+    "git_status": true,
+  },
+  "tab_bar": {
+    "show": true,
+  },
+  "title_bar": {
+    "show_menus": false,
+    "show_branch_icon": true,
+  },
+  "restore_on_startup": "none",
+  "inline_code_actions": true,
+  "relative_line_numbers": "enabled",
+  "gutter": {
+    "min_line_number_digits": 3,
+    "folds": false,
+    "runnables": false,
+    "breakpoints": false,
+    "line_numbers": false,
+  },
+  "window_decorations": "client",
+  "tasks": {
+    "prefer_lsp": true,
+  },
+  "auto_update": false,
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false,
+  },
+  "autosave": "on_focus_change",
+  "helix_mode": false,
+  "ui_font_family": "JetBrains Mono NL",
+  "buffer_font_family": "JetBrains Mono NL",
   "base_keymap": "JetBrains",
   "vim_mode": true,
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
+  "ui_font_size": 14.0,
+  "buffer_font_size": 14.0,
   "use_layout_keys": true,
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "One Dark"
-  }
+  "theme": "Catppuccin Macchiato",
+  // LSP
+  "lsp": {
+    "tailwindcss-language-server": {
+      "settings": {
+        "classAttributes": [
+          "class",
+          "className",
+          "ngClass",
+          "styles"
+        ],
+      },
+    },
+    "rust-analyzer": {
+      "initialization_options": {
+        "rust-analyzer.cargo.targetDir": true,
+        // "checkOnSave": {
+        //   "command": "clippy"
+        // },
+        "cargo": {
+          "allFeatures": true
+        },
+        "procMacro": {
+          "enable": true
+        }
+      }
+    }
+  },
+  "languages": {
+    // Refer https://zed.dev/docs/languages/javascript and https://zed.dev/docs/languages/typescript for more info
+    "Rust": {
+      "completions": {
+        "words_min_length": 3
+      },
+    },
+    "TypeScript": {
+      // Refer https://github.com/jellydn/ts-inlay-hints for how to setup for Neovim and VSCode
+      "inlay_hints": {
+        // This is too annoying. Just turn on manually when needed
+        "enabled": false,
+        "show_parameter_hints": true,
+        "show_other_hints": true,
+        "show_type_hints": true,
+      },
+    },
+    "Python": {
+      "formatter": {
+        "language_server": {
+          "name": "ruff"
+        }
+      },
+      "language_servers": [
+        "pyright",
+        "ruff"
+      ],
+    },
+    "SQL": {
+      "formatter": {
+        "external": {
+          "command": "sleek",
+          "arguments": [
+            "--uppercase",
+            "true",
+            "--trailing-newline",
+            "false"
+          ],
+        },
+      },
+    },
+  },
 }
