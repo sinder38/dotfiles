@@ -7,6 +7,10 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "diagnostics_max_severity": "all",
+  "excerpt_context_lines": 6,
+  "expand_excerpt_lines": 5,
+  "bottom_dock_layout": "contained",
   "search": {
     "center_on_match": true
   },
@@ -29,6 +33,7 @@
     "starts_open": false,
   },
   "git_panel": {
+    "tree_view": true,
     "sort_by_path": true,
   },
   "always_treat_brackets_as_autoclosed": false,
@@ -74,7 +79,7 @@
     // Inline assistant model: Used for the inline assistant feature
     "inline_assistant_model": {
       "provider": "zed.dev",
-      "model": "claude-sonnet-4",
+      "model": "claude-sonnet-4-5-latest",
     },
     // Commit message model: Used for generating Git commit messages
     "commit_message_model": {
@@ -89,14 +94,16 @@
   },
   "diagnostics": {
     // Errors are more important. This affects only the default
-    "include_warnings": false,
+    "include_warnings": true,
     "inline": {
       "update_debounce_ms": 0,
-      "enabled": false,
+      "enabled": true,
     },
   },
   "show_whitespaces": "trailing",
   "preview_tabs": {
+    "enable_preview_multibuffer_from_code_navigation": true,
+    "enabled": true,
     "enable_keep_preview_on_code_navigation": true,
     "enable_preview_from_file_finder": true,
   },
@@ -127,10 +134,10 @@
   "tasks": {
     "prefer_lsp": true,
   },
-  "auto_update": false,
+  "auto_update": true,
   "telemetry": {
     "diagnostics": true,
-    "metrics": false,
+    "metrics": true,
   },
   "autosave": "on_focus_change",
   "helix_mode": false,
@@ -170,12 +177,12 @@
     }
   },
   "languages": {
-    // Refer https://zed.dev/docs/languages/javascript and https://zed.dev/docs/languages/typescript for more info
     "Rust": {
       "completions": {
         "words_min_length": 3
       },
     },
+    // Refer https://zed.dev/docs/languages/javascript and https://zed.dev/docs/languages/typescript for more info
     "TypeScript": {
       // Refer https://github.com/jellydn/ts-inlay-hints for how to setup for Neovim and VSCode
       "inlay_hints": {

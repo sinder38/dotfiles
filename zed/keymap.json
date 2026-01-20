@@ -414,4 +414,43 @@
   //     "shift-enter": "editor::AcceptEditPrediction",
   //   },
   // },
+  // Amend on Alt-m
+  {
+    "context": "GitPanel",
+    "bindings": {
+      "alt-m": "git::Amend"
+    }
+  },
+  // Toggle git panel on Alt-k
+  //TODO: add Alt number for it later
+  {
+    "context": "(GitPanel && ChangesList)",
+    "bindings": {
+      "alt-k": "git_panel::Close"
+    }
+  },
+  {
+    "context": "CommitEditor > Editor",
+    "bindings": {
+      "alt-k": "git_panel::Close"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-k": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "(Editor && mode == full)",
+    "bindings": {
+      "ctrl-alt-k": "agent::AddSelectionToThread"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-p": "pane::TogglePinTab"
+    }
+  }
 ]
