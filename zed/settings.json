@@ -7,6 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "show_wrap_guides": true,
+  "inlay_hints": {
+    "show_background": true
+  },
+  "which_key": {
+    "delay_ms": 200,
+    "enabled": true
+  },
+  "preferred_line_length": 120,
+  "soft_wrap": "none",
+  "indent_guides": {
+    "background_coloring": "indent_aware"
+  },
+  "colorize_brackets": true,
   "diagnostics_max_severity": "all",
   "excerpt_context_lines": 6,
   "expand_excerpt_lines": 5,
@@ -19,7 +33,7 @@
     "postgres-context-server": {
       "enabled": true,
       "settings": {
-        "database_url": "postgresql://postgres:welcome@localhost/app_db?sslmode=disable"
+        "database_url": "postgresql://postgres:welcome@localhost:5432/app_db"
       }
     }
   },
@@ -49,11 +63,7 @@
     "mode": "subtle",
   },
   "extend_comment_on_newline": false,
-  "icon_theme": {
-    "mode": "system",
-    "light": "Catppuccin Frappé",
-    "dark": "Material Icon Theme",
-  },
+  "icon_theme": "Material Icon Theme",
   "when_closing_with_no_tabs": "keep_window_open",
   "buffer_line_height": "standard",
   "terminal": {
@@ -67,30 +77,25 @@
     "modal_max_width": "large",
   },
   "agent": {
+    "favorite_models": [
+      {
+        "provider": "anthropic",
+        "model": "claude-haiku-4-5-latest"
+      }
+    ],
+    "inline_assistant_model": {
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-latest"
+    },
+    "default_model": {
+      "provider": "anthropic",
+      "model": "claude-3-5-haiku-latest"
+    },
     "always_allow_tool_actions": true,
     "play_sound_when_agent_done": true,
     "message_editor_min_lines": 4,
     "use_modifier_to_send": true,
     "enable_feedback": true,
-    "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4-5",
-    },
-    // Inline assistant model: Used for the inline assistant feature
-    "inline_assistant_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4-5-latest",
-    },
-    // Commit message model: Used for generating Git commit messages
-    "commit_message_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4.5",
-    },
-    // Thread summary model: Used for generating thread summaries
-    "thread_summary_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4",
-    },
   },
   "diagnostics": {
     // Errors are more important. This affects only the default
@@ -117,10 +122,16 @@
     "show": true,
   },
   "title_bar": {
+    "show_user_picture": true,
+    "show_user_menu": true,
+    "show_sign_in": true,
+    "show_onboarding_banner": true,
+    "show_project_items": true,
+    "show_branch_name": true,
     "show_menus": false,
     "show_branch_icon": true,
   },
-  "restore_on_startup": "none",
+  "restore_on_startup": "launchpad",
   "inline_code_actions": true,
   "relative_line_numbers": "enabled",
   "gutter": {
@@ -148,7 +159,7 @@
   "ui_font_size": 14.0,
   "buffer_font_size": 14.0,
   "use_layout_keys": true,
-  "theme": "Catppuccin Macchiato",
+  "theme": "JetBrains Dark",
   // LSP
   "lsp": {
     "tailwindcss-language-server": {
@@ -163,36 +174,63 @@
     },
     "rust-analyzer": {
       "initialization_options": {
-        "rust-analyzer.cargo.targetDir": true,
-        // "checkOnSave": {
-        //   "command": "clippy"
-        // },
-        "cargo": {
-          "allFeatures": true
+        "imports": {
+          "preferNoStd": false,
         },
         "procMacro": {
           "enable": true
-        }
-      }
-    }
+        },
+        // Ocasionally breakes whole error system, not displaying errors. Use with caution
+        // "check": {
+        //   "command": "clippy",
+        //   "workspace": true,
+        //   "allTargets": true,
+        // },
+        "diagnostics": {
+          "experimental": {
+            // "enable": true
+          },
+          "styleLints": {
+            "enable": true,
+          },
+        },
+        // Ocasionally breakes on some creates. Use with caution
+        "cargo": {
+          // "allFeatures": true
+        },
+      },
+    },
   },
   "languages": {
+    "Svelte": {
+      "prettier": {
+        "allowed": true
+      }
+    },
     "Rust": {
+      "colorize_brackets": true,
+      "inlay_hints": {
+        "show_background": false
+      },
+      "indent_guides": {
+        "background_coloring": "indent_aware"
+      },
+      "show_wrap_guides": true,
       "completions": {
         "words_min_length": 3
       },
     },
     // Refer https://zed.dev/docs/languages/javascript and https://zed.dev/docs/languages/typescript for more info
-    "TypeScript": {
-      // Refer https://github.com/jellydn/ts-inlay-hints for how to setup for Neovim and VSCode
-      "inlay_hints": {
-        // This is too annoying. Just turn on manually when needed
-        "enabled": false,
-        "show_parameter_hints": true,
-        "show_other_hints": true,
-        "show_type_hints": true,
-      },
-    },
+    // "TypeScript": {
+    //   // Refer https://github.com/jellydn/ts-inlay-hints for how to setup for Neovim and VSCode
+    //   "inlay_hints": {
+    //     // This is too annoying. Just turn on manually when needed
+    //     "enabled": false,
+    //     "show_parameter_hints": true,
+    //     "show_other_hints": true,
+    //     "show_type_hints": true,
+    //   },
+    // },
     "Python": {
       "formatter": {
         "language_server": {

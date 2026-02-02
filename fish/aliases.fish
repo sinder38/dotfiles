@@ -12,6 +12,8 @@ abbr mv 'mv -v'
 abbr rm 'rm -v'
 abbr cp 'cp -v'
 
+alias docker=podman
+
 alias chmox='chmod +x'
 
 alias where=which # sometimes i forget
@@ -38,10 +40,10 @@ function subcommand_abbr
   set -l short "$argv[2]"
   set -l long "$argv[3]"
 
-  # Check that these strings are safe, since we're going to eval. 
+  # Check that these strings are safe, since we're going to eval.
   if not string match --regex --quiet '^[a-z]*$' "$short"
     or not string match --regex --quiet '^[a-z- ]*$' "$long"
-    echo "Scary unsupported alias or expansion $short $long"; exit 1; 
+    echo "Scary unsupported alias or expansion $short $long"; exit 1;
   end
 
   set -l abbr_temp_fn_name (string join "_" "abbr" "$cmd" "$short")
@@ -54,8 +56,8 @@ function subcommand_abbr
       echo $long
     else
       echo $short
-    end; 
-  end; 
+    end;
+  end;
   abbr --add $short --position anywhere --function $abbr_temp_fn_name"
   eval "$abbr_temp_fn"
 end
@@ -97,11 +99,11 @@ alias master="main"
 # i used to like `--follow --hidden` but dont anymore. -follow ends up with lots of fstat errors on broken symlinks. and --hidden is something that should be turned on explicitly.
 # OKAY RIPGREP is way faster than AG. i gotta drop ag like its hot.
 #        also ripgrep doesnt buffer output so you can pipe it somewhere and it'll go as it happens.  wow yah SO much better.
-alias ag='command ag -W (math $COLUMNS - 14)'  
+alias ag='command ag -W (math $COLUMNS - 14)'
 
 # fd is fast but their multicore stuff is dumb and slow and bad. https://github.com/sharkdp/fd/issues/1203
 # alias fd='command fd -j1 --exclude node_modules'
-# By default watchexec thinks the project origin is higher up.  So dumb. 
+# By default watchexec thinks the project origin is higher up.  So dumb.
 alias watchexec='command watchexec --project-origin . --ignore node_modules'
 
 
@@ -145,7 +147,7 @@ function gemi
   # using https://github.com/simonw/llm-gemini and llm
   # no args? chat.  otherwise use prompt, and allow unquoted stuff to work too
   #    gemi
-  #    gemi tell me a joke      
+  #    gemi tell me a joke
   #    gemi "tell me a joke"
   if test -z "$argv[1]"
     # no markdown parsing here without some real fancy stuff. because you dont want to send to markdown renderer (glow) inbetween backticks, etc.

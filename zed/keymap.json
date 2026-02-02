@@ -452,5 +452,11 @@
     "bindings": {
       "alt-p": "pane::TogglePinTab"
     }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "alt-f": null
+    }
   }
 ]
