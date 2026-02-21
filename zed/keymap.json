@@ -458,5 +458,12 @@
     "bindings": {
       "alt-f": null
     }
+  },
+  // Make Ctrl-h work in normal mode also
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "ctrl-h": "buffer_search::DeployReplace"
+    }
   }
 ]
