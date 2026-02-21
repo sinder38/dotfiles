@@ -13,6 +13,9 @@ abbr rm 'rm -v'
 abbr cp 'cp -v'
 
 alias docker=podman
+alias docker-compose=podman-compose
+
+
 
 alias chmox='chmod +x'
 
@@ -28,6 +31,7 @@ alias ncdu "command -v gdu-go > /dev/null && gdu-go  || ncdu"
 # typos and abbreviations
 abbr g git
 abbr v nvim
+abbr z zeditor
 
 abbr cat 'bat -Pp'
 set -x BAT_STYLE "header,header-filesize,header-filename,changes"

@@ -1,5 +1,6 @@
 # Ignore everything
 *
+**
 
 # Nvim
 !nvim/
@@ -29,7 +30,7 @@ nvim/lazyvim.json
 !kitty/
 !kitty/*
 
-# KDE 
+# KDE
 !KDE/
 !KDE/*
 !kde.org/
@@ -45,7 +46,7 @@ nvim/lazyvim.json
 
 # Haruna
 # !haruna/
-# !haruna/*
+!haruna/
 !haruna/shortcuts.conf
 
 # VLC
