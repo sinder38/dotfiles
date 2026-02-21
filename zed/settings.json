@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "restore_on_startup": "launchpad",
+  "document_symbols": "off",
+  "enable_language_server": true,
   "show_wrap_guides": true,
   "inlay_hints": {
     "show_background": true
@@ -18,7 +21,7 @@
   "preferred_line_length": 120,
   "soft_wrap": "none",
   "indent_guides": {
-    "background_coloring": "indent_aware"
+    "background_coloring": "indent_aware",
   },
   "colorize_brackets": true,
   "diagnostics_max_severity": "all",
@@ -26,25 +29,25 @@
   "expand_excerpt_lines": 5,
   "bottom_dock_layout": "contained",
   "search": {
-    "center_on_match": true
+    "center_on_match": true,
   },
   "use_smartcase_search": true,
   "context_servers": {
     "postgres-context-server": {
       "enabled": true,
       "settings": {
-        "database_url": "postgresql://postgres:welcome@localhost:5432/app_db"
-      }
-    }
+        "database_url": "postgresql://postgres:welcome@localhost:5432/app_db",
+      },
+    },
   },
   "prettier": {
-    "allowed": false
+    "allowed": false,
   },
   "vertical_scroll_margin": 6.0,
   "autoscroll_on_clicks": false,
   "project_panel": {
     "hide_root": true,
-    "starts_open": false,
+    "starts_open": true,
   },
   "git_panel": {
     "tree_view": true,
@@ -55,7 +58,7 @@
     "enabled": true,
   },
   "completions": {
-    "words_min_length": 0,
+    "lsp": true,
   },
   "show_edit_predictions": true,
   "show_completions_on_input": true,
@@ -80,16 +83,16 @@
     "favorite_models": [
       {
         "provider": "anthropic",
-        "model": "claude-haiku-4-5-latest"
-      }
+        "model": "claude-haiku-4-5-latest",
+      },
     ],
     "inline_assistant_model": {
       "provider": "anthropic",
-      "model": "claude-haiku-4-5-latest"
+      "model": "claude-sonnet-4-5-latest",
     },
     "default_model": {
       "provider": "anthropic",
-      "model": "claude-3-5-haiku-latest"
+      "model": "claude-3-5-haiku-latest",
     },
     "always_allow_tool_actions": true,
     "play_sound_when_agent_done": true,
@@ -97,6 +100,7 @@
     "use_modifier_to_send": true,
     "enable_feedback": true,
   },
+  "autosave": "off",
   "diagnostics": {
     // Errors are more important. This affects only the default
     "include_warnings": true,
@@ -131,13 +135,12 @@
     "show_menus": false,
     "show_branch_icon": true,
   },
-  "restore_on_startup": "launchpad",
   "inline_code_actions": true,
   "relative_line_numbers": "enabled",
   "gutter": {
     "min_line_number_digits": 3,
     "folds": false,
-    "runnables": false,
+    "runnables": true,
     "breakpoints": false,
     "line_numbers": false,
   },
@@ -150,7 +153,6 @@
     "diagnostics": true,
     "metrics": true,
   },
-  "autosave": "on_focus_change",
   "helix_mode": false,
   "ui_font_family": "JetBrains Mono NL",
   "buffer_font_family": "JetBrains Mono NL",
@@ -178,7 +180,7 @@
           "preferNoStd": false,
         },
         "procMacro": {
-          "enable": true
+          "enable": true,
         },
         // Ocasionally breakes whole error system, not displaying errors. Use with caution
         // "check": {
@@ -204,20 +206,20 @@
   "languages": {
     "Svelte": {
       "prettier": {
-        "allowed": true
-      }
+        "allowed": true,
+      },
     },
     "Rust": {
       "colorize_brackets": true,
       "inlay_hints": {
-        "show_background": false
+        "show_background": false,
       },
       "indent_guides": {
-        "background_coloring": "indent_aware"
+        "background_coloring": "indent_aware",
       },
       "show_wrap_guides": true,
       "completions": {
-        "words_min_length": 3
+        "words_min_length": 3,
       },
     },
     // Refer https://zed.dev/docs/languages/javascript and https://zed.dev/docs/languages/typescript for more info
@@ -234,8 +236,8 @@
     "Python": {
       "formatter": {
         "language_server": {
-          "name": "ruff"
-        }
+          "name": "ruff",
+        },
       },
       "language_servers": [
         "pyright",

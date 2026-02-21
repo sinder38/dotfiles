@@ -458,5 +458,12 @@
     "bindings": {
       "alt-f": null
     }
+  },
+  // Make toggle replace on Ctrl-h work in normal mode
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "ctrl-h": "buffer_search::DeployReplace"
+    }
   }
 ]
