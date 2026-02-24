@@ -1,5 +1,5 @@
 [user]
-    name = Sinder
+	name = sinder
     email = smirnov.sinder@gmail.com 
 
 [alias]
@@ -8,7 +8,7 @@
     diff-main = log main..HEAD --oneline
 
 [core]
-    editor = nvim
+	editor = zeditor --wait
 	autocrlf = input
 
 [init]
