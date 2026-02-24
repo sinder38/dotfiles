@@ -257,7 +257,16 @@
       ],
     },
   },
-  // These are Alt + 1/2 for terminal and project (dvp Dvorak)
+  // Vim-like motions in get pantel
+  {
+    "context": "GitPanel && ChangesList",
+    "bindings": {
+      // (dvp Dvorak)
+      "t": "git_panel::NextEntry",
+      "n": "git_panel::PreviousEntry",
+    },
+  },
+  // These are Alt + 1/2/3/4 for terminal and project (dvp Dvorak)
   {
     "context": "Pane",
     "bindings": {
@@ -271,17 +280,49 @@
     },
   },
   {
-    "context": "Workspace",
-    "bindings": {
-      "alt-{": "terminal_panel::Toggle",
-    },
-  },
-  {
     "context": "ProjectPanel",
     "bindings": {
       "alt-+": "workspace::CloseActiveDock",
     },
   },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-{": "terminal_panel::Toggle",
+    },
+  },
+  // for git
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-[": "git_panel::ToggleFocus",
+    },
+  },
+  {
+    "context": "GitPanel",
+    "bindings": {
+      "alt-[": "workspace::CloseActiveDock",
+    },
+  },
+  // for agent panel
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-(": "agent::ToggleFocus",
+    },
+  },
+  {
+    "context": "AcpThread",
+    "bindings": {
+      "alt-(": "workspace::CloseActiveDock",
+    },
+  },
+  // {
+  //   "context": "Workspace",
+  //   "bindings": {
+  //     "ctrl+shit+i": "agent::ToggleFocus",
+  //   },
+  // },
   // Tabs (buffers) movemnt
   {
     "context": "Pane",
@@ -295,6 +336,19 @@
       "alt-h": "pane::ActivatePreviousItem",
     },
   },
+  // Escape to focus editor (vim-normal mode escape)
+  {
+    "context": "vim_mode==normal && (CommitEditor > Editor)",
+    "bindings": {
+      "escape": "git_panel::ToggleFocus",
+    },
+  },
+  {
+    "context": "vim_mode==normal && (AcpThread > Editor)",
+    "bindings": {
+      "escape": "agent::ToggleFocus",
+    },
+  },
   // Shift Escape is used to close active window
   {
     "bindings": {
@@ -305,6 +359,32 @@
     "context": "Terminal",
     "bindings": {
       "shift-escape": "workspace::CloseActiveDock",
+    },
+  },
+  // for AgentPanel
+  {
+    "context": "AgentPanel",
+    "bindings": {
+      "shift-escape": "workspace::CloseActiveDock",
+    },
+  },
+  {
+    "context": "AcpThread > Editor",
+    "bindings": {
+      "shift-escape": "workspace::CloseActiveDock",
+    },
+  },
+  // for GitPanel
+  {
+    "context": "GitPanel",
+    "bindings": {
+      "shift-escape": "workspace::CloseActiveDock",
+    },
+  },
+  {
+    "context": "CommitEditor > Editor",
+    "bindings": {
+      "shift-escape": "workspace::CloseActiveDock"
     },
   },
   // Ctrl-t is meant for vim
@@ -465,5 +545,5 @@
     "bindings": {
       "ctrl-h": "buffer_search::DeployReplace"
     }
-  }
+  },
 ]
