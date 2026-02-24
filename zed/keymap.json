@@ -125,11 +125,11 @@
       // ===== REFACTORING =====
       "space c r": "editor::Rename", // Rename element
       "space c shift-r": "editor::ToggleCodeActions", // Refactorings menu
-      // Navigate between panel (Dvorak)
-      "ctrl-h": "workspace::ActivatePaneLeft",
-      "ctrl-s": "workspace::ActivatePaneRight",
-      "ctrl-n": "workspace::ActivatePaneUp",
-      "ctrl-t": "workspace::ActivatePaneDown",
+      // // Navigate between panel (Dvorak)
+      // "ctrl-h": "workspace::ActivatePaneLeft",
+      // "ctrl-s": "workspace::ActivatePaneRight",
+      // "ctrl-n": "workspace::ActivatePaneUp",
+      // "ctrl-t": "workspace::ActivatePaneDown",
     },
   },
   // NOTE: c needs to be set as a context because it is a vim action
@@ -172,11 +172,11 @@
       // Close project panel as project file panel on the left
       "q": "workspace::ToggleLeftDock",
       "space e": "workspace::ToggleLeftDock",
-      // Navigate between panel (Dvorak)
-      "ctrl-h": "workspace::ActivatePaneLeft",
-      "ctrl-s": "workspace::ActivatePaneRight",
-      "ctrl-n": "workspace::ActivatePaneUp",
-      "ctrl-t": "workspace::ActivatePaneDown",
+      // // Navigate between panel (Dvorak)
+      // "ctrl-h": "workspace::ActivatePaneLeft",
+      // "ctrl-s": "workspace::ActivatePaneRight",
+      // "ctrl-n": "workspace::ActivatePaneUp",
+      // "ctrl-t": "workspace::ActivatePaneDown",
       // Dvorak hjkl remap
       "h": "project_panel::CollapseSelectedEntry",
       "t": "vim::MenuSelectNext",
@@ -295,7 +295,7 @@
       "alt-h": "pane::ActivatePreviousItem",
     },
   },
-  // Shift Escape is used to close windows
+  // Shift Escape is used to close active window
   {
     "bindings": {
       "shift-escape": null,
