@@ -1,5 +1,0 @@
-<keymap version="1" name="KDE Proper insert inline proposal" parent="Default for KDE">
-  <action id="InsertInlineCompletionAction">
-    <keyboard-shortcut first-keystroke="enter" />
-  </action>
-</keymap>

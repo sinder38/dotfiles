@@ -1,0 +1,18 @@
+theme = "onedark"
+
+[editor]
+line-number = "relative"
+mouse = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+# At most one section each of 'keys.normal', 'keys.insert' and 'keys.select'
+[keys.normal]
+t = "move_visual_line_down" # Maps Ctrl-s to the typable command :w which is an alias for :write (save file)
+n = "move_visual_line_up" # Maps Ctrl-o to opening of the helix config file
+s = "move_char_right" # Maps the 'a' key to the move_char_left command

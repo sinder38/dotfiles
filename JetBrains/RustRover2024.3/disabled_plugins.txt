@@ -1,9 +1,0 @@
-AceJump
-AutoSwitchIm
-com.chesterccw.excelreader
-com.intellij.ja
-com.intellij.ko
-com.intellij.zh
-com.mallowigi
-dev.turingcomplete.intellijdevelopertoolsplugins
-org.jetbrains.IdeaVim-EasyMotion
