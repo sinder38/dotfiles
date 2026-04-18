@@ -7,26 +7,99 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "disable_ai": false,
+  "ssh_connections": [
+    {
+      "host": "hetzner-dev",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/sinder"
+          ],
+        },
+        {
+          "paths": [
+            "/home/sinder/Projects/OpenSource/CatCAPTCHA"
+          ],
+        },
+        {
+          "paths": [
+            "/home/sinder/Projects/OpenSource/sea-orm/"
+          ],
+        },
+        {
+          "paths": [
+            "/home/sinder/Projects/OpenSource/zed"
+          ],
+        },
+      ],
+      "nickname": "dev-server",
+      "port_forwards": [
+        {
+          "local_port": 5173,
+          "remote_port": 5173,
+          // "remote_host": "localhost",
+          // "local_host": "localhost"
+        },
+        {
+          // "remote_host": "localhost",
+          // "local_host": "localhost",
+          "local_port": 3001,
+          "remote_port": 3001,
+        },
+        {
+          "local_port": 3000,
+          "remote_port": 3000,
+        },
+        {
+          // "local_host": "0.0.0.0",
+          "remote_host": "localhost",
+          "local_port": 8080,
+          "remote_port": 8080,
+        },
+      ],
+    },
+  ],
+  "command_aliases": {
+    "crp": "copyrelativepath",
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry",
+    },
+  },
+  "active_pane_modifiers": {
+    "border_size": 1,
+    "inactive_opacity": 0.9,
+  },
+  "minimum_contrast_for_highlights": 55.0,
+  "expand_excerpt_lines": 30,
+  "excerpt_context_lines": 10,
+  "completion_menu_scrollbar": "auto",
+  "auto_signature_help": false,
   "restore_on_startup": "launchpad",
   "document_symbols": "off",
   "enable_language_server": true,
   "show_wrap_guides": true,
   "inlay_hints": {
-    "show_background": true
+    "enabled": false,
+    "show_background": true,
   },
   "which_key": {
     "delay_ms": 200,
-    "enabled": true
+    "enabled": true,
   },
   "preferred_line_length": 120,
-  "soft_wrap": "none",
+  "soft_wrap": "preferred_line_length",
   "indent_guides": {
+    "line_width": 1,
     "background_coloring": "indent_aware",
   },
   "colorize_brackets": true,
   "diagnostics_max_severity": "all",
-  "excerpt_context_lines": 6,
-  "expand_excerpt_lines": 5,
+  // "excerpt_context_lines": 6,
+  // "expand_excerpt_lines": 5,
   "bottom_dock_layout": "contained",
   "search": {
     "center_on_match": true,
@@ -43,7 +116,6 @@
   "prettier": {
     "allowed": false,
   },
-  "vertical_scroll_margin": 6.0,
   "autoscroll_on_clicks": false,
   "project_panel": {
     "hide_root": true,
@@ -63,15 +135,18 @@
   "show_edit_predictions": true,
   "show_completions_on_input": true,
   "edit_predictions": {
-    "mode": "subtle",
+    "mode": "eager",
   },
   "extend_comment_on_newline": false,
   "icon_theme": "Material Icon Theme",
   "when_closing_with_no_tabs": "keep_window_open",
   "buffer_line_height": "standard",
   "terminal": {
+    "scrollbar": {
+      "show": "auto",
+    },
     "toolbar": {
-      "breadcrumbs": true,
+      "breadcrumbs": false,
     },
     "copy_on_select": true,
     "font_size": 14.0,
@@ -80,6 +155,13 @@
     "modal_max_width": "large",
   },
   "agent": {
+    "show_turn_stats": true,
+    "notify_when_agent_waiting": "all_screens",
+    "single_file_review": true,
+    "default_profile": "ask",
+    "tool_permissions": {
+      "default": "allow",
+    },
     "favorite_models": [
       {
         "provider": "anthropic",
@@ -88,13 +170,12 @@
     ],
     "inline_assistant_model": {
       "provider": "anthropic",
-      "model": "claude-sonnet-4-5-latest",
+      "model": "claude-sonnet-4-6-latest",
     },
     "default_model": {
       "provider": "anthropic",
-      "model": "claude-sonnet-4-6-thinking-latest",
+      "model": "claude-haiku-4-5-latest",
     },
-    "always_allow_tool_actions": true,
     "play_sound_when_agent_done": true,
     "message_editor_min_lines": 4,
     "use_modifier_to_send": true,
@@ -103,10 +184,9 @@
   "autosave": "off",
   "diagnostics": {
     // Errors are more important. This affects only the default
-    "include_warnings": true,
+    "include_warnings": false,
     "inline": {
-      "update_debounce_ms": 0,
-      "enabled": true,
+      "enabled": false,
     },
   },
   "show_whitespaces": "trailing",
@@ -142,7 +222,7 @@
     "folds": false,
     "runnables": true,
     "breakpoints": false,
-    "line_numbers": false,
+    "line_numbers": true,
   },
   "window_decorations": "client",
   "tasks": {
@@ -174,34 +254,46 @@
         ],
       },
     },
-    "rust-analyzer": {
-      "initialization_options": {
-        "imports": {
-          "preferNoStd": false,
-        },
-        "procMacro": {
-          "enable": true,
-        },
-        // Ocasionally breakes whole error system, not displaying errors. Use with caution
-        // "check": {
-        //   "command": "clippy",
-        //   "workspace": true,
-        //   "allTargets": true,
-        // },
-        "diagnostics": {
-          "experimental": {
-            // "enable": true
-          },
-          "styleLints": {
-            "enable": true,
-          },
-        },
-        // Ocasionally breakes on some creates. Use with caution
-        "cargo": {
-          // "allFeatures": true
-        },
-      },
-    },
+    // "rust-analyzer": {
+    //   "enable_lsp_tasks": true,
+    //   "initialization_options": {
+    //     "references": {
+    //       "excludeTests": true,
+    //     },
+    //     // get more cargo-less diagnostics from rust-analyzer,
+    //     // which might include false-positives (those can be turned off by their names)
+    //     "diagnostics": {
+    //       "experimental": {
+    //         // "enable": true
+    //       },
+    //       "styleLints": {
+    //         "enable": true,
+    //       },
+    //     },
+    //     // To disable the checking entirely
+    //     "checkOnSave": true,
+    //     "cargo": {
+    //       // // // To check the `lib` target only.
+    //       "allTargets": false,
+    //       // "true" ocasionally breakes on some creates. Use with caution
+    //       "allFeatures": false,
+    //     },
+    //     // Use `-p` instead of `--workspace` for cargo check
+    //     "check": {
+    //       "workspace": false,
+    //       "allTargets": false,
+    //     },
+    //     "procMacro": {
+    //       "enable": true,
+    //     },
+    //     // Ocasionally breakes whole error system, not displaying errors. Use with caution
+    //     // "check": {
+    //     //   "command": "clippy",
+    //     //   "workspace": true,
+    //     //   "allTargets": true,
+    //     // },
+    //   },
+    // },
   },
   "languages": {
     "Svelte": {
@@ -212,7 +304,7 @@
     "Rust": {
       "colorize_brackets": true,
       "inlay_hints": {
-        "show_background": false,
+        "show_background": true,
       },
       "indent_guides": {
         "background_coloring": "indent_aware",

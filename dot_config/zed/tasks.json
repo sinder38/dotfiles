@@ -3,11 +3,8 @@
 // Example:
 [
   {
-    "label": "Example task",
-    "command": "for i in {1..5}; do echo \"Hello $i/5\"; sleep 1; done",
-    //"args": [],
-    // Env overrides for the command, will be appended to the terminal's environment from the settings.
-    "env": { "foo": "bar" },
+    "label": "Run Postgres 15",
+    "command": "podman run --replace --name \"postgres-15\"  --env POSTGRES_USER=\"postgres\" --env POSTGRES_PASSWORD=\"postgres\" -d -p 5432:5432 docker.io/library/postgres:15",
     // Current working directory to spawn the command into, defaults to current project root.
     //"cwd": "/path/to/working/directory",
     // Whether to use a new terminal tab or reuse the existing one to spawn the process, defaults to `false`.

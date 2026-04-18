@@ -6,18 +6,6 @@
 // from the command palette.
 [
   {
-    "context": "Workspace",
-    "bindings": {
-      // "shift shift": "file_finder::Toggle"
-    },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      // "j k": ["workspace::SendKeystrokes", "escape"]
-    },
-  },
-  {
     "context": "VimControl && !menu",
     "bindings": {
       // Dvorak navigation remapping
@@ -42,6 +30,7 @@
     "bindings": {
       // Quick saving
       "space w": "workspace::Save",
+      "space shift-w": "workspace::SaveAll",
     },
   },
   {
@@ -66,8 +55,8 @@
     "bindings": {
       // Toggle inlay hints
       "space u h": "editor::ToggleInlayHints",
-      "space u l": "editor::ToggleLineNumbers", // Toggle line numbers
-      // Toggle soft wrap
+      "space u l": "editor::ToggleLineNumbers",
+      "space u x": "editor::StopLanguageServer",
       "space u w": "editor::ToggleSoftWrap",
       // NOTE: Toggle Zen mode, not fully working yet
       "space u z": "workspace::ToggleCenteredLayout",
@@ -546,4 +535,48 @@
       "ctrl-h": "buffer_search::DeployReplace"
     }
   },
+  {
+    "context": "ProjectSearchBar",
+    "bindings": {
+      "ctrl-h": "search::ToggleReplace"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-h": "search::ToggleReplace"
+    }
+  },
+  // Allow to copy buffer's relative path in editor
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-shift-c": "workspace::CopyRelativePath"
+    }
+  },
+  // Easy way to control zoom
+  {
+    // "context": "",
+    "bindings": {
+      "ctrl-w z": "workspace::ToggleZoom"
+    }
+  },
+  // Doesn't work anyway
+  {
+    "bindings": {
+      "ctrl-k ctrl-o": null
+    }
+  },
+  {
+    "bindings": {
+      "alt-shift-w": "diagnostics::ToggleWarnings"
+    }
+  },
+  // Remove to allow using terminal Ctrl-n
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-n": null
+    }
+  }
 ]
