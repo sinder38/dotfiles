@@ -6,7 +6,7 @@
     recent = for-each-ref --format='%(refname:short) %(committerdate:relative) %(subject)' refs/heads/ --sort=-committerdate
     ed = branch --no-merged main -v
     diff-main = log main..HEAD --oneline
-
+    glog = log --graph --oneline --decorate
 [core]
 	editor = zeditor --wait
 	autocrlf = input
