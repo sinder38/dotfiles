@@ -95,6 +95,20 @@ function md --wraps mkdir -d "Create a directory and cd into it"
     end
 end
 
+# provision and manage a dev server
+function devserver
+    set scripts ~/Projects/Personal/dev-server/scripts
+
+    switch $argv[1]
+        case up
+            $scripts/provision.sh
+        case down
+            $scripts/snapshot-and-destroy.sh
+        case '*'
+            echo "Usage: devserver [up|down]"
+    end
+end
+
 # print compression results with a bar chart
 function gz --d "Get the gzipped size"
     set -l file "$argv[1]"
@@ -144,23 +158,6 @@ end
 function shellswitch
     chsh -s (brew --prefix)/bin/$argv
 end
-
-# requires my excellent `npm install -g statikk`
-# function server -d 'Start a HTTP server in the current dir, optionally specifying the port'
-#     # arg can either be port number or extra args to statikk
-#     if test $argv[1]
-#         if string match -qr '^-?[0-9]+(\.?[0-9]*)?$' -- "$argv[1]"
-#             set port $argv[1]
-#             # fancy argv thing to pass all remaining args. eg `server --cors --jsprof`
-#             statikk --open --port $argv[1..-1]
-#         else
-#             statikk --open $argv[1..-1]
-#         end
-#
-#     else
-#         statikk --open
-#     end
-# end
 
 function conda -d 'lazy initialize conda'
     functions --erase conda

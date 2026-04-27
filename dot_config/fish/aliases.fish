@@ -15,8 +15,6 @@ abbr cp 'cp -v'
 alias docker=podman
 alias docker-compose=podman-compose
 
-
-
 alias chmox='chmod +x'
 
 alias where=which # sometimes i forget
