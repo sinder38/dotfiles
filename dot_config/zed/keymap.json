@@ -5,6 +5,16 @@
 // To see the default key bindings run `zed: open default keymap`
 // from the command palette.
 [
+  //TODO: Ctrl-W + o
+  // to focus on specific panel
+  //TODO: focus on editor
+  //TODO: focus on editor and close all other panel
+  //TODO: https://github.com/zed-industries/zed/pull/47331
+  // {
+  // "context": "pane::DeploySearch",
+  // "query": "TODO|FIXME|NOTE|BUG|HACK|XXX|WARN",
+  // "regex": true
+  // },
   {
     "context": "VimControl && !menu",
     "bindings": {
@@ -36,7 +46,7 @@
   {
     "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting",
     "bindings": {
-      // Open recent project
+      // // Open recent project
       "space f p": "projects::OpenRecent",
       // Search word under cursor
       "space s W": "pane::DeploySearch",
@@ -79,9 +89,10 @@
       "space s c": "outline::Toggle", // Structure view
       "space s t": "diagnostics::Deploy", // TODO: view todos (using diagnostics)
       "space s s": "project_symbols::Toggle", // Go to symbol
+      // Go to action
+      "space s a": "command_palette::Toggle",
       // "space s e": "command_palette::Toggle", // Search everywhere
       // "space s d": "project_search::ToggleFocus", // Database objects (Doesn't work in Zed)
-      "space s a": "command_palette::Toggle", // Go to action
       // "space s n": "notifications::Toggle",        // Notifications
       // "space s l": "recent_projects::Toggle",      // Recent locations
       // Open recent project
@@ -121,6 +132,13 @@
       // "ctrl-t": "workspace::ActivatePaneDown",
     },
   },
+  // NOTE: I wanted to add closing sidebar as part of close all docks but decided against it
+  // {
+  //   "context": "VimControl && !menu",
+  //   "bindings": {
+  //     "space ;": "multi_workspace::CloseWorkspaceSidebar",
+  //   },
+  // }
   // NOTE: c needs to be set as a context because it is a vim action
   // Rename
   {
@@ -144,6 +162,8 @@
       "space space": "file_finder::Toggle",
       // Open recent project
       "space f p": "projects::OpenRecent",
+      // Go to action
+      "space s a": "command_palette::Toggle",
     },
   },
   {
@@ -373,7 +393,7 @@
   {
     "context": "CommitEditor > Editor",
     "bindings": {
-      "shift-escape": "workspace::CloseActiveDock"
+      "shift-escape": "workspace::CloseActiveDock",
     },
   },
   // Ctrl-t is meant for vim
@@ -487,96 +507,109 @@
   {
     "context": "GitPanel",
     "bindings": {
-      "alt-m": "git::Amend"
-    }
+      "alt-m": "git::Amend",
+    },
   },
   // Toggle git panel on Alt-k
   //TODO: add Alt number for it later
   {
     "context": "(GitPanel && ChangesList)",
     "bindings": {
-      "alt-k": "git_panel::Close"
-    }
+      "alt-k": "git_panel::Close",
+    },
   },
   {
     "context": "CommitEditor > Editor",
     "bindings": {
-      "alt-k": "git_panel::Close"
-    }
+      "alt-k": "git_panel::Close",
+    },
   },
   {
     "context": "Workspace",
     "bindings": {
-      "alt-k": "git_panel::ToggleFocus"
-    }
+      "alt-k": "git_panel::ToggleFocus",
+    },
   },
   {
     "context": "(Editor && mode == full)",
     "bindings": {
-      "ctrl-alt-k": "agent::AddSelectionToThread"
-    }
+      "ctrl-alt-k": "agent::AddSelectionToThread",
+    },
   },
   {
     "context": "Pane",
     "bindings": {
-      "alt-p": "pane::TogglePinTab"
-    }
+      "alt-p": "pane::TogglePinTab",
+    },
   },
   {
     "context": "Terminal",
     "bindings": {
-      "alt-f": null
-    }
+      "alt-f": null,
+    },
   },
   // Make toggle replace on Ctrl-h work in normal mode
   {
     "context": "VimControl && !menu",
     "bindings": {
-      "ctrl-h": "buffer_search::DeployReplace"
-    }
+      "ctrl-h": "buffer_search::DeployReplace",
+    },
   },
   {
     "context": "ProjectSearchBar",
     "bindings": {
-      "ctrl-h": "search::ToggleReplace"
-    }
+      "ctrl-h": "search::ToggleReplace",
+    },
   },
   {
     "context": "Pane",
     "bindings": {
-      "ctrl-h": "search::ToggleReplace"
-    }
+      "ctrl-h": "search::ToggleReplace",
+    },
   },
   // Allow to copy buffer's relative path in editor
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-alt-shift-c": "workspace::CopyRelativePath"
-    }
+      "ctrl-alt-shift-c": "workspace::CopyRelativePath",
+    },
   },
   // Easy way to control zoom
   {
     // "context": "",
     "bindings": {
-      "ctrl-w z": "workspace::ToggleZoom"
-    }
+      "ctrl-w z": "workspace::ToggleZoom",
+    },
   },
   // Doesn't work anyway
   {
     "bindings": {
-      "ctrl-k ctrl-o": null
-    }
+      "ctrl-k ctrl-o": null,
+    },
   },
   {
     "bindings": {
-      "alt-shift-w": "diagnostics::ToggleWarnings"
-    }
+      "alt-shift-w": "diagnostics::ToggleWarnings",
+    },
   },
   // Remove to allow using terminal Ctrl-n
   {
     "context": "Workspace",
     "bindings": {
-      "ctrl-n": null
+      "ctrl-n": null,
+    },
+  },
+  // Add standard new thread keybinding
+  {
+    "context": "AgentPanel && acp_thread",
+    "bindings": {
+      "ctrl-shift-o": "agent::NewThread"
+    }
+  },
+  {
+    "context": "AgentPanel && acp_thread",
+    "unbind": {
+      "ctrl-alt-t": "agent::NewThread"
     }
   }
 ]

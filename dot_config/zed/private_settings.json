@@ -1,12 +1,16 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
 {
+  // Zed settings
+  // For information on how to configure Zed, see the Zed//zed.dev/docs/configuring-zed
+  // To see all of Zed's default settings without changing your
+  // custom settings, run `zed: open default settings` from the
+  // command palette (cmd-shift-p / ctrl-shift-p)
+  "cli_default_open_behavior": "existing_window",
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
   "disable_ai": false,
   "ssh_connections": [
     {
@@ -20,7 +24,22 @@
         },
         {
           "paths": [
+            "/home/sinder/Projects/OpenSource/AuthMicroservice/./"
+          ],
+        },
+        {
+          "paths": [
             "/home/sinder/Projects/OpenSource/CatCAPTCHA"
+          ],
+        },
+        {
+          "paths": [
+            "/home/sinder/Projects/OpenSource/bootcamp"
+          ],
+        },
+        {
+          "paths": [
+            "/home/sinder/Projects/OpenSource/live-bootcamp-project"
           ],
         },
         {
@@ -39,12 +58,8 @@
         {
           "local_port": 5173,
           "remote_port": 5173,
-          // "remote_host": "localhost",
-          // "local_host": "localhost"
         },
         {
-          // "remote_host": "localhost",
-          // "local_host": "localhost",
           "local_port": 3001,
           "remote_port": 3001,
         },
@@ -53,9 +68,12 @@
           "remote_port": 3000,
         },
         {
-          // "local_host": "0.0.0.0",
-          "remote_host": "localhost",
+          "local_port": 8000,
+          "remote_port": 8000,
+        },
+        {
           "local_port": 8080,
+          "remote_host": "localhost",
           "remote_port": 8080,
         },
       ],
@@ -97,9 +115,7 @@
     "background_coloring": "indent_aware",
   },
   "colorize_brackets": true,
-  "diagnostics_max_severity": "all",
-  // "excerpt_context_lines": 6,
-  // "expand_excerpt_lines": 5,
+  "diagnostics_max_severity": "all", // "excerpt_context_lines": 6,// "expand_excerpt_lines": 5,
   "bottom_dock_layout": "contained",
   "search": {
     "center_on_match": true,
@@ -109,7 +125,7 @@
     "postgres-context-server": {
       "enabled": true,
       "settings": {
-        "database_url": "postgresql://postgres:welcome@localhost:5432/app_db",
+        //postgres:welcome@localhost:5432/app_db",
       },
     },
   },
@@ -118,10 +134,12 @@
   },
   "autoscroll_on_clicks": false,
   "project_panel": {
+    "dock": "left",
     "hide_root": true,
     "starts_open": true,
   },
   "git_panel": {
+    "dock": "left",
     "tree_view": true,
     "sort_by_path": true,
   },
@@ -155,6 +173,8 @@
     "modal_max_width": "large",
   },
   "agent": {
+    "sidebar_side": "left",
+    "dock": "right",
     "show_turn_stats": true,
     "notify_when_agent_waiting": "all_screens",
     "single_file_review": true,
@@ -172,11 +192,15 @@
       "provider": "anthropic",
       "model": "claude-sonnet-4-6-latest",
     },
+    "commit_message_model": {
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-latest",
+    },
     "default_model": {
       "provider": "anthropic",
       "model": "claude-haiku-4-5-latest",
     },
-    "play_sound_when_agent_done": true,
+    "play_sound_when_agent_done": "always",
     "message_editor_min_lines": 4,
     "use_modifier_to_send": true,
     "enable_feedback": true,
@@ -240,9 +264,7 @@
   "vim_mode": true,
   "ui_font_size": 14.0,
   "buffer_font_size": 14.0,
-  "use_layout_keys": true,
-  "theme": "JetBrains Dark",
-  // LSP
+  "theme": "JetBrains Dark", // LSP
   "lsp": {
     "tailwindcss-language-server": {
       "settings": {
