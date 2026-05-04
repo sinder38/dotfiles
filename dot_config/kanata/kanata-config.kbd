@@ -1,3 +1,9 @@
+;;TODO:
+;; experiment with leader key (sldr)
+;; expand Vim layer
+;; move your layout to kanata
+;; tryout swapping meta to a layer
+
 (defcfg
   process-unmapped-keys yes
 )
@@ -45,7 +51,7 @@
   caps
   @grl  1    2    3    4    5    6    7    8    9    0    -    =    bspc
   tab   q    w    e    r    t    y    u    i    o    p    [    ]    \
-  @esc  @a   @s  @d   @f  @gar   h   @j   @k   @l   @;   @'    ret
+  esc  @a   @s  @d   @f  @gar   h   @j   @k   @l   @;    '    ret
   lsft z    x    c     v    b    n    m    ,    .    /    rsft
   lctl lalt lmet           spc            @ralt  rctl
 )
@@ -66,23 +72,33 @@
   caps
   f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  _    _
   _    _    _    _    _    _    _    home pgdn pgup C-tab _   _    _
-  @esc _    _   lsft  _    _    _    left down up   rght  _   ret
+  esc  _    _   lsft lctl  _    _    left down up   rght  _   ret
   lsft _    _    _    _    _  C-left  _  C-rght _   _     _
-  lctl _    _              _              _    _  
+  lctl _    _              _              _    _
 )
 
-;; no homerow mods for gaming 
+;; number layer in the making
+(deflayer numbers
+  _
+  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  _    _
+  _    `    <    {    [    _    _    7    8    9    -    _    _    _
+  _    ~    >    p    ]    _    _    4    5    6    +    =    _    _
+  _    \    |    {    }    _    _    1    2    3    *    _
+  _    _    _              0              _    _
+)
+
+;; no homerow mods for gaming
 (deflayer no-mods
   caps
   @grl 1    2    3    4    5    6    7    8    9    0    -    =    bspc
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
-  @esc a    s    d    f    g    h    j    k    l    ;   @'    ret
+  esc  a    s    d    f    g    h    j    k    l    ;    '    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft
   lctl lalt lmet           spc            @ralt  rctl
 )
 
 
-;; homerow mods 
+;; homerow mods
 (defalias
   a (tap-hold $p-tap-time $p-hold-time a lmet )
   s (tap-hold $tap-time $hold-time s lalt )
@@ -95,16 +111,15 @@
   ; (tap-hold $p-tap-time $p-hold-time ; lmet)
 )
 
-;; additional shifts
-(defalias
-  esc (tap-hold-press $tap-time $hold-time esc lsft)
-  '  (tap-hold-press $tap-time $hold-time ' lsft)
-)
+;; additional shifts(unused)
+;;(defalias
+;;  esc (tap-hold-press $tap-time $hold-time esc lsft)
+;;  '  (tap-hold-press $tap-time $hold-time ' lsft)
+;;)
 
 
 ;; thumb keys with more functionality
 (defalias
   ralt (tap-hold-press $tap-time $hold-time bspc rsft)
-  spc  (tap-hold $tap-time $hold-time spc lctl)
+  ;;spc  (tap-hold-press $tap-time $hold-time spc lctl)
 )
-
