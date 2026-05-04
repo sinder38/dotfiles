@@ -611,5 +611,26 @@
     "unbind": {
       "ctrl-alt-t": "agent::NewThread"
     }
+  },
+  // AI completions should have exclusive keybinds
+  {
+    "context": "Editor && edit_prediction && edit_prediction_mode == eager && !showing_completions",
+    "unbind": {
+      "tab": "editor::AcceptEditPrediction"
+    }
+  },
+  // Alt-/ to Seach commands (similar to my browser configuration)
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-/": "command_palette::Toggle"
+    }
+  },
+  // Alt-Space to Seach Tabs (similar to my browser configuration)
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-Space": "tab_switcher::Toggle"
+    }
   }
 ]

@@ -4,6 +4,7 @@
   // To see all of Zed's default settings without changing your
   // custom settings, run `zed: open default settings` from the
   // command palette (cmd-shift-p / ctrl-shift-p)
+  "preferred_line_length": 120,
   "cli_default_open_behavior": "existing_window",
   "outline_panel": {
     "dock": "left",
@@ -108,7 +109,6 @@
     "delay_ms": 200,
     "enabled": true,
   },
-  "preferred_line_length": 120,
   "soft_wrap": "preferred_line_length",
   "indent_guides": {
     "line_width": 1,
@@ -230,6 +230,7 @@
     "show": true,
   },
   "title_bar": {
+    "show_branch_status_icon": true,
     "show_user_picture": true,
     "show_user_menu": true,
     "show_sign_in": true,
@@ -237,7 +238,6 @@
     "show_project_items": true,
     "show_branch_name": true,
     "show_menus": false,
-    "show_branch_icon": true,
   },
   "inline_code_actions": true,
   "relative_line_numbers": "enabled",
