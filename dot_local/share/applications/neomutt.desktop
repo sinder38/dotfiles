@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=NeoMutt
+Comment=Terminal-based email client
+Exec=$TERM -e neomutt
+Icon=neomutt
+Terminal=false
+Type=Application
+Categories=Network;Email;
+Keywords=mail;email;mutt;neomutt;
+StartupNotify=false

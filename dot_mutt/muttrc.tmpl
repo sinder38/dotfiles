@@ -1,0 +1,101 @@
+# Useful references
+# https://www.jonathanh.co.uk/blog/mutt-setup/
+
+set ssl_force_tls = yes
+set abort_nosubject = no
+set mail_check = 60
+set timeout = 10
+set sort = "reverse-date-received"
+set signature = "~/.mutt/signature"
+set copy = no
+
+# Caching
+set header_cache = "~/.mutt/cache/headers"
+set imap_peek = yes
+
+# Gmail
+set from = "{{ pass "email/gmail/address" }}"
+set realname = "{{ pass "realname" }}"
+
+set imap_user = "{{ pass "email/gmail/address" }}"
+set sendmail = "/usr/bin/msmtp -a gmail"
+set sendmail_wait = 0
+
+# Folder with emails
+set folder = "~/.mail/work"
+
+# Type of mailbox
+set mbox_type = Maildir
+
+# File that headers will be cached
+set header_cache = ~/.cache/mutt
+
+# Directory to poll for new mail
+set spoolfile = +Inbox
+set postponed = "+[Gmail]/Drafts"
+set record = "+[Gmail]/Sent Mail"
+set trash = "+[Gmail]/Trash"
+
+# Register each label as a mailbox
+mailboxes +Inbox \
+          +GitHub \
+          +LinkedIn \
+          +Notes \
+          +"Mailing Lists/Linux" \
+          +"Logs/Application" \
+          +"Logs/Invoice"
+
+# Sidebar
+set sidebar_visible = yes
+set sidebar_width   = 25
+set sidebar_format  = "%B%?F? [%F]?%* %?N?%N/?%S"
+bind index,pager \CP sidebar-prev
+bind index,pager \CN sidebar-next
+bind index,pager \CO sidebar-open
+
+# Sort by threads
+set sort = threads
+set sort_aux = reverse-last-date-received
+
+# progress every 100 msgs
+set read_inc = 100
+set net_inc  = 10
+
+# Mailcap file is used to tell mutt how to open different types of file
+set mailcap_path = "~/.config/mutt/mailcap"
+
+auto_view text/html
+# Order to try and show multipart emails
+alternative_order text/plain text/enriched text/html
+
+# Editor
+# set editor = "nvim +':set textwidth=0'"
+
+# Contacts
+set query_command = "khard email --parsable --search-in-source-files %s"
+
+# Dvorak remaps for NeoMutt
+# t = down (j), n = up (k), s = right/next (l)
+
+bind index S save-message      # move save to shift+s
+bind index s display-message   # then free s
+
+# Index (email list)
+bind index t next-entry
+bind index n previous-entry
+bind index s display-message
+
+bind index T last-entry        # shift+t = bottom (G)
+bind index N first-entry       # shift+n = top (gg)
+
+# Pager (reading email)
+bind pager t next-line
+bind pager n previous-line
+bind pager s next-entry        # move to next email while reading
+
+# Pager top/bottom
+bind pager T bottom
+bind pager N top
+
+# Theme
+source ~/.mutt/themes/catppuccin-theme.muttrc

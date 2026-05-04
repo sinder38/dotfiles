@@ -1,2 +1,6 @@
 .*
 !.gitignore
+
+# Mutt secrets
+dot_mutt/gmail
+dot_mutt/*.gpg

@@ -30,6 +30,7 @@ alias ncdu "command -v gdu-go > /dev/null && gdu-go  || ncdu"
 abbr g git
 abbr v nvim
 abbr z zeditor
+abbr mutt neomutt
 
 abbr cat 'bat -Pp'
 set -x BAT_STYLE "header,header-filesize,header-filename,changes"

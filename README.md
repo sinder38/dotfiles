@@ -31,3 +31,15 @@ To integrate chezmoi into the server bootstrap, add a role that:
 3. Uses a `.chezmoiignore` to skip laptop-only configs (ghostty, kitty, wezterm, KDE, etc.)
 
 See the [chezmoi docs on `.chezmoiignore`](https://chezmoi.io/reference/special-files/chezmoiignore/) for templating by machine type
+
+
+## Required secrets (password-store)
+
+Run `pass insert` for each before applying chezmoi:
+
+| pass path                  | what it is                        |
+|----------------------------|-----------------------------------|
+| email/gmail/address       | Gmail address                     |
+| email/gmail/app-password   | Gmail App Password                |
+| email/gmail/smtp-url   | smtps://<username>@smtp.gmail.com                |
+| realname   | My IRL name                |
