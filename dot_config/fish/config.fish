@@ -35,19 +35,18 @@ end
 # keymap.set("n", "I", "A", remap_opts)
 # keymap.set("n", "A", "I", remap_opts)
 
+
 fish_vi_key_bindings
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-# if test -f /home/sinder/anaconda3/bin/conda
-#     eval /home/sinder/anaconda3/bin/conda "shell.fish" hook $argv | source
-# else
-#     if test -f "/home/sinder/anaconda3/etc/fish/conf.d/conda.fish"
-#         . "/home/sinder/anaconda3/etc/fish/conf.d/conda.fish"
-#     else
-#         set -x PATH /home/sinder/anaconda3/bin $PATH
-#     end
-# end
-# <<< conda initialize <<<
+
+# GPG agent
+set -x GPG_TTY (tty)
+gpgconf --launch gpg-agent
+
+set -Ux EDITOR "zeditor --wait"
+set -Ux VISUAL "zeditor --wait"
+set -Ux PAGER less
+set -Ux MANPAGER "bat -l man -p"
+set -Ux BROWSER brave
 
 # TODO: path and aliases are kinda slow to source. optimize later.
 function ssource --description "source most of my dotfiles, useful if making changes and iterating"
@@ -70,6 +69,7 @@ function ssource --description "source most of my dotfiles, useful if making cha
 end
 
 ssource
+
 
 # I don't need a prompt symbol for you-got-things-in-yr-stash
 set --erase pure_symbol_git_stash
