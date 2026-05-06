@@ -8,7 +8,6 @@
   process-unmapped-keys yes
 )
 
-
 (defsrc
   esc
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
@@ -24,7 +23,7 @@
 
   spc (layer-toggle special)
 
-  gar (tap-hold-release 200 200 i @vim)
+  gar (tap-hold-release 200 200 g @vim)
 
   ;; layer setup
   lay (layer-toggle layers)
@@ -32,9 +31,8 @@
 
 
   ;; change the base layer  for no homerow mods
-  qwr (layer-switch qwerty)
+  bas (layer-switch base)
   nmd (layer-switch no-mods)
-  dvr (layer-switch dvorak)
 )
 
 (defvar
@@ -49,30 +47,21 @@
   ;; hold-time 176
 )
 
-;; base layer
-(deflayer dvorak
+;; switch  caps and esc
+;; switch lalt and lmet
+(deflayer base
   caps
-  @grl 1    2    3    4    5    6    7    8    9    0    [    ]    bspc
-  tab  ;    ,    .    p    y    f    g    c    r    l    /    =    \
-  esc  @a   @o  @e    @u  @gar  d    @h   @t   @n   @s   -    ret
-  lsft '    q    j    k    x    b    m    w    v    z    rsft
-  lctl lmet lalt           spc            @ralt  rctl
-)
-
-;; qwerty layer
-(deflayer qwerty
-  caps
-  @grl 1    2    3    4    5    6    7    8    9    0    -   =    bspc
-  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
-  esc  @a   @s1  @d   @f   g    h    @j   @k   @l   @;    '    ret
-  lsft z    x    c    v    b    n    m    ,    .    /    rsft
-  lctl lmet @lalt           spc            @ralt  rctl
+  @grl  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab   q    w    e    r    t    y    u    i    o    p    [    ]    \
+  esc  @a   @s  @d   @f  @gar   h   @j   @k   @l   @;    '    ret
+  lsft z    x    c     v    b    n    m    ,    .    /    rsft
+  lctl lalt lmet           spc            @ralt  rctl
 )
 
 ;; Layers switcher
 (deflayer layers
   _
-  _    @nmd @dvr @qwr lrld _    _    _    _    _    _    _    _    _
+  _    @nmd @bas lrld _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _
@@ -94,14 +83,14 @@
 (deflayer special
   _
   f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  _    _
-  _    1    2    3    4    5    6    7    8    9    0    _    _    _
+  _    `    a    {    [    _    _    7    8    9    -    _    _    _
   _    a    a    p    ]    _    _    4    5    6    +    =    _
   _    \    a    {    }    _    _    1    2    3    a    _
   _    _    _              0              _    _
 )
 
 ;; no homerow mods for gaming
-(deflayer no-mods-qwerty
+(deflayer no-mods
   caps
   @grl 1    2    3    4    5    6    7    8    9    0    -    =    bspc
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
@@ -110,20 +99,11 @@
   lctl lalt lmet           spc            @ralt  rctl
 )
 
-(deflayer no-mods
-  caps
-  @grl 1    2    3    4    5    6    7    8    9    0    [    ]    bspc
-  tab  ;    ,    .    p    y    f    g    c    r    l    /    =    \
-  esc   a   o    e    u    i    d    h    t    n    s    -    ret
-  lsft '    q    j    k    x    b    m    w    v    z    rsft
-  lctl lmet @lalt           spc            @ralt  rctl
-)
-
 
 ;; homerow mods
 (defalias
   a (tap-hold $p-tap-time $p-hold-time a lmet )
-  s1 (tap-hold $tap-time $hold-time s lalt )
+  s (tap-hold $tap-time $hold-time s lalt )
   d (tap-hold $tap-time $hold-time d lsft )
   f (tap-hold $tap-time $hold-time f lctl )
 
@@ -131,18 +111,6 @@
   k (tap-hold $tap-time $hold-time k rsft )
   l (tap-hold $tap-time $hold-time l ralt )
   ; (tap-hold $p-tap-time $p-hold-time ; lmet)
-)
-
-(defalias
-
-  o (tap-hold $tap-time $hold-time o lalt )
-  e (tap-hold $tap-time $hold-time e lsft )
-  u (tap-hold $tap-time $hold-time u lctl )
-
-  h (tap-hold $tap-time $hold-time h rctl )
-  t (tap-hold $tap-time $hold-time t rsft )
-  n (tap-hold $tap-time $hold-time n ralt )
-  s (tap-hold $p-tap-time $p-hold-time s lmet)
 )
 
 ;; additional shifts(unused)
@@ -159,5 +127,5 @@
   ;;
   ;;spc (tap-hold-press $tap-time $hold-time spc lctl)
   ;; Left Meta as return an spc layer
-  lalt (tap-hold-release 200 200 ret @spc)
+  lret (tap-hold-release 200 200 ret @spc)
 )

@@ -4,10 +4,27 @@
 set -e
 
 REAL_USER="${SUDO_USER:-$USER}"
-USER_CONFIG="/home/$REAL_USER/.config/kanata/kanata-config.kbd"
 SYSTEM_CONFIG="/etc/kanata/kanata-config.kbd"
 SERVICE_PATH="/etc/systemd/system/kanata.service"
 UDEV_RULES="/etc/udev/rules.d/99-input.rules"
+
+# Try to locate user config dynamically
+USER_CONFIG=""
+
+# 1. Check for kanata-config.kbd in the current directory
+if [ -f "./kanata-config.kbd" ]; then
+    USER_CONFIG="$(pwd)/kanata-config.kbd"
+    echo "Using config from current directory: $USER_CONFIG"
+# 2. Fall back to the directory of the executed script
+elif [ -f "$(dirname "$0")/kanata-config.kbd" ]; then
+    USER_CONFIG="$(dirname "$0")/kanata-config.kbd"
+    echo "Using config from script directory: $USER_CONFIG"
+# 3. Fall back to the standard .config location
+elif [ -f "/home/$REAL_USER/.config/kanata/kanata-config.kbd" ]; then
+    USER_CONFIG="/home/$REAL_USER/.config/kanata/kanata-config.kbd"
+    echo "Using config from standard .config location: $USER_CONFIG"
+fi
+
 
 echo "Setting up groups and permissions..."
 groupadd --system uinput || true
@@ -100,5 +117,7 @@ systemctl enable kanata.service
 systemctl restart kanata.service
 
 echo "Done."
+
+sleep 1
 
 systemctl status kanata.service
