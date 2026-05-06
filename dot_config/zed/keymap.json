@@ -270,60 +270,60 @@
   {
     "context": "GitPanel && ChangesList",
     "bindings": {
-      // (dvp Dvorak)
+      // (Dvorak)
       "t": "git_panel::NextEntry",
       "n": "git_panel::PreviousEntry",
     },
   },
-  // These are Alt + 1/2/3/4 for terminal and project (dvp Dvorak)
+  // These are Alt + 1/2/3/4 for terminal and project
   {
     "context": "Pane",
     "bindings": {
-      "alt-+": "project_panel::ToggleFocus",
+      "ctrl-1": "project_panel::ToggleFocus",
     },
   },
   {
     "context": "Workspace",
     "bindings": {
-      "alt-+": "project_panel::ToggleFocus",
+      "ctrl-1": "project_panel::ToggleFocus",
     },
   },
   {
     "context": "ProjectPanel",
     "bindings": {
-      "alt-+": "workspace::CloseActiveDock",
+      "ctrl-1": "workspace::CloseActiveDock",
     },
   },
   {
     "context": "Workspace",
     "bindings": {
-      "alt-{": "terminal_panel::Toggle",
+      "ctrl-2": "terminal_panel::Toggle",
     },
   },
   // for git
   {
     "context": "Workspace",
     "bindings": {
-      "alt-[": "git_panel::ToggleFocus",
+      "ctrl-3": "git_panel::ToggleFocus",
     },
   },
   {
     "context": "GitPanel",
     "bindings": {
-      "alt-[": "workspace::CloseActiveDock",
+      "ctrl-3": "workspace::CloseActiveDock",
     },
   },
   // for agent panel
   {
     "context": "Workspace",
     "bindings": {
-      "alt-(": "agent::ToggleFocus",
+      "ctrl-4": "agent::ToggleFocus",
     },
   },
   {
     "context": "AcpThread",
     "bindings": {
-      "alt-(": "workspace::CloseActiveDock",
+      "ctrl-4": "workspace::CloseActiveDock",
     },
   },
   // {
@@ -392,6 +392,13 @@
   },
   {
     "context": "CommitEditor > Editor",
+    "bindings": {
+      "shift-escape": "workspace::CloseActiveDock",
+    },
+  },
+  // for Project panel
+  {
+    "context": "ProjectPanel",
     "bindings": {
       "shift-escape": "workspace::CloseActiveDock",
     },
@@ -631,6 +638,111 @@
     "context": "Workspace",
     "bindings": {
       "alt-Space": "tab_switcher::Toggle"
+    }
+  },
+  // Scope Git push to avoid accidental pushes
+  {
+    "context": "Editor && !GitPanel",
+    "unbind": {
+      "ctrl-shift-k": "git::Push"
+    }
+  },
+  // Remove default keybind
+  {
+    "context": "Editor",
+    "unbind": {
+      "ctrl-shift-k": "editor::DeleteLine"
+    }
+  },
+  // {
+  //   "context": "GitPanel || ChangesList || CommitEditor",
+  //   "bindings": {
+  //     "ctrl-shift-k": "git::Push"
+  //   }
+  // },
+  {
+    "context": "GitPanel",
+    "bindings": {
+      "ctrl-w z": "git::ExpandCommitEditor"
+    }
+  },
+  // Unbind all Ctl + number functionality
+  {
+    "context": "ImageViewer",
+    "unbind": {
+      "ctrl-1": "image_viewer::ZoomToActualSize"
+    }
+  },
+  {
+    "context": "SettingsWindow",
+    "unbind": {
+      "ctrl-1": [
+        "settings_editor::FocusFile",
+        0
+      ]
+    }
+  },
+  {
+    "context": "Welcome",
+    "unbind": {
+      "ctrl-1": [
+        "welcome::OpenRecentProject",
+        0
+      ]
+    }
+  },
+  {
+    "context": "SettingsWindow",
+    "unbind": {
+      "ctrl-2": [
+        "settings_editor::FocusFile",
+        1
+      ]
+    }
+  },
+  {
+    "context": "Welcome",
+    "unbind": {
+      "ctrl-2": [
+        "welcome::OpenRecentProject",
+        1
+      ]
+    }
+  },
+  {
+    "context": "SettingsWindow",
+    "unbind": {
+      "ctrl-3": [
+        "settings_editor::FocusFile",
+        2
+      ]
+    }
+  },
+  {
+    "context": "Welcome",
+    "unbind": {
+      "ctrl-3": [
+        "welcome::OpenRecentProject",
+        2
+      ]
+    }
+  },
+  {
+    "context": "SettingsWindow",
+    "unbind": {
+      "ctrl-4": [
+        "settings_editor::FocusFile",
+        3
+      ]
+    }
+  },
+  {
+    "context": "Welcome",
+    "unbind": {
+      "ctrl-4": [
+        "welcome::OpenRecentProject",
+        3
+      ]
     }
   }
 ]

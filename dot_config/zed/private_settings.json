@@ -85,6 +85,11 @@
   },
   "agent_servers": {
     "claude-acp": {
+      "favorite_config_option_values": {
+        "effort": [
+          "medium"
+        ]
+      },
       "type": "registry",
     },
   },
