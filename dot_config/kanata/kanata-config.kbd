@@ -8,7 +8,6 @@
   process-unmapped-keys yes
 )
 
-
 (defsrc
   esc
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
@@ -18,13 +17,74 @@
   lctl lmet lalt           spc            ralt rctl
 )
 
+(defoverridesv2
+  ;; Guide:
+  ;; lctl+a will become lalt+9
+  ;; except when lsft is held or other-layer is active.
+  ;; (lctl a) (lalt 9) (lsft) (other-layer)
+
+  ;; Real Prog Dvorak overides
+  ;; NOTE: remaps are for normal dvorak layot -> dvp
+  (`) (lsft 4) () ()                    ;; $
+  (lsft `) (lsft `) () ()               ;; ~
+
+  ;; Use normal numbers when using mods
+  ;; This may create some confusion in the keybind definiton
+  (1) (lsft =) (lalt lmet lsft lctl) () ;; +
+  (lsft 1) (1) (lalt lmet lctl) ()
+
+  (2) (lsft [) (lalt lmet lsft lctl) () ;; {
+  (lsft 2) (2) (lalt lmet lctl) ()
+
+  (3)      ([) (lalt lmet lsft lctl) () ;; [
+  (lsft 3) (3) (lalt lmet lctl) ()
+
+  (4) (lsft 9) (lalt lmet lsft lctl) () ;; (
+  (lsft 4) (4) (lalt lmet lctl) ()
+
+  (5) (lsft 7) (lalt lmet lsft lctl) () ;; &
+  (lsft 5) (5) (lalt lmet lctl) ()
+
+  (6) (lsft \) (lalt lmet lsft lctl) () ;; |
+  (lsft 6) (6) (lalt lmet lctl) ()
+
+  (7) (lsft 0) (lalt lmet lsft lctl) () ;; )
+  (lsft 7) (7) (lalt lmet lctl) ()
+
+  (8)      (]) (lalt lmet lsft lctl) () ;; ]
+  (lsft 8) (8) (lalt lmet lctl) ()
+
+  (9) (lsft ]) (lalt lmet lsft lctl) () ;; }
+  (lsft 9) (9) (lalt lmet lctl) ()
+
+  (0) (lsft 8) (lalt lmet lsft lctl) () ;; *
+  (lsft 0) (0) (lalt lmet lctl) ()
+
+  ;; [ { into exclam %
+  ([) (lsft 1) () ()
+  (lsft [) (lsft 5) () ()
+
+  ;; ] } into = `
+  (]) (=) () ()
+  (lsft ]) (`) () ()
+
+  ;; / ? into / ?
+
+  ;; = + into @ ^
+  (=) (lsft 2) () ()
+  (lsft =) (lsft 6) () ()
+
+  ;; \ | into \ #
+  (lsft \) (lsft 3) () ()
+)
+
 (defalias
   ;; toggle layer aliases
   vim (layer-toggle vimmode)
-
-  spc (layer-toggle special)
+  num (layer-toggle num-pad)
 
   gar (tap-hold-release 200 200 i @vim)
+  nur (tap-hold-release 200 200 n @num)
 
   ;; layer setup
   lay (layer-toggle layers)
@@ -35,6 +95,16 @@
   qwr (layer-switch qwerty)
   nmd (layer-switch no-mods)
   dvr (layer-switch dvorak)
+
+  ;; shifted keys
+  { S-[
+  } S-]
+  lbr S-9
+  rbr S-0
+  : S-;
+  % S-5
+  * S-8
+  $ S-4
 )
 
 (defvar
@@ -49,14 +119,16 @@
   ;; hold-time 176
 )
 
+;; return removed temporarily to learn faster
+;; slide left keys to shift
 ;; base layer
 (deflayer dvorak
   caps
   @grl 1    2    3    4    5    6    7    8    9    0    [    ]    bspc
   tab  ;    ,    .    p    y    f    g    c    r    l    /    =    \
-  esc  @a   @o  @e    @u  @gar  d    @h   @t   @n   @s   -    ret
+  esc  @a   @o  @e    @u   @gar d    @h   @t   @n   @s   -    XX
   lsft '    q    j    k    x    b    m    w    v    z    rsft
-  lctl lmet lalt           spc            @ralt  rctl
+  lctl lmet @lalt           spc            @ralt  rctl
 )
 
 ;; qwerty layer
@@ -87,18 +159,18 @@
   _    _    _    _    _    _    _    home pgdn pgup C-tab _   _    _
   esc  _    _   lsft lctl  _    _    left down up   rght  _   ret
   lsft _    _    _    _    _  C-left  _  C-rght _   _     _
-  lctl _    _              _              _    _
+  lctl _    _              _               _    _
 )
 
-;; special layer in the making
-(deflayer special
+(deflayer num-pad
   _
   f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  _    _
-  _    1    2    3    4    5    6    7    8    9    0    _    _    _
-  _    a    a    p    ]    _    _    4    5    6    +    =    _
-  _    \    a    {    }    _    _    1    2    3    a    _
-  _    _    _              0              _    _
+  _    _    _    _    _    _    _    S-7  S-8  S-9  S-0  _    _    _
+  _    _    _    _    _    _    _    S-4  S-5  S-6  _    _    _
+  _    _    _    _    _    _    _    S-1  S-2  S-3  _    _
+  _    _    _              _              _    _
 )
+
 
 ;; no homerow mods for gaming
 (deflayer no-mods-qwerty
@@ -107,7 +179,7 @@
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
   esc  a    s    d    f    g    h    j    k    l    ;    '    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft
-  lctl lalt lmet           spc            @ralt  rctl
+  lctl lmet @lalt           spc            @ralt  rctl
 )
 
 (deflayer no-mods
@@ -127,9 +199,9 @@
   d (tap-hold $tap-time $hold-time d lsft )
   f (tap-hold $tap-time $hold-time f lctl )
 
-  j (tap-hold $tap-time $hold-time j rctl )
-  k (tap-hold $tap-time $hold-time k rsft )
-  l (tap-hold $tap-time $hold-time l ralt )
+  j (tap-hold $tap-time $hold-time j lctl )
+  k (tap-hold $tap-time $hold-time k lsft )
+  l (tap-hold $tap-time $hold-time l lalt )
   ; (tap-hold $p-tap-time $p-hold-time ; lmet)
 )
 
@@ -139,9 +211,9 @@
   e (tap-hold $tap-time $hold-time e lsft )
   u (tap-hold $tap-time $hold-time u lctl )
 
-  h (tap-hold $tap-time $hold-time h rctl )
-  t (tap-hold $tap-time $hold-time t rsft )
-  n (tap-hold $tap-time $hold-time n ralt )
+  h (tap-hold $tap-time $hold-time h lctl )
+  t (tap-hold $tap-time $hold-time t lsft )
+  n (tap-hold $tap-time $hold-time n lalt )
   s (tap-hold $p-tap-time $p-hold-time s lmet)
 )
 
@@ -155,9 +227,9 @@
 ;; thumb keys with more functionality
 (defalias
   ;; Right alt as backspace and shift
-  ralt (tap-hold-press $tap-time $hold-time bspc rsft)
+  ralt (tap-hold-press $tap-time $hold-time bspc lsft)
   ;;
   ;;spc (tap-hold-press $tap-time $hold-time spc lctl)
-  ;; Left Meta as return an spc layer
-  lalt (tap-hold-release 200 200 ret @spc)
+  ;; Left Meta as return and shift
+  lalt (tap-hold-release 200 200 ret lsft)
 )
