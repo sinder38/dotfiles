@@ -126,7 +126,7 @@
   caps
   @grl 1    2    3    4    5    6    7    8    9    0    [    ]    bspc
   tab  ;    ,    .    p    y    f    g    c    r    l    /    =    \
-  esc  @a   @o  @e    @u   @gar d    @h   @t   @n   @s   -    XX
+  esc  @a   @o  @e    @u   @gar d    @h   @t   @n   @s   -    ret
   lsft '    q    j    k    x    b    m    w    v    z    rsft
   lctl lmet @lalt           spc            @ralt  rctl
 )
