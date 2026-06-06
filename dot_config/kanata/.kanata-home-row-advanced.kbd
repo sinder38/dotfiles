@@ -1,67 +1,248 @@
-
-;; Home row mods QWERTY example with more complexity.
-;; Some of the changes from the basic example:
-;; - when a home row mod activates tap, the home row mods are disabled
-;;   while continuing to type rapidly
-;; - tap-hold-release helps make the hold action more responsive
-;; - pressing another key on the same half of the keyboard
-;;   as the home row mod will activate an early tap action
+;;TODO:
+;; experiment with leader key (sldr)
+;; expand Vim layer
+;; move your layout to kanata
+;; tryout swapping meta to a layer
 
 (defcfg
   process-unmapped-keys yes
+  tap-hold-require-prior-idle 150
 )
+
+(defhands
+  (left  q w e r t a s d f g z x c v b)
+  (right y u i o p h j k l ; n m , . /))
+
 (defsrc
-  bspc
-  a   s   d   f   j   k   l   ;
- lmet lalt ralt rctl
+  esc
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc            ralt rctl
+)
+
+(defoverridesv2
+  ;; Guide:
+  ;; lctl+a will become lalt+9
+  ;; except when lsft is held or other-layer is active.
+  ;; (lctl a) (lalt 9) (lsft) (other-layer)
+
+  ;; Real Prog Dvorak overides
+  ;; NOTE: remaps are for normal dvorak layot -> dvp
+  (`) (lsft 4) () ()                    ;; $
+  (lsft `) (lsft `) () ()               ;; ~
+
+  ;; Use normal numbers when using mods
+  ;; This may create some confusion in the keybind definiton
+  (1) (lsft =) (lalt lmet lsft lctl) () ;; +
+  (lsft 1) (1) (lalt lmet lctl) ()
+
+  (2) (lsft [) (lalt lmet lsft lctl) () ;; {
+  (lsft 2) (2) (lalt lmet lctl) ()
+
+  (3)      ([) (lalt lmet lsft lctl) () ;; [
+  (lsft 3) (3) (lalt lmet lctl) ()
+
+  (4) (lsft 9) (lalt lmet lsft lctl) () ;; (
+  (lsft 4) (4) (lalt lmet lctl) ()
+
+  (5) (lsft 7) (lalt lmet lsft lctl) () ;; &
+  (lsft 5) (5) (lalt lmet lctl) ()
+
+  (6) (lsft \) (lalt lmet lsft lctl) () ;; |
+  (lsft 6) (6) (lalt lmet lctl) ()
+
+  (7) (lsft 0) (lalt lmet lsft lctl) () ;; )
+  (lsft 7) (7) (lalt lmet lctl) ()
+
+  (8)      (]) (lalt lmet lsft lctl) () ;; ]
+  (lsft 8) (8) (lalt lmet lctl) ()
+
+  (9) (lsft ]) (lalt lmet lsft lctl) () ;; }
+  (lsft 9) (9) (lalt lmet lctl) ()
+
+  (0) (lsft 8) (lalt lmet lsft lctl) () ;; *
+  (lsft 0) (0) (lalt lmet lctl) ()
+
+  ;; [ { into exclam %
+  ([) (lsft 1) () ()
+  (lsft [) (lsft 5) () ()
+
+  ;; ] } into = `
+  (]) (=) () ()
+  (lsft ]) (`) () ()
+
+  ;; / ? into / ?
+
+  ;; = + into @ ^
+  (=) (lsft 2) () ()
+  (lsft =) (lsft 6) () ()
+
+  ;; \ | into \ #
+  (lsft \) (lsft 3) () ()
+)
+
+(defalias
+  ;; toggle layer aliases
+  vim (layer-toggle vimmode)
+  num (layer-toggle num-pad)
+
+  gar (tap-hold-release 200 200 i @vim)
+  nur (tap-hold-release 200 200 n @num)
+
+  ;; layer setup
+  lay (layer-toggle layers)
+  grl (tap-hold-release 200 200 grv @lay)
+
+
+  ;; change the base layer  for no homerow mods
+  qwr (layer-switch qwerty)
+  nmd (layer-switch no-mods)
+  dvr (layer-switch dvorak)
+
+  ;; shifted keys
+  { S-[
+  } S-]
+  lbr S-9
+  rbr S-0
+  : S-;
+  % S-5
+  * S-8
+  $ S-4
+
+
 )
 
 (defvar
   ;; Note: consider using different time values for your different fingers.
   ;; For example, your pinkies might be slower to release keys and index
   ;; fingers faster.
+  p-tap-time 200
+  p-hold-time 200
   tap-time 200
-  hold-time 150
-
-  left-hand-keys (
-    q w e r t
-    a s d f g
-    z x c v b
-  )
-  right-hand-keys (
-    y u i o p
-    h j k l ;
-    n m , . /
-  )
+  hold-time 200
+  ;; tap-time 120
+  ;; hold-time 176
 )
 
-(deflayer base
-  bspc
-  @a  @s  @d  @f  @j  @k  @l  @;
-  lalt lmet bspc rctl 
+;; (defhands
+;;  (left ; , . p y a o e u i ' q j k x)
+;;  (right f g c r l d h t n s b m w v z)
+;;)
+
+;; return removed temporarily to learn faster
+;; slide left keys to shift
+;; base layer
+(deflayer dvorak
+  caps
+  @grl 1    2    3    4    5    6    7    8    9    0    [    ]    bspc
+  tab  ;    ,    .    p    y    f    g    c    r    l    /    =    \
+  esc  @a   @o  @e    @u   @gar d    @h   @t   @n   @s   -    ret
+  lsft '    q    j    k    x    b    m    w    v    z    rsft
+  lctl lmet @lalt           spc            @ralt  rctl
 )
 
-(deflayer nomods
-  bspc
-  a   s   d   f   j   k   l   ;
-  lalt lmet bspc rctl
+;; qwerty layer
+(deflayer qwerty
+  caps
+  @grl 1    2    3    4    5    6    7    8    9    0    -   =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  esc  a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet @lalt           spc            @ralt  rctl
 )
-(deffakekeys
-  to-base (layer-switch base)
+
+;; Layers switcher
+(deflayer layers
+  _
+  _    @nmd @dvr @qwr lrld _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _              _              _    _
 )
+
+
+;; Vim-like commands
+(deflayer vimmode
+  caps
+  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  _    _
+  _    _    _    _    _    _    _    home pgdn pgup C-tab _   _    _
+  esc  _    _   lsft lctl  _    _    left down up   rght  _   ret
+  lsft _    _    _    _    _  C-left  _  C-rght _   _     _
+  lctl _    _              _               _    _
+)
+
+(deflayer num-pad
+  _
+  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  _    _
+  _    _    _    _    _    _    _    S-7  S-8  S-9  S-0  _    _    _
+  _    _    _    _    _    _    _    S-4  S-5  S-6  _    _    _
+  _    _    _    _    _    _    _    S-1  S-2  S-3  _    _
+  _    _    _              _              _    _
+)
+
+
+;; no homerow mods for gaming
+(deflayer no-mods-qwerty
+  caps
+  @grl 1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  esc  a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet @lalt           spc            @ralt  rctl
+)
+
+(deflayer no-mods
+  caps
+  @grl 1    2    3    4    5    6    7    8    9    0    [    ]    bspc
+  tab  ;    ,    .    p    y    f    g    c    r    l    /    =    \
+  esc   a   o    e    u    i    d    h    t    n    s    -    ret
+  lsft '    q    j    k    x    b    m    w    v    z    rsft
+  lctl lmet @lalt           spc            @ralt  rctl
+)
+
+
+
+;; normal homerowmods
+;; (defalias
+;;  a (tap-hold $p-tap-time $p-hold-time a lmet )
+;;  o (tap-hold $tap-time $hold-time o lalt )
+;;  e (tap-hold $tap-time $hold-time e lsft )
+;;  u (tap-hold $tap-time $hold-time u lctl )
+;;
+;;  h (tap-hold $tap-time $hold-time h lctl )
+;;  t (tap-hold $tap-time $hold-time t lsft )
+;;  n (tap-hold $tap-time $hold-time n lalt )
+;;  s (tap-hold $p-tap-time $p-hold-time s lmet)
+;; )
+
+;; homerow mods with disabling on tap
 (defalias
-  tap (multi
-    (layer-switch nomods)
-    (on-idle-fakekey to-base tap 20)
-  )
+  a (tap-hold-opposite-hand 150 a lmet)
+  o (tap-hold-opposite-hand 150 o lalt)
+  e (tap-hold-opposite-hand 150 e lctl)
+  u (tap-hold-opposite-hand 150 u lsft)
+  h (tap-hold-opposite-hand 150 t lsft)
+  t (tap-hold-opposite-hand 150 t lctl)
+  n (tap-hold-opposite-hand 150 n lalt)
+  s (tap-hold-opposite-hand 150 s lmet)
+)
 
-  a (tap-hold-release-keys $tap-time $hold-time (multi a @tap) lmet $left-hand-keys)
-  s (tap-hold-release-keys $tap-time $hold-time (multi s @tap) lalt $left-hand-keys)
-  d (tap-hold-release-keys $tap-time $hold-time (multi d @tap) lsft $left-hand-keys)
-  f (tap-hold-release-keys $tap-time $hold-time (multi f @tap) lctl $left-hand-keys)
+;; additional shifts(unused)
+;;(defalias
+;;  esc (tap-hold-press $tap-time $hold-time esc lsft)
+;;  '  (tap-hold-press $tap-time $hold-time ' lsft)
+;;)
 
-  j (tap-hold-release-keys $tap-time $hold-time (multi j @tap) rctl $right-hand-keys)
-  k (tap-hold-release-keys $tap-time $hold-time (multi k @tap) rsft $right-hand-keys)
-  l (tap-hold-release-keys $tap-time $hold-time (multi l @tap) ralt $right-hand-keys)
-  ; (tap-hold-release-keys $tap-time $hold-time (multi ; @tap) rmet $right-hand-keys)
+
+;; thumb keys with more functionality
+(defalias
+  ;; Right alt as backspace and shift
+  ralt (tap-hold-press $tap-time $hold-time bspc lsft)
+  ;;
+  ;;spc (tap-hold-press $tap-time $hold-time spc lctl)
+  ;; Left Meta as return and shift
+  lalt (tap-hold-press 200 200 ret lsft)
 )

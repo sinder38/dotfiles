@@ -1,6 +1,7 @@
 [user]
 	name = sinder
     email = smirnov.sinder@gmail.com
+	signingkey = Smirnov
 
 [alias]
     recent = for-each-ref --format='%(refname:short) %(committerdate:relative) %(subject)' refs/heads/ --sort=-committerdate
@@ -23,3 +24,5 @@
 	autoSetupRemote = true
 [credential]
 	helper = store
+[commit]
+	gpgsign = true

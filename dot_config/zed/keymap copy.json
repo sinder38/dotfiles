@@ -7,7 +7,6 @@
 [
   //TODO: Ctrl-W + o
   // to focus on specific panel
-  //TODO: there are other TODOs down the line
   //TODO: focus on editor
   //TODO: focus on editor and close all other panel
   //TODO: https://github.com/zed-industries/zed/pull/47331
@@ -209,7 +208,7 @@
       "v": "project_panel::OpenSplitVertical",
       "o": "project_panel::OpenSplitHorizontal",
       // "p": "project_panel::Open",
-      // "j": "project_panel::RevealInFileManager",
+      "j": "project_panel::RevealInFileManager",
       // "x": "project_panel::RevealInFileManager",
       "z d": "project_panel::CompareMarkedFiles",
       "] c": "project_panel::SelectNextGitEntry",
@@ -709,15 +708,6 @@
     }
   },
   {
-    "context": "SettingsWindow",
-    "unbind": {
-      "ctrl-2": [
-        "settings_editor::FocusFile",
-        1
-      ]
-    }
-  },
-  {
     "context": "Welcome",
     "unbind": {
       "ctrl-2": [
@@ -788,202 +778,10 @@
     }
   },
   // Full Vim Dvorak rebind
-  // Swap T and J movement functinality
-  // TODO: There is still Ctrl-J and Ctrl-T conflict
-  {
-    "context": "ThreadsSidebar > Editor && VimControl && vim_mode == normal",
-    "bindings": {
-      "t": "editor::MoveDown"
-    }
-  },
-  {
-    "context": "ThreadsSidebar > Editor && VimControl && vim_mode == normal",
-    "unbind": {
-      "j": "editor::MoveDown"
-    }
-  },
-  {
-    "context": "GitPanel && ChangesList && !GitBranchSelector",
-    "bindings": {
-      "t": "menu::SelectNext"
-    }
-  },
-  {
-    "context": "GitPanel && ChangesList && !GitBranchSelector",
-    "unbind": {
-      "j": "menu::SelectNext"
-    }
-  },
-  {
-    "context": "FileHistoryView",
-    "bindings": {
-      "t": "menu::SelectNext"
-    }
-  },
-  {
-    "context": "FileHistoryView",
-    "unbind": {
-      "j": "menu::SelectNext"
-    }
-  },
-  {
-    "context": "NotebookEditor && notebook_mode == command",
-    "bindings": {
-      "t": "menu::SelectNext"
-    }
-  },
-  {
-    "context": "NotebookEditor && notebook_mode == command",
-    "unbind": {
-      "j": "menu::SelectNext"
-    }
-  },
-  {
-    "context": "ThreadsSidebar && !Editor",
-    "bindings": {
-      "t": "menu::SelectNext"
-    }
-  },
-  {
-    "context": "ThreadsSidebar && !Editor",
-    "unbind": {
-      "j": "menu::SelectNext"
-    }
-  },
-  {
-    "context": "NotebookEditor > Editor && VimControl && vim_mode == normal",
-    "bindings": {
-      "t": "notebook::NotebookMoveDown"
-    }
-  },
-  {
-    "context": "NotebookEditor > Editor && VimControl && vim_mode == normal",
-    "unbind": {
-      "j": "notebook::NotebookMoveDown"
-    }
-  },
-  {
-    "context": "SettingsWindow > NavigationMenu && !search",
-    "bindings": {
-      "t": "settings_editor::FocusNextNavEntry"
-    }
-  },
-  {
-    "context": "SettingsWindow > NavigationMenu && !search",
-    "unbind": {
-      "j": "settings_editor::FocusNextNavEntry"
-    }
-  },
-  {
-    "context": "VimControl && vim_mode == helix_normal && !menu && !BufferSearchBar",
-    "bindings": {
-      "t": [
-        "vim::Down",
-        {
-          "display_lines": true
-        }
-      ]
-    }
-  },
-  {
-    "context": "VimControl && vim_mode == helix_normal && !menu && !BufferSearchBar",
-    "unbind": {
-      "j": [
-        "vim::Down",
-        {
-          "display_lines": true
-        }
-      ]
-    }
-  },
-  {
-    "context": "OutlinePanel && not_editing",
-    "bindings": {
-      "t": "vim::MenuSelectNext"
-    }
-  },
-  {
-    "context": "OutlinePanel && not_editing",
-    "unbind": {
-      "j": "vim::MenuSelectNext"
-    }
-  },
-  {
-    "context": "GitGraph && !GitGraphSearchBar",
-    "bindings": {
-      "t": "vim::MenuSelectNext"
-    }
-  },
-  {
-    "context": "GitGraph && !GitGraphSearchBar",
-    "unbind": {
-      "j": "vim::MenuSelectNext"
-    }
-  },
-  {
-    "context": "VimControl && !menu",
-    "unbind": {
-      "j": "vim::Down"
-    }
-  },
-  {
-    "context": "VimControl && !menu",
-    "bindings": {
-      "t": "vim::Down"
-    }
-  },
   {
     "context": "(vim_mode == helix_normal || vim_mode == helix_select) && !menu",
     "bindings": {
-      "shift-j": [
-        "vim::PushFindBackward",
-        {
-          "after": true,
-          "multiline": true
-        }
-      ]
-    }
-  },
-  {
-    "context": "(vim_mode == helix_normal || vim_mode == helix_select) && !menu",
-    "unbind": {
-      "shift-t": [
-        "vim::PushFindBackward",
-        {
-          "after": true,
-          "multiline": true
-        }
-      ]
-    }
-  },
-  {
-    "context": "VimControl && !menu",
-    "unbind": {
-      "shift-t": [
-        "vim::PushFindBackward",
-        {
-          "after": true,
-          "multiline": false
-        }
-      ]
-    }
-  },
-  {
-    "context": "VimControl && !menu",
-    "bindings": {
-      "shift-j": [
-        "vim::PushFindBackward",
-        {
-          "after": true,
-          "multiline": false
-        }
-      ]
-    }
-  },
-  {
-    "context": "(vim_mode == helix_normal || vim_mode == helix_select) && !menu",
-    "bindings": {
-      "j": [
+      "k": [
         "vim::PushFindForward",
         {
           "before": true,
@@ -993,296 +791,25 @@
     }
   },
   {
-    "context": "(vim_mode == helix_normal || vim_mode == helix_select) && !menu",
-    "unbind": {
-      "t": [
-        "vim::PushFindForward",
-        {
-          "before": true,
-          "multiline": true
-        }
-      ]
-    }
-  },
-  {
-    "context": "VimControl && !menu",
-    "unbind": {
-      "ctrl-j": "vim::Down"
-    }
-  },
-  {
-    "context": "Editor",
+    "context": "ThreadsSidebar > Editor && VimControl && vim_mode == normal",
     "bindings": {
-      "alt-t": [
-        "editor::SelectNext",
-        {
-          "replace_newest": false
-        }
-      ]
+      "t": "editor::MoveUp"
     }
   },
   {
-    "context": "Editor",
+    "context": "ThreadsSidebar > Editor && VimControl && vim_mode == normal",
     "unbind": {
-      "alt-j": [
-        "editor::SelectNext",
-        {
-          "replace_newest": false
-        }
-      ]
+      "k": "editor::MoveUp"
     }
   },
   {
-    "context": "Editor",
+    "context": "GitPanel && ChangesList && !GitBranchSelector",
     "bindings": {
-      "alt-shift-t": [
-        "editor::SelectPrevious",
-        {
-          "replace_newest": false
-        }
-      ]
+      "t": "menu::SelectPrevious"
     }
   },
   {
-    "context": "Editor",
-    "unbind": {
-      "alt-shift-j": [
-        "editor::SelectPrevious",
-        {
-          "replace_newest": false
-        }
-      ]
-    }
-  },
-  {
-    "context": "Editor && edit_prediction",
-    "bindings": {
-      "alt-t": "editor::AcceptNextLineEditPrediction"
-    }
-  },
-  {
-    "context": "Editor && edit_prediction",
-    "unbind": {
-      "alt-j": "editor::AcceptNextLineEditPrediction"
-    }
-  },
-  {
-    "context": "FileFinder || FileFinder > Picker > Editor || FileFinder > Picker > menu",
-    "bindings": {
-      "ctrl-t": "pane::SplitDown"
-    }
-  },
-  {
-    "context": "FileFinder || FileFinder > Picker > Editor || FileFinder > Picker > menu",
-    "unbind": {
-      "ctrl-j": "pane::SplitDown"
-    }
-  },
-  {
-    "context": "(vim_mode == helix_normal || vim_mode == helix_select) && !menu",
-    "bindings": {
-      "space w t": "workspace::ActivatePaneDown"
-    }
-  },
-  {
-    "context": "(vim_mode == helix_normal || vim_mode == helix_select) && !menu",
-    "unbind": {
-      "space w j": "workspace::ActivatePaneDown"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "bindings": {
-      "ctrl-w ctrl-t": "workspace::ActivatePaneDown"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "unbind": {
-      "ctrl-w ctrl-j": "workspace::ActivatePaneDown"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "bindings": {
-      "ctrl-w t": "workspace::ActivatePaneDown"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "unbind": {
-      "ctrl-w j": "workspace::ActivatePaneDown"
-    }
-  },
-  {
-    "context": "!Editor && !Terminal",
-    "bindings": {
-      "space w t": "workspace::ActivatePaneDown"
-    }
-  },
-  {
-    "context": "!Editor && !Terminal",
-    "unbind": {
-      "space w j": "workspace::ActivatePaneDown"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "bindings": {
-      "ctrl-w shift-t": "workspace::MovePaneDown"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "unbind": {
-      "ctrl-w shift-j": "workspace::MovePaneDown"
-    }
-  },
-  {
-    "context": "ProjectPanel && not_editing",
-    "unbind": {
-      "j": "vim::MenuSelectNext"
-    }
-  },
-  {
-    "context": "ProjectPanel && not_editing",
-    "bindings": {
-      "t": "vim::MenuSelectNext"
-    }
-  },
-  {
-    "context": "VimControl && !menu",
-    "bindings": {
-      "g t": [
-        "vim::Down",
-        {
-          "display_lines": true
-        }
-      ]
-    }
-  },
-  {
-    "context": "VimControl && !menu",
-    "unbind": {
-      "g j": [
-        "vim::Down",
-        {
-          "display_lines": true
-        }
-      ]
-    }
-  },
-  {
-    "context": "VimControl && vim_mode == helix_normal && !menu && !BufferSearchBar",
-    "bindings": {
-      "g t": "vim::Down"
-    }
-  },
-  {
-    "context": "VimControl && vim_mode == helix_normal && !menu && !BufferSearchBar",
-    "unbind": {
-      "g j": "vim::Down"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "bindings": {
-      "g shift-j": "vim::GoToPreviousTab"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "unbind": {
-      "g shift-t": "vim::GoToPreviousTab"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "bindings": {
-      "g j": "vim::GoToTab"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "unbind": {
-      "g t": "vim::GoToTab"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "bindings": {
-      "ctrl-w g j": "pane::ActivateNextItem"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "unbind": {
-      "ctrl-w g t": "pane::ActivateNextItem"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "bindings": {
-      "ctrl-w ctrl-g j": "pane::ActivateNextItem"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "unbind": {
-      "ctrl-w ctrl-g t": "pane::ActivateNextItem"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "bindings": {
-      "ctrl-w g shift-j": "pane::ActivatePreviousItem"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "bindings": {
-      "ctrl-w ctrl-g shift-j": "pane::ActivatePreviousItem"
-    }
-  },
-  {
-    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
-    "unbind": {
-      "ctrl-w ctrl-g shift-t": "pane::ActivatePreviousItem"
-    }
-  },
-  // Space + f + f is for file finder
-  {
-    "context": "!Editor && !Terminal",
-    "unbind": {
-      "space f": "file_finder::Toggle"
-    }
-  },
-  {
-    "context": "(vim_mode == helix_normal || vim_mode == helix_select) && !menu",
-    "unbind": {
-      "space f": "file_finder::Toggle"
-    }
-  },
-  {
-    "context": "ThreadsSidebar && !Editor",
-    "bindings": {
-      "n": "menu::SelectPrevious"
-    }
-  },
-  {
-    "context": "ThreadsSidebar && !Editor",
-    "unbind": {
-      "k": "menu::SelectPrevious"
-    }
-  },
-  {
-    "context": "NotebookEditor && notebook_mode == command",
-    "bindings": {
-      "n": "menu::SelectPrevious"
-    }
-  },
-  {
-    "context": "NotebookEditor && notebook_mode == command",
+    "context": "GitPanel && ChangesList && !GitBranchSelector",
     "unbind": {
       "k": "menu::SelectPrevious"
     }
@@ -1290,7 +817,7 @@
   {
     "context": "FileHistoryView",
     "bindings": {
-      "n": "menu::SelectPrevious"
+      "t": "menu::SelectPrevious"
     }
   },
   {
@@ -1300,129 +827,56 @@
     }
   },
   {
-    "context": "GitPanel && ChangesList && !GitBranchSelector",
+    "context": "NotebookEditor && notebook_mode == command",
     "bindings": {
-      "n": "menu::SelectPrevious"
+      "t": "menu::SelectPrevious"
     }
   },
   {
-    "context": "GitPanel && ChangesList && !GitBranchSelector",
+    "context": "NotebookEditor && notebook_mode == command",
     "unbind": {
       "k": "menu::SelectPrevious"
     }
   },
-  // Alt + 1 and Alt + 2 for git changes and history panel switching
   {
-    "context": "GitPanel",
+    "context": "ThreadsSidebar && !Editor",
     "bindings": {
-      "alt-1": "git_panel::ActivateChangesTab"
+      "t": "menu::SelectPrevious"
     }
   },
   {
-    "context": "GitPanel",
+    "context": "ThreadsSidebar && !Editor",
     "unbind": {
-      "ctrl-1": "git_panel::ActivateChangesTab"
+      "k": "menu::SelectPrevious"
     }
   },
   {
-    "context": "GitPanel",
+    "context": "NotebookEditor > Editor && VimControl && vim_mode == normal",
     "bindings": {
-      "alt-2": "git_panel::ActivateHistoryTab"
+      "t": "notebook::NotebookMoveUp"
     }
   },
   {
-    "context": "GitPanel",
+    "context": "NotebookEditor > Editor && VimControl && vim_mode == normal",
     "unbind": {
-      "ctrl-2": "git_panel::ActivateHistoryTab"
+      "k": "notebook::NotebookMoveUp"
     }
   },
   {
-    "context": "VimControl && !menu",
+    "context": "SettingsWindow > NavigationMenu && !search",
+    "bindings": {
+      "t": "settings_editor::FocusPreviousNavEntry"
+    }
+  },
+  {
+    "context": "SettingsWindow > NavigationMenu && !search",
     "unbind": {
-      "shift-tab": "vim::Tab"
+      "k": "settings_editor::FocusPreviousNavEntry"
     }
   },
-  // Bind recent projects to un-shifted number keys on my layout
   {
-    "context": "Welcome",
     "bindings": {
-      "+": [
-        "welcome::OpenRecentProject",
-        0
-      ]
+      "alt-d": "project_panel::Duplicate"
     }
-  },
-  {
-    "context": "Welcome",
-    "bindings": {
-      "{": [
-        "welcome::OpenRecentProject",
-        1
-      ]
-    }
-  },
-  {
-    "context": "Welcome",
-    "bindings": {
-      "[": [
-        "welcome::OpenRecentProject",
-        2
-      ]
-    }
-  },
-  {
-    "context": "Welcome",
-    "bindings": {
-      "(": [
-        "welcome::OpenRecentProject",
-        3
-      ]
-    }
-  },
-  {
-    "context": "Welcome",
-    "bindings": {
-      "&": [
-        "welcome::OpenRecentProject",
-        4
-      ]
-    }
-  },
-  // TODO: move to J T rebindings section
-  {
-    "context": "vim_mode == visual",
-    "bindings": {
-      "shift-t": "vim::JoinLines"
-    }
-  },
-  {
-    "context": "vim_mode == visual",
-    "unbind": {
-      "shift-j": "vim::JoinLines"
-    }
-  },
-  {
-    "context": "vim_mode == helix_select",
-    "bindings": {
-      "shift-t": "vim::JoinLines"
-    }
-  },
-  {
-    "context": "vim_mode == helix_select",
-    "unbind": {
-      "shift-j": "vim::JoinLines"
-    }
-  },
-  {
-    "context": "(vim_mode == normal || vim_mode == helix_normal) && !menu",
-    "bindings": {
-      "shift-t": "vim::JoinLines"
-    }
-  },
-  {
-    "context": "(vim_mode == normal || vim_mode == helix_normal) && !menu",
-    "unbind": {
-      "shift-j": "vim::JoinLines"
-    }
-  },
+  }
 ]

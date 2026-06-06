@@ -128,7 +128,7 @@
   tab  ;    ,    .    p    y    f    g    c    r    l    /    =    \
   esc  @a   @o  @e    @u   @gar d    @h   @t   @n   @s   -    ret
   lsft '    q    j    k    x    b    m    w    v    z    rsft
-  lctl lmet @lalt           spc            @ralt  rctl
+  lctl lmet @lalt           spc            @ralt  @rctl
 )
 
 ;; qwerty layer
@@ -138,7 +138,7 @@
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
   esc  @a   @s1  @d   @f   g    h    @j   @k   @l   @;    '    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft
-  lctl lmet @lalt           spc            @ralt  rctl
+  lctl lmet @lalt           spc            @ralt  @rctl
 )
 
 ;; Layers switcher
@@ -179,7 +179,7 @@
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
   esc  a    s    d    f    g    h    j    k    l    ;    '    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft
-  lctl lmet @lalt           spc            @ralt  rctl
+  lctl lmet @lalt           spc            @ralt  @rctl
 )
 
 (deflayer no-mods
@@ -188,7 +188,7 @@
   tab  ;    ,    .    p    y    f    g    c    r    l    /    =    \
   esc   a   o    e    u    i    d    h    t    n    s    -    ret
   lsft '    q    j    k    x    b    m    w    v    z    rsft
-  lctl lmet @lalt           spc            @ralt  rctl
+  lctl lmet @lalt           spc            @ralt  @rctl
 )
 
 
@@ -228,8 +228,16 @@
 (defalias
   ;; Right alt as backspace and shift
   ralt (tap-hold-press $tap-time $hold-time bspc lsft)
-  ;;
+
+  ;; ralt (tap-hold-press $tap-time $hold-time bspc lsft)
+
+  ;; ralt is only shift
+  ;;ralt lsft
+  ;;rctl is backspace
+  rctl bspc
+
   ;;spc (tap-hold-press $tap-time $hold-time spc lctl)
   ;; Left Meta as return and shift
+
   lalt (tap-hold-release 200 200 ret lsft)
 )
