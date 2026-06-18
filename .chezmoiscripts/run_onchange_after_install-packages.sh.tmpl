@@ -1,0 +1,22 @@
+#!/bin/bash
+# hash: {{ .pacman_packages | join "," }}-{{ .dnf_packages | join "," }}
+set -e
+
+# Arch
+if command -v pacman &>/dev/null; then
+    sudo pacman -S --noconfirm --needed {{ .pacman_packages | join " " }}
+
+    # Configure paccache to keep 1 installed version, 0 uninstalled
+    sudo mkdir -p /etc/systemd/system/paccache.service.d/
+    sudo tee /etc/systemd/system/paccache.service.d/keep-one.conf > /dev/null <<'EOF'
+[Service]
+ExecStart=
+ExecStart=/usr/bin/paccache -r -k 1 -uk 0
+EOF
+    sudo systemctl daemon-reload
+    sudo systemctl enable --now paccache.timer
+    sudo paccache -r -k 1 -uk 0
+# Fedora
+elif command -v dnf &>/dev/null; then
+    sudo dnf install -y {{ .dnf_packages | join " " }}
+fi

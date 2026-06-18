@@ -1,0 +1,44 @@
+pacman_packages:
+  - pacman-contrib # paccache for cache cleanup
+  - fish
+  - neovim
+  - lazygit
+  - github-cli
+  - bat
+  - eza
+  - ripgrep
+  - fd
+  - bottom
+  - zathura
+  - zathura-pdf-mupdf
+  - neomutt
+  - msmtp
+  - podman
+  - podman-compose
+  - glow
+  - kanata
+  - chezmoi
+  - gnupg
+  - pass
+  - mtr
+
+dnf_packages:
+  - fish
+  - neovim
+  - lazygit
+  - gh
+  - bat
+  - eza
+  - ripgrep
+  - fd-find
+  - zathura
+  - zathura-pdf-mupdf
+  - neomutt
+  - msmtp
+  - podman
+  - podman-compose
+  - glow
+  - chezmoi
+  - gnupg2
+  - pass
+  - mtr
