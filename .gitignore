@@ -1,9 +1,16 @@
 .*
 !.gitignore
 
+# Unignore chezmoi things
+!.chezmoidata
+!.chezmoiscripts
+
 # Mutt secrets
 dot_mutt/gmail
 dot_mutt/*.gpg
 
 # speech-dispatcher experiment
 dot_config/speech-dispatcher
+
+# add zed tasks
+!.zed
