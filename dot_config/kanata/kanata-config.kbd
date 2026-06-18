@@ -95,6 +95,7 @@
   qwr (layer-switch qwerty)
   nmd (layer-switch no-mods)
   dvr (layer-switch dvorak)
+  qnd (layer-switch no-mods-qwerty)
 
   ;; shifted keys
   { S-[
@@ -144,7 +145,7 @@
 ;; Layers switcher
 (deflayer layers
   _
-  _    @nmd @dvr @qwr lrld _    _    _    _    _    _    _    _    _
+  _    @dvr @nmd @qwr @qnd _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _
@@ -173,13 +174,14 @@
 
 
 ;; no homerow mods for gaming
+;; TEMP: i swapped met and alt with mouse keys
 (deflayer no-mods-qwerty
   caps
   @grl 1    2    3    4    5    6    7    8    9    0    -    =    bspc
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
   esc  a    s    d    f    g    h    j    k    l    ;    '    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft
-  lctl lmet @lalt           spc            @ralt  @rctl
+  lctl mrgt mlft           spc            @ralt  @rctl
 )
 
 (deflayer no-mods

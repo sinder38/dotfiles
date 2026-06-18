@@ -4,6 +4,7 @@
   // To see all of Zed's default settings without changing your
   // custom settings, run `zed: open default settings` from the
   // command palette (cmd-shift-p / ctrl-shift-p)
+  "diff_view_style": "unified",
   "calls": {
     "mute_on_join": true
   },
@@ -24,64 +25,74 @@
         {
           "paths": [
             "/home/sinder"
-          ],
+          ]
+        },
+        {
+          "paths": [
+            "/home/sinder/./"
+          ]
         },
         {
           "paths": [
             "/home/sinder/Projects/OpenSource/AuthMicroservice/./"
-          ],
+          ]
         },
         {
           "paths": [
             "/home/sinder/Projects/OpenSource/CatCAPTCHA"
-          ],
+          ]
         },
         {
           "paths": [
             "/home/sinder/Projects/OpenSource/bootcamp"
-          ],
+          ]
         },
         {
           "paths": [
             "/home/sinder/Projects/OpenSource/live-bootcamp-project"
-          ],
+          ]
         },
         {
           "paths": [
             "/home/sinder/Projects/OpenSource/sea-orm/"
-          ],
+          ]
         },
         {
           "paths": [
             "/home/sinder/Projects/OpenSource/zed"
-          ],
+          ]
         },
+        {
+          "paths": [
+            "/home/sinder/Projects/Personal/office_automation_system"
+          ]
+        }
       ],
       "nickname": "dev-server",
       "port_forwards": [
         {
           "local_port": 5173,
-          "remote_port": 5173,
+          "remote_port": 5173
         },
         {
           "local_port": 3001,
-          "remote_port": 3001,
+          "remote_port": 3001
         },
         {
           "local_port": 3000,
-          "remote_port": 3000,
+          "remote_port": 3000
         },
         {
           "local_port": 8000,
-          "remote_port": 8000,
+          "remote_port": 8000
         },
         {
           "local_port": 8080,
           "remote_host": "localhost",
-          "remote_port": 8080,
-        },
-      ],
-    },
+          "remote_port": 8080
+        }
+      ]
+    }
   ],
   "command_aliases": {
     "crp": "workspace::CopyRelativePath",
