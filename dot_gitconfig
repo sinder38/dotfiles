@@ -1,7 +1,7 @@
 [user]
 	name = sinder
     email = smirnov.sinder@gmail.com
-	signingkey = Smirnov
+	signingkey = 7F826072F552FA3A7AFA3300D83D7F79E6255EF5
 
 [alias]
     recent = for-each-ref --format='%(refname:short) %(committerdate:relative) %(subject)' refs/heads/ --sort=-committerdate

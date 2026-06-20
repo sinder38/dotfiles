@@ -1,10 +1,21 @@
 #!/bin/bash
-# hash: {{ .pacman_packages | join "," }}-{{ .dnf_packages | join "," }}
+# hash: {{ .pacman_packages | join "," }}-{{ .dnf_packages | join "," }}-{{ .aur_packages | join "," }}
 set -e
 
 # Arch
 if command -v pacman &>/dev/null; then
     sudo pacman -S --noconfirm --needed {{ .pacman_packages | join " " }}
+
+    # AUR packages via yay
+    if command -v yay &>/dev/null; then
+        yay -S --noconfirm --needed {{ .aur_packages | join " " }}
+    fi
+
+    # Bootstrap Rust stable toolchain (rustup itself is installed via pacman)
+    if command -v rustup &>/dev/null && ! rustup toolchain list | grep -q stable; then
+        rustup toolchain install stable --no-self-update
+        rustup default stable
+    fi
 
     # Configure paccache to keep 1 installed version, 0 uninstalled
     sudo mkdir -p /etc/systemd/system/paccache.service.d/
@@ -16,6 +27,7 @@ EOF
     sudo systemctl daemon-reload
     sudo systemctl enable --now paccache.timer
     sudo paccache -r -k 1 -uk 0
+
 # Fedora
 elif command -v dnf &>/dev/null; then
     sudo dnf install -y {{ .dnf_packages | join " " }}

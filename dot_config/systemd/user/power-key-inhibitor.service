@@ -1,0 +1,10 @@
+[Unit]
+Description=Block logind from handling power key (handled by acpid instead)
+After=graphical-session.target
+
+[Service]
+ExecStart=systemd-inhibit --what=handle-power-key --who=acpid-power-menu --why="Show power menu" --mode=block sleep infinity
+Restart=always
+
+[Install]
+WantedBy=graphical-session.target

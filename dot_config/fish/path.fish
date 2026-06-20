@@ -1,1 +1,2 @@
-set -U fish_user_paths $fish_user_paths ~/.cargo/bin
+fish_add_path ~/.cargo/bin
+fish_add_path ~/.local/bin

@@ -5,6 +5,9 @@
 !.chezmoidata
 !.chezmoiscripts
 
+# Local chezmoi data overrides (machine-specific, not committed)
+.chezmoidata/local.yaml
+
 # Mutt secrets
 dot_mutt/gmail
 dot_mutt/*.gpg

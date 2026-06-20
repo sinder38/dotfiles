@@ -1,5 +1,17 @@
+email_enabled: false
+
 pacman_packages:
+  - pinentry-bemenu
+  - bemenu-wayland
+  - uv
+  - fastfetch
   - pacman-contrib # paccache for cache cleanup
+  - less
+  - acpid
+  - ttf-jetbrains-mono-nerd
+  - papirus-icon-theme
+  - kvantum
+  - steam
   - fish
   - neovim
   - lazygit
@@ -16,11 +28,38 @@ pacman_packages:
   - podman
   - podman-compose
   - glow
-  - kanata
   - chezmoi
   - gnupg
   - pass
   - mtr
+  - zed
+  - haruna
+  - krita
+  - obs-studio
+  - qbittorrent
+  - python
+  - python-pipx
+  - rustup
+  - blueman
+  - cliphist
+  - wl-clipboard
+  - swaync
+  - sddm
+  - qt6-declarative
+  - qt6-5compat
+  - qt6-svg
+  - qt6-multimedia
+  - qt6-multimedia-ffmpeg
+  - ffmpeg
+  - pavucontrol
+  - brightnessctl
+  - polkit-gnome
+aur_packages:
+  - kanata-bin
+  - brave-bin
+  - zen-browser-bin
+  - wlogout
+  - hyprlock
 
 dnf_packages:
   - fish
