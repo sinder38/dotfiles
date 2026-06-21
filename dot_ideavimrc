@@ -1,0 +1,154 @@
+" .ideavimrc is a configuration file for IdeaVim plugin. It uses
+"   the same commands as the original .vimrc configuration.
+" You can find a list of commands here: https://jb.gg/h38q75
+" Find more examples here: https://jb.gg/share-ideavimrc
+
+" sources: https://www.cyberwizard.io/posts/the-ultimate-ideavim-setup/
+
+let mapleader = " "
+
+set scrolloff=8
+"set linenumber
+set showmode
+set showcmd
+set visualbell
+set clipboard+=unnamedplus
+
+" VIM MOVES YOU MIGHT FORGEET
+" va{ → select function body including braces
+" vi{ → inside only
+" za → manual manual fold
+" Ctrl-f → full-page down
+" Ctrl-b → full-page up
+
+"Ctrl Do incremental searching.
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+" DWORAK remap
+map t j
+map n k
+map s l
+nnoremap a i
+nnoremap i a
+nnoremap I A
+nnoremap A I
+
+
+"Left and right vision
+nnoremap zH 50zh
+nnoremap zS 50zl
+
+" Easy indentation
+vnoremap < <gv
+vnoremap > >gv
+
+
+" --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
+
+" Highlight copied text
+Plug 'machakann/vim-highlightedyank'
+" Commentary plugin
+Plug 'tpope/vim-commentary'
+
+set commentary
+" Set bundled things as they should be
+" TODO: enable disabled ones later
+"set surround
+"set highlightedyank
+"set nerdtree
+"set easymotion
+set which-key
+set multiple-cursors
+set timeoutlen=5000
+
+
+"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+"" Map \r to the Reformat Code action
+"map \r <Action>(ReformatCode)
+
+" Program
+map <leader>R <action>(Run)
+map <leader>r <action>(ChooseRunConfiguration)
+
+" UI
+map <leader>uh <action>(ToggleInlayHintsGloballyAction)
+map <leader>ul <action>(EditorToggleShowLineNumbers)
+map <leader>uz <action>(ToggleZenMode) 
+map <leader>uf <action>(ToggleFullScreen) 
+map <leader>us <action>(ViewStatusBar)
+map <leader>uw <action>(EditorToggleUseSoftWraps)
+" Map <leader>d to start debug
+" map <leader>d <Action>(Debug)
+map \\\\ <action>(ActivateProjectToolWindow)
+map <leader>; <action>(HideAllWindows)
+
+" Edit IdeaVim config
+nnoremap <leader>uE :e ~/.ideavimrc<CR>
+
+" Goto
+map gr <Action>(FindUsages)
+map gy <Action>(GotoTypeDeclaration)
+map gn <action>(GotoNextError)
+map gp <action>(GotoPreviousError)
+map ]d <action>(GotoNextError)
+map [d <action>(GotoPreviousError)
+
+" Tooling
+map <leader>cf <action>(ReformatCode)
+
+" Search
+map <leader>sp <action>(ToolWindowsGroup)
+map <leader>sb <action>(Find)
+map <leader>sr <action>(Replace)
+map <leader>sw <action>(TextSearchAction)
+map <leader>sW <action>(FindInPath)
+map <leader>sc <action>(ActivateStructureToolWindow)
+map <leader>st <action>(ActivateTODO)
+map <leader>ss <action>(GotoSymbol)
+map <leader>se <action>(SearchEverywhere)
+map <leader>sd <action>(GotoDatabaseObject)
+map <leader>sa <action>(GotoAction)
+map <leader>sn <action>(ActivateNotificationsToolWindow)
+map <leader>sl <action>(RecentLocations)
+"" map <leader>sp <action>(ManageRecentProjects)
+
+"Git
+map <leader>gd <action>(Compare.SameVersion)
+map <leader>gb <action>(Annotate)
+map <leader>gl <action>(ActivateVersionControlToolWindow)
+
+
+" File navigation
+map <leader>ff <action>(GotoFile)
+
+map <leader><leader> <Action>(RecentFiles)
+"map <leader>fs <action>(NewScratchFile) " Does not work :(
+map <leader>fd <action>(ShowNavBar)
+
+" code action
+map <leader>cA <action>(ShowPopupMenu)
+map <leader>ca <action>(ShowIntentionActions)
+map <leader>cd <action>(ShowErrorDescription)
+"" Map \b to toggle the breakpoint on the current line
+"map \b <Action>(ToggleLineBreakpoint)
+map <leader>fp <Action>(ManageRecentProjects)
+
+" Refactoring
+map <leader>cr <Action>(RenameElement)
+"map <leader>rm <Action>(ExtractMethod)
+"map <leader>rv <Action>(IntroduceVariable)
+"map <leader>rf <Action>(IntroduceField)
+"map <leader>rs <Action>(ChangeSignature)
+map <leader>cR <Action>(Refactorings.QuickListPopupAction)
+
+" Other
+
+
+" Untested movement:
+
+" Popup navigation
+"inoremap <C-j> <Action>(PopupMenu-selectNext)
+"inoremap <C-k> <Action>(PopupMenu-selectPrev)
