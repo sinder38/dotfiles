@@ -44,6 +44,7 @@ pacman_packages:
   - blueman
   - copyq
   - wl-clipboard
+  - awww
   - swaync
   - sddm
   - qt6-declarative
