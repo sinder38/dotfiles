@@ -76,14 +76,15 @@ map <leader>r <action>(ChooseRunConfiguration)
 " UI
 map <leader>uh <action>(ToggleInlayHintsGloballyAction)
 map <leader>ul <action>(EditorToggleShowLineNumbers)
-map <leader>uz <action>(ToggleZenMode) 
-map <leader>uf <action>(ToggleFullScreen) 
+map <leader>uz <action>(ToggleZenMode)
+map <leader>uf <action>(ToggleFullScreen)
 map <leader>us <action>(ViewStatusBar)
 map <leader>uw <action>(EditorToggleUseSoftWraps)
 " Map <leader>d to start debug
 " map <leader>d <Action>(Debug)
 map \\\\ <action>(ActivateProjectToolWindow)
 map <leader>; <action>(HideAllWindows)
+map <leader>w <action>(SaveAll)
 
 " Edit IdeaVim config
 nnoremap <leader>uE :e ~/.ideavimrc<CR>

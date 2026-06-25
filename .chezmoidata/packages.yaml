@@ -12,6 +12,7 @@ pacman_packages:
   - papirus-icon-theme
   - kvantum
   - steam
+  - xwayland-satellite
   - fish
   - neovim
   - lazygit
@@ -41,7 +42,7 @@ pacman_packages:
   - python-pipx
   - rustup
   - blueman
-  - cliphist
+  - copyq
   - wl-clipboard
   - swaync
   - sddm
@@ -51,8 +52,11 @@ pacman_packages:
   - qt6-multimedia
   - qt6-multimedia-ffmpeg
   - ffmpeg
+  - flameshot
   - pavucontrol
   - brightnessctl
+  - gammastep
+  - geoclue
   - polkit-gnome
 aur_packages:
   - kanata-bin
