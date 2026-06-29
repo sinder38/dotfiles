@@ -26,6 +26,9 @@ elif [ -f "/home/$REAL_USER/.config/kanata/kanata-config.kbd" ]; then
 fi
 
 
+echo "Checking config..."
+/usr/bin/kanata --check --cfg $USER_CONFIG
+
 echo "Setting up groups and permissions..."
 groupadd --system uinput || true
 id -u kanata >/dev/null 2>&1 || useradd --system --no-create-home --group nogroup kanata || true
