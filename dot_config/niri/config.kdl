@@ -268,12 +268,12 @@ layout {
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "xwayland-satellite"
 spawn-at-startup "gammastep"
-spawn-at-startup "awww-daemon"
-spawn-at-startup "sh" "-c" "sleep 1 && awww img $HOME/.local/share/wallpapers/wallpaper.gif --transition-type none"
+spawn-at-startup "sh" "-c" "mpvpaper -o 'no-audio loop' '*' $HOME/.local/share/wallpapers/wallpaper.mp4"
 spawn-at-startup "waybar"
 spawn-at-startup "swaync"
 spawn-at-startup "blueman-applet"
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+spawn-at-startup "niri-float-sticky" "-disable-auto-stick"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
@@ -342,6 +342,17 @@ window-rule {
     // - Flatpak Firefox (app-id is "org.mozilla.firefox")
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
     open-floating true
+}
+
+// Brave (Chromium) picture-in-picture: auto-float at bottom-right.
+// The PIP window has an empty app-id; we match only on its exact title.
+// After it opens, press Mod+Alt+P to make it follow all workspaces.
+window-rule {
+    block-out-from "screen-capture"
+    match title="Picture in picture"
+    open-floating true
+    default-floating-position x=20 y=20 relative-to="bottom-right"
+    default-window-height { fixed 253; }
 }
 
 // Example: block out two password managers from screen capture.
@@ -583,6 +594,7 @@ binds {
     Mod+F { maximize-column; }
     Mod+Shift+F { fullscreen-window; }
 
+
     // While maximize-column leaves gaps and borders around the window,
     // maximize-window-to-edges doesn't: the window expands to the edges of the screen.
     // This bind corresponds to normal window maximizing,
@@ -615,6 +627,9 @@ binds {
 
     // Move the focused window between the floating and the tiling layout.
     Mod+Shift+V { toggle-window-floating; }
+
+    // Toggle picture-in-picture mode: makes any floating window sticky (follows all workspaces).
+    Mod+P repeat=false hotkey-overlay-title="Toggle Picture-in-Picture (sticky)" { spawn "niri-float-sticky" "-ipc" "toggle_sticky"; }
 
     // Clipboard picker
     Mod+V hotkey-overlay-title="Clipboard History: copyq" { spawn "copyq" "show"; }

@@ -33,6 +33,16 @@ To integrate chezmoi into the server bootstrap, add a role that:
 See the [chezmoi docs on `.chezmoiignore`](https://chezmoi.io/reference/special-files/chezmoiignore/) for templating by machine type
 
 
+## Animated wallpaper
+
+Use the `wallpaper` script to set a video wallpaper:
+
+```bash
+wallpaper ~/path/to/file.mp4
+```
+
+Copies to `~/.local/share/wallpapers/wallpaper.mp4` and sets it via mpvpaper (hardware-accelerated, plays MP4 directly). Autostarted by niri on login.
+
 ## Required secrets (password-store)
 
 Run `pass insert` for each before applying chezmoi:

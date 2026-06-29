@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Usage: wallpaper <file.mp4|file.mkv|file.webm|file.mov>
+set -e
+
+DEST="$HOME/.local/share/wallpapers/wallpaper.mp4"
+INPUT="$1"
+
+if [[ -z "$INPUT" ]]; then
+    echo "Usage: wallpaper <file.mp4|file.mkv|file.webm|file.mov>" >&2
+    exit 1
+fi
+
+if [[ ! -f "$INPUT" ]]; then
+    echo "File not found: $INPUT" >&2
+    exit 1
+fi
+
+mkdir -p "$(dirname "$DEST")"
+cp "$INPUT" "$DEST"
+
+if pkill mpvpaper 2>/dev/null; then
+    sleep 0.5
+fi
+
+mpvpaper -f -o "no-audio loop" "*" "$DEST"
+echo "Wallpaper set."
