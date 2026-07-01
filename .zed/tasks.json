@@ -3,10 +3,6 @@
 // Example:
 [
   {
-    "label": "Niri check",
-    "command": "niri validate --config ./dot_config/niri/config.kdl"
-  },
-  {
     "label": "Re-add",
     "command": "chezmoi re-add ~/.config/mimeapps.list ~/.config/zed/ ~/.gitconfig"
   },

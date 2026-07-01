@@ -41,7 +41,7 @@ Use the `wallpaper` script to set a video wallpaper:
 wallpaper ~/path/to/file.mp4
 ```
 
-Copies to `~/.local/share/wallpapers/wallpaper.mp4` and sets it via mpvpaper (hardware-accelerated, plays MP4 directly). Autostarted by niri on login.
+Copies to `~/.local/share/wallpapers/wallpaper.mp4` and sets it via mpvpaper (hardware-accelerated, plays MP4 directly).
 
 ## Required secrets (password-store)
 
