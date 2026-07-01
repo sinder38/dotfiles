@@ -4,6 +4,8 @@
 # Unignore chezmoi things
 !.chezmoidata
 !.chezmoiscripts
+!.chezmoi.toml.tmpl
+!.chezmoiignore.tmpl
 
 # Local chezmoi data overrides (machine-specific, not committed)
 .chezmoidata/local.yaml
