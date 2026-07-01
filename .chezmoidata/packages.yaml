@@ -1,6 +1,11 @@
 email_enabled: false
 
 pacman_packages:
+  - yarn
+  - wasm-pack
+  - libreoffice-fresh
+  - hunspell
+  - hunspell-en_us
   - pinentry-bemenu
   - bemenu-wayland
   - uv
@@ -37,6 +42,7 @@ pacman_packages:
   - haruna
   - krita
   - obs-studio
+  - websocat
   - qbittorrent
   - python
   - python-pipx
