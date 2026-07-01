@@ -10,4 +10,6 @@ if ! command -v kanata &>/dev/null; then
   exit 0
 fi
 
-sudo ~/.config/scripts/install-kanata.sh
+mkdir -p "$HOME/.config/kanata"
+cp "$CHEZMOI_SOURCE_DIR/dot_config/kanata/kanata-config.kbd" "$HOME/.config/kanata/kanata-config.kbd"
+sudo "$CHEZMOI_SOURCE_DIR/dot_config/scripts/install-kanata.sh"
