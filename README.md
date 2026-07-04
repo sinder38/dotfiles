@@ -14,7 +14,8 @@
 ## Bootstrap on a new machine
 
 ```bash
-sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply git@github.com:sinder38/dotfiles.git
+# install chezmoin somehow
+chezmoi init --apply https://github.com/sinder38/dotfiles
 ```
 
 chezmoi will create `~/.config/chezmoi/chezmoi.toml` for machine-specific config (never committed).

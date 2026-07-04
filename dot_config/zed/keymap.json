@@ -5,6 +5,7 @@
 // To see the default key bindings run `zed: open default keymap`
 // from the command palette.
 [
+  //TODO: space f f doesn't trigger finder when on project outline
   //TODO: Ctrl-W + o
   // to focus on specific panel
   //TODO: there are other TODOs down the line

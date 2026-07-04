@@ -1,0 +1,86 @@
+{
+    "appearance": {
+        "deformScale": 1,
+        "font": {
+            "scale": 1
+        },
+        "padding": {
+            "scale": 1
+        },
+        "rounding": {
+            "scale": 1
+        },
+        "spacing": {
+            "scale": 1
+        }
+    },
+    "background": {
+        "wallpaperEnabled": true
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true,
+            "inverted": false,
+            "showOnHover": false
+        },
+        "dragThreshold": 20,
+        "persistent": true,
+        "popouts": {
+            "activeWindow": false
+        },
+        "status": {
+            "showAudio": true,
+            "showKbLayout": false,
+            "showLockStatus": false,
+            "showMicrophone": false
+        },
+        "tray": {
+            "background": false,
+            "compact": true,
+            "recolour": true
+        },
+        "workspaces": {
+            "activeIndicator": true,
+            "activeTrail": true,
+            "maxWindowIcons": 5,
+            "occupiedBg": true,
+            "showWindows": false,
+            "shown": 4
+        }
+    },
+    "border": {
+        "rounding": 0,
+        "smoothing": 0,
+        "thickness": 0
+    },
+    "dashboard": {
+        "enabled": true,
+        "showOnHover": true
+    },
+    "general": {
+        "apps": {
+            "explorer": [
+                "nautilus",
+                "--new-window"
+            ],
+            "playback": [
+                "haruna"
+            ],
+            "terminal": [
+                "alacritty"
+            ]
+        }
+    },
+    "services": {
+        "useFahrenheit": false,
+        "useTwelveHourClock": false
+    },
+    "sidebar": {
+        "enabled": true
+    },
+    "utilities": {
+        "toasts": {
+            "nowPlaying": true
+        }
+    }
+}

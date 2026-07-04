@@ -3,8 +3,12 @@
 // Example:
 [
   {
+    "label": "Reload Hyprland",
+    "command": "hyprctl reload"
+  },
+  {
     "label": "Re-add",
-    "command": "chezmoi re-add ~/.config/mimeapps.list ~/.config/zed/ ~/.gitconfig"
+    "command": "chezmoi re-add ~/.config/mimeapps.list ~/.config/zed/ ~/.gitconfig ~/.config/caelestia/"
   },
   {
     "label": "Chezmoi Apply",

@@ -11,7 +11,11 @@ pacman_packages:
   - uv
   - fastfetch
   - pacman-contrib # paccache for cache cleanup
+  - dosfstools
   - less
+  - wine
+  - winetricks
+  - gparted
   - acpid
   - ttf-jetbrains-mono-nerd
   - papirus-icon-theme
@@ -63,6 +67,31 @@ pacman_packages:
   - gammastep
   - geoclue
   - polkit-gnome
+  # caelestia-shell (quickshell) and its runtime/build deps
+  - quickshell
+  - ddcutil
+  - networkmanager
+  - lm_sensors
+  - aubio
+  - libnotify
+  - ttf-material-symbols-variable
+  - ttf-cascadia-code-nerd
+  - power-profiles-daemon
+  - swappy
+  - libqalculate
+  - qt6-imageformats
+  - qt6-shadertools
+  - cmake
+  - ninja
+  # caelestia-cli deps (clipboard/emoji/screenshot pickers)
+  - fuzzel
+  - grim
+  - slurp
+  - dart-sass
+  - gpu-screen-recorder
+  - dconf
+  - cliphist
+  - python-pillow
 aur_packages:
   - kanata-bin
   - brave-bin
@@ -70,6 +99,10 @@ aur_packages:
   - wlogout
   - hyprlock
   - mpvpaper
+  - caelestia-cli
+  - libcava
+  - ttf-rubik-vf
+  - python-materialyoucolor
 
 dnf_packages:
   - fish

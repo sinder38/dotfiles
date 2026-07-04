@@ -21,7 +21,7 @@ hl.monitor({
     output   = "",
     mode     = "preferred",
     position = "auto",
-    scale    = "auto",
+    scale    = 1.5,
 })
 
 
@@ -30,9 +30,10 @@ hl.monitor({
 ---------------------
 
 -- Set programs that you use
-local terminal    = "kitty"
-local fileManager = "dolphin"
-local menu        = "hyprlauncher"
+local terminal    = "alacritty"
+local fileManager = "nautilus"
+local editor      = "zeditor"
+local browser     = "brave"
 
 
 -------------------
@@ -41,14 +42,14 @@ local menu        = "hyprlauncher"
 
 -- See https://wiki.hypr.land/Configuring/Basics/Autostart/
 
--- Autostart necessary processes (like notifications daemons, status bars, etc.)
--- Or execute your favorite apps at launch like this:
---
--- hl.on("hyprland.start", function ()
---   hl.exec_cmd(terminal)
---   hl.exec_cmd("nm-applet")
---   hl.exec_cmd("waybar & hyprpaper & firefox")
--- end)
+-- caelestia-shell provides the bar, launcher, lock screen, session menu and
+-- notification center, so it's the only thing we need to autostart here.
+hl.on("hyprland.start", function()
+    -- Signal prefer-dark to all XDG portal-aware apps (Brave, Electron, etc.)
+    hl.exec_cmd("gsettings set org.gnome.desktop.interface color-scheme prefer-dark")
+    hl.exec_cmd("caelestia shell -d")
+    hl.exec_cmd("/usr/lib/polkit-kde-authentication-agent-1")
+end)
 
 
 -------------------------------
@@ -59,6 +60,10 @@ local menu        = "hyprlauncher"
 
 hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
+
+-- XWayland apps (Steam, etc.) don't support fractional scaling; render them at
+-- 1x and let each app scale itself to avoid the blurry/JPEG upscale artifact.
+hl.env("STEAM_FORCE_DESKTOPUI_SCALING", "1.5")
 
 
 -----------------------
@@ -201,6 +206,18 @@ hl.config({
     },
 })
 
+-----------------
+---- XWAYLAND ----
+-----------------
+
+hl.config({
+    xwayland = {
+        -- Render XWayland apps at 1x so Hyprland doesn't upscale them blurry
+        force_zero_scaling = true,
+    },
+})
+
+
 ----------------
 ----  MISC  ----
 ----------------
@@ -230,6 +247,7 @@ hl.config({
         sensitivity  = 0, -- -1.0 - 1.0, 0 means no modification.
 
         touchpad     = {
+            disable_while_typing = false,
             natural_scroll = true,
         },
     },
@@ -259,13 +277,28 @@ local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal))
 local closeWindowBind = hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 -- closeWindowBind:set_enabled(false)
-hl.bind(mainMod .. " + M",
-    hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 -- hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + A", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
+hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.fullscreen())
+hl.bind("F11", hl.dsp.window.fullscreen())
+
+hl.bind(mainMod .. " + C", hl.dsp.exec_cmd(editor))
+hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
+
+-- caelestia-shell globals (launcher, session menu, lock, sidebar/notif center)
+-- see https://github.com/caelestia-dots/shell#shortcutsipc
+hl.bind(mainMod .. " + A", hl.dsp.global("caelestia:launcher"))
+hl.bind(mainMod .. " + M", hl.dsp.global("caelestia:session"))
+hl.bind(mainMod .. " + L", hl.dsp.global("caelestia:lock"))
+hl.bind(mainMod .. " + SHIFT + A", hl.dsp.global("caelestia:sidebar"))
+hl.bind(mainMod .. " + SHIFT + N", hl.dsp.global("caelestia:clearNotifs"), { locked = true })
+hl.bind(mainMod .. " + SHIFT + D", hl.dsp.global("caelestia:showall"))
+
+-- Clipboard history and emoji picker (caelestia-cli, backed by cliphist/fuzzel)
+hl.bind(mainMod .. " + V", hl.dsp.exec_cmd("pkill fuzzel || caelestia clipboard"))
+hl.bind(mainMod .. " + Period", hl.dsp.exec_cmd("pkill fuzzel || caelestia emoji -p"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
@@ -335,6 +368,19 @@ local suppressMaximizeRule = hl.window_rule({
     suppress_event = "maximize",
 })
 -- suppressMaximizeRule:set_enabled(false)
+
+hl.window_rule({
+    -- Float unidentified Wayland popups (e.g. Brave tab search)
+    name            = "float-unnamed-wayland-popups",
+    match           = { class = "^$", title = "^$" },
+    float           = true,
+    move            = "55 5", -- 50px for the bar + 5 for the border
+    -- border_size     = 2,
+    opaque          = true,
+    pseudo          = true,
+    no_max_size     = true,
+    persistent_size = false
+})
 
 hl.window_rule({
     -- Fix some dragging issues with XWayland

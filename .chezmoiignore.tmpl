@@ -3,3 +3,9 @@
 .mutt/muttrc
 .config/msmtp/config
 {{- end }}
+
+# gh CLI rewrites this with a live OAuth token on `gh auth login`; let it own
+# the file entirely rather than tracking a token-less seed that always drifts.
+.config/gh/hosts.yml
+
+README.md
