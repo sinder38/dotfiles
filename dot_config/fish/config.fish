@@ -5,6 +5,13 @@ end
 function fish_greeting
 end
 
+# function fish_prompt
+# [I] sinder@premibakery ~>
+#     set -l dir (set_color cyan)(prompt_pwd)(set_color normal)
+#     set -l git (fish_git_prompt ' (%s)')
+#     printf  $dir $git '%s%s\n ❯ '
+
+# end
 
 fish_vi_key_bindings
 function fish_user_key_bindings

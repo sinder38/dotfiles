@@ -1,6 +1,9 @@
 email_enabled: false
 
 pacman_packages:
+  - tor
+  - torbrowser-launcher
+  - ntfs-3g
   - yarn
   - wasm-pack
   - libreoffice-fresh
@@ -92,6 +95,7 @@ pacman_packages:
   - dconf
   - cliphist
   - python-pillow
+  - starship
 aur_packages:
   - kanata-bin
   - brave-bin
@@ -124,3 +128,4 @@ dnf_packages:
   - gnupg2
   - pass
   - mtr
+  - starship

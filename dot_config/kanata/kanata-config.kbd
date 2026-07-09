@@ -25,57 +25,57 @@
 
   ;; Real Prog Dvorak overides
   ;; NOTE: remaps are for normal dvorak layot -> dvp
-  (`) (lsft 4) () (no-mods-qwerty)                    ;; $
-  (lsft `) (lsft `) () (no-mods-qwerty)               ;; ~
+  (`) (lsft 4) () (no-mods-qwerty no-mods)                    ;; $
+  (lsft `) (lsft `) () (no-mods-qwerty no-mods)               ;; ~
 
   ;; Use normal numbers when using mods
   ;; This may create some confusion in the keybind definiton
-  (1) (lsft =) (lalt lmet lsft lctl) (no-mods-qwerty) ;; +
-  (lsft 1) (1) (lalt lmet lctl) (no-mods-qwerty)
+  (1) (lsft =) (lalt lmet lsft lctl) (no-mods-qwerty no-mods) ;; +
+  (lsft 1) (1) (lalt lmet lctl) (no-mods-qwerty no-mods)
 
-  (2) (lsft [) (lalt lmet lsft lctl) (no-mods-qwerty) ;; {
-  (lsft 2) (2) (lalt lmet lctl) (no-mods-qwerty)
+  (2) (lsft [) (lalt lmet lsft lctl) (no-mods-qwerty no-mods) ;; {
+  (lsft 2) (2) (lalt lmet lctl) (no-mods-qwerty no-mods)
 
-  (3)      ([) (lalt lmet lsft lctl) (no-mods-qwerty) ;; [
-  (lsft 3) (3) (lalt lmet lctl) (no-mods-qwerty)
+  (3)      ([) (lalt lmet lsft lctl) (no-mods-qwerty no-mods) ;; [
+  (lsft 3) (3) (lalt lmet lctl) (no-mods-qwerty no-mods)
 
-  (4) (lsft 9) (lalt lmet lsft lctl) (no-mods-qwerty) ;; (
-  (lsft 4) (4) (lalt lmet lctl) (no-mods-qwerty)
+  (4) (lsft 9) (lalt lmet lsft lctl) (no-mods-qwerty no-mods) ;; (
+  (lsft 4) (4) (lalt lmet lctl) (no-mods-qwerty no-mods)
 
-  (5) (lsft 7) (lalt lmet lsft lctl) (no-mods-qwerty) ;; &
-  (lsft 5) (5) (lalt lmet lctl) (no-mods-qwerty)
+  (5) (lsft 7) (lalt lmet lsft lctl) (no-mods-qwerty no-mods) ;; &
+  (lsft 5) (5) (lalt lmet lctl) (no-mods-qwerty no-mods)
 
-  (6) (lsft \) (lalt lmet lsft lctl) (no-mods-qwerty) ;; |
-  (lsft 6) (6) (lalt lmet lctl) (no-mods-qwerty)
+  (6) (lsft \) (lalt lmet lsft lctl) (no-mods-qwerty no-mods) ;; |
+  (lsft 6) (6) (lalt lmet lctl) (no-mods-qwerty no-mods)
 
-  (7) (lsft 0) (lalt lmet lsft lctl) (no-mods-qwerty) ;; )
-  (lsft 7) (7) (lalt lmet lctl) (no-mods-qwerty)
+  (7) (lsft 0) (lalt lmet lsft lctl) (no-mods-qwerty no-mods) ;; )
+  (lsft 7) (7) (lalt lmet lctl) (no-mods-qwerty no-mods)
 
-  (8)      (]) (lalt lmet lsft lctl) (no-mods-qwerty) ;; ]
-  (lsft 8) (8) (lalt lmet lctl) (no-mods-qwerty)
+  (8)      (]) (lalt lmet lsft lctl) (no-mods-qwerty no-mods) ;; ]
+  (lsft 8) (8) (lalt lmet lctl) (no-mods-qwerty no-mods)
 
-  (9) (lsft ]) (lalt lmet lsft lctl) (no-mods-qwerty) ;; }
-  (lsft 9) (9) (lalt lmet lctl) (no-mods-qwerty)
+  (9) (lsft ]) (lalt lmet lsft lctl) (no-mods-qwerty no-mods) ;; }
+  (lsft 9) (9) (lalt lmet lctl) (no-mods-qwerty no-mods)
 
-  (0) (lsft 8) (lalt lmet lsft lctl) (no-mods-qwerty) ;; *
-  (lsft 0) (0) (lalt lmet lctl) (no-mods-qwerty)
+  (0) (lsft 8) (lalt lmet lsft lctl) (no-mods-qwerty no-mods) ;; *
+  (lsft 0) (0) (lalt lmet lctl) (no-mods-qwerty no-mods)
 
   ;; [ { into exclam %
-  ([) (lsft 1) () (no-mods-qwerty)
-  (lsft [) (lsft 5) () (no-mods-qwerty)
+  ([) (lsft 1) () (no-mods-qwerty no-mods)
+  (lsft [) (lsft 5) () (no-mods-qwerty no-mods)
 
   ;; ] } into = `
-  (]) (=) () (no-mods-qwerty)
-  (lsft ]) (`) () (no-mods-qwerty)
+  (]) (=) () (no-mods-qwerty no-mods)
+  (lsft ]) (`) () (no-mods-qwerty no-mods)
 
   ;; / ? into / ?
 
   ;; = + into @ ^
-  (=) (lsft 2) () (no-mods-qwerty)
-  (lsft =) (lsft 6) () (no-mods-qwerty)
+  (=) (lsft 2) () (no-mods-qwerty no-mods)
+  (lsft =) (lsft 6) () (no-mods-qwerty no-mods)
 
   ;; \ | into \ #
-  (lsft \) (lsft 3) () (no-mods-qwerty)
+  (lsft \) (lsft 3) () (no-mods-qwerty no-mods)
 )
 
 (defalias
