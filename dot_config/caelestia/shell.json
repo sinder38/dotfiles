@@ -15,7 +15,7 @@
         }
     },
     "background": {
-        "wallpaperEnabled": true
+        "wallpaperEnabled": false
     },
     "bar": {
         "activeWindow": {
@@ -69,11 +69,39 @@
             "terminal": [
                 "alacritty"
             ]
+        },
+        "idle": {
+            "timeouts": [
+                {
+                    "idleAction": "lock",
+                    "timeout": 1800
+                },
+                {
+                    "idleAction": "dpms off",
+                    "returnAction": "dpms on",
+                    "timeout": 300
+                },
+                {
+                    "idleAction": [
+                        "suspendThenHibernate"
+                    ],
+                    "timeout": 600
+                }
+            ]
         }
     },
     "services": {
         "useFahrenheit": false,
         "useTwelveHourClock": false
+    },
+    "session": {
+        "commands": {
+            "logout": [
+                "hyprctl",
+                "dispatch",
+                "hl.dsp.exit()"
+            ]
+        }
     },
     "sidebar": {
         "enabled": true

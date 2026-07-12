@@ -1,6 +1,6 @@
 #!/bin/bash
 
-THEME_NAME="pixel-sakura"
+THEME_NAME="pixel-cyberpunk"
 THEME_DEST="/usr/share/sddm/themes/$THEME_NAME"
 
 # Skip if already installed

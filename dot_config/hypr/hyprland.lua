@@ -38,10 +38,21 @@ local browser     = "brave"
 -- caelestia-shell provides the bar, launcher, lock screen, session menu and
 -- notification center, so it's the only thing we need to autostart here.
 hl.on("hyprland.start", function()
+    -- Load plugins
+    hl.exec_cmd("hyprpm reload")
     -- Signal prefer-dark to all XDG portal-aware apps (Brave, Electron, etc.)
     hl.exec_cmd("gsettings set org.gnome.desktop.interface color-scheme prefer-dark")
     hl.exec_cmd("caelestia shell -d")
     hl.exec_cmd("/usr/lib/polkit-kde-authentication-agent-1")
+
+    -- Live Wallpaper,
+    -- TODO: this is hardcoded from dot_local/bin/executable_wallpaper
+    -- mpv paper seems to leek memory and is problematic
+    -- hl.exec_cmd("mpvpaper -o \"no-audio loop vf=lavfi=[scale=3200:1800,crop=2880:1800:160:0]\" \"*\" \"/home/sinder/.local/share/wallpapers/wallpaper.mp4\"")
+
+    -- Steam (and any other XWayland app that reads Xft.dpi
+    -- 144 = 96 * 1.5 for 1.5x UI scaling
+    hl.exec_cmd("sh -c 'echo \"Xft.dpi: 144\" | xrdb -merge -'")
 end)
 
 
@@ -56,7 +67,7 @@ hl.env("HYPRCURSOR_SIZE", "24")
 
 -- XWayland apps (Steam, etc.) don't support fractional scaling; render them at
 -- 1x and let each app scale itself to avoid the blurry/JPEG upscale artifact.
-hl.env("STEAM_FORCE_DESKTOPUI_SCALING", "1.5")
+-- hl.env("STEAM_FORCE_DESKTOPUI_SCALING", "2")
 
 
 -----------------------
@@ -75,7 +86,28 @@ hl.env("STEAM_FORCE_DESKTOPUI_SCALING", "1.5")
 
 -- hl.permission("/usr/(bin|local/bin)/grim", "screencopy", "allow")
 -- hl.permission("/usr/(lib|libexec|lib64)/xdg-desktop-portal-hyprland", "screencopy", "allow")
--- hl.permission("/usr/(bin|local/bin)/hyprpm", "plugin", "allow")
+hl.permission("/usr/(bin|local/bin)/hyprpm", "plugin", "allow")
+
+
+-------------------
+---- PLUGINS -----
+-------------------
+
+-- hyprexpo: expose-style workspace overview, toggled with mainMod + W below.
+hl.config({
+    plugin = {
+        hyprexpo = {
+            columns           = 3,
+            gaps_in           = 5,
+            gaps_out          = 0,
+            bg_col            = "rgb(111111)",
+            workspace_method  = "center current",
+            gesture_distance  = 200,
+            cancel_key        = "escape",
+            show_cursor       = 1,
+        },
+    },
+})
 
 
 -----------------------
@@ -276,6 +308,9 @@ hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
 hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.fullscreen())
 hl.bind("F11", hl.dsp.window.fullscreen())
+
+-- hyprexpo workspace overview, see PLUGINS section above
+hl.bind(mainMod .. " + W", function() hl.plugin.hyprexpo.expo("toggle") end)
 
 -- hl.bind("SUPER + B", hl.dsp.global("quickshell:sidebarLeftToggle"))
 

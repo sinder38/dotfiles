@@ -22,5 +22,34 @@ if pkill mpvpaper 2>/dev/null; then
     sleep 0.5
 fi
 
-mpvpaper -f -o "no-audio loop" "*" "$DEST"
+# Build a "cover" crop filter so the video fills the screen with no letterboxing
+MPV_OPTS="no-audio loop"
+
+SCREEN_DIMS=$(hyprctl monitors -j 2>/dev/null | jq -r '(map(select(.focused))+.)[0] | "\(.width) \(.height)"' 2>/dev/null || true)
+VIDEO_DIMS=$(ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s=x:p=0 "$DEST" 2>/dev/null || true)
+
+if [[ -n "$SCREEN_DIMS" && "$SCREEN_DIMS" != "null null" && -n "$VIDEO_DIMS" ]]; then
+    read -r SCREEN_W SCREEN_H <<<"$SCREEN_DIMS"
+    VID_W="${VIDEO_DIMS%x*}"
+    VID_H="${VIDEO_DIMS#*x}"
+
+    read -r SCALED_W SCALED_H CROP_X CROP_Y <<<"$(awk -v sw="$SCREEN_W" -v sh="$SCREEN_H" -v vw="$VID_W" -v vh="$VID_H" '
+    function ceil(x) { return (x == int(x)) ? x : int(x) + 1 }
+    BEGIN {
+        scale = (sw / vw > sh / vh) ? sw / vw : sh / vh;
+        nw = ceil(vw * scale); if (nw % 2 != 0) nw++;
+        nh = ceil(vh * scale); if (nh % 2 != 0) nh++;
+        cx = int((nw - sw) / 2); if (cx % 2 != 0) cx--; if (cx < 0) cx = 0;
+        cy = int((nh - sh) / 2); if (cy % 2 != 0) cy--; if (cy < 0) cy = 0;
+        print nw, nh, cx, cy;
+    }')"
+
+    MPV_OPTS="$MPV_OPTS vf=lavfi=[scale=${SCALED_W}:${SCALED_H},crop=${SCREEN_W}:${SCREEN_H}:${CROP_X}:${CROP_Y}]"
+else
+    echo "Warning: could not determine screen/video dimensions, video may be letterboxed" >&2
+fi
+
+mpvpaper -f -o "$MPV_OPTS" "*" "$DEST"
+
+echo Options: "$MPV_OPTS"
 echo "Wallpaper set."

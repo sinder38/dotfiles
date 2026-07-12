@@ -1,6 +1,8 @@
 email_enabled: false
 
 pacman_packages:
+  - jq
+  - tealdeer
   - tor
   - torbrowser-launcher
   - ntfs-3g
@@ -24,7 +26,10 @@ pacman_packages:
   - papirus-icon-theme
   - kvantum
   - steam
+  - xorg-xrdb # sets Xft.dpi so Steam (XWayland) can compute UI scaling
   - fish
+  - tmux
+  - zellij
   - neovim
   - lazygit
   - github-cli
@@ -110,6 +115,8 @@ aur_packages:
 
 dnf_packages:
   - fish
+  - tmux
+  - zellij
   - neovim
   - lazygit
   - gh

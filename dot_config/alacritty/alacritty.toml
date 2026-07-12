@@ -1,5 +1,6 @@
 # What shell to use?
-terminal.shell = "fish"
+# zellij (configured in ~/.config/zellij/config.kdl) provides tabs/panes.
+terminal.shell = { program = "zellij" }
 
 # TokyoNight Alacritty Colors
 # Default colors
@@ -59,6 +60,12 @@ opacity = 1
 # [window.dimensions]
 # columns = 128
 # lines = 32
+
+[bell]
+# animation = "Ease"
+# duration = 150
+# color = "#ff9e64"
+command = { program = "notify-send", args = ["-u", "normal", "-i", "dialog-information", "Alacritty", "Needs your attention"] }
 
 [selection]
 save_to_clipboard = true

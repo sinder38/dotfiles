@@ -187,6 +187,7 @@
   "when_closing_with_no_tabs": "keep_window_open",
   "buffer_line_height": "standard",
   "terminal": {
+    "bell": "system",
     "scrollbar": {
       "show": "auto",
     },
@@ -200,6 +201,7 @@
     "modal_max_width": "large",
   },
   "agent": {
+    "terminal_init_command": "claude",
     "sidebar_side": "left",
     "dock": "right",
     "show_turn_stats": true,

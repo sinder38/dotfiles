@@ -269,22 +269,6 @@
       ],
     },
   },
-  // Vim-like motions in get pantel
-  // {
-  //   "context": "GitPanel && ChangesList",
-  //   "bindings": {
-  //     // (Dvorak)
-  //     "t": "git_panel::NextEntry",
-  //     "n": "git_panel::PreviousEntry",
-  //   },
-  // },
-  // These are Alt + 1/2/3/4 for terminal and project
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-1": "project_panel::Toggle",
-    },
-  },
   {
     "context": "Workspace",
     "bindings": {

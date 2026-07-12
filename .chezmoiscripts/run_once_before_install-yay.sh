@@ -8,7 +8,7 @@ if command -v yay &>/dev/null; then
     exit 0
 fi
 
-sudo pacman -S --needed --noconfirm git base-devel
+sudo pacman -Syu --needed --noconfirm git base-devel
 tmpdir=$(mktemp -d)
 git clone https://aur.archlinux.org/yay.git "$tmpdir"
 (cd "$tmpdir" && makepkg -si --noconfirm)
