@@ -99,6 +99,7 @@
   ],
   "command_aliases": {
     "crp": "workspace::CopyRelativePath",
+    "opt": "zed: open projects tasks"
   },
   "agent_servers": {
     "claude-acp": {
@@ -160,6 +161,7 @@
     "starts_open": true,
   },
   "git_panel": {
+    "group_by": "none",
     "dock": "left",
     "tree_view": true,
     "sort_by_path": true,
@@ -205,7 +207,7 @@
     "sidebar_side": "left",
     "dock": "right",
     "show_turn_stats": true,
-    "notify_when_agent_waiting": "all_screens",
+    "notify_when_agent_waiting": "never",
     "single_file_review": true,
     "default_profile": "ask",
     "tool_permissions": {

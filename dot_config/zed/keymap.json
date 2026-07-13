@@ -5,6 +5,7 @@
 // To see the default key bindings run `zed: open default keymap`
 // from the command palette.
 [
+  //TODO: shift+esc triggers ediotr un focus
   //TODO: space f f doesn't trigger finder when on project outline
   //TODO: Ctrl-W + o
   // to focus on specific panel
@@ -272,21 +273,21 @@
   {
     "context": "Workspace",
     "bindings": {
-      "ctrl-2": "terminal_panel::Toggle",
+      "alt-2": "terminal_panel::Toggle",
     },
   },
   // for git
   {
     "context": "Workspace",
     "bindings": {
-      "ctrl-3": "git_panel::Toggle",
+      "alt-3": "git_panel::Toggle",
     },
   },
   // for agent panel
   {
     "context": "Workspace",
     "bindings": {
-      "ctrl-4": "agent::Toggle",
+      "alt-4": "agent::Toggle",
     },
   },
   // {
@@ -331,12 +332,6 @@
     "context": "Terminal",
     "bindings": {
       "shift-escape": "workspace::CloseActiveDock",
-    },
-  },
-  {
-    "context": "Terminal",
-    "bindings": {
-      "shift-escape": "terminal_panel::Toggle",
     },
   },
   // for AgentPanel
@@ -721,24 +716,6 @@
         "welcome::OpenRecentProject",
         3
       ]
-    }
-  },
-  {
-    "context": "Pane",
-    "unbind": {
-      "alt-1": "project_panel::ToggleFocus"
-    }
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "alt-1": "project_panel::ToggleFocus"
-    }
-  },
-  {
-    "context": "ProjectPanel",
-    "unbind": {
-      "alt-1": "workspace::CloseActiveDock"
     }
   },
   // Unbind Space to avoid conflict with Vim leader key. Use X instead
@@ -1272,11 +1249,11 @@
       "k": "menu::SelectPrevious"
     }
   },
-  // Alt + 1 and Alt + 2 for git changes and history panel switching
+  // ctrl + 1 and ctrl + 2 for git changes and history panel switching
   {
     "context": "GitPanel",
     "bindings": {
-      "alt-1": "git_panel::ActivateChangesTab"
+      "ctrl-1": "git_panel::ActivateChangesTab"
     }
   },
   {
@@ -1288,7 +1265,7 @@
   {
     "context": "GitPanel",
     "bindings": {
-      "alt-2": "git_panel::ActivateHistoryTab"
+      "ctrl-2": "git_panel::ActivateHistoryTab"
     }
   },
   {
@@ -1386,4 +1363,201 @@
       "shift-j": "vim::JoinLines"
     }
   },
+  // Rebind pane and workspace navigation to use Ctrl instead of Alt
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-1": [
+        "workspace::ActivatePane",
+        0
+      ]
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "alt-1": [
+        "workspace::ActivatePane",
+        0
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-1": [
+        "pane::ActivateItem",
+        0
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "unbind": {
+      "alt-1": [
+        "pane::ActivateItem",
+        0
+      ]
+    }
+  },
+
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-2": [
+        "workspace::ActivatePane",
+        1
+      ]
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "alt-2": [
+        "workspace::ActivatePane",
+        1
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-2": [
+        "pane::ActivateItem",
+        1
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "unbind": {
+      "alt-2": [
+        "pane::ActivateItem",
+        1
+      ]
+    }
+  },
+
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-3": [
+        "workspace::ActivatePane",
+        2
+      ]
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "alt-3": [
+        "workspace::ActivatePane",
+        2
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-3": [
+        "pane::ActivateItem",
+        2
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "unbind": {
+      "alt-3": [
+        "pane::ActivateItem",
+        2
+      ]
+    }
+  },
+
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-4": [
+        "workspace::ActivatePane",
+        3
+      ]
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "alt-4": [
+        "workspace::ActivatePane",
+        3
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-4": [
+        "pane::ActivateItem",
+        3
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "unbind": {
+      "alt-4": [
+        "pane::ActivateItem",
+        3
+      ]
+    }
+  },
+
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-5": [
+        "workspace::ActivatePane",
+        4
+      ]
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "alt-5": [
+        "workspace::ActivatePane",
+        4
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-5": [
+        "pane::ActivateItem",
+        4
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "unbind": {
+      "alt-5": [
+        "pane::ActivateItem",
+        4
+      ]
+    }
+  },
+  {
+    "context": "GitPicker",
+    "unbind": {
+      "alt-2": "git_picker::ActivateStashTab"
+    }
+  },
+  {
+    "context": "RunModal",
+    "unbind": {
+      "alt-2": "new_process_modal::ActivateDebugTab"
+    }
+  }
 ]
