@@ -1,6 +1,7 @@
 email_enabled: false
 
 pacman_packages:
+  - playerctl
   - jq
   - tealdeer
   - tor

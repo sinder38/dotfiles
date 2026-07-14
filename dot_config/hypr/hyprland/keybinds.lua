@@ -28,7 +28,7 @@ hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
 -- caelestia-shell globals (launcher, session menu, lock, sidebar/notif center)
 -- see https://github.com/caelestia-dots/shell#shortcutsipc
 hl.bind(mainMod .. " + A", hl.dsp.global("caelestia:launcher"))
-hl.bind(mainMod .. " + M", hl.dsp.global("caelestia:session"))
+hl.bind(mainMod .. " + SHIFT + E", hl.dsp.global("caelestia:session"))
 hl.bind(mainMod .. " + L", hl.dsp.global("caelestia:lock"))
 hl.bind(mainMod .. " + SHIFT + A", hl.dsp.global("caelestia:sidebar"))
 hl.bind(mainMod .. " + SHIFT + N", hl.dsp.global("caelestia:clearNotifs"), { locked = true })
@@ -69,8 +69,8 @@ for i = 1, 10 do
 end
 
 -- Example special workspace (scratchpad)
--- hl.bind(mainMod .. " + S", hl.dsp.workspace.toggle_special("magic"))
-hl.bind(mainMod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "special:magic" }))
+hl.bind(mainMod .. " + M", hl.dsp.workspace.toggle_special("magic"))
+hl.bind(mainMod .. " + SHIFT + M", hl.dsp.window.move({ workspace = "special:magic" }))
 
 -- Scroll through existing workspaces with mainMod + scroll
 hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))

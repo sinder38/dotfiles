@@ -1,7 +1,7 @@
 # https://starship.rs/config/
 
 # Put the command on its own line below the prompt info.
-format = """$username$hostname$directory$git_branch$git_status$character\n"""
+format = """$username$hostname$directory$git_branch$git_status$line_break$character"""
 
 add_newline = false
 
