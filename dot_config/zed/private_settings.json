@@ -259,7 +259,7 @@
     "folds": false,
     "runnables": true,
     "breakpoints": false,
-    "line_numbers": true,
+    "line_numbers": false,
   },
   "window_decorations": "client",
   "tasks": {

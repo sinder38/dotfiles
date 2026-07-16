@@ -1559,5 +1559,37 @@
     "unbind": {
       "alt-2": "new_process_modal::ActivateDebugTab"
     }
+  },
+  // Alt 5 for worspace management
+  // TODO: add  to close all panels keybind (space + ;)
+  {
+    "context": "Workspace",
+    "unbind": {
+      "alt-5": "debug_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Pane",
+    "unbind": {
+      "alt-5": "debug_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "DebugPanel",
+    "unbind": {
+      "alt-5": "workspace::CloseActiveDock"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-5": "multi_workspace::ToggleWorkspaceSidebar"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-alt-j": "multi_workspace::ToggleWorkspaceSidebar"
+    }
   }
 ]

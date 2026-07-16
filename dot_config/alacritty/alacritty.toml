@@ -74,3 +74,9 @@ save_to_clipboard = true
 key = "Return"
 mods = "Shift"
 chars = "\u001B\r"
+
+# Ctrl+Backspace: send plain Ctrl-W (delete word)
+[[keyboard.bindings]]
+key = "Backspace"
+mods = "Control"
+chars = "\u0017"

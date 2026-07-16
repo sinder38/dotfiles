@@ -1,6 +1,11 @@
 email_enabled: false
 
 pacman_packages:
+  - feh
+  - mpv
+  - gwenview
+  - kimageformats
+  - rsync
   - playerctl
   - jq
   - tealdeer
@@ -76,6 +81,7 @@ pacman_packages:
   - gammastep
   - geoclue
   - polkit-gnome
+  - kwallet-pam
   # caelestia-shell (quickshell) and its runtime/build deps
   - quickshell
   - ddcutil

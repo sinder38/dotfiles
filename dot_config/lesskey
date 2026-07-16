@@ -1,0 +1,5 @@
+# Dvorak movement (matches nvim/fish remaps, see README.md)
+#command
+t forw-line
+n back-line
+s right-scroll

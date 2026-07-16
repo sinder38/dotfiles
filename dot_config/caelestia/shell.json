@@ -1,114 +1,116 @@
 {
-    "appearance": {
-        "deformScale": 1,
-        "font": {
-            "scale": 1
-        },
-        "padding": {
-            "scale": 1
-        },
-        "rounding": {
-            "scale": 1
-        },
-        "spacing": {
-            "scale": 1
-        }
+  "lock": {
+    "enabled": true,
+    "maxFprintTries": 7,
+    "maxHowdyTries": 5,
+    "hideNotifs": true
+  },
+  "background": {
+    "wallpaperEnabled": false
+  },
+  "bar": {
+    "activeWindow": {
+      "compact": true,
+      "inverted": false,
+      "showOnHover": false
     },
-    "background": {
-        "wallpaperEnabled": false
+    "dragThreshold": 20,
+    "persistent": true,
+    "popouts": {
+      "activeWindow": false
     },
-    "bar": {
-        "activeWindow": {
-            "compact": true,
-            "inverted": false,
-            "showOnHover": false
-        },
-        "dragThreshold": 20,
-        "persistent": true,
-        "popouts": {
-            "activeWindow": false
-        },
-        "status": {
-            "showAudio": true,
-            "showKbLayout": false,
-            "showLockStatus": false,
-            "showMicrophone": false
-        },
-        "tray": {
-            "background": false,
-            "compact": true,
-            "recolour": true
-        },
-        "workspaces": {
-            "activeIndicator": true,
-            "activeTrail": true,
-            "maxWindowIcons": 5,
-            "occupiedBg": true,
-            "showWindows": false,
-            "shown": 4
-        }
+    "status": {
+      "showAudio": true,
+      "showKbLayout": false,
+      "showLockStatus": false,
+      "showMicrophone": false
     },
-    "border": {
-        "rounding": 0,
-        "smoothing": 0,
-        "thickness": 0
+    "tray": {
+      "background": false,
+      "compact": true,
+      "recolour": true
     },
-    "dashboard": {
-        "enabled": true,
-        "showOnHover": true
-    },
-    "general": {
-        "apps": {
-            "explorer": [
-                "nautilus",
-                "--new-window"
-            ],
-            "playback": [
-                "haruna"
-            ],
-            "terminal": [
-                "alacritty"
-            ]
-        },
-        "idle": {
-            "timeouts": [
-                {
-                    "idleAction": "lock",
-                    "timeout": 1800
-                },
-                {
-                    "idleAction": "dpms off",
-                    "returnAction": "dpms on",
-                    "timeout": 300
-                },
-                {
-                    "idleAction": [
-                        "suspendThenHibernate"
-                    ],
-                    "timeout": 600
-                }
-            ]
-        }
-    },
-    "services": {
-        "useFahrenheit": false,
-        "useTwelveHourClock": false
-    },
-    "session": {
-        "commands": {
-            "logout": [
-                "hyprctl",
-                "dispatch",
-                "hl.dsp.exit()"
-            ]
-        }
-    },
-    "sidebar": {
-        "enabled": true
-    },
-    "utilities": {
-        "toasts": {
-            "nowPlaying": true
-        }
+    "workspaces": {
+      "activeIndicator": true,
+      "activeTrail": true,
+      "maxWindowIcons": 5,
+      "occupiedBg": true,
+      "showWindows": false,
+      "shown": 4
     }
+  },
+  "border": {
+    "rounding": 0,
+    "smoothing": 0,
+    "thickness": 0
+  },
+  "dashboard": {
+    "enabled": true,
+    "showOnHover": true
+  },
+  "general": {
+    "apps": {
+      "explorer": [
+        "nautilus",
+        "--new-window"
+      ],
+      "playback": [
+        "haruna"
+      ],
+      "terminal": [
+        "alacritty"
+      ]
+    },
+    "idle": {
+      "timeouts": [
+        {
+          "idleAction": "lock",
+          "timeout": 1800
+        },
+        {
+          "idleAction": "dpms off",
+          "returnAction": "dpms on",
+          "timeout": 300
+        },
+        {
+          "idleAction": [
+            "suspendThenHibernate"
+          ],
+          "timeout": 600
+        }
+      ]
+    }
+  },
+  "services": {
+    "useFahrenheit": false,
+    "useTwelveHourClock": false
+  },
+  "session": {
+    "commands": {
+      "logout": [
+        "hyprctl",
+        "dispatch",
+        "hl.dsp.exit()"
+      ]
+    }
+  },
+  "sidebar": {
+    "enabled": true
+  },
+  "notifs": {
+      "expire": true,
+      "fullscreen": "on",
+      "defaultExpireTimeout": 5000,
+      "fullscreenExpireTimeout": 2000,
+      "clearThreshold": 0.3,
+      "expandThreshold": 20,
+      "actionOnClick": false,
+      "groupPreviewNum": 3,
+      "openExpanded": true
+  },
+  "utilities": {
+    "toasts": {
+      "nowPlaying": false
+    }
+  }
 }

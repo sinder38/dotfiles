@@ -1,3 +1,6 @@
+
+--TODO: global keybinds https://wiki.hypr.land/Configuring/Basics/Binds/#switches
+
 -- Set programs that you use
 local terminal    = "alacritty"
 local fileManager = "nautilus"
@@ -11,7 +14,7 @@ hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal))
 local closeWindowBind = hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 -- closeWindowBind:set_enabled(false)
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
--- hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
+hl.bind(mainMod .. " + O", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
 hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.fullscreen())
@@ -34,6 +37,11 @@ hl.bind(mainMod .. " + SHIFT + A", hl.dsp.global("caelestia:sidebar"))
 hl.bind(mainMod .. " + SHIFT + N", hl.dsp.global("caelestia:clearNotifs"), { locked = true })
 hl.bind(mainMod .. " + SHIFT + D", hl.dsp.global("caelestia:showall"))
 
+-- Screenshots
+-- r is for region, f is for freeze
+hl.bind("Print", hl.dsp.exec_cmd("caelestia screenshot -r"))
+hl.bind("SHIFT + Print", hl.dsp.exec_cmd("caelestia screenshot -r -f "))
+
 -- Clipboard history and emoji picker (caelestia-cli, backed by cliphist/fuzzel)
 hl.bind(mainMod .. " + V", hl.dsp.exec_cmd("pkill fuzzel || caelestia clipboard"))
 hl.bind(mainMod .. " + Period", hl.dsp.exec_cmd("pkill fuzzel || caelestia emoji -p"))
@@ -49,6 +57,12 @@ hl.bind(mainMod .. " + H", hl.dsp.focus({ direction = "left" }))
 hl.bind(mainMod .. " + S", hl.dsp.focus({ direction = "right" }))
 hl.bind(mainMod .. " + N", hl.dsp.focus({ direction = "up" }))
 hl.bind(mainMod .. " + T", hl.dsp.focus({ direction = "down" }))
+
+-- Dvorak movment
+hl.bind(mainMod .. " + SHIFT + H", hl.dsp.window.move({ direction = "left" }))
+hl.bind(mainMod .. " + SHIFT + S", hl.dsp.window.move({ direction = "right" }))
+hl.bind(mainMod .. " + SHIFT + T", hl.dsp.window.move({ direction = "down" }))
+hl.bind(mainMod .. " + SHIFT + N", hl.dsp.window.move({ direction = "up" }))
 
 -- Dvorak resize
 -- hl.bind("SUPER + Minus", hl.dsp.window.resize(fn.resize_active_window(-10, 0)), { repeating = true })
@@ -97,3 +111,16 @@ hl.bind("XF86AudioNext", hl.dsp.exec_cmd("playerctl next"), { locked = true })
 hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true })
+
+-- Trigger when the switch is toggled.
+-- hl.bind("switch:power-button", hl.dsp.exec_cmd("notify-send 'yooo1'"), { locked = true })
+-- hl.bind("switch:on:power-button", hl.dsp.exec_cmd("notify-send 'yooo3'"), { locked = true })
+-- hl.bind("switch:off:power-button", hl.dsp.exec_cmd("notify-send 'yooo5'"), { locked = true })
+
+-- hl.bind("switch:power-button", hl.dsp.exec_cmd("notify-send 'yooo6'"), { locked = true })
+-- hl.bind("switch:on:sleep-button", hl.dsp.exec_cmd("notify-send 'yooo2'"), { locked = true })
+-- hl.bind("switch:off:sleep-button", hl.dsp.exec_cmd("notify-send 'yoo4'"), { locked = true })
+
+
+-- hl.bind("switch:on:Lid Switch", hl.dsp.exec_cmd("notify-send 'lid open'"), { locked = true })
+-- hl.bind("switch:off:Lid Switch", hl.dsp.exec_cmd("notify-send 'lid closed'"), { locked = true })

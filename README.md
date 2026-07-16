@@ -54,3 +54,22 @@ Run `pass insert` for each before applying chezmoi:
 | email/gmail/app-password   | Gmail App Password                |
 | email/gmail/smtp-url   | smtps://<username>@smtp.gmail.com                |
 | realname   | My IRL name                |
+
+
+## Dvorak remaps
+
+Instead of learning qwerty vim-like keybinds I rebind them to use my own which are more ergonomic for my dvorak layout:  
+Here is an example from NeoVim
+
+```lua
+-- Dvorak movement
+vim.keymap.set("", "t", "j", remap_opts)
+vim.keymap.set("", "n", "k", remap_opts)
+vim.keymap.set("", "s", "l", remap_opts)
+
+-- insert swap
+vim.keymap.set("n", "a", "i", remap_opts)
+vim.keymap.set("n", "i", "a", remap_opts)
+vim.keymap.set("n", "I", "A", remap_opts)
+vim.keymap.set("n", "A", "I", remap_opts)
+```
