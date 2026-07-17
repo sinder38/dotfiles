@@ -1,6 +1,11 @@
 email_enabled: false
 
 pacman_packages:
+  # - ollama-vulkan  # optional
+  - ollama
+  - just
+  - xorg-xhost
+  - xdg-dbus-proxy
   - feh
   - mpv
   - gwenview

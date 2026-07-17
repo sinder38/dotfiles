@@ -1,0 +1,65 @@
+#!/usr/bin/env bash
+# Launches WeChat in a rootless, sealed Podman container.
+set -euo pipefail
+
+VOLUME_NAME="wechat-data"
+CONTAINER_NAME="wechat-isolated"
+
+# Ensure XWayland is actually up. Hyprland starts XWayland lazily on first
+# X11 client, but doing this check keeps error messages sane
+if [ -z "${DISPLAY:-}" ]; then
+    echo "No \$DISPLAY set. Under Hyprland, XWayland should set this automatically"
+    echo "once an X11 app starts, but it can be unset in some session setups."
+    echo "Try: echo \$DISPLAY   (should print something like :1)"
+    exit 1
+fi
+
+DBUS_HOST_ADDRESS="${DBUS_SESSION_BUS_ADDRESS:-unix:path=${XDG_RUNTIME_DIR:-/run/user/$(id -u)}/bus}"
+DBUS_PROXY_SOCKET="${XDG_RUNTIME_DIR:-/run/user/$(id -u)}/wechat-dbus-proxy-$$"
+
+cleanup() {
+    xhost -local: >/dev/null 2>&1 || true
+    if [ -n "${DBUS_PROXY_PID:-}" ]; then
+        kill "$DBUS_PROXY_PID" 2>/dev/null || true
+        wait "$DBUS_PROXY_PID" 2>/dev/null || true
+    fi
+    rm -f "$DBUS_PROXY_SOCKET"
+}
+trap cleanup EXIT
+
+# Filtered D-Bus proxy: only notifications + tray (StatusNotifierItem), no
+# access to anything else on the session bus. Same mechanism Flatpak uses
+xdg-dbus-proxy "$DBUS_HOST_ADDRESS" "$DBUS_PROXY_SOCKET" \
+    --filter \
+    --talk=org.freedesktop.Notifications \
+    --talk=org.kde.StatusNotifierWatcher \
+    --own=org.kde.* &
+DBUS_PROXY_PID=$!
+
+# Wait for the proxy socket to actually appear before starting the container.
+for _ in $(seq 1 50); do
+    [ -S "$DBUS_PROXY_SOCKET" ] && break
+    sleep 0.1
+done
+if [ ! -S "$DBUS_PROXY_SOCKET" ]; then
+    echo "xdg-dbus-proxy failed to create its socket, aborting." >&2
+    exit 1
+fi
+
+# Allow local root-less connections to X server from container
+# xhost +local: is scoped to local Unix-socket connections only (not network-wide).
+xhost +local: >/dev/null
+
+podman run -it --rm \
+    --name "$CONTAINER_NAME" \
+    --userns=keep-id \
+    --security-opt label=disable \
+    --network=pasta \
+    -e DISPLAY="$DISPLAY" \
+    -e DBUS_SESSION_BUS_ADDRESS="unix:path=/run/dbus-proxy/bus" \
+    -v /tmp/.X11-unix:/tmp/.X11-unix:ro \
+    -v "${XDG_RUNTIME_DIR:-/run/user/$(id -u)}/pulse:/run/user/$(id -u)/pulse:ro" \
+    -v "${VOLUME_NAME}:/home/wechatuser:U" \
+    -v "${DBUS_PROXY_SOCKET}:/run/dbus-proxy/bus" \
+    --device /dev/dri:/dev/dri \
+    wechat-isolated

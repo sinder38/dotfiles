@@ -1,0 +1,102 @@
+# WeChat in an isolated rootless Podman container.
+FROM archlinux:base AS builder
+
+RUN pacman -Syu --noconfirm --needed base-devel git \
+ nss \
+ xcb-util-renderutil \
+ xcb-util-keysyms \
+ xcb-util-image \
+ xcb-util-wm \
+ libxkbcommon-x11 \
+ libxkbcommon \
+ libxcb \
+ nspr \
+ libxcomposite \
+ libxrender \
+ libxext \
+ alsa-lib \
+ libxrandr \
+ fontconfig \
+ pango \
+ freetype2 \
+ libxfixes \
+ cairo \
+ libx11 \
+ libvlc \
+ libxdamage \
+ libdrm \
+ mesa \
+ libglvnd \
+ libpulse \
+ hicolor-icon-theme \
+    && pacman -Scc --noconfirm
+
+RUN useradd -m -s /bin/bash builder \
+    && echo "builder ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+USER builder
+WORKDIR /home/builder
+
+# Build wechat-bin from AUR.
+# TODO: Maybe use official
+RUN git clone https://aur.archlinux.org/wechat-bin.git \
+    && cd wechat-bin \
+    && makepkg --noconfirm \
+    && cp ./*.pkg.tar.zst /home/builder/wechat.pkg.tar.zst
+
+# final stage
+FROM archlinux:base
+
+RUN pacman -Syu --noconfirm --needed \
+ xcb-util-renderutil \
+ xcb-util-keysyms \
+ xcb-util-image \
+ xcb-util-wm \
+ libxkbcommon-x11 \
+ libxkbcommon \
+ libxcb \
+ gcc-libs \
+ nspr \
+ glibc \
+ zlib \
+ libxcomposite \
+ glib2 \
+ libxrender \
+ libxext \
+ alsa-lib \
+ dbus \
+ libxrandr \
+ fontconfig \
+ pango \
+ freetype2 \
+ libxfixes \
+ cairo \
+ libx11 \
+ expat \
+ libvlc \
+ libxdamage \
+ libdrm \
+ mesa \
+ libglvnd \
+ libpulse \
+ libxtst \
+ gtk3 \
+ libxss \
+ libsecret \
+ cups \
+ hicolor-icon-theme \
+ noto-fonts-cjk \
+ noto-fonts-emoji \
+    && fc-cache -f \
+    && pacman -Scc --noconfirm
+
+COPY --from=builder /home/builder/wechat.pkg.tar.zst /tmp/wechat.pkg.tar.zst
+RUN pacman -U --noconfirm /tmp/wechat.pkg.tar.zst \
+    && rm /tmp/wechat.pkg.tar.zst \
+    && pacman -Scc --noconfirm
+
+# Non-root run user — never run GUI apps as root in the container.
+RUN useradd -m -s /bin/bash wechatuser
+USER wechatuser
+WORKDIR /home/wechatuser
+
+ENTRYPOINT ["wechat"]

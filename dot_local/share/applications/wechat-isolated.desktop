@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=WeChat (isolated)
+Comment=WeChat in a sealed rootless Podman container
+Exec=wechat
+Icon=wechat
+Terminal=false
+Type=Application
+Categories=Network;InstantMessaging;
+Keywords=wechat;weixin;chat;
+StartupNotify=true
