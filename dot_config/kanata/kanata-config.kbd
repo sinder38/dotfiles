@@ -1,8 +1,5 @@
 ;;TODO:
-;; experiment with leader key (sldr)
 ;; expand Vim layer
-;; move your layout to kanata
-;; tryout swapping meta to a layer
 
 (defcfg
   process-unmapped-keys yes
