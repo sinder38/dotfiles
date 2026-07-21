@@ -1,11 +1,13 @@
 email_enabled: false
 
 pacman_packages:
+  - glab
   # - ollama-vulkan  # optional
   - ollama
   - just
   - xorg-xhost
   - xdg-dbus-proxy
+  - xdotool
   - feh
   - mpv
   - gwenview
