@@ -26,3 +26,5 @@
 	helper = store
 [commit]
 	gpgsign = true
+[url "https://sinder38@gitlab.com/"]
+    insteadOf = https://gitlab.com/

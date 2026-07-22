@@ -1,6 +1,8 @@
 email_enabled: false
 
 pacman_packages:
+  # - gopls # Zed recommends to install gopls using go itself https://zed.dev/docs/languages/go#go
+  - go
   - glab
   # - ollama-vulkan  # optional
   - ollama
@@ -15,7 +17,7 @@ pacman_packages:
   - rsync
   - playerctl
   - jq
-  - tealdeer
+  - tealdeer # better tldr
   - tor
   - torbrowser-launcher
   - ntfs-3g
