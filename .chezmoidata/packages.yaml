@@ -1,6 +1,7 @@
 email_enabled: false
 
 pacman_packages:
+  - terraform
   # - gopls # Zed recommends to install gopls using go itself https://zed.dev/docs/languages/go#go
   - go
   - glab
@@ -128,6 +129,7 @@ aur_packages:
   - libcava
   - ttf-rubik-vf
   - python-materialyoucolor
+  - logkeys
 
 dnf_packages:
   - fish

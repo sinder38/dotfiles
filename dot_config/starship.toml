@@ -1,19 +1,19 @@
 # https://starship.rs/config/
 
-# Put the command on its own line below the prompt info.
-format = """$username$hostname$directory$git_branch$git_status$line_break$character"""
+# # Put the command on its own line below the prompt info.
+# format = """$username$hostname$directory$git_branch$git_status$line_break$character"""
 
 add_newline = false
 
 [username]
 show_always = true
-format = "[$user]($style)"
+format = "[$user]($style) "
 style_user = "green bold"
 
-[hostname]
-ssh_only = false
-format = "[@$hostname]($style) "
-style = "green bold"
+# [hostname]
+# ssh_only = false
+# format = "[@$hostname]($style) "
+# style = "green bold"
 
 [directory]
 style = "cyan bold"
@@ -22,15 +22,15 @@ fish_style_pwd_dir_length = 1
 truncation_length = 3
 truncate_to_repo = false
 
-[git_branch]
-format = "[(\\($branch\\))]($style) "
-style = "yellow"
+# [git_branch]
+# format = "[(\\($branch\\))]($style) "
+# style = "yellow"
 
-[git_status]
-format = "([\\($all_status$ahead_behind\\)]($style)) "
-style = "red"
+# [git_status]
+# format = "([\\($all_status$ahead_behind\\)]($style)) "
+# style = "red"
 
-[character]
-success_symbol = "[>](bold green)"
-error_symbol = "[>](bold red)"
-vimcmd_symbol = "[>](bold green)"
+# [character]
+# success_symbol = "[>](bold green)"
+# error_symbol = "[>](bold red)"
+# vimcmd_symbol = "[>](bold green)"

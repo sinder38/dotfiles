@@ -6,7 +6,7 @@ SETUVAR --export MANPAGER:bat\x20\x2dl\x20man\x20\x2dp
 SETUVAR --export PAGER:less
 SETUVAR --export VISUAL:zeditor\x20\x2d\x2dwait
 SETUVAR __fish_initialized:4300
-SETUVAR fish_user_paths:/home/sinder/\x2elocal/bin\x1e/home/sinder/\x2enpm\x2dglobal/bin\x1e/home/sinder/\x2ecargo/bin
+SETUVAR fish_user_paths:/home/sinder/go/bin\x1e/home/sinder/\x2elocal/bin\x1e/home/sinder/\x2enpm\x2dglobal/bin\x1e/home/sinder/\x2ecargo/bin
 SETUVAR pure_color_git_dirty:\x1b\x5b36m
 SETUVAR pure_color_git_unpulled_commits:\x1b\x5b92m
 SETUVAR pure_color_git_unpushed_commits:\x1b\x5b33m

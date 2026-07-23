@@ -97,7 +97,7 @@ end
 
 # provision and manage a dev server
 function devserver
-    set scripts ~/Projects/Personal/dev-server/scripts
+    set scripts ~/Projects/dev-server/scripts
 
     switch $argv[1]
         case up
@@ -147,6 +147,57 @@ function gz --d "Get the gzipped size"
         set -l wid (math $COLUMNS - 40)
         set -l bar_width (math -s0 $compressed_size \* $wid / $orig_size)
         printf "%'12.0f   %s%s\n" "$compressed_size" (string repeat -n $bar_width '█') (string repeat -n (math -s0 "$wid - $bar_width")  '░')
+    end
+end
+
+# Record key usage for usage analysis
+function keylogger --description "start/stop/status logkeys, an on-demand keylogger (logs to ~/.local/share/logkeys/keys.log)"
+    set -l logdir ~/.local/share/logkeys
+    set -l logfile $logdir/keys.log
+
+    switch "$argv[1]"
+        case start
+            mkdir -p $logdir
+            if pgrep -x logkeys >/dev/null
+                echo "keylogger already running"
+            else
+                # If kanata is running it grabs the physical keyboard
+                # exclusively, so read its remapped output device instead.
+                set -l device (awk '/^N: Name="kanata"/{f=1} f && /^H:/{match($0,/event[0-9]+/,m); print m[0]; exit}' /proc/bus/input/devices)
+                set -l device_args
+                if test -n "$device"
+                    set device_args --device /dev/input/$device
+                end
+                if sudo logkeys --start $device_args --output $logfile
+                    if test -n "$device"
+                        echo "keylogger started (device $device), logging to $logfile"
+                    else
+                        echo "keylogger started, logging to $logfile"
+                    end
+                else
+                    echo "keylogger failed to start"
+                    return 1
+                end
+            end
+        case stop
+            if pgrep -x logkeys >/dev/null
+                if sudo logkeys --kill
+                    echo "keylogger stopped"
+                else
+                    echo "keylogger failed to stop"
+                    return 1
+                end
+            else
+                echo "keylogger not running"
+            end
+        case status
+            if pgrep -x logkeys >/dev/null
+                echo "keylogger running, logging to $logfile"
+            else
+                echo "keylogger not running"
+            end
+        case '*'
+            echo "Usage: keylogger [start|stop|status]"
     end
 end
 
