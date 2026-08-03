@@ -1,6 +1,20 @@
 email_enabled: false
 
 pacman_packages:
+  - texlab
+  - texlive-basic
+  - texlive-latex
+  - texlive-latexrecommended
+  - texlive-latexextra
+  - texlive-fontsrecommended
+  - texlive-binextra
+  - maven
+  - gradle
+  - jdk-openjdk
+  - jdk21-openjdk
+  - bind
+  - namcap
+  - postgresql
   - terraform
   # - gopls # Zed recommends to install gopls using go itself https://zed.dev/docs/languages/go#go
   - go
@@ -123,8 +137,9 @@ aur_packages:
   - brave-bin
   - zen-browser-bin
   - wlogout
-  - hyprlock
-  - mpvpaper
+  # - hyprlock
+  - live-paper
+  # - mpvpaper
   - caelestia-cli
   - libcava
   - ttf-rubik-vf

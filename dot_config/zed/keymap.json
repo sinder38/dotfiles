@@ -1586,10 +1586,4 @@
       "alt-5": "multi_workspace::ToggleWorkspaceSidebar"
     }
   },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "ctrl-alt-j": "multi_workspace::ToggleWorkspaceSidebar"
-    }
-  }
 ]

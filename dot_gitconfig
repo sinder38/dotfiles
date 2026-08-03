@@ -8,6 +8,7 @@
     ed = branch --no-merged main -v
     diff-main = log main..HEAD --oneline
     glog = log --graph --oneline --decorate
+    undo = reset --soft HEAD~1
 [core]
 	editor = zeditor --wait
 	autocrlf = input

@@ -239,3 +239,10 @@ end
 for cmd in gcloud gsutil bq
     eval "function $cmd; google_cloud_sdk_lazy_init $cmd \$argv; end"
 end
+
+function loadenv
+    for line in (cat .env | grep -v '^#' | grep -v '^\s*$')
+        set -l parts (string split -m 1 '=' $line)
+        set -gx $parts[1] (string trim -c '"\'' -- $parts[2])
+    end
+end

@@ -50,7 +50,7 @@ fi
 # xhost +local: is scoped to local Unix-socket connections only (not network-wide).
 xhost +local: >/dev/null
 
-podman run -it --rm \
+podman run -it --rm --replace \
     --name "$CONTAINER_NAME" \
     --userns=keep-id \
     --security-opt label=disable \
