@@ -132,6 +132,12 @@ pacman_packages:
   - cliphist
   - python-pillow
   - starship
+  - fcitx5
+  - fcitx5-chinese-addons
+  - fcitx5-gtk
+  - fcitx5-qt
+  - fcitx5-configtool
+  - noto-fonts-cjk
 aur_packages:
   - kanata-bin
   - brave-bin
@@ -145,6 +151,7 @@ aur_packages:
   - ttf-rubik-vf
   - python-materialyoucolor
   - logkeys
+  - android-studio
 
 dnf_packages:
   - fish

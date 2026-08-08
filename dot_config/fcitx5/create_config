@@ -1,0 +1,37 @@
+# fcitx5 global config.
+#
+# Managed as a chezmoi `create_` file: written once, then left alone, because
+# fcitx5 rewrites this file itself whenever anything changes in fcitx5-configtool.
+
+[Hotkey]
+# Skip the built-in Ctrl+Space default. Nothing in Hyprland or caelestia binds
+# Super+Space, and Super is already the WM's mainMod, so the combo is muscle
+# memory from GNOME/macOS layout switching and free to reuse here.
+TriggerKeys=
+# Hold this to type latin letters without leaving pinyin mode.
+AltTriggerKeys=
+EnumerateWithTriggerKeys=True
+EnumerateSkipFirst=False
+
+[Hotkey/TriggerKeys]
+0=Super+space
+
+[Hotkey/AltTriggerKeys]
+0=Shift_L
+
+[Hotkey/PrevPage]
+0=Up
+1=minus
+
+[Hotkey/NextPage]
+0=Down
+1=equal
+
+[Behavior]
+ActiveByDefault=False
+# Remember per-application whether you were in Chinese or English mode, so the
+# terminal stays latin while WeChat stays in pinyin.
+ShareInputState=No
+PreeditEnabledByDefault=True
+ShowInputMethodInformation=True
+CompactInputMethodInformation=True

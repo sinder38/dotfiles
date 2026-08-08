@@ -10,6 +10,9 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("caelestia shell -d")
     hl.exec_cmd("/usr/lib/polkit-kde-authentication-agent-1")
 
+    -- Chinese input method. -d daemonizes, -r replaces a stale instance
+    hl.exec_cmd("fcitx5 -d -r")
+
     -- Live Wallpaper,
     -- TODO: this is hardcoded from dot_local/bin/executable_wallpaper
     -- mpv paper seems to leek memory and is problematic
