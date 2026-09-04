@@ -11,7 +11,7 @@
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
   caps a    s    d    f    g    h    j    k    l    ;    '    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft
-  lctl lmet lalt           spc            ralt rctl
+  lctl lmet lalt           spc            ralt rmet rctl
 )
 
 (defoverridesv2
@@ -25,7 +25,7 @@
   (`) (lsft 4) () (no-mods-qwerty no-mods)                    ;; $
   (lsft `) (lsft `) () (no-mods-qwerty no-mods)               ;; ~
 
-  ;; Use normal numbers when using mods
+  ;; Use numbers (instead of brackets) when using mods
   ;; This may create some confusion in the keybind definiton
   (1) (lsft =) (lalt lmet lsft lctl) (no-mods-qwerty no-mods) ;; +
   (lsft 1) (1) (lalt lmet lctl) (no-mods-qwerty no-mods)
@@ -126,7 +126,7 @@
   tab  ;    ,    .    p    y    f    g    c    r    l    /    =    \
   esc  @a   @o  @e    @u   @gar d    @h   @t   @n   @s   -    ret
   lsft '    q    j    k    x    b    m    w    v    z    rsft
-  lctl lmet @lalt           spc            @ralt  @rctl
+  lctl lmet @lalt           spc            @ralt  rmet @rctl
 )
 
 ;; qwerty layer
@@ -136,7 +136,7 @@
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
   esc  @a   @s1  @d   @f   g    h    @j   @k   @l   @;    '    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft
-  lctl lmet @lalt           spc            @ralt  @rctl
+  lctl lmet @lalt           spc            @ralt rmet @rctl
 )
 
 ;; Layers switcher
@@ -146,7 +146,7 @@
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _
-  _    _    _              _              _    _
+  _    _    _              _              _    _    _
 )
 
 
@@ -157,7 +157,7 @@
   _    _    _    _    _    _    _    home pgdn pgup C-tab _   _    _
   esc  _    _   lsft lctl  _    _    left down up   rght  _   ret
   lsft _    _    _    _    _  C-left  _  C-rght _   _     _
-  lctl _    _              _               _    _
+  lctl _    _              _               _    _   _
 )
 
 (deflayer num-pad
@@ -166,7 +166,7 @@
   _    _    _    _    _    _    _    S-7  S-8  S-9  S-0  _    _    _
   _    _    _    _    _    _    _    S-4  S-5  S-6  _    _    _
   _    _    _    _    _    _    _    S-1  S-2  S-3  _    _
-  _    _    _              _              _    _
+  _    _    _              _              _    _    _
 )
 
 
@@ -178,7 +178,7 @@
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
   esc  a    s    d    f    g    h    j    k    l    ;    '    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft
-  lctl mrgt mlft           spc            @ralt  @rctl
+  lctl mrgt mlft           spc            @ralt  rmet @rctl
 )
 
 (deflayer no-mods
@@ -187,7 +187,7 @@
   tab  ;    ,    .    p    y    f    g    c    r    l    /    =    \
   esc   a   o    e    u    i    d    h    t    n    s    -    ret
   lsft '    q    j    k    x    b    m    w    v    z    rsft
-  lctl lmet @lalt           spc            @ralt  @rctl
+  lctl lmet @lalt           spc            @ralt rmet @rctl
 )
 
 
@@ -233,7 +233,7 @@
   ;; ralt is only shift
   ;;ralt lsft
   ;;rctl is backspace
-  rctl bspc
+  rctl rctl
 
   ;;spc (tap-hold-press $tap-time $hold-time spc lctl)
   ;; Left Meta as return and shift

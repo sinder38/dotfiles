@@ -42,11 +42,11 @@ fish_vi_key_bindings
 set -x GPG_TTY (tty)
 gpgconf --launch gpg-agent
 
-set -Ux EDITOR "zeditor --wait"
-set -Ux VISUAL "zeditor --wait"
-set -Ux PAGER less
-set -Ux MANPAGER "bat -l man -p"
-set -Ux BROWSER brave
+set -gx EDITOR "zeditor --wait"
+set -gx VISUAL "zeditor --wait"
+set -gx PAGER less
+set -gx MANPAGER "bat -l man -p"
+set -gx BROWSER brave
 
 # TODO: path and aliases are kinda slow to source. optimize later.
 function ssource --description "source most of my dotfiles, useful if making changes and iterating"
@@ -107,11 +107,11 @@ set -g pure_git_untracked_dirty false
 set pure_threshold_command_duration 1
 set pure_separate_prompt_on_error true
 set pure_begin_prompt_with_current_directory false
-set -U pure_color_success (set_color green)
-set -U pure_color_git_dirty (set_color cyan)
+set -g pure_color_success (set_color green)
+set -g pure_color_git_dirty (set_color cyan)
 
-set -U pure_color_git_unpushed_commits (set_color yellow)
-set -U pure_color_git_unpulled_commits (set_color brgreen)
+set -g pure_color_git_unpushed_commits (set_color yellow)
+set -g pure_color_git_unpulled_commits (set_color brgreen)
 
 # prompt (lucid)
 

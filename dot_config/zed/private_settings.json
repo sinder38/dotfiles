@@ -185,7 +185,7 @@
       "max_output_tokens": 2048,
       "model": "qwen2.5-coder:7b-base",
     },
-    "provider": "ollama",
+    "provider": "zed",
     "allow_data_collection": "no",
     "mode": "subtle",
   },
@@ -230,7 +230,7 @@
     "show_turn_stats": true,
     "notify_when_agent_waiting": "never",
     "single_file_review": true,
-    "default_profile": "ask",
+    "default_profile": "write",
     "tool_permissions": {
       "default": "allow",
     },
@@ -382,6 +382,7 @@
     // },
   },
   "languages": {
+    "Markdown": {},
     "Svelte": {
       "prettier": {
         "allowed": true,

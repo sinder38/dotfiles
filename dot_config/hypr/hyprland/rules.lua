@@ -26,12 +26,13 @@ local suppressMaximizeRule = hl.window_rule({
 
     suppress_event = "maximize",
 })
+
 -- TODO: Not sure if I want this...
 suppressMaximizeRule:set_enabled(false)
 
 hl.window_rule({
     -- Float unidentified Wayland popups (e.g. Brave tab search)
-    name            = "float-unnamed-wayland-popups",
+    name            = "",
     match           = { class = "^$", title = "^$" },
     float           = true,
     move            = "55 5", -- 50px for the bar + 5 for the border
@@ -40,6 +41,14 @@ hl.window_rule({
     pseudo          = true,
     no_max_size     = true,
     persistent_size = false
+})
+
+hl.window_rule({
+    -- Fullscreen Zed
+    name            = "zed.Zed",
+    match           = { class = "^$" },
+    fullscreen = true,
+
 })
 
 hl.window_rule({

@@ -1,4 +1,11 @@
 {
+    "appearance": {
+        "anim": {
+            "durations": {
+                "scale": 0
+            }
+        }
+    },
     "background": {
         "wallpaperEnabled": false
     },
@@ -110,6 +117,7 @@
     },
     "utilities": {
         "toasts": {
+            "kbLayoutChanged": false,
             "nowPlaying": false
         }
     }
