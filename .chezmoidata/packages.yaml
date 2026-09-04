@@ -1,6 +1,10 @@
 email_enabled: false
 
 pacman_packages:
+  - heaptrack
+  - baobab
+  - virtualbox
+  - gamemode
   - texlab
   - texlive-basic
   - texlive-latex
@@ -32,6 +36,8 @@ pacman_packages:
   - rsync
   - playerctl
   - jq
+  - bubblewrap
+  - socat
   - tealdeer # better tldr
   - tor
   - torbrowser-launcher
@@ -128,6 +134,8 @@ pacman_packages:
   - slurp
   - dart-sass
   - gpu-screen-recorder
+  - nvtop
+  - intel-gpu-tools
   - dconf
   - cliphist
   - python-pillow
