@@ -23,6 +23,9 @@ Linux, podman
 # Code
 
 - Match the file you are editing: its naming, its comment density, its idioms.
+- The less code the better
 - When writing commets or documentation don't overexplain, use as few words as possible.
   Writing short and concrete comments beats any comment conventions the rest of the codebase has.
+  Omit 'the', 'an', 'a', and other particals to decrease length 
 - Do not add error handling that silently swallows the error, like returning a placeholder or default value on error.
+- When working on or with opensource refer to the documentation and source code availible, instead of only relying on your memory

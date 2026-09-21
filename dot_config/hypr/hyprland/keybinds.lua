@@ -39,8 +39,18 @@ hl.bind(mainMod .. " + SHIFT + D", hl.dsp.global("caelestia:showall"))
 
 -- Screenshots
 -- r is for region, f is for freeze
-hl.bind("Print", hl.dsp.exec_cmd("caelestia screenshot -r"))
+hl.bind("Print", hl.dsp.exec_cmd("caelestia screenshot"))
 hl.bind("SHIFT + Print", hl.dsp.exec_cmd("caelestia screenshot -r -f "))
+
+-- Rotate monitor
+hl.bind(mainMod .. " + SHIFT + R", function()
+    -- TODO: test this on multiple monitors
+    -- get current transform + 1
+    local transform = (hl.get_monitor("eDP-1").transform + 1) % 4
+    -- change scale depending on rotation (horizontal or verical)
+    -- local scale = (transform % 2 == 0) and 1.5 or 1.5
+    hl.monitor({ output = "eDP-1", mode = "preferred", position = "auto", transform = transform })
+end)
 
 -- Clipboard history and emoji picker (caelestia-cli, backed by cliphist/fuzzel)
 hl.bind(mainMod .. " + V", hl.dsp.exec_cmd("pkill fuzzel || caelestia clipboard"))
