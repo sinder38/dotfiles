@@ -50,6 +50,14 @@ hl.bind(mainMod .. " + SHIFT + R", function()
     -- change scale depending on rotation (horizontal or verical)
     -- local scale = (transform % 2 == 0) and 1.5 or 1.5
     hl.monitor({ output = "eDP-1", mode = "preferred", position = "auto", transform = transform })
+
+    -- keep touchscreen digitizer aligned with new orientation
+    hl.config({ input = { touchdevice = { transform = transform } } })
+
+    -- touchpad has no axis-swap, only flip: covers 180 (transform 2), not 90/270
+    -- see https://github.com/hyprwm/Hyprland/issues/8795
+    local flipped = transform == 2
+    hl.config({ input = { touchpad = { flip_x = flipped, flip_y = flipped } } })
 end)
 
 -- Clipboard history and emoji picker (caelestia-cli, backed by cliphist/fuzzel)

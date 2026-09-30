@@ -2,6 +2,7 @@
 
 hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
+hl.env("CAELESTIA_SCREENSHOTS_DIR", "$HOME/Pictures/Screenshots")
 
 -- XWayland apps (Steam, etc.) don't support fractional scaling; render them at
 -- 1x and let each app scale itself to avoid the blurry/JPEG upscale artifact.
